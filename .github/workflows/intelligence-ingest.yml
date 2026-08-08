@@ -1,28 +1,39 @@
-name: Intelligence Ingest (every 2 days)
+name: Intelligence Ingest
 
 on:
   schedule:
     # Every 2 days at 06:00 UTC
     - cron: "0 6 */2 * *"
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/ingest-intelligence.mjs"
+      - ".github/workflows/intelligence-ingest.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: intelligence-ingest
+  cancel-in-progress: false
+
 jobs:
   ingest:
+    name: Fetch NewsAPI + social sources
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Ingest NewsAPI + social sources
+      - name: Run intelligence ingest
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -30,14 +41,21 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/ingest-intelligence.mjs
 
-      - name: Commit feed if changed
+      - name: Upload feed artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: intelligence-feed
+          path: apps/web/public/data/intelligence-feed.json
+          retention-days: 14
+
+      - name: Commit and push feed
         run: |
           git config user.name "logical-agent-bot"
-          git config user.email "bot@thelogicalagent.local"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add apps/web/public/data/intelligence-feed.json
           if git diff --staged --quiet; then
             echo "No feed changes"
-          else
-            git commit -m "chore(data): refresh intelligence feed (NewsAPI + social)"
-            git push
+            exit 0
           fi
+          git commit -m "chore(data): refresh intelligence feed (NewsAPI + social)"
+          git push origin HEAD:${{ github.ref_name }}
