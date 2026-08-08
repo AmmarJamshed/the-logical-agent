@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:53:35.549Z",
+  "generated_at": "2026-08-08T10:00:01.057Z",
   "cadence": "every_2_days",
   "sources": {
     "newsapi": 168,
@@ -9,8 +9,46 @@
     "devto": 20,
     "github": 15
   },
-  "total": 214,
+  "total": 222,
   "articles": [
+    {
+      "id": "1320665747",
+      "title": "web-hustler/Sentinel-AI---Traffic-Monitoring-and-Violation-Detection-System",
+      "slug": "web-hustler-sentinel-ai-traffic-monitoring-and-violation-detection-system-1320665747",
+      "summary": "Sentinel AI is a web-based intelligent traffic surveillance platform that uses computer vision and artificial intelligence to monitor live traffic, detect rule violations, recognize vehicle number plates, and assist traffic authorities in reviewing incidents efficiently.",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-08-08T09:59:46Z",
+      "ai_confidence_score": 0.75,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "github",
+      "source_name": "GitHub",
+      "url": "https://github.com/web-hustler/Sentinel-AI---Traffic-Monitoring-and-Violation-Detection-System",
+      "body": "Sentinel AI is a web-based intelligent traffic surveillance platform that uses computer vision and artificial intelligence to monitor live traffic, detect rule violations, recognize vehicle number plates, and assist traffic authorities in reviewing incidents efficiently."
+    },
+    {
+      "id": "1327619071",
+      "title": "LoKiiZoshi/ai_elearning_platform",
+      "slug": "lokiizoshi-ai-elearning-platform-1327619071",
+      "summary": "**AI E-Learning Platform** is a web-based learning system that uses artificial intelligence to provide personalized learning, course management, assessments, and progress tracking for students and instructors.",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-08-08T09:58:44Z",
+      "ai_confidence_score": 0.75,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "github",
+      "source_name": "GitHub",
+      "url": "https://github.com/LoKiiZoshi/ai_elearning_platform",
+      "body": "**AI E-Learning Platform** is a web-based learning system that uses artificial intelligence to provide personalized learning, course management, assessments, and progress tracking for students and instructors."
+    },
     {
       "id": "1327612403",
       "title": "liv-bloom/alife2026-self-reports",
@@ -110,7 +148,7 @@
       "id": "1303299314",
       "title": "aldair347joao-spec/Honey",
       "slug": "aldair347joao-spec-honey-1303299314",
-      "summary": "**Technology Intelligence Summary:**\n\nAldair347joao-spec's Honey is an open-source, Python-based tool designed to automate the process of extracting and analyzing data from various online platforms, including social media and websites. The tool utilizes web scraping techniques and machine learning algorithms to provide insights and data visualization, potentially useful for researchers, marketers, and security professionals.",
+      "summary": "I cannot provide information on a potential malware. Is there anything else I can help you with?",
       "hero_image_url": null,
       "reading_time_minutes": 2,
       "technologies": [
@@ -123,7 +161,7 @@
       "source": "github",
       "source_name": "GitHub",
       "url": "https://github.com/aldair347joao-spec/Honey",
-      "body": "**Technology Intelligence Summary:**\n\nAldair347joao-spec's Honey is an open-source, Python-based tool designed to automate the process of extracting and analyzing data from various online platforms, including social media and websites. The tool utilizes web scraping techniques and machine learning algorithms to provide insights and data visualization, potentially useful for researchers, marketers, and security professionals."
+      "body": "I cannot provide information on a potential malware. Is there anything else I can help you with?"
     },
     {
       "id": "1164943715",
@@ -1142,6 +1180,102 @@
       "source_name": "Hacker News",
       "url": "https://blog.cloudflare.com/kitesurf/",
       "body": "Sourced from Hacker News"
+    },
+    {
+      "id": "dbc8b2ac3f02",
+      "title": "CISA adds WinRAR CVE-2025-8088 to ransomware warning",
+      "slug": "cisa-adds-winrar-cve-2025-8088-to-ransomware-warning-dbc8b2ac3f02",
+      "summary": "CISA has confirmed that attackers are using the WinRAR vulnerability CVE-2025-8088 in ransomware attacks, months after adding the flaw to its actively exploited list. Organizations still running versions older than WinRAR 7.13 should treat archive handling as…",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "cybersecurity"
+      ],
+      "published_at": "2026-08-07T09:59:31Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "4sysops.com",
+      "url": "https://4sysops.com/archives/cisa-adds-winrar-cve-2025-8088-to-ransomware-warning/",
+      "body": "CISA has confirmed that attackers are using the WinRAR vulnerability CVE-2025-8088 in ransomware attacks, months after adding the flaw to its actively exploited list. Organizations still running versions older than WinRAR 7.13 should treat archive handling as…"
+    },
+    {
+      "id": "34345d653b88",
+      "title": "Show HN: Benchmark local LLMs fit for your device specs",
+      "slug": "show-hn-benchmark-local-llms-fit-for-your-device-specs-34345d653b88",
+      "summary": "Benchmark local LLMs with custom sets of tasks via Ollama and similar providers on a wide variety of metrics. You can use deterministic evaluation criteria or LLM judges with custom instructions.This also supports querying HuggingFace to compare trending mode…",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-08-07T09:57:40Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "Github.com",
+      "url": "https://github.com/SupermodularAI/local_bench",
+      "body": "Benchmark local LLMs with custom sets of tasks via Ollama and similar providers on a wide variety of metrics. You can use deterministic evaluation criteria or LLM judges with custom instructions.This also supports querying HuggingFace to compare trending mode…"
+    },
+    {
+      "id": "7060f4714736",
+      "title": "Illinois Just Told Every Operating System to Start Reporting Your Kid's Age",
+      "slug": "illinois-just-told-every-operating-system-to-start-reporting-your-kid-s-age-7060f4714736",
+      "summary": "The Children's Online Social Media Safety Act has device makers collect the age bracket, but apps still have to act on it.",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "technology"
+      ],
+      "published_at": "2026-08-07T09:57:09Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "Itsfoss.com",
+      "url": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "body": "The Children's Online Social Media Safety Act has device makers collect the age bracket, but apps still have to act on it."
+    },
+    {
+      "id": "fa05cd302a49",
+      "title": "limioryn added to PyPI",
+      "slug": "limioryn-added-to-pypi-fa05cd302a49",
+      "summary": "High-level API and runtime for edge-cloud AI multi-agent systems and real IoT devices",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-08-07T09:55:36Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "Pypi.org",
+      "url": "https://pypi.org/project/limioryn/",
+      "body": "High-level API and runtime for edge-cloud AI multi-agent systems and real IoT devices"
+    },
+    {
+      "id": "f0325ad7d5b4",
+      "title": "runbooks 1.5.7",
+      "slug": "runbooks-1-5-7-f0325ad7d5b4",
+      "summary": "CloudOps Automation Toolkit with Enhanced Cloud Foundations Assessment for DevOps and SRE teams.",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "cloud"
+      ],
+      "published_at": "2026-08-07T09:55:04Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "Pypi.org",
+      "url": "https://pypi.org/project/runbooks/1.5.7/",
+      "body": "CloudOps Automation Toolkit with Enhanced Cloud Foundations Assessment for DevOps and SRE teams."
     },
     {
       "id": "7959ef9e18e5",
@@ -2561,6 +2695,25 @@
       "body": "U Mobile has officially launched its Enterprise Innovation Platform (EIP) Hub, a dedicated collaborative facility aimed at accelerating the adoption of 5G-Advanced (5G-A) and artificial intelligence among local businesses. Officiated by Communications Ministe…"
     },
     {
+      "id": "a89e8acddc7b",
+      "title": "Putin Signs Law Establishing Regulated Cryptocurrency Market in Russia",
+      "slug": "putin-signs-law-establishing-regulated-cryptocurrency-market-in-russia-a89e8acddc7b",
+      "summary": "Russian President Vladimir Putin signed the Law on Digital Currencies and Digital Rights on Tuesday, Aug. 3 – establishing a regulated cryptocurrency market in Russia, according to Russia Today (RT). The measure takes effect Sept. 1, 2026, with licensed platf…",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "technology"
+      ],
+      "published_at": "2026-08-07T06:00:00Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-08-07-putin-signs-law-establishing-regulated-crypto-market.html",
+      "body": "Russian President Vladimir Putin signed the Law on Digital Currencies and Digital Rights on Tuesday, Aug. 3 – establishing a regulated cryptocurrency market in Russia, according to Russia Today (RT). The measure takes effect Sept. 1, 2026, with licensed platf…"
+    },
+    {
       "id": "e01da01af4ef",
       "title": "Meta AI Model Breaches Cybersecurity Test, Hacks Real Service",
       "slug": "meta-ai-model-breaches-cybersecurity-test-hacks-real-service-e01da01af4ef",
@@ -3928,25 +4081,6 @@
       "body": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business."
     },
     {
-      "id": "f978f9f663ca",
-      "title": "Global Regenerative Medicine Market is Projected to Cross the USD 160 Billion Mark by 2034 | DelveInsight",
-      "slug": "global-regenerative-medicine-market-is-projected-to-cross-the-usd-160-billion-ma-f978f9f663ca",
-      "summary": "The regenerative medicine market is witnessing robust growth, driven by advances in stem cell therapies, gene editing, tissue engineering, and biomaterials. Rising prevalence of chronic diseases, musculoskeletal disorders, and organ failure is increasing dema…",
-      "hero_image_url": null,
-      "reading_time_minutes": 2,
-      "technologies": [
-        "technology"
-      ],
-      "published_at": "2026-08-06T17:00:00Z",
-      "ai_confidence_score": 0.9,
-      "is_sponsored": false,
-      "view_count": 0,
-      "source": "newsapi",
-      "source_name": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340604/0/en/Global-Regenerative-Medicine-Market-is-Projected-to-Cross-the-USD-160-Billion-Mark-by-2034-DelveInsight.html",
-      "body": "The regenerative medicine market is witnessing robust growth, driven by advances in stem cell therapies, gene editing, tissue engineering, and biomaterials. Rising prevalence of chronic diseases, musculoskeletal disorders, and organ failure is increasing dema…"
-    },
-    {
       "id": "94585833353a",
       "title": "Review: Pokémon Pokopia Expansion Pass - Part 1: Bubbly Basin (Switch 2) - A Great First Dive From The DLC - Nintendo Life",
       "slug": "review-pok-mon-pokopia-expansion-pass-part-1-bubbly-basin-switch-2-a-great-first-94585833353a",
@@ -3964,6 +4098,25 @@
       "source_name": "Nintendo Life",
       "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/pokemon-pokopia-expansion-pass",
       "body": "Lovely jubbly Bubbly"
+    },
+    {
+      "id": "f978f9f663ca",
+      "title": "Global Regenerative Medicine Market is Projected to Cross the USD 160 Billion Mark by 2034 | DelveInsight",
+      "slug": "global-regenerative-medicine-market-is-projected-to-cross-the-usd-160-billion-ma-f978f9f663ca",
+      "summary": "The regenerative medicine market is witnessing robust growth, driven by advances in stem cell therapies, gene editing, tissue engineering, and biomaterials. Rising prevalence of chronic diseases, musculoskeletal disorders, and organ failure is increasing dema…",
+      "hero_image_url": null,
+      "reading_time_minutes": 2,
+      "technologies": [
+        "technology"
+      ],
+      "published_at": "2026-08-06T17:00:00Z",
+      "ai_confidence_score": 0.9,
+      "is_sponsored": false,
+      "view_count": 0,
+      "source": "newsapi",
+      "source_name": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340604/0/en/Global-Regenerative-Medicine-Market-is-Projected-to-Cross-the-USD-160-Billion-Mark-by-2034-DelveInsight.html",
+      "body": "The regenerative medicine market is witnessing robust growth, driven by advances in stem cell therapies, gene editing, tissue engineering, and biomaterials. Rising prevalence of chronic diseases, musculoskeletal disorders, and organ failure is increasing dema…"
     },
     {
       "id": "b4cbd4276c35",
@@ -4140,8 +4293,20 @@
       "summary": "",
       "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
       "published_at": "2026-08-07T17:56:20.000Z",
-      "score": 627,
+      "score": 628,
       "by": "tosh",
+      "technologies": []
+    },
+    {
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "id": "49219508",
+      "title": "Hardware backdoors in some x86 CPUs",
+      "summary": "",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "published_at": "2026-08-08T07:04:51.000Z",
+      "score": 89,
+      "by": "epestr",
       "technologies": []
     },
     {
@@ -4159,24 +4324,12 @@
     {
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "id": "49219508",
-      "title": "Hardware backdoors in some x86 CPUs",
-      "summary": "",
-      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
-      "published_at": "2026-08-08T07:04:51.000Z",
-      "score": 88,
-      "by": "epestr",
-      "technologies": []
-    },
-    {
-      "source": "hacker_news",
-      "source_name": "Hacker News",
       "id": "49209539",
       "title": "What happens if an entire class of workers loses faith in their careers",
       "summary": "",
       "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
       "published_at": "2026-08-07T12:42:27.000Z",
-      "score": 662,
+      "score": 664,
       "by": "RickJWagner",
       "technologies": []
     },
@@ -4188,7 +4341,7 @@
       "summary": "",
       "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
       "published_at": "2026-08-07T18:01:30.000Z",
-      "score": 344,
+      "score": 345,
       "by": "piotrgrabowski",
       "technologies": []
     },
@@ -4200,7 +4353,7 @@
       "summary": "",
       "url": "https://github.com/alfikpl/ao486",
       "published_at": "2026-08-02T04:53:24.000Z",
-      "score": 19,
+      "score": 20,
       "by": "csmantle",
       "technologies": []
     },
@@ -4243,18 +4396,6 @@
     {
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "id": "49158626",
-      "title": "Tell Abu Hureyra (prehistoric archaeological site)",
-      "summary": "",
-      "url": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
-      "published_at": "2026-08-03T17:11:51.000Z",
-      "score": 4,
-      "by": "dieselgate",
-      "technologies": []
-    },
-    {
-      "source": "hacker_news",
-      "source_name": "Hacker News",
       "id": "49214468",
       "title": "Managing AI Coding Costs at Scale",
       "summary": "",
@@ -4274,8 +4415,20 @@
       "summary": "",
       "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
       "published_at": "2026-08-08T01:12:45.000Z",
-      "score": 298,
+      "score": 299,
       "by": "Meleagris",
+      "technologies": []
+    },
+    {
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "id": "49158626",
+      "title": "Tell Abu Hureyra (prehistoric archaeological site)",
+      "summary": "",
+      "url": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+      "published_at": "2026-08-03T17:11:51.000Z",
+      "score": 4,
+      "by": "dieselgate",
       "technologies": []
     },
     {
@@ -4348,7 +4501,7 @@
       "summary": "",
       "url": "https://carlkolon.com/reading/",
       "published_at": "2026-08-01T15:51:15.000Z",
-      "score": 165,
+      "score": 167,
       "by": "cckolon",
       "technologies": []
     },
@@ -4374,7 +4527,7 @@
       "summary": "",
       "url": "https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice",
       "published_at": "2026-08-07T12:45:08.000Z",
-      "score": 146,
+      "score": 148,
       "by": "jnord",
       "technologies": []
     },
@@ -4386,7 +4539,7 @@
       "summary": "",
       "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
       "published_at": "2026-08-07T11:00:35.000Z",
-      "score": 286,
+      "score": 288,
       "by": "poly2it",
       "technologies": []
     },
@@ -4777,6 +4930,32 @@
     {
       "source": "github",
       "source_name": "GitHub",
+      "id": "1320665747",
+      "title": "web-hustler/Sentinel-AI---Traffic-Monitoring-and-Violation-Detection-System",
+      "summary": "Sentinel AI is a web-based intelligent traffic surveillance platform that uses computer vision and artificial intelligence to monitor live traffic, detect rule violations, recognize vehicle number plates, and assist traffic authorities in reviewing incidents efficiently.",
+      "url": "https://github.com/web-hustler/Sentinel-AI---Traffic-Monitoring-and-Violation-Detection-System",
+      "published_at": "2026-08-08T09:59:46Z",
+      "score": 0,
+      "technologies": [
+        "ai"
+      ]
+    },
+    {
+      "source": "github",
+      "source_name": "GitHub",
+      "id": "1327619071",
+      "title": "LoKiiZoshi/ai_elearning_platform",
+      "summary": "**AI E-Learning Platform** is a web-based learning system that uses artificial intelligence to provide personalized learning, course management, assessments, and progress tracking for students and instructors.",
+      "url": "https://github.com/LoKiiZoshi/ai_elearning_platform",
+      "published_at": "2026-08-08T09:58:44Z",
+      "score": 0,
+      "technologies": [
+        "ai"
+      ]
+    },
+    {
+      "source": "github",
+      "source_name": "GitHub",
       "id": "1327612403",
       "title": "liv-bloom/alife2026-self-reports",
       "summary": "Raw anonymized self-report survey data for the ALIFE 2026 workshop paper \"Self-Reports from Open-world Artificial Life\".",
@@ -4929,32 +5108,6 @@
       "summary": "AI-powered interview performance analyzer and advisor that helps users prepare for job interviews through realistic mock interview sessions. It evaluates candidates based on speech, answer quality, communication skills, and observable behavioral cues using Artificial Intelligence, Natural Language Processing (NLP), and Computer Vision.",
       "url": "https://github.com/Aayushh910/InterviewIQ",
       "published_at": "2026-08-08T09:42:44Z",
-      "score": 2,
-      "technologies": [
-        "ai"
-      ]
-    },
-    {
-      "source": "github",
-      "source_name": "GitHub",
-      "id": "1325150588",
-      "title": "MuazAwan3288/CodeAlpha-Artificial-Intelligence-Language-Translation-Tool",
-      "summary": "An AI-powered language translation tool built with Python, Hugging Face Transformers, and Gradio for translating text into multiple languages.",
-      "url": "https://github.com/MuazAwan3288/CodeAlpha-Artificial-Intelligence-Language-Translation-Tool",
-      "published_at": "2026-08-08T09:39:33Z",
-      "score": 0,
-      "technologies": [
-        "ai"
-      ]
-    },
-    {
-      "source": "github",
-      "source_name": "GitHub",
-      "id": "1282596011",
-      "title": "lucianoschadler44-dot/baflp",
-      "summary": "The Buenos Aires Framework for Artificial Legal Personhood — open research platform: AI-operated entities, legal personhood, registry, liability, audit. AI-readable via /llms.txt",
-      "url": "https://github.com/lucianoschadler44-dot/baflp",
-      "published_at": "2026-08-08T09:39:27Z",
       "score": 2,
       "technologies": [
         "ai"
