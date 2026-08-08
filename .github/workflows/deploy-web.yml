@@ -38,14 +38,18 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           if [ -z "$VERCEL_TOKEN" ]; then
-            echo "VERCEL_TOKEN secret is missing. Add it under repo Settings → Secrets."
-            exit 1
+            echo "::warning::VERCEL_TOKEN secret is missing. Skipping deploy. Add a token from https://vercel.com/account/tokens"
+            echo "SKIP_DEPLOY=1" >> "$GITHUB_ENV"
+          else
+            echo "SKIP_DEPLOY=0" >> "$GITHUB_ENV"
           fi
 
       - name: Install Vercel CLI
+        if: env.SKIP_DEPLOY == '0'
         run: npm install --global vercel@latest
 
       - name: Pull / Build / Deploy
+        if: env.SKIP_DEPLOY == '0'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

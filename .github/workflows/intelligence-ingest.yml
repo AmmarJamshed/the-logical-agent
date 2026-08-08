@@ -58,4 +58,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh intelligence feed (NewsAPI + social)"
-          git push origin HEAD:${{ github.ref_name }}
+          # Avoid rejected pushes when concurrent workflows update master
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
