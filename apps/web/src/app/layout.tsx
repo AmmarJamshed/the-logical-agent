@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono, IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
+import { JetBrains_Mono, Outfit, Space_Grotesk } from "next/font/google";
 import { Providers } from "@/components/providers";
 import "@/styles/globals.css";
 
-const display = Source_Serif_4({
+const display = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
-  weight: ["400", "600", "700"],
+  weight: ["500", "600", "700"],
 });
 
-const sans = IBM_Plex_Sans({
+const sans = Outfit({
   subsets: ["latin"],
   variable: "--font-sans",
   weight: ["400", "500", "600", "700"],
 });
 
-const mono = IBM_Plex_Mono({
+const mono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
   weight: ["400", "500"],
@@ -23,12 +23,16 @@ const mono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "The Logical Agent — Technology. Research. Intelligence.",
-    template: "%s · The Logical Agent",
+    default: "The Logical Indian — Logic. Culture. Future.",
+    template: "%s · The Logical Indian",
   },
   description:
-    "AI-powered media, research, and social intelligence platform. The Bloomberg of Technology.",
+    "Gen Z & millennial intelligence desk — AI news, courses, startups, and culture filtered through logic.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
+  icons: {
+    icon: "/brand/logical-indian-logo.png",
+    apple: "/brand/logical-indian-logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

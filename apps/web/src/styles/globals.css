@@ -3,21 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f4f7fb;
-  --fg: #0b1220;
-  --muted: #64748b;
-  --panel: rgba(255, 255, 255, 0.72);
-  --stroke: rgba(15, 23, 42, 0.08);
-  --accent: #0284c7;
+  --bg: #f2f5f3;
+  --fg: #0b0f14;
+  --muted: #5c6b67;
+  --panel: rgba(255, 255, 255, 0.78);
+  --stroke: rgba(11, 15, 20, 0.08);
+  --accent: #00c996;
+  --punch: #ff4d6d;
+  --ember: #ffd23f;
+  --spot: rgba(0, 232, 168, 0.12);
 }
 
 .dark {
-  --bg: #070b14;
-  --fg: #e8eef8;
-  --muted: #94a3b8;
-  --panel: rgba(18, 26, 43, 0.78);
-  --stroke: rgba(148, 163, 184, 0.14);
-  --accent: #38bdf8;
+  --bg: #07090d;
+  --fg: #eef5f1;
+  --muted: #8fa39b;
+  --panel: rgba(18, 24, 32, 0.82);
+  --stroke: rgba(46, 242, 168, 0.12);
+  --accent: #2ef2a8;
+  --punch: #ff6b8a;
+  --ember: #ffe066;
+  --spot: rgba(0, 232, 168, 0.08);
 }
 
 html {
@@ -31,12 +37,17 @@ body {
 }
 
 ::selection {
-  background: rgba(56, 189, 248, 0.35);
+  background: rgba(0, 232, 168, 0.35);
+  color: #0b0f14;
 }
 
 @layer components {
   .panel {
-    @apply rounded-2xl border border-[color:var(--stroke)] bg-[color:var(--panel)] backdrop-blur-xl shadow-panel;
+    @apply rounded-2xl border border-[color:var(--stroke)] bg-[color:var(--panel)] shadow-panel backdrop-blur-xl transition duration-300;
+  }
+
+  .panel-interactive {
+    @apply panel hover:-translate-y-1 hover:shadow-glow;
   }
 
   .eyebrow {
@@ -44,10 +55,27 @@ body {
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-signal-500 px-5 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-signal-400;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-signal-500 px-5 py-2.5 text-sm font-semibold text-ink-950 transition duration-200 hover:scale-[1.03] hover:bg-signal-400 active:scale-[0.98];
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[color:var(--stroke)] px-5 py-2.5 text-sm font-medium text-[color:var(--fg)] transition hover:bg-white/40 dark:hover:bg-white/5;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[color:var(--stroke)] px-5 py-2.5 text-sm font-medium text-[color:var(--fg)] transition duration-200 hover:scale-[1.02] hover:border-signal-500/40 hover:bg-signal-500/10 active:scale-[0.98];
+  }
+
+  .nav-link {
+    @apply relative text-sm text-[color:var(--muted)] transition hover:text-[color:var(--fg)];
+  }
+
+  .nav-link::after {
+    content: "";
+    @apply absolute -bottom-1 left-0 h-[2px] w-0 rounded-full bg-gradient-to-r from-signal-500 to-punch-500 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .brand-gradient-text {
+    @apply bg-gradient-to-r from-signal-500 via-ember-400 to-punch-500 bg-clip-text text-transparent;
   }
 }

@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
-import { Moon, Search, Sun, Zap } from "lucide-react";
+import { Menu, Moon, Search, Sun, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { BrandLogo } from "@/components/brand-logo";
 
 const NAV = [
   { href: "/news", label: "News" },
@@ -18,34 +20,32 @@ const NAV = [
 
 export function SiteHeader() {
   const { theme, setTheme } = useTheme();
+  const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
+  const [open, setOpen] = useState(false);
   useEffect(() => setMounted(true), []);
+  useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[color:var(--stroke)] bg-[color:var(--bg)]/80 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
-        <Link href="/" className="group flex items-center gap-3">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink-900 text-signal-400 shadow-panel dark:bg-signal-500 dark:text-ink-950">
-            <Zap className="h-4 w-4" />
-          </span>
-          <span>
-            <span className="block font-display text-lg leading-none tracking-tight">The Logical Agent</span>
-            <span className="mt-1 block text-[10px] uppercase tracking-[0.2em] text-[color:var(--muted)]">
-              Technology · Research · Intelligence
-            </span>
-          </span>
+    <header className="sticky top-0 z-50 border-b border-[color:var(--stroke)] bg-[color:var(--bg)]/75 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3.5">
+        <Link href="/" className="group" aria-label="The Logical Indian home">
+          <BrandLogo size={40} />
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex">
-          {NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-sm text-[color:var(--muted)] transition hover:text-[color:var(--fg)]"
-            >
-              {item.label}
-            </Link>
-          ))}
+        <nav className="hidden items-center gap-5 xl:flex">
+          {NAV.map((item) => {
+            const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`nav-link ${active ? "text-[color:var(--fg)] after:!w-full" : ""}`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-2">
@@ -67,8 +67,35 @@ export function SiteHeader() {
           <Link href="/pricing" className="btn-primary hidden sm:inline-flex">
             Go Pro
           </Link>
+          <button
+            className="btn-ghost !px-3 xl:hidden"
+            onClick={() => setOpen((v) => !v)}
+            aria-label="Menu"
+            aria-expanded={open}
+          >
+            {open ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+          </button>
         </div>
       </div>
+
+      {open ? (
+        <div className="animate-pop border-t border-[color:var(--stroke)] bg-[color:var(--bg)] xl:hidden">
+          <nav className="mx-auto grid max-w-7xl gap-1 px-6 py-4">
+            {NAV.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-xl px-3 py-3 text-sm font-medium transition hover:bg-signal-500/10 hover:text-signal-500"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <Link href="/pricing" className="btn-primary mt-2 justify-center">
+              Go Pro
+            </Link>
+          </nav>
+        </div>
+      ) : null}
     </header>
   );
 }
@@ -78,28 +105,28 @@ export function SiteFooter() {
     <footer className="mt-24 border-t border-[color:var(--stroke)]">
       <div className="mx-auto grid max-w-7xl gap-8 px-6 py-12 md:grid-cols-4">
         <div className="md:col-span-2">
-          <p className="font-display text-2xl">The Logical Agent</p>
-          <p className="mt-3 max-w-md text-sm text-[color:var(--muted)]">
-            The Bloomberg of Technology — an AI-native newsroom continuously discovering, verifying, and
-            publishing the world&apos;s latest developments in AI, research, and digital innovation.
+          <BrandLogo size={48} />
+          <p className="mt-4 max-w-md text-sm text-[color:var(--muted)]">
+            Sharp takes for millennials &amp; Gen Z — AI news, courses, startups, and culture, filtered through logic
+            not noise.
           </p>
         </div>
         <div>
           <p className="eyebrow">Platform</p>
           <ul className="mt-3 space-y-2 text-sm text-[color:var(--muted)]">
-            <li><Link href="/news">Newsroom</Link></li>
-            <li><Link href="/courses">Course Discovery</Link></li>
-            <li><Link href="/network">Social Network</Link></li>
-            <li><Link href="/admin">Admin Portal</Link></li>
+            <li><Link className="hover:text-signal-500" href="/news">Newsroom</Link></li>
+            <li><Link className="hover:text-signal-500" href="/courses">Course Discovery</Link></li>
+            <li><Link className="hover:text-signal-500" href="/network">Social Network</Link></li>
+            <li><Link className="hover:text-signal-500" href="/admin">Admin Portal</Link></li>
           </ul>
         </div>
         <div>
           <p className="eyebrow">Business</p>
           <ul className="mt-3 space-y-2 text-sm text-[color:var(--muted)]">
-            <li><Link href="/pricing">Subscriptions</Link></li>
-            <li><Link href="/advertise">Advertise</Link></li>
-            <li><Link href="/jobs">Job Board</Link></li>
-            <li><Link href="/marketplace">AI Marketplace</Link></li>
+            <li><Link className="hover:text-signal-500" href="/pricing">Subscriptions</Link></li>
+            <li><Link className="hover:text-signal-500" href="/advertise">Advertise</Link></li>
+            <li><Link className="hover:text-signal-500" href="/jobs">Job Board</Link></li>
+            <li><Link className="hover:text-signal-500" href="/marketplace">AI Marketplace</Link></li>
           </ul>
         </div>
       </div>

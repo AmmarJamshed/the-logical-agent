@@ -6,59 +6,88 @@ module.exports = {
     extend: {
       colors: {
         ink: {
-          950: "#070b14",
-          900: "#0b1220",
-          800: "#121a2b",
-          700: "#1a2438",
-          600: "#243049",
+          950: "#05070a",
+          900: "#0b0f14",
+          800: "#121820",
+          700: "#1a2330",
+          600: "#243041",
         },
         signal: {
-          300: "#7dd3fc",
-          400: "#38bdf8",
-          500: "#0ea5e9",
+          300: "#5dffc8",
+          400: "#2ef2a8",
+          500: "#00e8a8",
+        },
+        punch: {
+          300: "#ff8aa3",
+          400: "#ff6b8a",
+          500: "#ff4d6d",
         },
         ember: {
-          400: "#fbbf24",
-          500: "#f59e0b",
+          400: "#ffe066",
+          500: "#ffd23f",
         },
         mist: {
-          50: "#f4f7fb",
-          100: "#e8eef7",
-          200: "#d5deeb",
-          400: "#94a3b8",
-          500: "#64748b",
+          50: "#f2f5f3",
+          100: "#e4ebe7",
+          200: "#c9d5ce",
+          400: "#7a8b86",
+          500: "#5c6b67",
         },
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
+        display: ["var(--font-display)", "ui-sans-serif", "system-ui"],
         sans: ["var(--font-sans)", "ui-sans-serif", "system-ui"],
         mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
       backgroundImage: {
         "grid-fade":
-          "linear-gradient(to right, rgba(56,189,248,0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(56,189,248,0.06) 1px, transparent 1px)",
+          "linear-gradient(to right, rgba(0,232,168,0.07) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,232,168,0.07) 1px, transparent 1px)",
         "hero-glow":
-          "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(14,165,233,0.25), transparent), radial-gradient(ellipse 60% 40% at 100% 0%, rgba(245,158,11,0.12), transparent)",
+          "radial-gradient(ellipse 70% 55% at 15% 10%, rgba(0,232,168,0.22), transparent 55%), radial-gradient(ellipse 55% 45% at 90% 0%, rgba(255,77,109,0.18), transparent 50%), radial-gradient(ellipse 40% 30% at 60% 80%, rgba(255,210,63,0.1), transparent 60%)",
+        "mesh-move":
+          "radial-gradient(circle at 20% 20%, rgba(0,232,168,0.18), transparent 35%), radial-gradient(circle at 80% 30%, rgba(255,77,109,0.14), transparent 40%), radial-gradient(circle at 40% 80%, rgba(255,210,63,0.1), transparent 35%)",
       },
       backgroundSize: {
-        grid: "48px 48px",
+        grid: "44px 44px",
       },
       boxShadow: {
-        panel: "0 0 0 1px rgba(148,163,184,0.12), 0 24px 48px rgba(0,0,0,0.35)",
+        panel: "0 0 0 1px rgba(0,232,168,0.08), 0 20px 50px rgba(0,0,0,0.28)",
+        glow: "0 0 0 1px rgba(0,232,168,0.25), 0 12px 40px rgba(0,232,168,0.15)",
       },
       keyframes: {
         rise: {
-          "0%": { opacity: "0", transform: "translateY(16px)" },
+          "0%": { opacity: "0", transform: "translateY(18px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         pulseLine: {
           "0%, 100%": { opacity: "0.35" },
           "50%": { opacity: "1" },
         },
+        floaty: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-8px)" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "100%": { backgroundPosition: "100% 50%" },
+        },
+        mesh: {
+          "0%": { transform: "translate3d(0,0,0) scale(1)" },
+          "50%": { transform: "translate3d(-2%, 1%, 0) scale(1.05)" },
+          "100%": { transform: "translate3d(0,0,0) scale(1)" },
+        },
+        pop: {
+          "0%": { transform: "scale(0.96)", opacity: "0" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
       },
       animation: {
-        rise: "rise 0.7s ease-out both",
-        "pulse-line": "pulseLine 2.4s ease-in-out infinite",
+        rise: "rise 0.7s cubic-bezier(0.22,1,0.36,1) both",
+        "pulse-line": "pulseLine 2.2s ease-in-out infinite",
+        floaty: "floaty 5s ease-in-out infinite",
+        shimmer: "shimmer 6s linear infinite",
+        mesh: "mesh 14s ease-in-out infinite",
+        pop: "pop 0.45s cubic-bezier(0.22,1,0.36,1) both",
       },
     },
   },
