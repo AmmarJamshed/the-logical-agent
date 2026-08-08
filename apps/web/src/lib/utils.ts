@@ -70,6 +70,11 @@ export type Course = {
   technologies: string[];
   ai_summary?: string | null;
   is_promoted: boolean;
+  category?: string;
+  rating?: number | null;
+  review_count?: number | null;
+  url?: string | null;
+  launched_at?: string | null;
 };
 
 export type SearchResponse = {

@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "scripts/ingest-intelligence.mjs"
+      - "scripts/ingest-courses.mjs"
       - ".github/workflows/intelligence-ingest.yml"
 
 permissions:
@@ -19,7 +20,7 @@ concurrency:
 
 jobs:
   ingest:
-    name: Fetch NewsAPI + social sources
+    name: Fetch news, social, and courses
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -41,23 +42,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/ingest-intelligence.mjs
 
-      - name: Upload feed artifact
+      - name: Run courses ingest
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: node scripts/ingest-courses.mjs
+
+      - name: Upload feed artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: intelligence-feed
-          path: apps/web/public/data/intelligence-feed.json
+          name: intelligence-and-courses-feeds
+          path: |
+            apps/web/public/data/intelligence-feed.json
+            apps/web/public/data/courses-feed.json
           retention-days: 14
 
-      - name: Commit and push feed
+      - name: Commit and push feeds
         run: |
           git config user.name "logical-agent-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add apps/web/public/data/intelligence-feed.json
+          git add apps/web/public/data/intelligence-feed.json apps/web/public/data/courses-feed.json
           if git diff --staged --quiet; then
             echo "No feed changes"
             exit 0
           fi
-          git commit -m "chore(data): refresh intelligence feed (NewsAPI + social)"
-          # Avoid rejected pushes when concurrent workflows update master
+          git commit -m "chore(data): refresh intelligence and courses feeds"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"

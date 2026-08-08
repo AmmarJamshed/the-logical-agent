@@ -1,21 +1,9 @@
 import { NextResponse } from "next/server";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
-import { DEMO_ARTICLES, DEMO_COURSES, groqChat } from "@/lib/public-ai";
+import { getLiveArticles, getLiveCourses } from "@/lib/feed";
+import { groqChat } from "@/lib/public-ai";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-
-async function loadArticles() {
-  try {
-    const file = path.join(process.cwd(), "public", "data", "intelligence-feed.json");
-    const feed = JSON.parse(await readFile(file, "utf8"));
-    if (Array.isArray(feed.articles) && feed.articles.length) return feed.articles;
-  } catch {
-    // fallback
-  }
-  return DEMO_ARTICLES;
-}
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => ({}));
@@ -25,7 +13,7 @@ export async function POST(request: Request) {
   }
 
   const lower = query.toLowerCase();
-  const articles = await loadArticles();
+  const articles = await getLiveArticles();
   const results: Array<{
     entity_type: string;
     id: string;
@@ -52,16 +40,21 @@ export async function POST(request: Request) {
     }
   }
 
-  if (/course|certif|bootcamp|degree/.test(lower)) {
-    for (const c of DEMO_COURSES) {
-      results.push({
-        entity_type: "course",
-        id: c.id,
-        title: c.name,
-        summary: c.ai_summary,
-        score: c.is_promoted ? 0.92 : 0.8,
-        url: `/courses`,
-      });
+  if (/course|certif|bootcamp|degree|learn|class/.test(lower)) {
+    const courses = await getLiveCourses();
+    for (const c of courses.slice(0, 40)) {
+      const hay = `${c.name} ${c.provider} ${c.ai_summary || ""} ${(c.technologies || []).join(" ")}`.toLowerCase();
+      const hit = lower.split(/\s+/).some((w) => w.length > 2 && hay.includes(w));
+      if (hit || /course|certif|bootcamp|popular|new|launch/.test(lower)) {
+        results.push({
+          entity_type: "course",
+          id: c.id,
+          title: c.name,
+          summary: c.ai_summary,
+          score: c.category === "popular" || c.is_promoted ? 0.93 : 0.82,
+          url: c.url || `/courses`,
+        });
+      }
     }
   }
 
@@ -70,7 +63,6 @@ export async function POST(request: Request) {
     "You are The Logical Agent search interpreter. Be concise.",
   );
 
-  // Dedup + rank
   const seen = new Set<string>();
   const unique = [];
   for (const item of results.sort((a, b) => b.score - a.score)) {
@@ -78,13 +70,11 @@ export async function POST(request: Request) {
     if (seen.has(key)) continue;
     seen.add(key);
     unique.push(item);
-    if (unique.length >= Number(body.limit || 20)) break;
   }
 
   return NextResponse.json({
     query,
     interpretation: interpretation.content,
-    results: unique,
-    knowledge_graph_hops: [],
+    results: unique.slice(0, 40),
   });
 }

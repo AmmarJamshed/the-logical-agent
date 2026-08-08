@@ -31,6 +31,14 @@ export type DemoCourse = {
   technologies: string[];
   ai_summary?: string | null;
   is_promoted: boolean;
+  category?: "popular" | "newly_launched" | "catalog" | string;
+  rating?: number | null;
+  review_count?: number | null;
+  url?: string | null;
+  image_url?: string | null;
+  workload?: string | null;
+  launched_at?: string | null;
+  source?: string | null;
 };
 
 export const DEMO_ARTICLES: DemoArticle[] = [
