@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+.next/
+out/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+*.cover
+.tox/
+
+# Logs & runtime
+*.log
+logs/
+tmp/
+temp/
+.celerybeat-schedule
+.celerybeat.pid
+
+# Data & secrets
+*.pem
+*.key
+secrets/
+data/uploads/
+data/cache/
+minio-data/
+postgres-data/
+redis-data/
+es-data/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Docker
+.dockerignore
+
+# Generated
+apps/api/app/generated/
+*.sql.bak
