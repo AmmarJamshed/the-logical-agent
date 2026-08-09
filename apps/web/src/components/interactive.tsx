@@ -150,7 +150,7 @@ export function CursorGlow() {
   return (
     <div
       aria-hidden
-      className="pointer-events-none fixed z-[55] hidden h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-signal-500/15 blur-3xl md:block"
+      className="pointer-events-none fixed z-[55] hidden h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-signal-500/10 blur-3xl md:block"
       style={{ left: pos.x, top: pos.y }}
     />
   );

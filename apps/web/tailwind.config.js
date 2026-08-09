@@ -15,23 +15,24 @@ module.exports = {
         signal: {
           300: "#5dffc8",
           400: "#2ef2a8",
-          500: "#00e8a8",
+          500: "#00c996",
+          600: "#00a87f",
         },
         punch: {
           300: "#ff8aa3",
           400: "#ff6b8a",
-          500: "#ff4d6d",
+          500: "#ff5a75",
         },
         ember: {
           400: "#ffe066",
-          500: "#ffd23f",
+          500: "#f5c518",
         },
         mist: {
-          50: "#f2f5f3",
-          100: "#e4ebe7",
-          200: "#c9d5ce",
-          400: "#7a8b86",
-          500: "#5c6b67",
+          50: "#fbfcfb",
+          100: "#f0f4f2",
+          200: "#dce6e1",
+          400: "#8a9b95",
+          500: "#6b7c76",
         },
       },
       fontFamily: {
@@ -41,18 +42,18 @@ module.exports = {
       },
       backgroundImage: {
         "grid-fade":
-          "linear-gradient(to right, rgba(0,232,168,0.07) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,232,168,0.07) 1px, transparent 1px)",
+          "linear-gradient(to right, rgba(0,185,135,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,185,135,0.05) 1px, transparent 1px)",
         "hero-glow":
-          "radial-gradient(ellipse 70% 55% at 15% 10%, rgba(0,232,168,0.22), transparent 55%), radial-gradient(ellipse 55% 45% at 90% 0%, rgba(255,77,109,0.18), transparent 50%), radial-gradient(ellipse 40% 30% at 60% 80%, rgba(255,210,63,0.1), transparent 60%)",
+          "radial-gradient(ellipse 70% 55% at 15% 10%, rgba(0,185,135,0.12), transparent 55%), radial-gradient(ellipse 55% 45% at 90% 0%, rgba(255,90,117,0.08), transparent 50%), radial-gradient(ellipse 40% 30% at 60% 80%, rgba(245,197,24,0.08), transparent 60%)",
         "mesh-move":
-          "radial-gradient(circle at 20% 20%, rgba(0,232,168,0.18), transparent 35%), radial-gradient(circle at 80% 30%, rgba(255,77,109,0.14), transparent 40%), radial-gradient(circle at 40% 80%, rgba(255,210,63,0.1), transparent 35%)",
+          "radial-gradient(circle at 20% 20%, rgba(0,185,135,0.1), transparent 35%), radial-gradient(circle at 80% 30%, rgba(255,90,117,0.07), transparent 40%), radial-gradient(circle at 40% 80%, rgba(245,197,24,0.06), transparent 35%)",
       },
       backgroundSize: {
         grid: "44px 44px",
       },
       boxShadow: {
-        panel: "0 0 0 1px rgba(0,232,168,0.08), 0 20px 50px rgba(0,0,0,0.28)",
-        glow: "0 0 0 1px rgba(0,232,168,0.25), 0 12px 40px rgba(0,232,168,0.15)",
+        panel: "0 0 0 1px rgba(20,32,28,0.05), 0 16px 40px rgba(20,32,28,0.06)",
+        glow: "0 0 0 1px rgba(0,185,135,0.18), 0 12px 32px rgba(0,185,135,0.1)",
       },
       keyframes: {
         rise: {

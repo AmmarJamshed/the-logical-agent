@@ -14,9 +14,9 @@ export default async function HomePage() {
   return (
     <div>
       <SpotlightStage className="relative border-b border-[color:var(--stroke)]">
-        <div className="pointer-events-none absolute inset-0 animate-mesh bg-mesh-move opacity-90" />
+        <div className="pointer-events-none absolute inset-0 animate-mesh bg-mesh-move opacity-50 dark:opacity-90" />
         <div className="pointer-events-none absolute inset-0 bg-hero-glow" />
-        <div className="pointer-events-none absolute inset-0 bg-grid-fade bg-grid opacity-35 dark:opacity-25" />
+        <div className="pointer-events-none absolute inset-0 bg-grid-fade bg-grid opacity-20 dark:opacity-25" />
         <div className="relative mx-auto grid min-h-[88vh] max-w-7xl items-end gap-10 px-6 pb-16 pt-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="animate-rise">
             <p className="eyebrow">The Logical Agent</p>
@@ -55,7 +55,7 @@ export default async function HomePage() {
             <div className="panel relative overflow-hidden" style={{ animationDelay: "120ms" }}>
               {lead?.hero_image_url ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={lead.hero_image_url} alt="" className="absolute inset-0 h-full w-full object-cover opacity-35" />
+                <img src={lead.hero_image_url} alt="" className="absolute inset-0 h-full w-full object-cover opacity-25 dark:opacity-35" />
               ) : null}
               <div className="relative space-y-4 p-8">
                 <div className="flex items-center gap-2 text-xs uppercase tracking-[0.16em] text-punch-500">
@@ -127,7 +127,7 @@ export default async function HomePage() {
             <Reveal key={article.id} delay={(i % 3) * 80}>
               <TiltCard>
                 <Link href={`/articles/${article.slug}`} className="panel-interactive group block overflow-hidden">
-                  <div className="aspect-[16/9] overflow-hidden bg-ink-800/40">
+                  <div className="aspect-[16/9] overflow-hidden bg-mist-100 dark:bg-ink-800/40">
                     {article.hero_image_url ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img

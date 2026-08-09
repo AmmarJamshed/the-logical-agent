@@ -37,7 +37,7 @@ export function SiteHeader() {
   return (
     <header
       className={`sticky top-0 z-50 border-b border-[color:var(--stroke)] transition-all duration-300 ${
-        scrolled ? "bg-[color:var(--bg)]/90 shadow-panel backdrop-blur-2xl" : "bg-[color:var(--bg)]/70 backdrop-blur-xl"
+        scrolled ? "bg-[color:var(--bg)]/95 shadow-[var(--shadow)] backdrop-blur-2xl" : "bg-[color:var(--bg)]/80 backdrop-blur-xl"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3.5">
