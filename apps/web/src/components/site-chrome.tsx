@@ -13,6 +13,7 @@ const NAV = [
   { href: "/research", label: "Research" },
   { href: "/courses", label: "Courses" },
   { href: "/startups", label: "Startups" },
+  { href: "/marketplace", label: "API Market" },
   { href: "/search", label: "Search" },
   { href: "/ai", label: "AI Lab" },
   { href: "/dashboards", label: "Dashboards" },
@@ -81,8 +82,8 @@ export function SiteHeader() {
             Sign in
           </Link>
           <Magnetic strength={22}>
-            <Link href="/pricing" className="btn-primary hidden sm:inline-flex">
-              Go Pro
+            <Link href="/marketplace" className="btn-primary hidden sm:inline-flex">
+              Free Pro
             </Link>
           </Magnetic>
           <button
@@ -108,8 +109,8 @@ export function SiteHeader() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/pricing" className="btn-primary mt-2 justify-center">
-              Go Pro
+            <Link href="/marketplace" className="btn-primary mt-2 justify-center">
+              Free Pro · API Market
             </Link>
           </nav>
         </div>

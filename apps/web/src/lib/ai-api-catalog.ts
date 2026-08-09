@@ -1,0 +1,343 @@
+export type ApiCategory =
+  | "LLM / Chat"
+  | "Image"
+  | "Speech / Audio"
+  | "Embeddings / Search"
+  | "Agents / Tools"
+  | "Video"
+  | "Moderation"
+  | "Open source host";
+
+export type AiApiProvider = {
+  id: string;
+  name: string;
+  tagline: string;
+  best_for: string[];
+  categories: ApiCategory[];
+  pricing_note: string;
+  free_tier: boolean;
+  key_url: string;
+  docs_url: string;
+  playground_url?: string;
+  models_examples: string[];
+  how_to_get_key: string[];
+  when_to_use: string;
+  when_not_to_use: string;
+};
+
+/** Curated AI API marketplace catalog — official key/docs destinations. */
+export const AI_API_CATALOG: AiApiProvider[] = [
+  {
+    id: "groq",
+    name: "Groq",
+    tagline: "Ultra-fast open-model inference for chat and agents.",
+    best_for: ["Low-latency chat", "Agent loops", "Prototyping LLM apps"],
+    categories: ["LLM / Chat", "Agents / Tools"],
+    pricing_note: "Generous free tier + usage pricing",
+    free_tier: true,
+    key_url: "https://console.groq.com/keys",
+    docs_url: "https://console.groq.com/docs/quickstart",
+    playground_url: "https://console.groq.com/playground",
+    models_examples: ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "gemma2-9b-it"],
+    how_to_get_key: [
+      "Create a GroqCloud account at console.groq.com",
+      "Open API Keys → Create API Key",
+      "Copy the key once and store it in your .env as GROQ_API_KEY",
+    ],
+    when_to_use: "When you need speed and free/cheap Llama-class models for demos or production chat.",
+    when_not_to_use: "When you need proprietary frontier models only available on OpenAI/Anthropic.",
+  },
+  {
+    id: "openai",
+    name: "OpenAI",
+    tagline: "GPT models, vision, audio, embeddings, and Assistants.",
+    best_for: ["General LLM apps", "Embeddings", "Speech-to-text / TTS"],
+    categories: ["LLM / Chat", "Embeddings / Search", "Speech / Audio", "Image", "Agents / Tools"],
+    pricing_note: "Pay-as-you-go (new accounts may get trial credits)",
+    free_tier: false,
+    key_url: "https://platform.openai.com/api-keys",
+    docs_url: "https://platform.openai.com/docs/overview",
+    playground_url: "https://platform.openai.com/playground",
+    models_examples: ["gpt-4.1", "gpt-4o-mini", "text-embedding-3-large", "whisper-1"],
+    how_to_get_key: [
+      "Sign in at platform.openai.com",
+      "Go to API keys → Create new secret key",
+      "Add billing if prompted, then set OPENAI_API_KEY",
+    ],
+    when_to_use: "Broadest ecosystem: chat, tools, embeddings, vision, and audio in one API.",
+    when_not_to_use: "If you want only free-tier inference with no card on file.",
+  },
+  {
+    id: "anthropic",
+    name: "Anthropic",
+    tagline: "Claude models strong at long context, coding, and careful reasoning.",
+    best_for: ["Long documents", "Coding agents", "Careful analysis"],
+    categories: ["LLM / Chat", "Agents / Tools"],
+    pricing_note: "Pay-as-you-go",
+    free_tier: false,
+    key_url: "https://console.anthropic.com/settings/keys",
+    docs_url: "https://docs.anthropic.com/",
+    playground_url: "https://console.anthropic.com/",
+    models_examples: ["claude-sonnet-4", "claude-haiku"],
+    how_to_get_key: [
+      "Create an Anthropic Console account",
+      "Settings → API Keys → Create Key",
+      "Store as ANTHROPIC_API_KEY",
+    ],
+    when_to_use: "Complex reasoning, long PDFs, or coding workflows where Claude excels.",
+    when_not_to_use: "Ultra-cheap high-volume batch jobs better suited to open models.",
+  },
+  {
+    id: "google-gemini",
+    name: "Google AI Studio (Gemini)",
+    tagline: "Multimodal Gemini models with a free developer tier.",
+    best_for: ["Multimodal apps", "Free prototyping", "Long context"],
+    categories: ["LLM / Chat", "Image", "Embeddings / Search"],
+    pricing_note: "Free tier in AI Studio + paid Vertex options",
+    free_tier: true,
+    key_url: "https://aistudio.google.com/apikey",
+    docs_url: "https://ai.google.dev/gemini-api/docs",
+    playground_url: "https://aistudio.google.com/",
+    models_examples: ["gemini-2.0-flash", "gemini-1.5-pro"],
+    how_to_get_key: [
+      "Open Google AI Studio",
+      "Get API key → Create API key in a Google Cloud project",
+      "Set GOOGLE_API_KEY or GEMINI_API_KEY",
+    ],
+    when_to_use: "Fast multimodal experiments and generous free developer quotas.",
+    when_not_to_use: "Enterprise isolation needs that require Vertex with VPC controls.",
+  },
+  {
+    id: "huggingface",
+    name: "Hugging Face",
+    tagline: "Inference API + Hub for open models, embeddings, and community models.",
+    best_for: ["Open models", "Sentiment / NLP tasks", "Custom model hosting"],
+    categories: ["LLM / Chat", "Embeddings / Search", "Open source host", "Moderation"],
+    pricing_note: "Free tier + paid Inference Endpoints",
+    free_tier: true,
+    key_url: "https://huggingface.co/settings/tokens",
+    docs_url: "https://huggingface.co/docs/api-inference",
+    playground_url: "https://huggingface.co/chat",
+    models_examples: ["meta-llama/*", "cardiffnlp/twitter-roberta-base-sentiment-latest"],
+    how_to_get_key: [
+      "Sign up at huggingface.co",
+      "Settings → Access Tokens → New token (read for Inference)",
+      "Set HUGGINGFACE_API_KEY",
+    ],
+    when_to_use: "Trying community models, sentiment, or open LLMs without running GPUs yourself.",
+    when_not_to_use: "Strict SLAs — use dedicated Inference Endpoints or another host.",
+  },
+  {
+    id: "together",
+    name: "Together AI",
+    tagline: "Hosted open-source LLMs and image models at competitive rates.",
+    best_for: ["Open LLM production", "Fine-tuned model serving"],
+    categories: ["LLM / Chat", "Image", "Open source host"],
+    pricing_note: "Usage-based; often free credits for new accounts",
+    free_tier: true,
+    key_url: "https://api.together.xyz/settings/api-keys",
+    docs_url: "https://docs.together.ai/",
+    playground_url: "https://api.together.xyz/playground",
+    models_examples: ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "Qwen / Mixtral family"],
+    how_to_get_key: [
+      "Create a Together account",
+      "Settings → API Keys",
+      "Set TOGETHER_API_KEY",
+    ],
+    when_to_use: "Production open-model inference with good throughput and pricing.",
+    when_not_to_use: "If you only need one proprietary model vendor.",
+  },
+  {
+    id: "fireworks",
+    name: "Fireworks AI",
+    tagline: "Fast inference for open models and function calling.",
+    best_for: ["Low-latency open models", "Structured outputs"],
+    categories: ["LLM / Chat", "Agents / Tools", "Open source host"],
+    pricing_note: "Usage-based with starter credits",
+    free_tier: true,
+    key_url: "https://fireworks.ai/account/api-keys",
+    docs_url: "https://docs.fireworks.ai/",
+    playground_url: "https://fireworks.ai/playground",
+    models_examples: ["llama-v3p3-70b-instruct", "deepseek models"],
+    how_to_get_key: [
+      "Sign up at fireworks.ai",
+      "Account → API Keys",
+      "Set FIREWORKS_API_KEY",
+    ],
+    when_to_use: "When you want OpenAI-compatible APIs for open models at high speed.",
+    when_not_to_use: "Simple one-off scripts that fit free Groq/Gemini quotas.",
+  },
+  {
+    id: "mistral",
+    name: "Mistral AI",
+    tagline: "European LLM provider with strong coding and edge models.",
+    best_for: ["Coding assistants", "EU data preferences", "Efficient models"],
+    categories: ["LLM / Chat", "Embeddings / Search"],
+    pricing_note: "Experiment plan + pay-as-you-go",
+    free_tier: true,
+    key_url: "https://console.mistral.ai/api-keys/",
+    docs_url: "https://docs.mistral.ai/",
+    playground_url: "https://console.mistral.ai/",
+    models_examples: ["mistral-small-latest", "mistral-large-latest", "codestral-latest"],
+    how_to_get_key: [
+      "Create a Mistral console account",
+      "API Keys → Create new key",
+      "Set MISTRAL_API_KEY",
+    ],
+    when_to_use: "Coding tasks or EU-friendly LLM options.",
+    when_not_to_use: "If you need the widest multimodal ecosystem (prefer Gemini/OpenAI).",
+  },
+  {
+    id: "deepseek",
+    name: "DeepSeek",
+    tagline: "High-value reasoning and coding models via API.",
+    best_for: ["Reasoning", "Coding", "Cost-efficient chat"],
+    categories: ["LLM / Chat"],
+    pricing_note: "Very competitive usage pricing",
+    free_tier: false,
+    key_url: "https://platform.deepseek.com/api_keys",
+    docs_url: "https://api-docs.deepseek.com/",
+    playground_url: "https://chat.deepseek.com/",
+    models_examples: ["deepseek-chat", "deepseek-reasoner"],
+    how_to_get_key: [
+      "Register at platform.deepseek.com",
+      "API Keys → Create",
+      "Set DEEPSEEK_API_KEY",
+    ],
+    when_to_use: "Strong reasoning/coding at low cost.",
+    when_not_to_use: "When you need US-only vendor compliance lists.",
+  },
+  {
+    id: "cohere",
+    name: "Cohere",
+    tagline: "Enterprise LLMs plus excellent embeddings and rerank.",
+    best_for: ["RAG search", "Reranking", "Enterprise chat"],
+    categories: ["LLM / Chat", "Embeddings / Search"],
+    pricing_note: "Trial credits + usage pricing",
+    free_tier: true,
+    key_url: "https://dashboard.cohere.com/api-keys",
+    docs_url: "https://docs.cohere.com/",
+    playground_url: "https://dashboard.cohere.com/playground",
+    models_examples: ["command-r-plus", "embed-v3", "rerank-v3.5"],
+    how_to_get_key: [
+      "Sign up at dashboard.cohere.com",
+      "API Keys section → Create",
+      "Set COHERE_API_KEY",
+    ],
+    when_to_use: "Search/RAG stacks that need strong embeddings + rerank.",
+    when_not_to_use: "Image or video generation workloads.",
+  },
+  {
+    id: "perplexity",
+    name: "Perplexity",
+    tagline: "Search-grounded answers with citations via Sonar API.",
+    best_for: ["Web-grounded Q&A", "Research assistants"],
+    categories: ["LLM / Chat", "Embeddings / Search"],
+    pricing_note: "API usage pricing",
+    free_tier: false,
+    key_url: "https://www.perplexity.ai/settings/api",
+    docs_url: "https://docs.perplexity.ai/",
+    models_examples: ["sonar", "sonar-pro"],
+    how_to_get_key: [
+      "Open Perplexity settings → API",
+      "Generate an API key",
+      "Set PERPLEXITY_API_KEY",
+    ],
+    when_to_use: "When answers must cite live web sources.",
+    when_not_to_use: "Offline-only or private-corpus RAG (use embeddings + your docs).",
+  },
+  {
+    id: "replicate",
+    name: "Replicate",
+    tagline: "Run open models (image, video, audio, LLM) with simple HTTP.",
+    best_for: ["Image generation", "Model demos", "One-off GPU jobs"],
+    categories: ["Image", "Video", "Speech / Audio", "LLM / Chat", "Open source host"],
+    pricing_note: "Pay per second of compute",
+    free_tier: false,
+    key_url: "https://replicate.com/account/api-tokens",
+    docs_url: "https://replicate.com/docs",
+    playground_url: "https://replicate.com/explore",
+    models_examples: ["black-forest-labs/flux-schnell", "meta/meta-llama-3-70b-instruct"],
+    how_to_get_key: [
+      "Sign in at replicate.com",
+      "Account → API tokens",
+      "Set REPLICATE_API_TOKEN",
+    ],
+    when_to_use: "Trying many modalities without managing GPUs.",
+    when_not_to_use: "Steady high-QPS chat — dedicated LLM hosts are cheaper.",
+  },
+  {
+    id: "elevenlabs",
+    name: "ElevenLabs",
+    tagline: "High-quality text-to-speech and voice cloning.",
+    best_for: ["Voiceovers", "Product voice UX", "Podcasts"],
+    categories: ["Speech / Audio"],
+    pricing_note: "Free tier with character limits",
+    free_tier: true,
+    key_url: "https://elevenlabs.io/app/settings/api-keys",
+    docs_url: "https://elevenlabs.io/docs",
+    playground_url: "https://elevenlabs.io/app/speech-synthesis",
+    models_examples: ["eleven_multilingual_v2", "eleven_turbo_v2"],
+    how_to_get_key: [
+      "Create an ElevenLabs account",
+      "Profile → API Keys",
+      "Set ELEVENLABS_API_KEY",
+    ],
+    when_to_use: "Natural speech output for apps or media.",
+    when_not_to_use: "Speech-to-text transcription (use Whisper / AssemblyAI).",
+  },
+  {
+    id: "assemblyai",
+    name: "AssemblyAI",
+    tagline: "Speech-to-text, speaker labels, and audio understanding.",
+    best_for: ["Transcription", "Meeting notes", "Podcast indexing"],
+    categories: ["Speech / Audio"],
+    pricing_note: "Free tier + usage pricing",
+    free_tier: true,
+    key_url: "https://www.assemblyai.com/dashboard/signup",
+    docs_url: "https://www.assemblyai.com/docs",
+    models_examples: ["universal", "slam-1"],
+    how_to_get_key: [
+      "Sign up at assemblyai.com",
+      "Copy your API key from the dashboard",
+      "Set ASSEMBLYAI_API_KEY",
+    ],
+    when_to_use: "Reliable transcription and audio intelligence pipelines.",
+    when_not_to_use: "Text-only LLM chat without audio.",
+  },
+  {
+    id: "openrouter",
+    name: "OpenRouter",
+    tagline: "One key to route across many model providers.",
+    best_for: ["Multi-model routing", "Fallback chains", "Cost experiments"],
+    categories: ["LLM / Chat", "Agents / Tools"],
+    pricing_note: "Pass-through pricing + small fee; free models available",
+    free_tier: true,
+    key_url: "https://openrouter.ai/keys",
+    docs_url: "https://openrouter.ai/docs",
+    playground_url: "https://openrouter.ai/playground",
+    models_examples: ["openai/gpt-4o-mini", "anthropic/claude-sonnet", "google/gemini-flash"],
+    how_to_get_key: [
+      "Sign in at openrouter.ai",
+      "Keys → Create key",
+      "Set OPENROUTER_API_KEY",
+    ],
+    when_to_use: "You want one integration that can swap providers/models easily.",
+    when_not_to_use: "When a single vendor contract/compliance path is required.",
+  },
+];
+
+export const API_CATEGORIES: ApiCategory[] = [
+  "LLM / Chat",
+  "Agents / Tools",
+  "Embeddings / Search",
+  "Image",
+  "Speech / Audio",
+  "Video",
+  "Moderation",
+  "Open source host",
+];
+
+export function getApiById(id: string) {
+  return AI_API_CATALOG.find((p) => p.id === id) || null;
+}

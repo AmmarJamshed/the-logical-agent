@@ -2,29 +2,43 @@ import Link from "next/link";
 
 const PLANS = [
   {
-    name: "Free",
+    name: "Open Preview",
     price: "$0",
-    blurb: "Read, join communities, basic newsletters, limited AI search.",
-    features: ["Articles & communities", "Basic newsletters", "Limited AI search"],
-  },
-  {
-    name: "Pro",
-    price: "$29",
-    blurb: "Unlimited search, premium research, AI assistants, no ads.",
-    features: ["Unlimited AI search", "Premium newsletters", "Saved dashboards", "No advertisements"],
+    blurb: "Everything unlocked while we teach the platform. No card. No trial clock.",
+    features: [
+      "Full news, research, courses, startups",
+      "Unlimited AI search & AI Lab",
+      "API Marketplace guides",
+      "Dashboards & saved views",
+      "No advertisements",
+    ],
     highlight: true,
+    cta: "Start exploring",
+    href: "/marketplace",
   },
   {
-    name: "Business",
-    price: "$199",
-    blurb: "Company profiles, sponsored content, recruitment, API access.",
-    features: ["Company profile", "Sponsored content", "Recruitment tools", "Team management", "API access"],
+    name: "Pro (coming later)",
+    price: "TBD",
+    blurb: "Will cover advanced agents and premium reports — free during preview.",
+    features: ["Same as Open Preview today", "Future: deeper agent packs", "Future: export & alerts"],
+    cta: "Included free now",
+    href: "/ai",
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    blurb: "Private research, white-label newsletters, custom agents, SSO.",
-    features: ["Dedicated dashboards", "Custom AI agents", "SSO", "Priority support", "White-label"],
+    name: "Business (later)",
+    price: "TBD",
+    blurb: "Teams, sponsorships, and recruitment — not billed in preview.",
+    features: ["Company profiles", "Sponsored content", "Team seats", "API access"],
+    cta: "Browse APIs",
+    href: "/marketplace",
+  },
+  {
+    name: "Enterprise (later)",
+    price: "Talk to us",
+    blurb: "Custom agents and SSO when you outgrow preview.",
+    features: ["Custom agents", "SSO", "Private data rooms", "Priority support"],
+    cta: "Explore platform",
+    href: "/search",
   },
 ];
 
@@ -33,8 +47,16 @@ export const metadata = { title: "Pricing" };
 export default function PricingPage() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
-      <p className="eyebrow">Subscriptions</p>
-      <h1 className="mt-3 font-display text-5xl">Intelligence, priced for every desk</h1>
+      <div className="rounded-2xl border border-signal-500/30 bg-signal-500/10 px-4 py-3 text-sm text-signal-600">
+        <strong>Pro-level access is free for everyone</strong> during open preview. Learn the product first — billing
+        comes later.
+      </div>
+      <p className="eyebrow mt-8">Subscriptions</p>
+      <h1 className="mt-3 font-display text-5xl">Free while you learn the desk</h1>
+      <p className="mt-4 max-w-2xl text-[color:var(--muted)]">
+        Use search, AI Lab, research, courses, and the API Marketplace with full Pro capabilities. Paid tiers are
+        placeholders for later.
+      </p>
       <div className="mt-12 grid gap-5 lg:grid-cols-4">
         {PLANS.map((plan) => (
           <div
@@ -49,8 +71,8 @@ export default function PricingPage() {
                 <li key={f}>· {f}</li>
               ))}
             </ul>
-            <Link href="/login" className={plan.highlight ? "btn-primary mt-8" : "btn-ghost mt-8"}>
-              Choose {plan.name}
+            <Link href={plan.href} className={plan.highlight ? "btn-primary mt-8" : "btn-ghost mt-8"}>
+              {plan.cta}
             </Link>
           </div>
         ))}
