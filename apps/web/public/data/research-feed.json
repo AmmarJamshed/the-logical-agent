@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T13:15:23.987Z",
-  "total": 213,
+  "generated_at": "2026-08-09T13:23:25.221Z",
+  "total": 223,
   "sources": {
     "arxiv_llm": 12,
     "arxiv_world-models": 12,
@@ -15,7 +15,7 @@
     "arxiv_security": 12,
     "arxiv_quantum": 12,
     "openalex": 48,
-    "crossref": 20,
+    "crossref": 30,
     "huggingface": 30,
     "pubmed": 20
   },
@@ -35,19 +35,41 @@
   ],
   "topic_counts": {
     "LLM": 33,
-    "AI": 115,
+    "AI": 125,
     "World Models": 18,
     "Agents": 33,
     "Multimodal": 36,
     "Computer Vision": 12,
     "NLP": 11,
-    "Reinforcement Learning": 22,
-    "Robotics": 18,
+    "Reinforcement Learning": 24,
+    "Robotics": 19,
     "Quantum": 15,
-    "Cybersecurity": 15,
-    "Machine Learning": 15
+    "Cybersecurity": 16,
+    "Machine Learning": 17
   },
   "papers": [
+    {
+      "id": "8f11356556d3",
+      "title": "ANALYTICAL CLOUD SYSTEM ERI Digital health analysis using Spectral analysis in AI",
+      "slug": "analytical-cloud-system-eri-digital-health-analysis-using-spectral-analysis-in-ai",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Elena van Dijk"
+      ],
+      "author_line": "Elena van Dijk",
+      "url": "https://doi.org/10.47363/jeast/2021/vid/1006",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2121-04-30T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "Journal of Engineering and Applied Sciences Technology",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
     {
       "id": "2c41134923d4",
       "title": "Entrepreneurship: Unveiling World Patterns",
@@ -465,6 +487,28 @@
       "topic_key": "ai"
     },
     {
+      "id": "57283588629a",
+      "title": "Leveraging AI in Performance Auditing: A Feasibility Study for the State Audit Office of Thailand",
+      "slug": "leveraging-ai-in-performance-auditing-a-feasibility-study-for-the-state-audit-office-of-th",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Sutthi Suntharanurak"
+      ],
+      "author_line": "Sutthi Suntharanurak",
+      "url": "https://doi.org/10.56251/hfue3018",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2030-10-20T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Government Auditing",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "82ed35b01195",
       "title": "Conformal Causal Inference for Cluster Randomized Trials: Model-robust Inference Without Asymptotic Approximations",
       "slug": "conformal-causal-inference-for-cluster-randomized-trials-model-robust-inference-without-as",
@@ -560,6 +604,31 @@
       "topic_key": "ai"
     },
     {
+      "id": "c7a71e53831c",
+      "title": "Cyber Defense Digital Twins: A Federated Learning and Zero-Trust AI Architecture for Autonomous Threat Prediction and Response",
+      "slug": "cyber-defense-digital-twins-a-federated-learning-and-zero-trust-ai-architecture-for-autono",
+      "abstract": "Modern enterprise networks operate under persistent threats that exploit cloud-native misconfigurations, identity sprawl, and API vulnerabilities at machine speed. Existing security operations center (SOC) architectures remain largely reactive, signature-dependent, and incapable of predicting multi-stage lateral movement. This paper proposes the Cognitive Cyber Defense Digital Twin (CCDT), a unified architecture integrating federated learning (FL), graph neural network (GNN)-based attack-path forecasting, adversarially hardened detection models, and autonomous Security Orchestration, Automation, and Response (SOAR) with deception engineering. The CCDT constructs a continuously synchronized d",
+      "summary": "Modern enterprise networks operate under persistent threats that exploit cloud-native misconfigurations, identity sprawl, and API vulnerabilities at machine speed. Existing security operations center (SOC) architectures remain largely reactive, signature-dependent, and incapable ",
+      "authors": [
+        "Sivaramakrishnan Narayanan"
+      ],
+      "author_line": "Sivaramakrishnan Narayanan",
+      "url": "https://doi.org/10.32628/cseit251116279",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-08-27T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
+      "topic": "Reinforcement Learning",
+      "topics": [
+        "Reinforcement Learning",
+        "Cybersecurity",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic_key": "reinforcement-learning"
+    },
+    {
       "id": "5009986f8004",
       "title": "Effects of air pollution on disease activity in patients with rheumatoid arthritis.",
       "slug": "effects-of-air-pollution-on-disease-activity-in-patients-with-rheumatoid-arthritis",
@@ -581,9 +650,80 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42557168/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2028-06-20T19:00:00.000Z",
+      "published_at": "2028-06-21T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Annals of the rheumatic diseases",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "143dcbb7e939",
+      "title": "AI-Enabled Force and Torque Control for Human Robot Interaction",
+      "slug": "ai-enabled-force-and-torque-control-for-human-robot-interaction",
+      "abstract": "Safe and intuitive human robot interaction (HRI) requires precise regulation of contact forces and torques while adapting to dynamic and uncertain human behavior. Traditional impedance and admittance control strategies rely on fixed parameters and accurate system modeling, which often limit their performance in unstructured or collaborative environments. This paper presents an AI-enabled force and torque control framework that integrates machine learning techniques with conventional control methods to enhance adaptability, compliance, and safety in physical human robot interaction. The proposed approach employs deep neural networks and reinforcement learning to learn human intent and interac",
+      "summary": "Safe and intuitive human robot interaction (HRI) requires precise regulation of contact forces and torques while adapting to dynamic and uncertain human behavior. Traditional impedance and admittance control strategies rely on fixed parameters and accurate system modeling, which ",
+      "authors": [
+        "Vishal Khanna"
+      ],
+      "author_line": "Vishal Khanna",
+      "url": "https://doi.org/10.26634/javr.4.1.1115",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-06-15T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "i-manager's Journal on Augmented &amp; Virtual Reality",
+      "topic": "Reinforcement Learning",
+      "topics": [
+        "Reinforcement Learning",
+        "Robotics",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic_key": "reinforcement-learning"
+    },
+    {
+      "id": "f00768a85677",
+      "title": "Edge AI in Wearable Devices",
+      "slug": "edge-ai-in-wearable-devices",
+      "abstract": "Wearable technologies have progressed from basic fitness trackers and digital watches into smart systems that can check vital signs, alert for anomalies, and transmit personalized health data. Existing cloud-native structures used by wearable technology face drawbacks, including delays in communication, reliance on reliable internet connections, privacy concerns, and toomuchenergyusage.EdgeArtificialIntelligence(EdgeAI),the layer of AI processing where the computational and intelligent capabilities are at the data source itself, offers a compelling alternative. If a sensor provides its data to an Edge AI-enabled wearabledevice,thedevicecanuseitsonboardcomputingtohelp integratethedataandascri",
+      "summary": "Wearable technologies have progressed from basic fitness trackers and digital watches into smart systems that can check vital signs, alert for anomalies, and transmit personalized health data. Existing cloud-native structures used by wearable technology face drawbacks, including ",
+      "authors": [
+        "Prof.Anu Jyothy"
+      ],
+      "author_line": "Prof.Anu Jyothy",
+      "url": "https://doi.org/10.26634/javr.4.1.1116",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-06-15T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "i-manager's Journal on Augmented &amp; Virtual Reality",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "f3b6d283b414",
+      "title": "AI Regulation and Its Social Impacts on Public Policy",
+      "slug": "ai-regulation-and-its-social-impacts-on-public-policy",
+      "abstract": "Artificial intelligence (AI) is not a marginalized technological means any more but the main force of decision-making in political arenas, economic restructuring, and social change. The necessity to establish routine regulation frameworks has become especially relevant, with governments introducing AI-based systems into various areas of state business such as welfare checks and predictive policing, health-care screening, and taxing. The effects of AI control on the policy outcomes of a population will be examined in terms of the social influence of algorithmic governance, the dispositional capacity of a state, institutional responsibility, and trust in citizens. The tension between innovatio",
+      "summary": "Artificial intelligence (AI) is not a marginalized technological means any more but the main force of decision-making in political arenas, economic restructuring, and social change. The necessity to establish routine regulation frameworks has become especially relevant, with gove",
+      "authors": [
+        "Syed Rizwan Haider Bukhari",
+        "Haider Ali Khan",
+        "Tourkia Rebhi"
+      ],
+      "author_line": "Syed Rizwan Haider Bukhari, Haider Ali Khan, Tourkia Rebhi",
+      "url": "https://doi.org/10.55737/rl.v5i1.26181",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-02-28T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "Regional Lens",
       "topic": "AI",
       "topics": [
         "AI"
@@ -628,6 +768,99 @@
       "published_at": "2028-02-17T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "12a9bf135485",
+      "title": "AI-Enhanced Wireless Sensor Network for Proactive Structural Health Monitoring in Large-Scale Infrastructure",
+      "slug": "ai-enhanced-wireless-sensor-network-for-proactive-structural-health-monitoring-in-large-sc",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Qinzhe Zhang"
+      ],
+      "author_line": "Qinzhe Zhang",
+      "url": "https://doi.org/10.1504/ijims.2028.10076794",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Internet Manufacturing and Services",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "87e339083465",
+      "title": "AI-Powered Sustainable Investment Behaviour: a Systematic Review and Research Agenda",
+      "slug": "ai-powered-sustainable-investment-behaviour-a-systematic-review-and-research-agenda",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Aastha Jain",
+        "Reeti Gupta",
+        "Rohail Hassan",
+        "Preeti Jain"
+      ],
+      "author_line": "Aastha Jain, Reeti Gupta, Rohail Hassan, Preeti Jain",
+      "url": "https://doi.org/10.1504/ijams.2028.10079074",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Applied Management Science",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "fdbc1b908c77",
+      "title": "Conditional Quantile-based Variable Screening with FDR Control in Joint Factor Models",
+      "slug": "conditional-quantile-based-variable-screening-with-fdr-control-in-joint-factor-models",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Han Pan",
+        "Wei Xiong",
+        "Mingyao Ai"
+      ],
+      "author_line": "Han Pan, Wei Xiong, Mingyao Ai",
+      "url": "https://doi.org/10.5705/ss.202025.0167",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "Statistica Sinica",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "bbd90a83cd68",
+      "title": "Generative AI as a Catalyst for Intelligent Information Service Empowerment in University Libraries",
+      "slug": "generative-ai-as-a-catalyst-for-intelligent-information-service-empowerment-in-university-",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Li Zhao"
+      ],
+      "author_line": "Li Zhao",
+      "url": "https://doi.org/10.1504/ijims.2028.10076934",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2028-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Internet Manufacturing and Services",
       "topic": "AI",
       "topics": [
         "AI"
@@ -696,7 +929,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42546726/",
       "pdf_url": null,
       "category": "Letter",
-      "published_at": "2027-05-31T19:00:00.000Z",
+      "published_at": "2027-06-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "The Lancet. Global health",
       "topic": "AI",
@@ -730,7 +963,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42524027/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-03-31T19:00:00.000Z",
+      "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
       "topic": "AI",
@@ -759,7 +992,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42428234/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-03-31T19:00:00.000Z",
+      "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
       "topic": "AI",
@@ -782,7 +1015,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368549/",
       "pdf_url": null,
       "category": "Letter",
-      "published_at": "2027-03-31T19:00:00.000Z",
+      "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
       "topic": "AI",
@@ -805,7 +1038,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42311608/",
       "pdf_url": null,
       "category": "Letter",
-      "published_at": "2027-03-31T19:00:00.000Z",
+      "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
       "topic": "AI",
@@ -846,7 +1079,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42148037/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-03-31T19:00:00.000Z",
+      "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
       "topic": "AI",
@@ -895,7 +1128,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42569460/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-01-31T19:00:00.000Z",
+      "published_at": "2027-02-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Synthetic and systems biotechnology",
       "topic": "AI",
@@ -921,7 +1154,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42518522/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-01-31T19:00:00.000Z",
+      "published_at": "2027-02-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Magnetic resonance letters",
       "topic": "AI",
@@ -951,7 +1184,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42502839/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2027-01-31T19:00:00.000Z",
+      "published_at": "2027-02-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Synthetic and systems biotechnology",
       "topic": "AI",
@@ -1166,7 +1399,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42433475/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-31T19:00:00.000Z",
+      "published_at": "2027-01-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Synthetic and systems biotechnology",
       "topic": "Machine Learning",
@@ -1190,7 +1423,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42221683/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-31T19:00:00.000Z",
+      "published_at": "2027-01-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Computer speech & language",
       "topic": "AI",
@@ -1380,7 +1613,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559854/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Medical education online",
       "topic": "LLM",
@@ -1405,7 +1638,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42552577/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Medical education online",
       "topic": "AI",
@@ -1434,7 +1667,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42544936/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "The veterinary quarterly",
       "topic": "AI",
@@ -1457,7 +1690,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541445/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "The Libyan journal of medicine",
       "topic": "AI",
@@ -1490,7 +1723,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42520137/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Gut microbes",
       "topic": "AI",
@@ -1512,7 +1745,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42482306/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "mAbs",
       "topic": "AI",
@@ -1538,7 +1771,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42479980/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Journal of psychosomatic obstetrics and gynaecology",
       "topic": "AI",
@@ -1566,7 +1799,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42466075/",
       "pdf_url": null,
       "category": "Journal Article",
-      "published_at": "2026-12-30T19:00:00.000Z",
+      "published_at": "2026-12-31T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Machine learning. Health",
       "topic": "Agents",
