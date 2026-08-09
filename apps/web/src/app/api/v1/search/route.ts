@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getLiveArticles, getLiveCourses } from "@/lib/feed";
+import { getLiveArticles, getLiveCourses, getLiveDeals, getLivePapers } from "@/lib/feed";
 import { groqChat } from "@/lib/public-ai";
 
 export const runtime = "nodejs";
@@ -53,6 +53,42 @@ export async function POST(request: Request) {
           summary: c.ai_summary,
           score: c.category === "popular" || c.is_promoted ? 0.93 : 0.82,
           url: c.url || `/courses`,
+        });
+      }
+    }
+  }
+
+  if (/paper|arxiv|research|study|journal|preprint/.test(lower)) {
+    const papers = await getLivePapers();
+    for (const p of papers.slice(0, 40)) {
+      const hay = `${p.title} ${p.summary || ""} ${p.topic || ""} ${p.abstract || ""}`.toLowerCase();
+      const hit = lower.split(/\s+/).some((w) => w.length > 2 && hay.includes(w));
+      if (hit || /paper|research|arxiv/.test(lower)) {
+        results.push({
+          entity_type: "research",
+          id: p.id,
+          title: p.title,
+          summary: p.summary || p.abstract,
+          score: hit ? 0.94 : 0.8,
+          url: p.url || "/research",
+        });
+      }
+    }
+  }
+
+  if (/startup|funding|venture|series|ipo|acquisition|raises/.test(lower)) {
+    const deals = await getLiveDeals();
+    for (const d of deals.slice(0, 40)) {
+      const hay = `${d.name} ${d.summary || ""} ${d.event_type || ""} ${(d.technologies || []).join(" ")}`.toLowerCase();
+      const hit = lower.split(/\s+/).some((w) => w.length > 2 && hay.includes(w));
+      if (hit || /startup|funding|venture|ipo/.test(lower)) {
+        results.push({
+          entity_type: "startup",
+          id: d.id,
+          title: d.name,
+          summary: d.summary,
+          score: hit ? 0.93 : 0.81,
+          url: d.url || "/startups",
         });
       }
     }

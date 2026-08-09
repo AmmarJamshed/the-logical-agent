@@ -9,6 +9,8 @@ on:
     paths:
       - "scripts/ingest-intelligence.mjs"
       - "scripts/ingest-courses.mjs"
+      - "scripts/ingest-research.mjs"
+      - "scripts/ingest-startups.mjs"
       - ".github/workflows/intelligence-ingest.yml"
 
 permissions:
@@ -20,9 +22,9 @@ concurrency:
 
 jobs:
   ingest:
-    name: Fetch news, social, and courses
+    name: Fetch news, courses, research, startups
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,24 +49,34 @@ jobs:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: node scripts/ingest-courses.mjs
 
+      - name: Run research ingest
+        run: node scripts/ingest-research.mjs
+
+      - name: Run startups ingest
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: node scripts/ingest-startups.mjs
+
       - name: Upload feed artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: intelligence-and-courses-feeds
+          name: intelligence-feeds
           path: |
             apps/web/public/data/intelligence-feed.json
             apps/web/public/data/courses-feed.json
+            apps/web/public/data/research-feed.json
+            apps/web/public/data/startups-feed.json
           retention-days: 14
 
       - name: Commit and push feeds
         run: |
           git config user.name "logical-agent-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add apps/web/public/data/intelligence-feed.json apps/web/public/data/courses-feed.json
+          git add apps/web/public/data/intelligence-feed.json apps/web/public/data/courses-feed.json apps/web/public/data/research-feed.json apps/web/public/data/startups-feed.json
           if git diff --staged --quiet; then
             echo "No feed changes"
             exit 0
           fi
-          git commit -m "chore(data): refresh intelligence and courses feeds"
+          git commit -m "chore(data): refresh intelligence, courses, research, startups feeds"
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
