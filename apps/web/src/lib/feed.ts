@@ -14,6 +14,8 @@ export type CoursesFeed = {
   generated_at?: string;
   total?: number;
   sources?: Record<string, number>;
+  topics?: string[];
+  topic_counts?: Record<string, number>;
   popular?: DemoCourse[];
   newly_launched?: DemoCourse[];
   courses?: DemoCourse[];
@@ -34,6 +36,7 @@ export type ResearchPaper = {
   source?: string | null;
   venue?: string | null;
   topic?: string | null;
+  topics?: string[];
   topic_key?: string | null;
 };
 
@@ -41,6 +44,8 @@ export type ResearchFeed = {
   generated_at?: string;
   total?: number;
   sources?: Record<string, number>;
+  topics?: string[];
+  topic_counts?: Record<string, number>;
   papers?: ResearchPaper[];
 };
 

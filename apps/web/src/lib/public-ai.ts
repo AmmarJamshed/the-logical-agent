@@ -39,6 +39,8 @@ export type DemoCourse = {
   workload?: string | null;
   launched_at?: string | null;
   source?: string | null;
+  topic?: string | null;
+  topics?: string[];
 };
 
 export const DEMO_ARTICLES: DemoArticle[] = [

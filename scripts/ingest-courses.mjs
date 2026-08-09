@@ -165,8 +165,63 @@ const POPULAR_SEED = [
     difficulty: "beginner",
     is_free: false,
     technologies: ["cybersecurity"],
+    topics: ["Cybersecurity"],
     ai_summary: "High-enrollment Google career certificate with strong learner ratings.",
   },
+  {
+    name: "LangChain Academy",
+    provider: "LangChain",
+    slug: "langchain-academy",
+    url: "https://academy.langchain.com/",
+    rating: 4.6,
+    review_count: 12000,
+    difficulty: "intermediate",
+    is_free: true,
+    technologies: ["llm", "agents", "python"],
+    topics: ["LLM", "Agents"],
+    ai_summary: "Hands-on LangChain paths for LLM apps, retrieval, and agent workflows.",
+  },
+  {
+    name: "DeepLearning.AI Short Courses Hub",
+    provider: "DeepLearning.AI",
+    slug: "deeplearning-ai-short-courses",
+    url: "https://www.deeplearning.ai/short-courses/",
+    rating: 4.8,
+    review_count: 90000,
+    difficulty: "intermediate",
+    is_free: true,
+    technologies: ["llm", "ai", "agents"],
+    topics: ["LLM", "AI", "Agents"],
+    ai_summary: "Short practical courses on LLMs, agents, and generative AI from Andrew Ng’s team.",
+  },
+  {
+    name: "Microsoft Learn Generative AI",
+    provider: "Microsoft Learn",
+    slug: "microsoft-generative-ai",
+    url: "https://learn.microsoft.com/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/",
+    rating: 4.5,
+    review_count: 8000,
+    difficulty: "intermediate",
+    is_free: true,
+    technologies: ["ai", "llm", "agents"],
+    topics: ["LLM", "Agents", "AI"],
+    ai_summary: "Free Microsoft Learn paths for generative AI and agent development on Azure.",
+  },
+];
+
+const COURSE_TOPICS = [
+  "LLM",
+  "AI",
+  "World Models",
+  "Agents",
+  "Multimodal",
+  "Computer Vision",
+  "NLP",
+  "Reinforcement Learning",
+  "Robotics",
+  "Quantum",
+  "Cybersecurity",
+  "Machine Learning",
 ];
 
 function slugify(text) {
@@ -181,12 +236,38 @@ function idFrom(...parts) {
   return createHash("sha1").update(parts.join("|")).digest("hex").slice(0, 12);
 }
 
+function detectTopics(text, preferred = []) {
+  const t = String(text || "").toLowerCase();
+  const found = new Set(preferred);
+  const rules = [
+    ["LLM", /\b(llm|large language|generative ai|gpt|gemini|claude|prompt)\b/],
+    ["World Models", /\bworld models?\b/],
+    ["Agents", /\b(agentic|ai agents?|multi-?agent|langchain|autogen|crewai)\b/],
+    ["Multimodal", /\b(multimodal|vision[- ]language|vlm)\b/],
+    ["Computer Vision", /\b(computer vision|opencv|image recognition|cv)\b/],
+    ["NLP", /\b(nlp|natural language|transformers?|huggingface nlp)\b/],
+    ["Reinforcement Learning", /\b(reinforcement learning|\brl\b)\b/],
+    ["Robotics", /\b(robot|robotics|humanoid)\b/],
+    ["Quantum", /\bquantum\b/],
+    ["Cybersecurity", /\b(cyber|security|soc|ransomware)\b/],
+    ["Machine Learning", /\b(machine learning|scikit|supervised|deep learning)\b/],
+    ["AI", /\b(artificial intelligence|\bai\b)\b/],
+  ];
+  for (const [name, re] of rules) {
+    if (re.test(t)) found.add(name);
+  }
+  if (!found.size) found.add("AI");
+  return [...found];
+}
+
 function detectTechs(text) {
   const t = String(text || "").toLowerCase();
   const map = [
     ["ai", /\b(ai|artificial intelligence|llm|gpt|generative|agentic|vertex|gemini)\b/],
     ["machine-learning", /\b(machine learning|ml|scikit|supervised)\b/],
     ["deep-learning", /\b(deep learning|neural|pytorch|tensorflow)\b/],
+    ["llm", /\b(llm|large language|gpt|gemini|claude)\b/],
+    ["agents", /\b(agentic|agents?|langchain)\b/],
     ["cybersecurity", /\b(cyber|security|ransomware|malware|soc)\b/],
     ["cloud", /\b(cloud|aws|azure|gcp|kubernetes|vertex)\b/],
     ["python", /\bpython\b/],
@@ -233,6 +314,7 @@ async function fetchCourseraCatalog(limit = 100) {
 function mapCoursera(el, extras = {}) {
   const text = `${el.name || ""} ${el.description || ""}`;
   const techs = detectTechs(text);
+  const topics = detectTopics(text, extras.topics || []);
   const start = el.startDate ? new Date(el.startDate).toISOString() : null;
   const daysAgo = start ? (Date.now() - new Date(start).getTime()) / 86400000 : null;
   const category =
@@ -248,6 +330,8 @@ function mapCoursera(el, extras = {}) {
     difficulty: extras.difficulty || difficultyFrom(text),
     is_free: extras.is_free ?? true,
     technologies: extras.technologies?.length ? extras.technologies : techs.length ? techs : ["ai"],
+    topics,
+    topic: topics[0],
     ai_summary: extras.ai_summary || String(el.description || "").replace(/\s+/g, " ").slice(0, 280),
     is_promoted: Boolean(extras.is_promoted || extras.category === "popular"),
     category,
@@ -257,7 +341,7 @@ function mapCoursera(el, extras = {}) {
     image_url: el.photoUrl || null,
     workload: el.workload || null,
     launched_at: start,
-    source: "coursera",
+    source: extras.source || "Coursera",
   };
 }
 
@@ -292,6 +376,8 @@ async function enrichPopularFromCoursera() {
       difficulty: seed.difficulty,
       is_free: seed.is_free,
       technologies: seed.technologies,
+      topics: detectTopics(`${seed.name} ${seed.ai_summary} ${(seed.technologies || []).join(" ")}`, seed.topics || []),
+      topic: (seed.topics && seed.topics[0]) || detectTopics(`${seed.name} ${seed.ai_summary}`)[0],
       ai_summary: seed.ai_summary,
       is_promoted: true,
       category: "popular",
@@ -301,7 +387,7 @@ async function enrichPopularFromCoursera() {
       image_url: null,
       workload: null,
       launched_at: null,
-      source: "curated-web",
+      source: seed.provider.split("/")[0].trim() || "curated-web",
     });
   }
   return out;
@@ -326,7 +412,16 @@ async function fetchNewlyLaunchedCoursera() {
 }
 
 async function fetchEdxCourses() {
-  const queries = ["artificial intelligence", "machine learning", "cybersecurity", "cloud computing"];
+  const queries = [
+    "artificial intelligence",
+    "large language models",
+    "machine learning",
+    "reinforcement learning",
+    "computer vision",
+    "cybersecurity",
+    "quantum computing",
+    "robotics",
+  ];
   const items = [];
   for (const q of queries) {
     try {
@@ -338,12 +433,12 @@ async function fetchEdxCourses() {
         const start = c.start || c.enrollment_start || null;
         if (!start) continue;
         const days = (Date.now() - new Date(start).getTime()) / 86400000;
-        // Recent-ish edX offerings (platforms often keep rolling start dates)
         if (days < -30 || days > 900) continue;
         const name = c.name || c.course_id;
         if (/ccx-v1:|demo|test course/i.test(String(c.course_id || name))) continue;
         const desc = c.short_description || c.overview || "";
         const techs = detectTechs(`${name} ${desc} ${q}`);
+        const topics = detectTopics(`${name} ${desc} ${q}`);
         items.push({
           id: idFrom("edx", c.course_id || c.id || name),
           name,
@@ -354,6 +449,8 @@ async function fetchEdxCourses() {
           difficulty: difficultyFrom(desc),
           is_free: true,
           technologies: techs.length ? techs : detectTechs(q),
+          topics,
+          topic: topics[0],
           ai_summary: String(desc).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").slice(0, 280),
           is_promoted: false,
           category: "newly_launched",
@@ -363,7 +460,7 @@ async function fetchEdxCourses() {
           image_url: c.media?.image?.raw || c.media?.course_image?.uri_absolute || null,
           workload: c.effort || null,
           launched_at: start,
-          source: "edx",
+          source: "edX",
         });
       }
     } catch (err) {
@@ -420,6 +517,8 @@ async function fetchNewsLaunches() {
           difficulty: "beginner",
           is_free: /free/i.test(`${a.title} ${a.description || ""}`),
           technologies: detectTechs(`${a.title} ${a.description || ""}`),
+          topics: detectTopics(`${a.title} ${a.description || ""}`),
+          topic: detectTopics(`${a.title} ${a.description || ""}`)[0],
           ai_summary: (a.description || a.content || "").replace(/\s+/g, " ").slice(0, 280),
           is_promoted: false,
           category: "newly_launched",
@@ -429,7 +528,7 @@ async function fetchNewsLaunches() {
           image_url: a.urlToImage || null,
           workload: null,
           launched_at: a.publishedAt || null,
-          source: "newsapi",
+          source: a.source?.name || "NewsAPI",
         });
       }
     } catch (err) {
@@ -468,7 +567,11 @@ async function main() {
     fetchNewsLaunches(),
   ]);
 
-  const courses = dedupe([...popular, ...courseraNew, ...edx, ...news]);
+  const courses = dedupe([...popular, ...courseraNew, ...edx, ...news]).map((c) => {
+    if (c.topics?.length) return c;
+    const topics = detectTopics(`${c.name} ${c.ai_summary || ""} ${(c.technologies || []).join(" ")}`);
+    return { ...c, topics, topic: topics[0] };
+  });
   const popularList = courses
     .filter((c) => c.category === "popular")
     .sort((a, b) => (b.rating || 0) - (a.rating || 0) || (b.review_count || 0) - (a.review_count || 0));
@@ -476,6 +579,11 @@ async function main() {
     .filter((c) => c.category === "newly_launched")
     .sort((a, b) => new Date(b.launched_at || 0) - new Date(a.launched_at || 0));
   const other = courses.filter((c) => c.category !== "popular" && c.category !== "newly_launched");
+
+  const topic_counts = {};
+  for (const topic of COURSE_TOPICS) {
+    topic_counts[topic] = courses.filter((c) => (c.topics || []).includes(topic)).length;
+  }
 
   const payload = {
     generated_at: new Date().toISOString(),
@@ -486,6 +594,8 @@ async function main() {
       edx: edx.length,
       newsapi: news.length,
     },
+    topics: COURSE_TOPICS,
+    topic_counts,
     popular: popularList,
     newly_launched: newlyList,
     courses: [...popularList, ...newlyList, ...other],

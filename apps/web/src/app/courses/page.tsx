@@ -1,15 +1,32 @@
 import { loadCoursesFeed } from "@/lib/feed";
 import type { DemoCourse } from "@/lib/public-ai";
+import { Reveal, TiltCard } from "@/components/interactive";
+import { TopicSourceFilter } from "@/components/topic-source-filter";
 
 export const metadata = { title: "Courses" };
 export const dynamic = "force-dynamic";
+
+const DEFAULT_TOPICS = [
+  "LLM",
+  "AI",
+  "World Models",
+  "Agents",
+  "Multimodal",
+  "Computer Vision",
+  "NLP",
+  "Reinforcement Learning",
+  "Robotics",
+  "Quantum",
+  "Cybersecurity",
+  "Machine Learning",
+];
 
 function CourseCard({ course }: { course: DemoCourse }) {
   const meta = [
     course.is_promoted ? "Featured" : null,
     course.category === "popular" ? "Top rated" : null,
     course.category === "newly_launched" ? "Just launched" : null,
-    course.provider,
+    course.source || course.provider,
     course.modality,
     course.is_free ? "Free" : "Paid",
     course.rating != null ? `${course.rating.toFixed(1)}★` : null,
@@ -17,7 +34,7 @@ function CourseCard({ course }: { course: DemoCourse }) {
   ].filter(Boolean);
 
   const body = (
-    <article className="panel grid gap-4 p-6 md:grid-cols-[1fr_auto]">
+    <article className="panel-interactive grid gap-4 p-6 md:grid-cols-[1fr_auto]">
       <div>
         <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-[0.14em] text-signal-500">
           {meta.map((item) => (
@@ -26,6 +43,15 @@ function CourseCard({ course }: { course: DemoCourse }) {
             </span>
           ))}
         </div>
+        {(course.topics || []).length ? (
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {(course.topics || []).slice(0, 4).map((t) => (
+              <span key={t} className="rounded-lg bg-punch-500/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.12em] text-punch-500">
+                {t}
+              </span>
+            ))}
+          </div>
+        ) : null}
         <h2 className="mt-2 font-display text-2xl">{course.name}</h2>
         <p className="mt-2 text-sm text-[color:var(--muted)]">{course.ai_summary}</p>
         {course.technologies?.length ? (
@@ -34,9 +60,7 @@ function CourseCard({ course }: { course: DemoCourse }) {
       </div>
       <div className="text-sm text-[color:var(--muted)] md:text-right">
         <div>{course.country_code || "Global"}</div>
-        {course.launched_at ? (
-          <div className="mt-2">{new Date(course.launched_at).toLocaleDateString()}</div>
-        ) : null}
+        {course.launched_at ? <div className="mt-2">{new Date(course.launched_at).toLocaleDateString()}</div> : null}
         {course.url ? <div className="mt-3 text-signal-500">Open course →</div> : null}
       </div>
     </article>
@@ -44,7 +68,7 @@ function CourseCard({ course }: { course: DemoCourse }) {
 
   if (course.url) {
     return (
-      <a href={course.url} target="_blank" rel="noopener noreferrer" className="block transition hover:opacity-95">
+      <a href={course.url} target="_blank" rel="noopener noreferrer" className="block">
         {body}
       </a>
     );
@@ -54,12 +78,9 @@ function CourseCard({ course }: { course: DemoCourse }) {
 
 export default async function CoursesPage() {
   const feed = await loadCoursesFeed();
-  const popular = feed.popular?.length
-    ? feed.popular
-    : (feed.courses || []).filter((c) => c.category === "popular");
-  const newly = feed.newly_launched?.length
-    ? feed.newly_launched
-    : (feed.courses || []).filter((c) => c.category === "newly_launched");
+  const courses = feed.courses || [];
+  const topics = feed.topics?.length ? feed.topics : DEFAULT_TOPICS;
+  const sources = Array.from(new Set(courses.map((c) => c.source || c.provider).filter(Boolean))) as string[];
   const generated = feed.generated_at ? new Date(feed.generated_at).toLocaleString() : null;
 
   return (
@@ -67,38 +88,41 @@ export default async function CoursesPage() {
       <p className="eyebrow">Course discovery</p>
       <h1 className="mt-3 font-display text-5xl">Popular picks &amp; fresh launches</h1>
       <p className="mt-4 max-w-2xl text-[color:var(--muted)]">
-        Real courses scraped from Coursera, edX, and launch coverage — ranked favorites with strong review
-        signals, plus programs that just hit the catalog.
+        Courses from Coursera, edX, Hugging Face, DeepLearning.AI, LangChain, Microsoft Learn, and launch coverage —
+        filterable by LLM, AI, World Models, Agents, and more.
       </p>
       {generated ? (
-        <p className="mt-2 text-xs text-[color:var(--muted)]">Feed updated {generated}</p>
+        <p className="mt-2 text-xs text-[color:var(--muted)]">
+          Feed updated {generated} · {courses.length} courses · {sources.length} sources
+        </p>
       ) : null}
 
-      <section className="mt-12">
-        <h2 className="font-display text-3xl">Popular with strong reviews</h2>
-        <p className="mt-2 max-w-2xl text-sm text-[color:var(--muted)]">
-          High-enrollment, highly rated programs learners keep recommending.
-        </p>
-        <div className="mt-6 grid gap-4">
-          {popular.map((course) => (
-            <CourseCard key={course.id} course={course} />
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-16">
-        <h2 className="font-display text-3xl">Just launched</h2>
-        <p className="mt-2 max-w-2xl text-sm text-[color:var(--muted)]">
-          Recently published catalog entries and course-launch coverage from the web.
-        </p>
-        <div className="mt-6 grid gap-4">
-          {newly.length ? (
-            newly.map((course) => <CourseCard key={course.id} course={course} />)
-          ) : (
-            <p className="text-sm text-[color:var(--muted)]">No newly launched courses in the latest scrape.</p>
-          )}
-        </div>
-      </section>
+      <TopicSourceFilter
+        topics={topics}
+        topicCounts={feed.topic_counts}
+        sources={sources}
+        items={courses}
+        matchTopic={(item, topic) =>
+          !topic || (item.topics || []).includes(topic) || item.topic === topic
+        }
+        matchSource={(item, source) => !source || item.source === source || item.provider === source}
+      >
+        {(filtered) => (
+          <div className="grid gap-4">
+            {filtered.length ? (
+              filtered.map((course, i) => (
+                <Reveal key={course.id} delay={(i % 8) * 35}>
+                  <TiltCard>
+                    <CourseCard course={course} />
+                  </TiltCard>
+                </Reveal>
+              ))
+            ) : (
+              <p className="text-sm text-[color:var(--muted)]">No courses match this filter.</p>
+            )}
+          </div>
+        )}
+      </TopicSourceFilter>
     </div>
   );
 }

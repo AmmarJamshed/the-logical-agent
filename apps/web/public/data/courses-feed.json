@@ -1,11 +1,39 @@
 {
-  "generated_at": "2026-08-09T12:30:01.246Z",
-  "total": 50,
+  "generated_at": "2026-08-09T13:19:08.117Z",
+  "total": 53,
   "sources": {
-    "curated_popular": 12,
+    "curated_popular": 15,
     "coursera_new": 33,
     "edx": 0,
     "newsapi": 6
+  },
+  "topics": [
+    "LLM",
+    "AI",
+    "World Models",
+    "Agents",
+    "Multimodal",
+    "Computer Vision",
+    "NLP",
+    "Reinforcement Learning",
+    "Robotics",
+    "Quantum",
+    "Cybersecurity",
+    "Machine Learning"
+  ],
+  "topic_counts": {
+    "LLM": 9,
+    "AI": 46,
+    "World Models": 0,
+    "Agents": 7,
+    "Multimodal": 1,
+    "Computer Vision": 0,
+    "NLP": 3,
+    "Reinforcement Learning": 0,
+    "Robotics": 0,
+    "Quantum": 0,
+    "Cybersecurity": 7,
+    "Machine Learning": 9
   },
   "popular": [
     {
@@ -22,6 +50,11 @@
         "python",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Flagship ML course with millions of learners; consistently cited among the highest-rated AI programs.",
       "is_promoted": true,
       "category": "popular",
@@ -31,7 +64,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9c/90ae67ecdb4185a4ae79ec9a5ae0b6/Course-Logo--1.png",
       "workload": "At the rate of 5 hours a week, it typically takes 3 weeks to complete this course.",
       "launched_at": "2022-06-14T21:27:57.322Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "8c9617b255e5",
@@ -47,6 +80,11 @@
         "deep-learning",
         "python"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Free, frequently updated deep learning course with a top-down coding-first approach.",
       "is_promoted": true,
       "category": "popular",
@@ -56,7 +94,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "fast.ai"
     },
     {
       "id": "a7c8cf35314e",
@@ -70,6 +108,11 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Non-technical overview of AI strategy, workflows, and organizational adoption.",
       "is_promoted": true,
       "category": "popular",
@@ -79,7 +122,38 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e6/1e86d7a77b4c79a6e9c6e6126a9aa5/BC-5768_VisMerch-Phase-3-Assets_Google_AI_3_DeepLearning_AIForEveryone.png",
       "workload": "4 weeks of study, 2-3 hours/week",
       "launched_at": "2019-02-28T04:58:59.042Z",
-      "source": "coursera"
+      "source": "Coursera"
+    },
+    {
+      "id": "9c01391fc0ce",
+      "name": "DeepLearning.AI Short Courses Hub",
+      "slug": "deeplearning-ai-short-courses",
+      "provider": "DeepLearning.AI",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "llm",
+        "ai",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "AI",
+        "Agents"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Short practical courses on LLMs, agents, and generative AI from Andrew Ng’s team.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.8,
+      "review_count": 90000,
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "DeepLearning.AI"
     },
     {
       "id": "2b922b67458a",
@@ -93,6 +167,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "High-enrollment Google career certificate with strong learner ratings.",
       "is_promoted": true,
       "category": "popular",
@@ -102,7 +180,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
     },
     {
       "id": "8aed20446697",
@@ -118,6 +196,11 @@
         "python",
         "search"
       ],
+      "topics": [
+        "NLP",
+        "AI"
+      ],
+      "topic": "NLP",
       "ai_summary": "Harvard CS50 AI — highly reviewed university course covering search, ML, and NLP.",
       "is_promoted": true,
       "category": "popular",
@@ -127,7 +210,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "edX"
     },
     {
       "id": "2df7a5b94c1e",
@@ -143,6 +226,11 @@
         "nlp",
         "transformers"
       ],
+      "topics": [
+        "NLP",
+        "AI"
+      ],
+      "topic": "NLP",
       "ai_summary": "Free hands-on Transformers / Hub course widely recommended for applied NLP.",
       "is_promoted": true,
       "category": "popular",
@@ -152,7 +240,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Hugging Face"
     },
     {
       "id": "e70bee88642a",
@@ -168,6 +256,13 @@
         "llm",
         "aws"
       ],
+      "topics": [
+        "LLM",
+        "NLP",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "Practical LLM lifecycle course covering training, fine-tuning, and deployment patterns.",
       "is_promoted": true,
       "category": "popular",
@@ -177,7 +272,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ac/31c1233bd3422ca088055ee4509d09/DeepLearning_GenAI_with_LLMs_Centered_Banner_1000x1000.png",
       "workload": "3 weeks of study, 3-4 hours/week",
       "launched_at": "2023-06-28T15:47:20.638Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "a162a3df01f5",
@@ -192,6 +287,10 @@
         "ai",
         "productivity"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Google’s workplace AI fundamentals program — strong learner ratings and high enrollment.",
       "is_promoted": true,
       "category": "popular",
@@ -201,7 +300,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
     },
     {
       "id": "6094f47f8e79",
@@ -217,6 +316,12 @@
         "agents",
         "llm"
       ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "Newer free path focused on building and evaluating AI agents with open tooling.",
       "is_promoted": true,
       "category": "popular",
@@ -226,7 +331,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Hugging Face"
     },
     {
       "id": "e4137a43e227",
@@ -242,6 +347,11 @@
         "python",
         "llm"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "2026 roundup favorite for developers moving into applied AI engineering.",
       "is_promoted": true,
       "category": "popular",
@@ -251,7 +361,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "DataCamp"
     },
     {
       "id": "c1d20b46a23c",
@@ -267,6 +377,11 @@
         "python",
         "deep-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Career certificate spanning ML, deep learning, and applied AI engineering labs.",
       "is_promoted": true,
       "category": "popular",
@@ -276,7 +391,68 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
+    },
+    {
+      "id": "fc92ab2a104c",
+      "name": "LangChain Academy",
+      "slug": "langchain-academy",
+      "provider": "LangChain",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "llm",
+        "agents",
+        "python"
+      ],
+      "topics": [
+        "LLM",
+        "Agents"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Hands-on LangChain paths for LLM apps, retrieval, and agent workflows.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.6,
+      "review_count": 12000,
+      "url": "https://academy.langchain.com/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "LangChain"
+    },
+    {
+      "id": "25574e4bc201",
+      "name": "Microsoft Learn Generative AI",
+      "slug": "microsoft-generative-ai",
+      "provider": "Microsoft Learn",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Free Microsoft Learn paths for generative AI and agent development on Azure.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.5,
+      "review_count": 8000,
+      "url": "https://learn.microsoft.com/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "Microsoft Learn"
     }
   ],
   "newly_launched": [
@@ -292,6 +468,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "AI Digital Marketing | Professional Certificate | Week 2 - Part 2youtube.com",
       "is_promoted": false,
       "category": "newly_launched",
@@ -301,7 +481,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": "2026-08-08T10:57:48Z",
-      "source": "newsapi"
+      "source": "YouTube"
     },
     {
       "id": "d8951fd3cb51",
@@ -316,6 +496,11 @@
         "ai",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -325,7 +510,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
       "workload": "3 weeks / 6–7 hours per week",
       "launched_at": "2026-07-31T19:04:21.527Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c625b32b7892",
@@ -339,6 +524,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This course introduces intuitive measurement techniques to tackle seemingly immeasurable concepts and provides insights into how to approach uncertainty with confidence. Learners will be guided through the process of quantifying uncertainty and challenging misconceptions about me",
       "is_promoted": false,
       "category": "newly_launched",
@@ -348,7 +537,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b5/16c314a1b143ce9e9f75dc0898b763/9781807427436_square.jpg",
       "workload": null,
       "launched_at": "2026-07-28T22:37:12.842Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "98749a9b3e82",
@@ -362,6 +551,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Explore how perception and consciousness shape the way you experience the world. In this course, you'll examine how your senses work together to interpret information and influence thoughts, behaviors, and everyday experiences. You'll also investigate consciousness and states of ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -371,7 +564,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e6/299ae105a3442b881fb7ec52b05ad9/PEARSON_LINE-WAVE_RGB_AMETHYST-3.png",
       "workload": null,
       "launched_at": "2026-07-23T13:05:25.711Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "079cdf148e77",
@@ -385,6 +578,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "PLANO, Texas, July 23, 2026 /PRNewswire/ -- Simplilearn, the global upskilling platform, in collaboration with Duke University, has launched the Professional Certificate in AI-Powered Business Analysis to prepare professionals for the evolving demands of the …",
       "is_promoted": false,
       "category": "newly_launched",
@@ -394,7 +591,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1819244/Simplilearn-Logo.jpg?id=OA2776080&p=facebook",
       "workload": null,
       "launched_at": "2026-07-23T11:30:00Z",
-      "source": "newsapi"
+      "source": "PRNewswire"
     },
     {
       "id": "ac2c59edd118",
@@ -408,6 +605,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn the fundamentals of microfabrication and nanofabrication by using the most effective techniques in a cleanroom environment. Microfabrication and nanofabrication are the basis of manufacturing for nearly all modern miniaturized systems that are ubiquitously used in our daily",
       "is_promoted": false,
       "category": "newly_launched",
@@ -417,7 +618,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f1/e6dae097744be3833c4188748f37e9/MEMSbig.jpg",
       "workload": "3 hours a week",
       "launched_at": "2026-07-22T00:02:45.201Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b880fe7fb7e4",
@@ -431,6 +632,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Today, I’m proud to welcome UNESCO, the United Nations Educational, Scientific and Cultural Organization, to Coursera as they launch their first free course, the Global MOOC on the Ethics of AI, which they built with LG AI Research. UNESCO has defined standar…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -440,7 +645,7 @@
       "image_url": "https://blog.coursera.org/wp-content/uploads/2026/07/Unesco-and-LG-with-learner-4-1024x536.png",
       "workload": null,
       "launched_at": "2026-07-20T06:30:00Z",
-      "source": "newsapi"
+      "source": "Coursera.org"
     },
     {
       "id": "38fddb861493",
@@ -452,6 +657,10 @@
       "difficulty": "beginner",
       "is_free": false,
       "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Top Indian IIMs are admitting more non-engineers into their programs. This shift reflects a growing recruiter demand for interdisciplinary thinking and varied problem-solving. Non-engineers now form a significant portion of new batches at leading management i…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -461,7 +670,7 @@
       "image_url": "https://img.etimg.com/thumb/msid-132500962,width-1200,height-630,imgsize-52150,overlay-economictimes/articleshow.jpg",
       "workload": null,
       "launched_at": "2026-07-19T19:18:49Z",
-      "source": "newsapi"
+      "source": "The Times of India"
     },
     {
       "id": "9c63e737dd04",
@@ -475,6 +684,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course explores the intricate domain of information systems management. You will gain insights into the strategic alignment of technology with organizational goals, emphasizing efficient utilization and optimization of information systems. From resource allocation to risk ma",
       "is_promoted": false,
       "category": "newly_launched",
@@ -484,7 +697,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/66/649b7acfeb49c18d7f01c136ebe619/Course-Logo.png",
       "workload": null,
       "launched_at": "2026-07-16T13:01:43.931Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "bfb57a43a227",
@@ -498,6 +711,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Modern digital products demand scalable, collaborative, and efficient design workflows that support fast-moving teams and evolving user needs. This course explores advanced Figma practices that help designers streamline collaboration, strengthen design systems, improve developer ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -507,7 +724,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/7a/a54285b0e04744b026413650f33f57/9781836207719_square.jpg",
       "workload": null,
       "launched_at": "2026-07-14T13:02:08.992Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "71001b469381",
@@ -520,8 +737,15 @@
       "is_free": false,
       "technologies": [
         "ai",
-        "machine-learning"
+        "machine-learning",
+        "agents"
       ],
+      "topics": [
+        "Agents",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader in digital upskilling, in collaboration with UC Santa Barbara Professional and Continuing Education (UCSB PaCE), has launched the Professional Certificate in AI and Machine Learning prog…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -531,7 +755,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1825100/UC-Santa-Barbara-Logo.jpg?id=OA2758352&p=facebook",
       "workload": null,
       "launched_at": "2026-07-10T12:03:00Z",
-      "source": "newsapi"
+      "source": "PR Newswire UK"
     },
     {
       "id": "76541a63746c",
@@ -544,8 +768,15 @@
       "is_free": false,
       "technologies": [
         "ai",
-        "machine-learning"
+        "machine-learning",
+        "agents"
       ],
+      "topics": [
+        "Agents",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader in digital upskilling, in collaboration with UC Santa Barbara Professional and Continuing Education (UCSB PaCE), has launched the Professional Certificate in AI and Machine Learning prog…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -555,7 +786,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1825100/UC-Santa-Barbara-Logo.jpg?id=OA2758355&p=facebook",
       "workload": null,
       "launched_at": "2026-07-10T12:03:00Z",
-      "source": "newsapi"
+      "source": "PRNewswire"
     },
     {
       "id": "cc2c8c061b29",
@@ -569,6 +800,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "CREO Stress Management for Employees and Startup Founders helps employees, founders, and early-stage teams understand how stress affects judgement, behaviour, relationships, and decision-making at work. This course is designed for employees, managers, team leaders, entrepreneurs,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -578,7 +813,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e2/d8eca7501a4a26a3f7e6b9d8f3d688/Stress-management-for-employees-and-startup-founders-.png",
       "workload": null,
       "launched_at": "2026-07-06T19:31:08.397Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b9b3eb3e418f",
@@ -592,6 +827,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Chemical Process Safety is a comprehensive course designed to provide learners with a strong foundation in identifying, assessing, and managing hazards within process industries. The course focuses on the principles of Process Safety Management (PSM), risk-based safety approaches",
       "is_promoted": false,
       "category": "newly_launched",
@@ -601,7 +840,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d6/ac8ef3e83d4b38a07655f026081fd8/chemical-safet.png",
       "workload": "2 Weeks",
       "launched_at": "2026-07-01T12:01:49.453Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b89073a54193",
@@ -615,6 +854,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master Excel VBA for financial modeling and automate complex finance workflows with real-world projects and simulations. Learn how to build dynamic financial models, automate repetitive Excel tasks, and develop advanced analytical tools using VBA. This hands-on course teaches pra",
       "is_promoted": false,
       "category": "newly_launched",
@@ -624,7 +867,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/62/1398960d594a94aa6c61ca45ecce42/664.1.png",
       "workload": null,
       "launched_at": "2026-06-30T00:32:17.284Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "6f3ed341968d",
@@ -640,6 +883,11 @@
         "cybersecurity",
         "python"
       ],
+      "topics": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Launch into application modernization — one of enterprise software's most in-demand specialties — with a portfolio-ready capstone that proves you can run a legacy transformation end to end. Legacy application modernization is one of the most in-demand and rarely well-taught skill",
       "is_promoted": false,
       "category": "newly_launched",
@@ -649,7 +897,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/61/71896aa9b743b5b2ffd224b39b08cc/IBM-Bob-logo.png",
       "workload": "7 hours",
       "launched_at": "2026-06-29T21:20:49.326Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "e54e9b28e1e8",
@@ -664,6 +912,11 @@
         "ai",
         "data"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "The right questions make AI a valuable tool for decision-making. \"Rethink How You Decide with AI\" teaches you how to use AI as a thought partner, allowing you to make more intentional, informed decisions. Through guided activities, reflection, and hands-on AI exploration, you'll ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -673,7 +926,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/80/2a460903aa49649f8a95161c798257/everydaystrategyai_thumbnail.png",
       "workload": "3 hours of study",
       "launched_at": "2026-06-22T12:04:23.993Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "8adfbf2de3cd",
@@ -687,6 +940,11 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "AI can speed up social media work—but only if you know when to use it, when to avoid it, and how to keep your brand authentic. In this course, you’ll learn practical ways to use generative AI for idea generation, rapid caption drafts, hashtag suggestions, content sequencing, and ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -696,7 +954,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b3/0573d52ae542e58d4a7348ed3a80d5/Ai-essentials.png",
       "workload": "2 weeks of study, 2-3 hours/week",
       "launched_at": "2026-06-19T20:36:53.424Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "e19a708121d2",
@@ -710,6 +968,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master retail supply chain, customer service, and omnichannel strategies to deliver seamless customer experiences. Learn how top retailers integrate logistics, service, and technology to drive growth and loyalty. This course equips learners with practical knowledge of retail cust",
       "is_promoted": false,
       "category": "newly_launched",
@@ -719,7 +981,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/81f2860df946fc925049e2095701ea/496.1.png",
       "workload": null,
       "launched_at": "2026-06-11T13:02:19.579Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "5098df08121b",
@@ -733,6 +995,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn how to analyze mutual funds, ETFs, portfolio strategies, and investment risks using practical financial market concepts and industry-focused learning. This course provides a comprehensive understanding of mutual fund investing, taxation, debt funds, ETFs, portfolio metrics,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -742,7 +1008,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/69bd6d7a4844a9bbd159718b61fc81/367.1.png",
       "workload": null,
       "launched_at": "2026-06-02T00:01:10.212Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "06ad4aed3533",
@@ -756,6 +1022,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "本课程旨在帮助 Google Workspace 管理员排查常见的 Google Workspace 问题。学员将练习诊断并解决 Gmail、日历和云端硬盘中的问题，并了解管理控制台的使用方法。学员还将体验如何分析审核日志以排查安全问题，以及收集信息并使用可用资源来排查并报告技术问题。",
       "is_promoted": false,
       "category": "newly_launched",
@@ -765,7 +1035,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e1/6791dd855b4e09b6cde185b47af180/Logo-Image_GC-Projects.png",
       "workload": null,
       "launched_at": "2026-05-25T23:01:04.247Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "cb5cb05b0769",
@@ -779,6 +1049,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This course focuses on community growth strategies that deepen participation, strengthen loyalty, and sustain long-term community value. You’ll learn how to design interactive experiences such as virtual events, multimedia campaigns, and storytelling initiatives that drive meanin",
       "is_promoted": false,
       "category": "newly_launched",
@@ -788,7 +1062,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ca/ea5bd7a0a5494aa962e19e6ef49dfa/C4.1-Logo.png",
       "workload": "4 weeks, 5-6 hours per week",
       "launched_at": "2026-05-07T10:50:48.962Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "fe47bdd1366c",
@@ -802,6 +1076,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course focuses on mastering PostgreSQL 17's core features and advanced SQL techniques, which are vital for database professionals. You'll explore new enhancements in PostgreSQL 17, along with an in-depth understanding of transaction management, indexing, and complex SQL quer",
       "is_promoted": false,
       "category": "newly_launched",
@@ -811,7 +1089,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/c424868b2c4409a89a7f6f75a83809/9781836205975_square.jpg",
       "workload": null,
       "launched_at": "2026-05-05T13:02:01.242Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "3287c13db356",
@@ -825,6 +1103,10 @@
       "technologies": [
         "python"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn Rust from the ground up — the systems language that gives you C-level speed without the footguns and Python-level safety without a garbage collector. This course starts with `rustup`, `cargo`, and your first `Hello, world!`, then builds through the ideas that make Rust dist",
       "is_promoted": false,
       "category": "newly_launched",
@@ -834,7 +1116,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2e/6b70021da4498b95fff05ef4b9bfeb/logo.png",
       "workload": "4 weeks of study, 4-6 hours/week",
       "launched_at": "2026-04-28T16:31:17.915Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "5865bcfe88cf",
@@ -848,6 +1130,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master the skills to analyze financial statements and make informed corporate decisions in today’s dynamic business environment. Learn how to evaluate profitability, interpret financial reports, and apply economic principles to real-world scenarios. This course provides a practic",
       "is_promoted": false,
       "category": "newly_launched",
@@ -857,7 +1143,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/bf/08c3a51e35462782f4b9539d196974/39.1.png",
       "workload": null,
       "launched_at": "2026-04-16T13:05:34.933Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c677aa6274ab",
@@ -871,6 +1157,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Develop the ability to analyze global currencies, evaluate exchange rate dynamics, and apply currency conversion techniques in real-world financial scenarios. This course equips learners with practical skills to interpret currency movements, solve multi-step conversion problems, ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -880,7 +1170,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/40/8091723c5e40e9a9d9d6bf2d6e45cd/43.1.png",
       "workload": null,
       "launched_at": "2026-04-14T13:01:03.028Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "1c2fdea43ba3",
@@ -894,6 +1184,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Smart Decision Matrix is a practical course designed for intermediate to advanced sales professionals who need to make confident, well-justified pricing and solution recommendations. Across focused lessons, learners explore how multi-criteria decision matrices help structure comp",
       "is_promoted": false,
       "category": "newly_launched",
@@ -903,7 +1197,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/21/766ae8236f48d4b1fa49a17fb611e1/Lynne-MacBain_1.png",
       "workload": null,
       "launched_at": "2026-04-06T13:57:49.601Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b2f5f80cbeaa",
@@ -917,6 +1211,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "\"Qualitative Research Interviews\" is a beginner course for aspiring market analysts and professionals who need to uncover the \"why\" behind customer behavior. This course moves beyond theory to provide the practical skills needed to conduct high-quality interviews that yield deep,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -926,7 +1224,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/1f9cb3b99746159d88acb3633e5d82/CON-02809_img_courselogo.png",
       "workload": "117 minutes",
       "launched_at": "2026-04-01T19:18:18.717Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c16c923b4a93",
@@ -940,6 +1238,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Safeguard your personal and professional digital footprint. This course equips you with essential cybersecurity strategies to protect information and minimize digital risk. As more data is stored and shared online, digital safety and security have become crucial professional comp",
       "is_promoted": false,
       "category": "newly_launched",
@@ -949,7 +1251,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f5/4de494781e45fab73e646460aa9f3a/CC-PS-DF-DSS.jpg",
       "workload": "Approximately 8 hours to complete",
       "launched_at": "2026-03-28T15:10:31.006Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "95e1630e8515",
@@ -965,6 +1267,11 @@
         "machine-learning",
         "python"
       ],
+      "topics": [
+        "Multimodal",
+        "AI"
+      ],
+      "topic": "Multimodal",
       "ai_summary": "\"Unlock Multimodal Search\" is an intermediate, hands-on course for developers and ML engineers ready to build the next generation of AI-powered search. Text-only search is no longer enough; this 90-minute course will teach you how to create applications that can search across dif",
       "is_promoted": false,
       "category": "newly_launched",
@@ -974,7 +1281,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d3/97429bd18549298ce94197064850ec/CON-04114_img_courselogo.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "0f6ca00083b4",
@@ -989,6 +1296,11 @@
         "ai",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Optimize ML Models: Hyperparameter Tuning gives you the practical skills to move from “good enough” models to models that perform reliably at scale. You’ll learn how default hyperparameters shape model behavior, how computational complexity affects training cost, and why structur",
       "is_promoted": false,
       "category": "newly_launched",
@@ -998,7 +1310,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2b/9d51181fd74630a1431bc77189f422/Na-im-Tyson.jpg",
       "workload": null,
       "launched_at": "2026-03-18T20:48:49.044Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "456770cd1dba",
@@ -1012,6 +1324,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This financial analysis course develops the ability to evaluate financial performance using core ratio interpretation and structured financial analysis frameworks thereby equipping learners with the practical skills demanded across financial planning and analysis, investment, and",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1021,7 +1337,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/acea23caf1442f896cb874bfc13b51/1200x1200px-Financial-Analysis-and-Ratio-Interpretation.jpg",
       "workload": "4 Hours",
       "launched_at": "2026-03-06T17:25:38.283Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "f210067e41ff",
@@ -1035,6 +1351,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This short course helps you turn coursework into job-ready career assets. You’ll clarify a career narrative with an AI-guided dialogue, watch an industry story for inspiration, and read concise guidance on resumes and portfolio curation. The core hands-on lab walks you through se",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1044,7 +1364,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/7d/34b602495042aaa696cf2075c8c6f4/project-management.png",
       "workload": "2 hours",
       "launched_at": "2026-03-05T20:40:58.028Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "720ee5924a85",
@@ -1059,6 +1379,10 @@
         "cybersecurity",
         "data"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Microsoft Fabric represents a paradigm shift in enterprise analytics, unifying data engineering, data warehousing, and business intelligence into a single, cohesive SaaS ecosystem. This course is your definitive guide to mastering that ecosystem, moving beyond theoretical concept",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1068,7 +1392,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ee/0ef638f7654dd5b6b3fc18560866eb/freepik__data-analyst-in-clean-corporate-office-large-highr__23268.png",
       "workload": "6 week of study, 3-4 hours/week",
       "launched_at": "2026-03-04T14:36:29.480Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "4ade05bfbce9",
@@ -1082,6 +1406,10 @@
       "technologies": [
         "python"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Ready to turn uncertainty into opportunity? This Short Course was created to help data analysts master Monte Carlo simulation techniques to quantify risk and forecast outcomes under uncertainty. By completing this course, you'll transform complex probabilistic scenarios into acti",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1091,7 +1419,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/59/e4a3e06ce14f729467e5e0e48f3ff4/Logo-Image-1200-X-1200.png",
       "workload": "180 minutes",
       "launched_at": "2026-03-03T14:49:58.266Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "4bd02c26fea2",
@@ -1105,6 +1433,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "By the end of this course, you will be able to clearly define your business direction, prioritize what truly matters, and make confident decisions using a simple one-page strategy. You’ll walk away with a practical plan that brings focus to your goals, daily actions, and revenue—",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1114,7 +1446,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f1/e74f18c61d4479a9ebb7aee177ab11/651878_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T21:13:57.139Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "f8b51abe5aac",
@@ -1128,6 +1460,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "By the end of this course, you will be able to design a personalized creative workflow, identify and work with your strengths and weaknesses, reduce procrastination and overwhelm, and confidently move projects from idea to completion. Taught by Art Director, creative educator, an",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1137,7 +1473,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/38e83c329f456d82a213d43af82dfb/602631_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T20:45:01.343Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "ca95d6ffaf41",
@@ -1150,8 +1486,16 @@
       "is_free": true,
       "technologies": [
         "ai",
+        "llm",
+        "agents",
         "python"
       ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "This program introduces Building Stateful & Multi-Agent Systems with LangGraph for developers and AI engineers who want to move beyond single-prompt agents and build reliable, production-ready workflows. You’ll begin by learning how LangGraph executes agent workflows and why stat",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1161,7 +1505,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1f/9074fb3815408689408af24db13d52/Building-Stateful-Multi-Agent-Systems-with-LangGraph-100-1-1-.jpg",
       "workload": "4 weeks of study, 3 - 4 hours/week",
       "launched_at": "2026-02-16T22:00:13.753Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "37541d5140d7",
@@ -1175,6 +1519,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course is designed for intermediate-level learners who want to enhance their security skills in Android development. Participants will analyze the structure of Android memory and evaluate its defenses against exploitation, including understanding pointers and their role in b",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1184,7 +1532,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/23/508626afa14d3b945ec3f6eeab2782/Coursera-Writing-Secure-Code-for-Android_1200x1200.png",
       "workload": null,
       "launched_at": "2026-02-11T23:24:42.323Z",
-      "source": "coursera"
+      "source": "Coursera"
     }
   ],
   "courses": [
@@ -1202,6 +1550,11 @@
         "python",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Flagship ML course with millions of learners; consistently cited among the highest-rated AI programs.",
       "is_promoted": true,
       "category": "popular",
@@ -1211,7 +1564,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9c/90ae67ecdb4185a4ae79ec9a5ae0b6/Course-Logo--1.png",
       "workload": "At the rate of 5 hours a week, it typically takes 3 weeks to complete this course.",
       "launched_at": "2022-06-14T21:27:57.322Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "8c9617b255e5",
@@ -1227,6 +1580,11 @@
         "deep-learning",
         "python"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Free, frequently updated deep learning course with a top-down coding-first approach.",
       "is_promoted": true,
       "category": "popular",
@@ -1236,7 +1594,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "fast.ai"
     },
     {
       "id": "a7c8cf35314e",
@@ -1250,6 +1608,11 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Non-technical overview of AI strategy, workflows, and organizational adoption.",
       "is_promoted": true,
       "category": "popular",
@@ -1259,7 +1622,38 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e6/1e86d7a77b4c79a6e9c6e6126a9aa5/BC-5768_VisMerch-Phase-3-Assets_Google_AI_3_DeepLearning_AIForEveryone.png",
       "workload": "4 weeks of study, 2-3 hours/week",
       "launched_at": "2019-02-28T04:58:59.042Z",
-      "source": "coursera"
+      "source": "Coursera"
+    },
+    {
+      "id": "9c01391fc0ce",
+      "name": "DeepLearning.AI Short Courses Hub",
+      "slug": "deeplearning-ai-short-courses",
+      "provider": "DeepLearning.AI",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "llm",
+        "ai",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "AI",
+        "Agents"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Short practical courses on LLMs, agents, and generative AI from Andrew Ng’s team.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.8,
+      "review_count": 90000,
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "DeepLearning.AI"
     },
     {
       "id": "2b922b67458a",
@@ -1273,6 +1667,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "High-enrollment Google career certificate with strong learner ratings.",
       "is_promoted": true,
       "category": "popular",
@@ -1282,7 +1680,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
     },
     {
       "id": "8aed20446697",
@@ -1298,6 +1696,11 @@
         "python",
         "search"
       ],
+      "topics": [
+        "NLP",
+        "AI"
+      ],
+      "topic": "NLP",
       "ai_summary": "Harvard CS50 AI — highly reviewed university course covering search, ML, and NLP.",
       "is_promoted": true,
       "category": "popular",
@@ -1307,7 +1710,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "edX"
     },
     {
       "id": "2df7a5b94c1e",
@@ -1323,6 +1726,11 @@
         "nlp",
         "transformers"
       ],
+      "topics": [
+        "NLP",
+        "AI"
+      ],
+      "topic": "NLP",
       "ai_summary": "Free hands-on Transformers / Hub course widely recommended for applied NLP.",
       "is_promoted": true,
       "category": "popular",
@@ -1332,7 +1740,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Hugging Face"
     },
     {
       "id": "e70bee88642a",
@@ -1348,6 +1756,13 @@
         "llm",
         "aws"
       ],
+      "topics": [
+        "LLM",
+        "NLP",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "Practical LLM lifecycle course covering training, fine-tuning, and deployment patterns.",
       "is_promoted": true,
       "category": "popular",
@@ -1357,7 +1772,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ac/31c1233bd3422ca088055ee4509d09/DeepLearning_GenAI_with_LLMs_Centered_Banner_1000x1000.png",
       "workload": "3 weeks of study, 3-4 hours/week",
       "launched_at": "2023-06-28T15:47:20.638Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "a162a3df01f5",
@@ -1372,6 +1787,10 @@
         "ai",
         "productivity"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Google’s workplace AI fundamentals program — strong learner ratings and high enrollment.",
       "is_promoted": true,
       "category": "popular",
@@ -1381,7 +1800,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
     },
     {
       "id": "6094f47f8e79",
@@ -1397,6 +1816,12 @@
         "agents",
         "llm"
       ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "Newer free path focused on building and evaluating AI agents with open tooling.",
       "is_promoted": true,
       "category": "popular",
@@ -1406,7 +1831,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Hugging Face"
     },
     {
       "id": "e4137a43e227",
@@ -1422,6 +1847,11 @@
         "python",
         "llm"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "2026 roundup favorite for developers moving into applied AI engineering.",
       "is_promoted": true,
       "category": "popular",
@@ -1431,7 +1861,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "DataCamp"
     },
     {
       "id": "c1d20b46a23c",
@@ -1447,6 +1877,11 @@
         "python",
         "deep-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Career certificate spanning ML, deep learning, and applied AI engineering labs.",
       "is_promoted": true,
       "category": "popular",
@@ -1456,7 +1891,68 @@
       "image_url": null,
       "workload": null,
       "launched_at": null,
-      "source": "curated-web"
+      "source": "Coursera"
+    },
+    {
+      "id": "fc92ab2a104c",
+      "name": "LangChain Academy",
+      "slug": "langchain-academy",
+      "provider": "LangChain",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "llm",
+        "agents",
+        "python"
+      ],
+      "topics": [
+        "LLM",
+        "Agents"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Hands-on LangChain paths for LLM apps, retrieval, and agent workflows.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.6,
+      "review_count": 12000,
+      "url": "https://academy.langchain.com/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "LangChain"
+    },
+    {
+      "id": "25574e4bc201",
+      "name": "Microsoft Learn Generative AI",
+      "slug": "microsoft-generative-ai",
+      "provider": "Microsoft Learn",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Free Microsoft Learn paths for generative AI and agent development on Azure.",
+      "is_promoted": true,
+      "category": "popular",
+      "rating": 4.5,
+      "review_count": 8000,
+      "url": "https://learn.microsoft.com/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": null,
+      "source": "Microsoft Learn"
     },
     {
       "id": "814fd9a6659d",
@@ -1470,6 +1966,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "AI Digital Marketing | Professional Certificate | Week 2 - Part 2youtube.com",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1479,7 +1979,7 @@
       "image_url": null,
       "workload": null,
       "launched_at": "2026-08-08T10:57:48Z",
-      "source": "newsapi"
+      "source": "YouTube"
     },
     {
       "id": "d8951fd3cb51",
@@ -1494,6 +1994,11 @@
         "ai",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1503,7 +2008,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
       "workload": "3 weeks / 6–7 hours per week",
       "launched_at": "2026-07-31T19:04:21.527Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c625b32b7892",
@@ -1517,6 +2022,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This course introduces intuitive measurement techniques to tackle seemingly immeasurable concepts and provides insights into how to approach uncertainty with confidence. Learners will be guided through the process of quantifying uncertainty and challenging misconceptions about me",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1526,7 +2035,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b5/16c314a1b143ce9e9f75dc0898b763/9781807427436_square.jpg",
       "workload": null,
       "launched_at": "2026-07-28T22:37:12.842Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "98749a9b3e82",
@@ -1540,6 +2049,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Explore how perception and consciousness shape the way you experience the world. In this course, you'll examine how your senses work together to interpret information and influence thoughts, behaviors, and everyday experiences. You'll also investigate consciousness and states of ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1549,7 +2062,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e6/299ae105a3442b881fb7ec52b05ad9/PEARSON_LINE-WAVE_RGB_AMETHYST-3.png",
       "workload": null,
       "launched_at": "2026-07-23T13:05:25.711Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "079cdf148e77",
@@ -1563,6 +2076,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "PLANO, Texas, July 23, 2026 /PRNewswire/ -- Simplilearn, the global upskilling platform, in collaboration with Duke University, has launched the Professional Certificate in AI-Powered Business Analysis to prepare professionals for the evolving demands of the …",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1572,7 +2089,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1819244/Simplilearn-Logo.jpg?id=OA2776080&p=facebook",
       "workload": null,
       "launched_at": "2026-07-23T11:30:00Z",
-      "source": "newsapi"
+      "source": "PRNewswire"
     },
     {
       "id": "ac2c59edd118",
@@ -1586,6 +2103,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn the fundamentals of microfabrication and nanofabrication by using the most effective techniques in a cleanroom environment. Microfabrication and nanofabrication are the basis of manufacturing for nearly all modern miniaturized systems that are ubiquitously used in our daily",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1595,7 +2116,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f1/e6dae097744be3833c4188748f37e9/MEMSbig.jpg",
       "workload": "3 hours a week",
       "launched_at": "2026-07-22T00:02:45.201Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b880fe7fb7e4",
@@ -1609,6 +2130,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Today, I’m proud to welcome UNESCO, the United Nations Educational, Scientific and Cultural Organization, to Coursera as they launch their first free course, the Global MOOC on the Ethics of AI, which they built with LG AI Research. UNESCO has defined standar…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1618,7 +2143,7 @@
       "image_url": "https://blog.coursera.org/wp-content/uploads/2026/07/Unesco-and-LG-with-learner-4-1024x536.png",
       "workload": null,
       "launched_at": "2026-07-20T06:30:00Z",
-      "source": "newsapi"
+      "source": "Coursera.org"
     },
     {
       "id": "38fddb861493",
@@ -1630,6 +2155,10 @@
       "difficulty": "beginner",
       "is_free": false,
       "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Top Indian IIMs are admitting more non-engineers into their programs. This shift reflects a growing recruiter demand for interdisciplinary thinking and varied problem-solving. Non-engineers now form a significant portion of new batches at leading management i…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1639,7 +2168,7 @@
       "image_url": "https://img.etimg.com/thumb/msid-132500962,width-1200,height-630,imgsize-52150,overlay-economictimes/articleshow.jpg",
       "workload": null,
       "launched_at": "2026-07-19T19:18:49Z",
-      "source": "newsapi"
+      "source": "The Times of India"
     },
     {
       "id": "9c63e737dd04",
@@ -1653,6 +2182,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course explores the intricate domain of information systems management. You will gain insights into the strategic alignment of technology with organizational goals, emphasizing efficient utilization and optimization of information systems. From resource allocation to risk ma",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1662,7 +2195,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/66/649b7acfeb49c18d7f01c136ebe619/Course-Logo.png",
       "workload": null,
       "launched_at": "2026-07-16T13:01:43.931Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "bfb57a43a227",
@@ -1676,6 +2209,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Modern digital products demand scalable, collaborative, and efficient design workflows that support fast-moving teams and evolving user needs. This course explores advanced Figma practices that help designers streamline collaboration, strengthen design systems, improve developer ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1685,7 +2222,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/7a/a54285b0e04744b026413650f33f57/9781836207719_square.jpg",
       "workload": null,
       "launched_at": "2026-07-14T13:02:08.992Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "71001b469381",
@@ -1698,8 +2235,15 @@
       "is_free": false,
       "technologies": [
         "ai",
-        "machine-learning"
+        "machine-learning",
+        "agents"
       ],
+      "topics": [
+        "Agents",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader in digital upskilling, in collaboration with UC Santa Barbara Professional and Continuing Education (UCSB PaCE), has launched the Professional Certificate in AI and Machine Learning prog…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1709,7 +2253,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1825100/UC-Santa-Barbara-Logo.jpg?id=OA2758352&p=facebook",
       "workload": null,
       "launched_at": "2026-07-10T12:03:00Z",
-      "source": "newsapi"
+      "source": "PR Newswire UK"
     },
     {
       "id": "76541a63746c",
@@ -1722,8 +2266,15 @@
       "is_free": false,
       "technologies": [
         "ai",
-        "machine-learning"
+        "machine-learning",
+        "agents"
       ],
+      "topics": [
+        "Agents",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Agents",
       "ai_summary": "PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader in digital upskilling, in collaboration with UC Santa Barbara Professional and Continuing Education (UCSB PaCE), has launched the Professional Certificate in AI and Machine Learning prog…",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1733,7 +2284,7 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1825100/UC-Santa-Barbara-Logo.jpg?id=OA2758355&p=facebook",
       "workload": null,
       "launched_at": "2026-07-10T12:03:00Z",
-      "source": "newsapi"
+      "source": "PRNewswire"
     },
     {
       "id": "cc2c8c061b29",
@@ -1747,6 +2298,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "CREO Stress Management for Employees and Startup Founders helps employees, founders, and early-stage teams understand how stress affects judgement, behaviour, relationships, and decision-making at work. This course is designed for employees, managers, team leaders, entrepreneurs,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1756,7 +2311,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e2/d8eca7501a4a26a3f7e6b9d8f3d688/Stress-management-for-employees-and-startup-founders-.png",
       "workload": null,
       "launched_at": "2026-07-06T19:31:08.397Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b9b3eb3e418f",
@@ -1770,6 +2325,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Chemical Process Safety is a comprehensive course designed to provide learners with a strong foundation in identifying, assessing, and managing hazards within process industries. The course focuses on the principles of Process Safety Management (PSM), risk-based safety approaches",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1779,7 +2338,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d6/ac8ef3e83d4b38a07655f026081fd8/chemical-safet.png",
       "workload": "2 Weeks",
       "launched_at": "2026-07-01T12:01:49.453Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b89073a54193",
@@ -1793,6 +2352,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master Excel VBA for financial modeling and automate complex finance workflows with real-world projects and simulations. Learn how to build dynamic financial models, automate repetitive Excel tasks, and develop advanced analytical tools using VBA. This hands-on course teaches pra",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1802,7 +2365,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/62/1398960d594a94aa6c61ca45ecce42/664.1.png",
       "workload": null,
       "launched_at": "2026-06-30T00:32:17.284Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "6f3ed341968d",
@@ -1818,6 +2381,11 @@
         "cybersecurity",
         "python"
       ],
+      "topics": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Launch into application modernization — one of enterprise software's most in-demand specialties — with a portfolio-ready capstone that proves you can run a legacy transformation end to end. Legacy application modernization is one of the most in-demand and rarely well-taught skill",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1827,7 +2395,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/61/71896aa9b743b5b2ffd224b39b08cc/IBM-Bob-logo.png",
       "workload": "7 hours",
       "launched_at": "2026-06-29T21:20:49.326Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "e54e9b28e1e8",
@@ -1842,6 +2410,11 @@
         "ai",
         "data"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "The right questions make AI a valuable tool for decision-making. \"Rethink How You Decide with AI\" teaches you how to use AI as a thought partner, allowing you to make more intentional, informed decisions. Through guided activities, reflection, and hands-on AI exploration, you'll ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1851,7 +2424,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/80/2a460903aa49649f8a95161c798257/everydaystrategyai_thumbnail.png",
       "workload": "3 hours of study",
       "launched_at": "2026-06-22T12:04:23.993Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "8adfbf2de3cd",
@@ -1865,6 +2438,11 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "AI can speed up social media work—but only if you know when to use it, when to avoid it, and how to keep your brand authentic. In this course, you’ll learn practical ways to use generative AI for idea generation, rapid caption drafts, hashtag suggestions, content sequencing, and ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1874,7 +2452,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b3/0573d52ae542e58d4a7348ed3a80d5/Ai-essentials.png",
       "workload": "2 weeks of study, 2-3 hours/week",
       "launched_at": "2026-06-19T20:36:53.424Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "e19a708121d2",
@@ -1888,6 +2466,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master retail supply chain, customer service, and omnichannel strategies to deliver seamless customer experiences. Learn how top retailers integrate logistics, service, and technology to drive growth and loyalty. This course equips learners with practical knowledge of retail cust",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1897,7 +2479,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/81f2860df946fc925049e2095701ea/496.1.png",
       "workload": null,
       "launched_at": "2026-06-11T13:02:19.579Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "5098df08121b",
@@ -1911,6 +2493,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn how to analyze mutual funds, ETFs, portfolio strategies, and investment risks using practical financial market concepts and industry-focused learning. This course provides a comprehensive understanding of mutual fund investing, taxation, debt funds, ETFs, portfolio metrics,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1920,7 +2506,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/69bd6d7a4844a9bbd159718b61fc81/367.1.png",
       "workload": null,
       "launched_at": "2026-06-02T00:01:10.212Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "06ad4aed3533",
@@ -1934,6 +2520,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "本课程旨在帮助 Google Workspace 管理员排查常见的 Google Workspace 问题。学员将练习诊断并解决 Gmail、日历和云端硬盘中的问题，并了解管理控制台的使用方法。学员还将体验如何分析审核日志以排查安全问题，以及收集信息并使用可用资源来排查并报告技术问题。",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1943,7 +2533,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e1/6791dd855b4e09b6cde185b47af180/Logo-Image_GC-Projects.png",
       "workload": null,
       "launched_at": "2026-05-25T23:01:04.247Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "cb5cb05b0769",
@@ -1957,6 +2547,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This course focuses on community growth strategies that deepen participation, strengthen loyalty, and sustain long-term community value. You’ll learn how to design interactive experiences such as virtual events, multimedia campaigns, and storytelling initiatives that drive meanin",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1966,7 +2560,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ca/ea5bd7a0a5494aa962e19e6ef49dfa/C4.1-Logo.png",
       "workload": "4 weeks, 5-6 hours per week",
       "launched_at": "2026-05-07T10:50:48.962Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "fe47bdd1366c",
@@ -1980,6 +2574,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course focuses on mastering PostgreSQL 17's core features and advanced SQL techniques, which are vital for database professionals. You'll explore new enhancements in PostgreSQL 17, along with an in-depth understanding of transaction management, indexing, and complex SQL quer",
       "is_promoted": false,
       "category": "newly_launched",
@@ -1989,7 +2587,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/c424868b2c4409a89a7f6f75a83809/9781836205975_square.jpg",
       "workload": null,
       "launched_at": "2026-05-05T13:02:01.242Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "3287c13db356",
@@ -2003,6 +2601,10 @@
       "technologies": [
         "python"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Learn Rust from the ground up — the systems language that gives you C-level speed without the footguns and Python-level safety without a garbage collector. This course starts with `rustup`, `cargo`, and your first `Hello, world!`, then builds through the ideas that make Rust dist",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2012,7 +2614,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2e/6b70021da4498b95fff05ef4b9bfeb/logo.png",
       "workload": "4 weeks of study, 4-6 hours/week",
       "launched_at": "2026-04-28T16:31:17.915Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "5865bcfe88cf",
@@ -2026,6 +2628,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Master the skills to analyze financial statements and make informed corporate decisions in today’s dynamic business environment. Learn how to evaluate profitability, interpret financial reports, and apply economic principles to real-world scenarios. This course provides a practic",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2035,7 +2641,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/bf/08c3a51e35462782f4b9539d196974/39.1.png",
       "workload": null,
       "launched_at": "2026-04-16T13:05:34.933Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c677aa6274ab",
@@ -2049,6 +2655,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Develop the ability to analyze global currencies, evaluate exchange rate dynamics, and apply currency conversion techniques in real-world financial scenarios. This course equips learners with practical skills to interpret currency movements, solve multi-step conversion problems, ",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2058,7 +2668,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/40/8091723c5e40e9a9d9d6bf2d6e45cd/43.1.png",
       "workload": null,
       "launched_at": "2026-04-14T13:01:03.028Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "1c2fdea43ba3",
@@ -2072,6 +2682,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Smart Decision Matrix is a practical course designed for intermediate to advanced sales professionals who need to make confident, well-justified pricing and solution recommendations. Across focused lessons, learners explore how multi-criteria decision matrices help structure comp",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2081,7 +2695,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/21/766ae8236f48d4b1fa49a17fb611e1/Lynne-MacBain_1.png",
       "workload": null,
       "launched_at": "2026-04-06T13:57:49.601Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "b2f5f80cbeaa",
@@ -2095,6 +2709,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "\"Qualitative Research Interviews\" is a beginner course for aspiring market analysts and professionals who need to uncover the \"why\" behind customer behavior. This course moves beyond theory to provide the practical skills needed to conduct high-quality interviews that yield deep,",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2104,7 +2722,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/1f9cb3b99746159d88acb3633e5d82/CON-02809_img_courselogo.png",
       "workload": "117 minutes",
       "launched_at": "2026-04-01T19:18:18.717Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "c16c923b4a93",
@@ -2118,6 +2736,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Safeguard your personal and professional digital footprint. This course equips you with essential cybersecurity strategies to protect information and minimize digital risk. As more data is stored and shared online, digital safety and security have become crucial professional comp",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2127,7 +2749,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f5/4de494781e45fab73e646460aa9f3a/CC-PS-DF-DSS.jpg",
       "workload": "Approximately 8 hours to complete",
       "launched_at": "2026-03-28T15:10:31.006Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "95e1630e8515",
@@ -2143,6 +2765,11 @@
         "machine-learning",
         "python"
       ],
+      "topics": [
+        "Multimodal",
+        "AI"
+      ],
+      "topic": "Multimodal",
       "ai_summary": "\"Unlock Multimodal Search\" is an intermediate, hands-on course for developers and ML engineers ready to build the next generation of AI-powered search. Text-only search is no longer enough; this 90-minute course will teach you how to create applications that can search across dif",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2152,7 +2779,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d3/97429bd18549298ce94197064850ec/CON-04114_img_courselogo.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "0f6ca00083b4",
@@ -2167,6 +2794,11 @@
         "ai",
         "machine-learning"
       ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
       "ai_summary": "Optimize ML Models: Hyperparameter Tuning gives you the practical skills to move from “good enough” models to models that perform reliably at scale. You’ll learn how default hyperparameters shape model behavior, how computational complexity affects training cost, and why structur",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2176,7 +2808,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2b/9d51181fd74630a1431bc77189f422/Na-im-Tyson.jpg",
       "workload": null,
       "launched_at": "2026-03-18T20:48:49.044Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "456770cd1dba",
@@ -2190,6 +2822,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This financial analysis course develops the ability to evaluate financial performance using core ratio interpretation and structured financial analysis frameworks thereby equipping learners with the practical skills demanded across financial planning and analysis, investment, and",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2199,7 +2835,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/acea23caf1442f896cb874bfc13b51/1200x1200px-Financial-Analysis-and-Ratio-Interpretation.jpg",
       "workload": "4 Hours",
       "launched_at": "2026-03-06T17:25:38.283Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "f210067e41ff",
@@ -2213,6 +2849,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "This short course helps you turn coursework into job-ready career assets. You’ll clarify a career narrative with an AI-guided dialogue, watch an industry story for inspiration, and read concise guidance on resumes and portfolio curation. The core hands-on lab walks you through se",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2222,7 +2862,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/7d/34b602495042aaa696cf2075c8c6f4/project-management.png",
       "workload": "2 hours",
       "launched_at": "2026-03-05T20:40:58.028Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "720ee5924a85",
@@ -2237,6 +2877,10 @@
         "cybersecurity",
         "data"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "Microsoft Fabric represents a paradigm shift in enterprise analytics, unifying data engineering, data warehousing, and business intelligence into a single, cohesive SaaS ecosystem. This course is your definitive guide to mastering that ecosystem, moving beyond theoretical concept",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2246,7 +2890,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ee/0ef638f7654dd5b6b3fc18560866eb/freepik__data-analyst-in-clean-corporate-office-large-highr__23268.png",
       "workload": "6 week of study, 3-4 hours/week",
       "launched_at": "2026-03-04T14:36:29.480Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "4ade05bfbce9",
@@ -2260,6 +2904,10 @@
       "technologies": [
         "python"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "Ready to turn uncertainty into opportunity? This Short Course was created to help data analysts master Monte Carlo simulation techniques to quantify risk and forecast outcomes under uncertainty. By completing this course, you'll transform complex probabilistic scenarios into acti",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2269,7 +2917,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/59/e4a3e06ce14f729467e5e0e48f3ff4/Logo-Image-1200-X-1200.png",
       "workload": "180 minutes",
       "launched_at": "2026-03-03T14:49:58.266Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "4bd02c26fea2",
@@ -2283,6 +2931,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "By the end of this course, you will be able to clearly define your business direction, prioritize what truly matters, and make confident decisions using a simple one-page strategy. You’ll walk away with a practical plan that brings focus to your goals, daily actions, and revenue—",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2292,7 +2944,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f1/e74f18c61d4479a9ebb7aee177ab11/651878_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T21:13:57.139Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "f8b51abe5aac",
@@ -2306,6 +2958,10 @@
       "technologies": [
         "ai"
       ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
       "ai_summary": "By the end of this course, you will be able to design a personalized creative workflow, identify and work with your strengths and weaknesses, reduce procrastination and overwhelm, and confidently move projects from idea to completion. Taught by Art Director, creative educator, an",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2315,7 +2971,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/38e83c329f456d82a213d43af82dfb/602631_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T20:45:01.343Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "ca95d6ffaf41",
@@ -2328,8 +2984,16 @@
       "is_free": true,
       "technologies": [
         "ai",
+        "llm",
+        "agents",
         "python"
       ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "AI"
+      ],
+      "topic": "LLM",
       "ai_summary": "This program introduces Building Stateful & Multi-Agent Systems with LangGraph for developers and AI engineers who want to move beyond single-prompt agents and build reliable, production-ready workflows. You’ll begin by learning how LangGraph executes agent workflows and why stat",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2339,7 +3003,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1f/9074fb3815408689408af24db13d52/Building-Stateful-Multi-Agent-Systems-with-LangGraph-100-1-1-.jpg",
       "workload": "4 weeks of study, 3 - 4 hours/week",
       "launched_at": "2026-02-16T22:00:13.753Z",
-      "source": "coursera"
+      "source": "Coursera"
     },
     {
       "id": "37541d5140d7",
@@ -2353,6 +3017,10 @@
       "technologies": [
         "cybersecurity"
       ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
       "ai_summary": "This course is designed for intermediate-level learners who want to enhance their security skills in Android development. Participants will analyze the structure of Android memory and evaluate its defenses against exploitation, including understanding pointers and their role in b",
       "is_promoted": false,
       "category": "newly_launched",
@@ -2362,7 +3030,7 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/23/508626afa14d3b945ec3f6eeab2782/Coursera-Writing-Secure-Code-for-Android_1200x1200.png",
       "workload": null,
       "launched_at": "2026-02-11T23:24:42.323Z",
-      "source": "coursera"
+      "source": "Coursera"
     }
   ]
 }
