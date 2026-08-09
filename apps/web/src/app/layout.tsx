@@ -23,15 +23,15 @@ const mono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "The Logical Indian — Logic. Culture. Future.",
-    template: "%s · The Logical Indian",
+    default: "The Logical Agent — Technology. Research. Intelligence.",
+    template: "%s · The Logical Agent",
   },
   description:
-    "Gen Z & millennial intelligence desk — AI news, courses, startups, and culture filtered through logic.",
+    "AI-powered media, research, and social intelligence platform. The Bloomberg of Technology.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   icons: {
-    icon: "/brand/logical-indian-logo.png",
-    apple: "/brand/logical-indian-logo.png",
+    icon: "/brand/logical-agent-logo.png",
+    apple: "/brand/logical-agent-logo.png",
   },
 };
 

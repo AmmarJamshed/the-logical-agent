@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 import { Menu, Moon, Search, Sun, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BrandLogo } from "@/components/brand-logo";
+import { Magnetic } from "@/components/interactive";
 
 const NAV = [
   { href: "/news", label: "News" },
@@ -23,13 +24,24 @@ export function SiteHeader() {
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   useEffect(() => setMounted(true), []);
   useEffect(() => setOpen(false), [pathname]);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 12);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[color:var(--stroke)] bg-[color:var(--bg)]/75 backdrop-blur-xl">
+    <header
+      className={`sticky top-0 z-50 border-b border-[color:var(--stroke)] transition-all duration-300 ${
+        scrolled ? "bg-[color:var(--bg)]/90 shadow-panel backdrop-blur-2xl" : "bg-[color:var(--bg)]/70 backdrop-blur-xl"
+      }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3.5">
-        <Link href="/" className="group" aria-label="The Logical Indian home">
+        <Link href="/" className="group" aria-label="The Logical Agent home">
           <BrandLogo size={40} />
         </Link>
 
@@ -49,24 +61,30 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link href="/search" className="btn-ghost !px-3" aria-label="Search">
-            <Search className="h-4 w-4" />
-          </Link>
+          <Magnetic>
+            <Link href="/search" className="btn-ghost !px-3" aria-label="Search">
+              <Search className="h-4 w-4" />
+            </Link>
+          </Magnetic>
           {mounted && (
-            <button
-              className="btn-ghost !px-3"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-            </button>
+            <Magnetic>
+              <button
+                className="btn-ghost !px-3"
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                aria-label="Toggle theme"
+              >
+                {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              </button>
+            </Magnetic>
           )}
           <Link href="/login" className="btn-ghost hidden sm:inline-flex">
             Sign in
           </Link>
-          <Link href="/pricing" className="btn-primary hidden sm:inline-flex">
-            Go Pro
-          </Link>
+          <Magnetic strength={22}>
+            <Link href="/pricing" className="btn-primary hidden sm:inline-flex">
+              Go Pro
+            </Link>
+          </Magnetic>
           <button
             className="btn-ghost !px-3 xl:hidden"
             onClick={() => setOpen((v) => !v)}
@@ -107,26 +125,26 @@ export function SiteFooter() {
         <div className="md:col-span-2">
           <BrandLogo size={48} />
           <p className="mt-4 max-w-md text-sm text-[color:var(--muted)]">
-            Sharp takes for millennials &amp; Gen Z — AI news, courses, startups, and culture, filtered through logic
-            not noise.
+            The Bloomberg of Technology — an AI-native newsroom continuously discovering, verifying, and publishing
+            the latest in AI, research, and digital innovation.
           </p>
         </div>
         <div>
           <p className="eyebrow">Platform</p>
           <ul className="mt-3 space-y-2 text-sm text-[color:var(--muted)]">
-            <li><Link className="hover:text-signal-500" href="/news">Newsroom</Link></li>
-            <li><Link className="hover:text-signal-500" href="/courses">Course Discovery</Link></li>
-            <li><Link className="hover:text-signal-500" href="/network">Social Network</Link></li>
-            <li><Link className="hover:text-signal-500" href="/admin">Admin Portal</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/news">Newsroom</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/courses">Course Discovery</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/network">Social Network</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/admin">Admin Portal</Link></li>
           </ul>
         </div>
         <div>
           <p className="eyebrow">Business</p>
           <ul className="mt-3 space-y-2 text-sm text-[color:var(--muted)]">
-            <li><Link className="hover:text-signal-500" href="/pricing">Subscriptions</Link></li>
-            <li><Link className="hover:text-signal-500" href="/advertise">Advertise</Link></li>
-            <li><Link className="hover:text-signal-500" href="/jobs">Job Board</Link></li>
-            <li><Link className="hover:text-signal-500" href="/marketplace">AI Marketplace</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/pricing">Subscriptions</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/advertise">Advertise</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/jobs">Job Board</Link></li>
+            <li><Link className="transition hover:text-signal-500" href="/marketplace">AI Marketplace</Link></li>
           </ul>
         </div>
       </div>

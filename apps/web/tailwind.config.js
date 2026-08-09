@@ -80,6 +80,18 @@ module.exports = {
           "0%": { transform: "scale(0.96)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        ripple: {
+          "0%": { transform: "scale(0)", opacity: "0.55" },
+          "100%": { transform: "scale(18)", opacity: "0" },
+        },
+        bounceSoft: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-4px)" },
+        },
       },
       animation: {
         rise: "rise 0.7s cubic-bezier(0.22,1,0.36,1) both",
@@ -88,6 +100,9 @@ module.exports = {
         shimmer: "shimmer 6s linear infinite",
         mesh: "mesh 14s ease-in-out infinite",
         pop: "pop 0.45s cubic-bezier(0.22,1,0.36,1) both",
+        marquee: "marquee 28s linear infinite",
+        ripple: "ripple 0.6s ease-out forwards",
+        "bounce-soft": "bounceSoft 2.4s ease-in-out infinite",
       },
     },
   },

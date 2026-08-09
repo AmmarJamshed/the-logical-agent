@@ -6,7 +6,7 @@ type BrandLogoProps = {
   className?: string;
 };
 
-/** Geometric mark for The Logical Indian — mint logic diamond + coral accent. */
+/** Geometric mark for The Logical Agent — mint logic mark + coral node. */
 export function BrandMark({ size = 36, className = "" }: { size?: number; className?: string }) {
   return (
     <svg
@@ -34,8 +34,8 @@ export function BrandLogo({ size = 40, showWordmark = true, className = "" }: Br
     <span className={`inline-flex items-center gap-3 ${className}`}>
       <span className="relative shrink-0 overflow-hidden rounded-2xl shadow-glow transition duration-300 group-hover:rotate-3 group-hover:scale-105">
         <Image
-          src="/brand/logical-indian-logo.png"
-          alt="The Logical Indian"
+          src="/brand/logical-agent-logo.png"
+          alt="The Logical Agent"
           width={size}
           height={size}
           className="rounded-2xl"
@@ -45,10 +45,10 @@ export function BrandLogo({ size = 40, showWordmark = true, className = "" }: Br
       {showWordmark ? (
         <span className="min-w-0">
           <span className="block font-display text-lg leading-none tracking-tight">
-            The Logical <span className="brand-gradient-text">Indian</span>
+            The Logical <span className="brand-gradient-text">Agent</span>
           </span>
           <span className="mt-1 block text-[10px] uppercase tracking-[0.18em] text-[color:var(--muted)]">
-            Logic · Culture · Future
+            Technology · Research · Intelligence
           </span>
         </span>
       ) : null}

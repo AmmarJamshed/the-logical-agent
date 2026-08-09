@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { Search } from "lucide-react";
 import { API_URL, type SearchResponse } from "@/lib/utils";
+import { Magnetic, Reveal, TiltCard } from "@/components/interactive";
 
 const EXAMPLES = [
   "What AI courses launched this week?",
@@ -12,7 +14,8 @@ const EXAMPLES = [
   "What startups raised funding today?",
 ];
 
-export default function SearchPage() {
+function SearchInner() {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SearchResponse | null>(null);
@@ -38,6 +41,12 @@ export default function SearchPage() {
     }
   }
 
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q?.trim()) void runSearch(q.trim());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
       <p className="eyebrow">Semantic AI search</p>
@@ -47,7 +56,7 @@ export default function SearchPage() {
       </p>
 
       <form
-        className="panel mt-8 flex items-center gap-3 p-3"
+        className="panel mt-8 flex items-center gap-3 p-3 transition focus-within:shadow-glow"
         onSubmit={(e) => {
           e.preventDefault();
           if (query.trim()) void runSearch(query.trim());
@@ -60,16 +69,18 @@ export default function SearchPage() {
           placeholder="e.g. cybersecurity certifications in Germany"
           className="w-full bg-transparent py-3 text-base outline-none"
         />
-        <button className="btn-primary" disabled={loading}>
-          {loading ? "Searching…" : "Search"}
-        </button>
+        <Magnetic>
+          <button className="btn-primary" disabled={loading}>
+            {loading ? "Searching…" : "Search"}
+          </button>
+        </Magnetic>
       </form>
 
       <div className="mt-4 flex flex-wrap gap-2">
         {EXAMPLES.map((example) => (
           <button
             key={example}
-            className="rounded-full border border-[color:var(--stroke)] px-3 py-1.5 text-left text-xs text-[color:var(--muted)] hover:text-[color:var(--fg)]"
+            className="rounded-xl border border-[color:var(--stroke)] px-3 py-1.5 text-left text-xs text-[color:var(--muted)] transition hover:-translate-y-0.5 hover:border-signal-500/40 hover:text-signal-500"
             onClick={() => void runSearch(example)}
           >
             {example}
@@ -82,18 +93,30 @@ export default function SearchPage() {
       {result ? (
         <div className="mt-10 space-y-4">
           <p className="text-sm text-[color:var(--muted)]">{result.interpretation}</p>
-          {result.results.map((item) => (
-            <article key={`${item.entity_type}-${item.id}`} className="panel p-5">
-              <div className="flex items-center gap-3 text-xs uppercase tracking-[0.14em] text-signal-500">
-                <span>{item.entity_type}</span>
-                <span className="font-mono text-[color:var(--muted)]">{item.score.toFixed(2)}</span>
-              </div>
-              <h2 className="mt-2 font-display text-2xl">{item.title}</h2>
-              {item.summary ? <p className="mt-2 text-sm text-[color:var(--muted)]">{item.summary}</p> : null}
-            </article>
+          {result.results.map((item, i) => (
+            <Reveal key={`${item.entity_type}-${item.id}`} delay={i * 40}>
+              <TiltCard>
+                <article className="panel-interactive p-5">
+                  <div className="flex items-center gap-3 text-xs uppercase tracking-[0.14em] text-signal-500">
+                    <span>{item.entity_type}</span>
+                    <span className="font-mono text-[color:var(--muted)]">{item.score.toFixed(2)}</span>
+                  </div>
+                  <h2 className="mt-2 font-display text-2xl">{item.title}</h2>
+                  {item.summary ? <p className="mt-2 text-sm text-[color:var(--muted)]">{item.summary}</p> : null}
+                </article>
+              </TiltCard>
+            </Reveal>
           ))}
         </div>
       ) : null}
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="mx-auto max-w-4xl px-6 py-16 text-[color:var(--muted)]">Loading search…</div>}>
+      <SearchInner />
+    </Suspense>
   );
 }
