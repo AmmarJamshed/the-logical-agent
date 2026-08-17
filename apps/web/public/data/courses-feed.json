@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-15T06:35:56.082Z",
-  "total": 53,
+  "generated_at": "2026-08-17T06:51:46.674Z",
+  "total": 50,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 32,
+    "coursera_new": 31,
     "edx": 0,
-    "newsapi": 7
+    "newsapi": 5
   },
   "topics": [
     "LLM",
@@ -22,10 +22,10 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 9,
-    "AI": 47,
+    "LLM": 8,
+    "AI": 44,
     "World Models": 0,
-    "Agents": 5,
+    "Agents": 4,
     "Multimodal": 1,
     "Computer Vision": 0,
     "NLP": 3,
@@ -702,58 +702,6 @@
       "source": "Coursera"
     },
     {
-      "id": "b880fe7fb7e4",
-      "name": "UNESCO partners with Coursera and launches free AI ethics course, developed in collaboration with LG AI Research, for learners and institutions worldwide",
-      "slug": "unesco-partners-with-coursera-and-launches-free-ai-ethics-course-developed-in-co",
-      "provider": "Coursera.org",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Today, I’m proud to welcome UNESCO, the United Nations Educational, Scientific and Cultural Organization, to Coursera as they launch their first free course, the Global MOOC on the Ethics of AI, which they built with LG AI Research. UNESCO has defined standar…",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://blog.coursera.org/unesco-partners-with-coursera-and-launches-free-ai-ethics-course/",
-      "image_url": "https://blog.coursera.org/wp-content/uploads/2026/07/Unesco-and-LG-with-learner-4-1024x536.png",
-      "workload": null,
-      "launched_at": "2026-07-20T06:30:00Z",
-      "source": "Coursera.org"
-    },
-    {
-      "id": "38fddb861493",
-      "name": "As things change, IIMs take a new course with engineering",
-      "slug": "as-things-change-iims-take-a-new-course-with-engineering",
-      "provider": "The Times of India",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": false,
-      "technologies": [],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Top Indian IIMs are admitting more non-engineers into their programs. This shift reflects a growing recruiter demand for interdisciplinary thinking and varied problem-solving. Non-engineers now form a significant portion of new batches at leading management i…",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://economictimes.indiatimes.com/industry/services/education/as-things-change-iims-take-a-new-course-with-engineering/articleshow/132500934.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132500962,width-1200,height-630,imgsize-52150,overlay-economictimes/articleshow.jpg",
-      "workload": null,
-      "launched_at": "2026-07-19T19:18:49Z",
-      "source": "The Times of India"
-    },
-    {
       "id": "9c63e737dd04",
       "name": "Information Systems Management",
       "slug": "information-systems-management",
@@ -1492,38 +1440,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/38e83c329f456d82a213d43af82dfb/602631_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T20:45:01.343Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "ca95d6ffaf41",
-      "name": "Multi-Agent Systems with LangGraph",
-      "slug": "multi-agent-systems-with-langgraph",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "llm",
-        "agents",
-        "python"
-      ],
-      "topics": [
-        "LLM",
-        "Agents",
-        "AI"
-      ],
-      "topic": "LLM",
-      "ai_summary": "This program introduces Building Stateful & Multi-Agent Systems with LangGraph for developers and AI engineers who want to move beyond single-prompt agents and build reliable, production-ready workflows. You’ll begin by learning how LangGraph executes agent workflows and why stat",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/multi-agent-systems-with-langgraph",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1f/9074fb3815408689408af24db13d52/Building-Stateful-Multi-Agent-Systems-with-LangGraph-100-1-1-.jpg",
-      "workload": "4 weeks of study, 3 - 4 hours/week",
-      "launched_at": "2026-02-16T22:00:13.753Z",
       "source": "Coursera"
     }
   ],
@@ -2192,58 +2108,6 @@
       "source": "Coursera"
     },
     {
-      "id": "b880fe7fb7e4",
-      "name": "UNESCO partners with Coursera and launches free AI ethics course, developed in collaboration with LG AI Research, for learners and institutions worldwide",
-      "slug": "unesco-partners-with-coursera-and-launches-free-ai-ethics-course-developed-in-co",
-      "provider": "Coursera.org",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Today, I’m proud to welcome UNESCO, the United Nations Educational, Scientific and Cultural Organization, to Coursera as they launch their first free course, the Global MOOC on the Ethics of AI, which they built with LG AI Research. UNESCO has defined standar…",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://blog.coursera.org/unesco-partners-with-coursera-and-launches-free-ai-ethics-course/",
-      "image_url": "https://blog.coursera.org/wp-content/uploads/2026/07/Unesco-and-LG-with-learner-4-1024x536.png",
-      "workload": null,
-      "launched_at": "2026-07-20T06:30:00Z",
-      "source": "Coursera.org"
-    },
-    {
-      "id": "38fddb861493",
-      "name": "As things change, IIMs take a new course with engineering",
-      "slug": "as-things-change-iims-take-a-new-course-with-engineering",
-      "provider": "The Times of India",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": false,
-      "technologies": [],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Top Indian IIMs are admitting more non-engineers into their programs. This shift reflects a growing recruiter demand for interdisciplinary thinking and varied problem-solving. Non-engineers now form a significant portion of new batches at leading management i…",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://economictimes.indiatimes.com/industry/services/education/as-things-change-iims-take-a-new-course-with-engineering/articleshow/132500934.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132500962,width-1200,height-630,imgsize-52150,overlay-economictimes/articleshow.jpg",
-      "workload": null,
-      "launched_at": "2026-07-19T19:18:49Z",
-      "source": "The Times of India"
-    },
-    {
       "id": "9c63e737dd04",
       "name": "Information Systems Management",
       "slug": "information-systems-management",
@@ -2982,38 +2846,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9a/38e83c329f456d82a213d43af82dfb/602631_logoimages.png",
       "workload": null,
       "launched_at": "2026-02-25T20:45:01.343Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "ca95d6ffaf41",
-      "name": "Multi-Agent Systems with LangGraph",
-      "slug": "multi-agent-systems-with-langgraph",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "llm",
-        "agents",
-        "python"
-      ],
-      "topics": [
-        "LLM",
-        "Agents",
-        "AI"
-      ],
-      "topic": "LLM",
-      "ai_summary": "This program introduces Building Stateful & Multi-Agent Systems with LangGraph for developers and AI engineers who want to move beyond single-prompt agents and build reliable, production-ready workflows. You’ll begin by learning how LangGraph executes agent workflows and why stat",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/multi-agent-systems-with-langgraph",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1f/9074fb3815408689408af24db13d52/Building-Stateful-Multi-Agent-Systems-with-LangGraph-100-1-1-.jpg",
-      "workload": "4 weeks of study, 3 - 4 hours/week",
-      "launched_at": "2026-02-16T22:00:13.753Z",
       "source": "Coursera"
     }
   ]
