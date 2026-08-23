@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T06:44:15.005Z",
-  "total": 223,
+  "generated_at": "2026-08-23T06:38:26.184Z",
+  "total": 205,
   "sources": {
     "arxiv_llm": 12,
     "arxiv_world-models": 12,
@@ -15,7 +15,7 @@
     "arxiv_security": 12,
     "arxiv_quantum": 12,
     "openalex": 48,
-    "crossref": 30,
+    "crossref": 10,
     "huggingface": 30,
     "pubmed": 20
   },
@@ -34,90 +34,20 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 37,
-    "AI": 109,
-    "World Models": 16,
-    "Agents": 20,
-    "Multimodal": 28,
+    "LLM": 41,
+    "AI": 89,
+    "World Models": 15,
+    "Agents": 17,
+    "Multimodal": 27,
     "Computer Vision": 11,
-    "NLP": 10,
-    "Reinforcement Learning": 24,
-    "Robotics": 21,
+    "NLP": 9,
+    "Reinforcement Learning": 21,
+    "Robotics": 20,
     "Quantum": 15,
-    "Cybersecurity": 18,
-    "Machine Learning": 24
+    "Cybersecurity": 16,
+    "Machine Learning": 23
   },
   "papers": [
-    {
-      "id": "8f11356556d3",
-      "title": "ANALYTICAL CLOUD SYSTEM ERI Digital health analysis using Spectral analysis in AI",
-      "slug": "analytical-cloud-system-eri-digital-health-analysis-using-spectral-analysis-in-ai",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Elena van Dijk"
-      ],
-      "author_line": "Elena van Dijk",
-      "url": "https://doi.org/10.47363/jeast/2021/vid/1006",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2121-04-30T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "Journal of Engineering and Applied Sciences Technology",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "2c41134923d4",
-      "title": "Entrepreneurship: Unveiling World Patterns",
-      "slug": "entrepreneurship-unveiling-world-patterns",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Flávio Gomes Borges Tiago",
-        "João Pedro de Almeida Couto",
-        "Pinheiro Melo Borges Tiago",
-        "Sandra Micaela Costa Dias Faria"
-      ],
-      "author_line": "Flávio Gomes Borges Tiago, João Pedro de Almeida Couto, Pinheiro Melo Borges Tiago, Sandra Micaela Costa Dias Faria",
-      "url": "https://doi.org/10.15556/ijsim.02.04.001",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2116-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Strategic Innovative Marketing",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "2c5e2810c1d8",
-      "title": "Learner profiles and the process of Learning in the Higher Educational Context",
-      "slug": "learner-profiles-and-the-process-of-learning-in-the-higher-educational-context",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Christos Skourlas",
-        "Petros Belsis"
-      ],
-      "author_line": "Christos Skourlas, Petros Belsis",
-      "url": "https://doi.org/10.15556/ijiim.02.01.003",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2115-03-05T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal on Integrated Information Management",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
     {
       "id": "3d16fe7b19e8",
       "title": "Introducing a conceptual model of brand orientation within the context of Social Entrepreneurial Businesses",
@@ -135,30 +65,6 @@
       "published_at": "2114-12-10T00:00:00.000Z",
       "source": "Crossref",
       "venue": "International Journal of Strategic Innovative Marketing",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "3501c5c2ef02",
-      "title": "WEB-BASED COLLABORATIVE LEARNING AND KNOWLEDGE SHARING IN INFORMAL BUSINESS NETWORKS",
-      "slug": "web-based-collaborative-learning-and-knowledge-sharing-in-informal-business-networks",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "George Stalidis",
-        "Costis Papadimitrakopoulos",
-        "Theocharis Tsakiris"
-      ],
-      "author_line": "George Stalidis, Costis Papadimitrakopoulos, Theocharis Tsakiris",
-      "url": "https://doi.org/10.15556/ijiim.01.02.002",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2114-12-10T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal on Integrated Information Management",
       "topic": "AI",
       "topics": [
         "AI"
@@ -234,137 +140,6 @@
       "published_at": "2106-06-20T00:00:00.000Z",
       "source": "Crossref",
       "venue": "International Journal Of Community Health And Medical Research",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "e6edf0ad5968",
-      "title": "Availability and Utilization of Tools and Equipment for Teaching and Learning Garment Making Trade in the Senior Secondary Schools in Edo State",
-      "slug": "availability-and-utilization-of-tools-and-equipment-for-teaching-and-learning-garment-maki",
-      "abstract": "",
-      "summary": "",
-      "authors": [],
-      "author_line": "",
-      "url": "https://doi.org/10.20431/2349-0381.0303002",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2106-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Humanities, Social Sciences and Education",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "1cdb59f71d8c",
-      "title": "From the Editor-in-Chief",
-      "slug": "from-the-editor-in-chief",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Judith Shamian"
-      ],
-      "author_line": "Judith Shamian",
-      "url": "https://doi.org/10.12927/whp.2014.23862",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2104-03-31T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "World Health &amp; Population",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "74cef2327102",
-      "title": "Consistency and Quality Check of Survey Data in India",
-      "slug": "consistency-and-quality-check-of-survey-data-in-india",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Pushpanjali Swain",
-        "M. Meitei"
-      ],
-      "author_line": "Pushpanjali Swain, M. Meitei",
-      "url": "https://doi.org/10.12927/whp.2014.23793",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2104-03-31T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "World Health &amp; Population",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "b9b743e8f748",
-      "title": "End-of-Life Decisions - Some International Comparisons",
-      "slug": "end-of-life-decisions-some-international-comparisons",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Michael Costello",
-        "Daniel West",
-        "Bernardo Ramirez"
-      ],
-      "author_line": "Michael Costello, Daniel West, Bernardo Ramirez",
-      "url": "https://doi.org/10.12927/whp.2014.23861",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2104-03-31T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "World Health &amp; Population",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "77e5fb1fc68b",
-      "title": "Protection of Health Workers, Patients and Facilities in Times of Violence – Report",
-      "slug": "protection-of-health-workers-patients-and-facilities-in-times-of-violence-report",
-      "abstract": "",
-      "summary": "",
-      "authors": [],
-      "author_line": "",
-      "url": "https://doi.org/10.12927/whp.2014.23757",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2104-03-31T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "World Health &amp; Population",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "ecd18f79cbec",
-      "title": "New Public Management in cultural fields? Professionalization, commodification and “expertization” in French contemporary poetry",
-      "slug": "new-public-management-in-cultural-fields-professionalization-commodification-and-expertiza",
-      "abstract": "New Public Management (NPM) has been the subject of academic study in many sectors, but much less so in the cultural sector. This article focuses on poetry, the actions of public authorities in a largely publicly funded sector, and the consequences of these actions on the status and social life of poets. Using a qualitative methodology based on interviews, this article shows that NPM has influenced cultural policy in poetry by creating a quasi-market of literary activities and sources of income for poets (readings, performances, workshops, scholarships and grants, and residencies) where demand from public authorities (state, local authorities, multiple autonomous actors financed by public fu",
-      "summary": "New Public Management (NPM) has been the subject of academic study in many sectors, but much less so in the cultural sector. This article focuses on poetry, the actions of public authorities in a largely publicly funded sector, and the consequences of these actions on the status ",
-      "authors": [
-        "Sébastien Dubois"
-      ],
-      "author_line": "Sébastien Dubois",
-      "url": "https://shs.cairn.info/journal-gestion-et-management-public-2024-5-page-1p?lang=en",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2050-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Cairn.info",
       "topic": "AI",
       "topics": [
         "AI"
@@ -487,28 +262,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "57283588629a",
-      "title": "Leveraging AI in Performance Auditing: A Feasibility Study for the State Audit Office of Thailand",
-      "slug": "leveraging-ai-in-performance-auditing-a-feasibility-study-for-the-state-audit-office-of-th",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Sutthi Suntharanurak"
-      ],
-      "author_line": "Sutthi Suntharanurak",
-      "url": "https://doi.org/10.56251/hfue3018",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2030-10-20T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Government Auditing",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "82ed35b01195",
       "title": "Conformal Causal Inference for Cluster Randomized Trials: Model-robust Inference Without Asymptotic Approximations",
       "slug": "conformal-causal-inference-for-cluster-randomized-trials-model-robust-inference-without-as",
@@ -604,31 +357,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "c7a71e53831c",
-      "title": "Cyber Defense Digital Twins: A Federated Learning and Zero-Trust AI Architecture for Autonomous Threat Prediction and Response",
-      "slug": "cyber-defense-digital-twins-a-federated-learning-and-zero-trust-ai-architecture-for-autono",
-      "abstract": "Modern enterprise networks operate under persistent threats that exploit cloud-native misconfigurations, identity sprawl, and API vulnerabilities at machine speed. Existing security operations center (SOC) architectures remain largely reactive, signature-dependent, and incapable of predicting multi-stage lateral movement. This paper proposes the Cognitive Cyber Defense Digital Twin (CCDT), a unified architecture integrating federated learning (FL), graph neural network (GNN)-based attack-path forecasting, adversarially hardened detection models, and autonomous Security Orchestration, Automation, and Response (SOAR) with deception engineering. The CCDT constructs a continuously synchronized d",
-      "summary": "Modern enterprise networks operate under persistent threats that exploit cloud-native misconfigurations, identity sprawl, and API vulnerabilities at machine speed. Existing security operations center (SOC) architectures remain largely reactive, signature-dependent, and incapable ",
-      "authors": [
-        "Sivaramakrishnan Narayanan"
-      ],
-      "author_line": "Sivaramakrishnan Narayanan",
-      "url": "https://doi.org/10.32628/cseit251116279",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-08-27T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology",
-      "topic": "Reinforcement Learning",
-      "topics": [
-        "Reinforcement Learning",
-        "Cybersecurity",
-        "Machine Learning",
-        "AI"
-      ],
-      "topic_key": "reinforcement-learning"
-    },
-    {
       "id": "5009986f8004",
       "title": "Effects of air pollution on disease activity in patients with rheumatoid arthritis.",
       "slug": "effects-of-air-pollution-on-disease-activity-in-patients-with-rheumatoid-arthritis",
@@ -653,77 +381,6 @@
       "published_at": "2028-06-21T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Annals of the rheumatic diseases",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "143dcbb7e939",
-      "title": "AI-Enabled Force and Torque Control for Human Robot Interaction",
-      "slug": "ai-enabled-force-and-torque-control-for-human-robot-interaction",
-      "abstract": "Safe and intuitive human robot interaction (HRI) requires precise regulation of contact forces and torques while adapting to dynamic and uncertain human behavior. Traditional impedance and admittance control strategies rely on fixed parameters and accurate system modeling, which often limit their performance in unstructured or collaborative environments. This paper presents an AI-enabled force and torque control framework that integrates machine learning techniques with conventional control methods to enhance adaptability, compliance, and safety in physical human robot interaction. The proposed approach employs deep neural networks and reinforcement learning to learn human intent and interac",
-      "summary": "Safe and intuitive human robot interaction (HRI) requires precise regulation of contact forces and torques while adapting to dynamic and uncertain human behavior. Traditional impedance and admittance control strategies rely on fixed parameters and accurate system modeling, which ",
-      "authors": [
-        "Vishal Khanna"
-      ],
-      "author_line": "Vishal Khanna",
-      "url": "https://doi.org/10.26634/javr.4.1.1115",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-06-15T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "i-manager's Journal on Augmented &amp; Virtual Reality",
-      "topic": "Reinforcement Learning",
-      "topics": [
-        "Reinforcement Learning",
-        "Robotics",
-        "Machine Learning",
-        "AI"
-      ],
-      "topic_key": "reinforcement-learning"
-    },
-    {
-      "id": "f00768a85677",
-      "title": "Edge AI in Wearable Devices",
-      "slug": "edge-ai-in-wearable-devices",
-      "abstract": "Wearable technologies have progressed from basic fitness trackers and digital watches into smart systems that can check vital signs, alert for anomalies, and transmit personalized health data. Existing cloud-native structures used by wearable technology face drawbacks, including delays in communication, reliance on reliable internet connections, privacy concerns, and toomuchenergyusage.EdgeArtificialIntelligence(EdgeAI),the layer of AI processing where the computational and intelligent capabilities are at the data source itself, offers a compelling alternative. If a sensor provides its data to an Edge AI-enabled wearabledevice,thedevicecanuseitsonboardcomputingtohelp integratethedataandascri",
-      "summary": "Wearable technologies have progressed from basic fitness trackers and digital watches into smart systems that can check vital signs, alert for anomalies, and transmit personalized health data. Existing cloud-native structures used by wearable technology face drawbacks, including ",
-      "authors": [
-        "Prof.Anu Jyothy"
-      ],
-      "author_line": "Prof.Anu Jyothy",
-      "url": "https://doi.org/10.26634/javr.4.1.1116",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-06-15T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "i-manager's Journal on Augmented &amp; Virtual Reality",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "f3b6d283b414",
-      "title": "AI Regulation and Its Social Impacts on Public Policy",
-      "slug": "ai-regulation-and-its-social-impacts-on-public-policy",
-      "abstract": "Artificial intelligence (AI) is not a marginalized technological means any more but the main force of decision-making in political arenas, economic restructuring, and social change. The necessity to establish routine regulation frameworks has become especially relevant, with governments introducing AI-based systems into various areas of state business such as welfare checks and predictive policing, health-care screening, and taxing. The effects of AI control on the policy outcomes of a population will be examined in terms of the social influence of algorithmic governance, the dispositional capacity of a state, institutional responsibility, and trust in citizens. The tension between innovatio",
-      "summary": "Artificial intelligence (AI) is not a marginalized technological means any more but the main force of decision-making in political arenas, economic restructuring, and social change. The necessity to establish routine regulation frameworks has become especially relevant, with gove",
-      "authors": [
-        "Syed Rizwan Haider Bukhari",
-        "Haider Ali Khan",
-        "Tourkia Rebhi"
-      ],
-      "author_line": "Syed Rizwan Haider Bukhari, Haider Ali Khan, Tourkia Rebhi",
-      "url": "https://doi.org/10.55737/rl.v5i1.26181",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-02-28T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "Regional Lens",
       "topic": "AI",
       "topics": [
         "AI"
@@ -768,99 +425,6 @@
       "published_at": "2028-02-17T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "12a9bf135485",
-      "title": "AI-Enhanced Wireless Sensor Network for Proactive Structural Health Monitoring in Large-Scale Infrastructure",
-      "slug": "ai-enhanced-wireless-sensor-network-for-proactive-structural-health-monitoring-in-large-sc",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Qinzhe Zhang"
-      ],
-      "author_line": "Qinzhe Zhang",
-      "url": "https://doi.org/10.1504/ijims.2028.10076794",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Internet Manufacturing and Services",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "87e339083465",
-      "title": "AI-Powered Sustainable Investment Behaviour: a Systematic Review and Research Agenda",
-      "slug": "ai-powered-sustainable-investment-behaviour-a-systematic-review-and-research-agenda",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Aastha Jain",
-        "Reeti Gupta",
-        "Rohail Hassan",
-        "Preeti Jain"
-      ],
-      "author_line": "Aastha Jain, Reeti Gupta, Rohail Hassan, Preeti Jain",
-      "url": "https://doi.org/10.1504/ijams.2028.10079074",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Applied Management Science",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "fdbc1b908c77",
-      "title": "Conditional Quantile-based Variable Screening with FDR Control in Joint Factor Models",
-      "slug": "conditional-quantile-based-variable-screening-with-fdr-control-in-joint-factor-models",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Han Pan",
-        "Wei Xiong",
-        "Mingyao Ai"
-      ],
-      "author_line": "Han Pan, Wei Xiong, Mingyao Ai",
-      "url": "https://doi.org/10.5705/ss.202025.0167",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "Statistica Sinica",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "bbd90a83cd68",
-      "title": "Generative AI as a Catalyst for Intelligent Information Service Empowerment in University Libraries",
-      "slug": "generative-ai-as-a-catalyst-for-intelligent-information-service-empowerment-in-university-",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Li Zhao"
-      ],
-      "author_line": "Li Zhao",
-      "url": "https://doi.org/10.1504/ijims.2028.10076934",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2028-01-01T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "International Journal of Internet Manufacturing and Services",
       "topic": "AI",
       "topics": [
         "AI"
@@ -1487,82 +1051,6 @@
       "topic_key": "llm"
     },
     {
-      "id": "acd98463a3aa",
-      "title": "Business Model Innovation among Startups and Its Future Research Trends: A Systematic Review and Bibliometric Analysis of Relevant Literature",
-      "slug": "business-model-innovation-among-startups-and-its-future-research-trends-a-systematic-revie",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Salsabil Thabti",
-        "Waleed Omri",
-        "Audrey Bécuwe",
-        "Abdelwahed Omri"
-      ],
-      "author_line": "Salsabil Thabti, Waleed Omri, Audrey Bécuwe, Abdelwahed Omri",
-      "url": "https://shs.cairn.info/revue-journal-of-innovation-economics-2025-0-page-I200?lang=en",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Cairn.info",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "b1f3ba274ff5",
-      "title": "Setting Up Living Labs for Water Reuse in Water-Stressed Social-Hydrological Systems",
-      "slug": "setting-up-living-labs-for-water-reuse-in-water-stressed-social-hydrological-systems",
-      "abstract": "Water reuse is a potential solution for adapting to the impacts of global change on water availability. Given its highly contingent and controversial nature, this requires a participatory research process. Here, we describe the experimental design and implementation of co-research, based on a hybridisation of Living Labs and Science Shops methodologies. This approach enables the involvement of all stakeholder categories – policy makers, private businesses, civil society organisations and academics – from the research programme development phase onwards. We report on the experimental implementation of this approach in six Living Labs in southern France, focusing on water reuse. We characteris",
-      "summary": "Water reuse is a potential solution for adapting to the impacts of global change on water availability. Given its highly contingent and controversial nature, this requires a participatory research process. Here, we describe the experimental design and implementation of co-researc",
-      "authors": [
-        "Olivier Barreteau",
-        "Justine Bassoul",
-        "Magali Gerino",
-        "Claire Albasi",
-        "Stéphanie Bost"
-      ],
-      "author_line": "Olivier Barreteau, Justine Bassoul, Magali Gerino, Claire Albasi et al.",
-      "url": "https://shs.cairn.info/revue-journal-of-innovation-economics-2025-0-page-I205?lang=en",
-      "pdf_url": "https://shs.cairn.info/article/E_JIE_PR2_0205/pdf?lang=en",
-      "category": null,
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Cairn.info",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "15be05ab66ad",
-      "title": "Exploring the Impact of Dynamic Capabilities on Time-To-Market and Performance for Agile Start-Ups in Brazil",
-      "slug": "exploring-the-impact-of-dynamic-capabilities-on-time-to-market-and-performance-for-agile-s",
-      "abstract": "This study investigates the impact of developing capabilities on start-up Time-to-Market (TTM) reduction and performance, employing the Dynamic Capabilities View (DCV) as a theoretical framework. We analysed survey data from start-up managers in Brazil to explore how various capabilities contribute to accelerating TTM and enhancing performance. Our findings reveal that not all capabilities contribute equally to performance enhancement, with integration-related capabilities showing the strongest positive correlation. Furthermore, we examine the effects of external factors such as uncertainty, technological turbulence, time-sensitivity and innovation ecosystems on these relationships, proposin",
-      "summary": "This study investigates the impact of developing capabilities on start-up Time-to-Market (TTM) reduction and performance, employing the Dynamic Capabilities View (DCV) as a theoretical framework. We analysed survey data from start-up managers in Brazil to explore how various capa",
-      "authors": [
-        "Renata de Oliveira Mota",
-        "Moacir Godinho Filho",
-        "Gilberto Miller Devós Ganga",
-        "Jonhatan Magno Norte da Silva"
-      ],
-      "author_line": "Renata de Oliveira Mota, Moacir Godinho Filho, Gilberto Miller Devós Ganga, Jonhatan Magno Norte da Silva",
-      "url": "https://shs.cairn.info/revue-journal-of-innovation-economics-2025-0-page-I203?lang=en",
-      "pdf_url": "https://shs.cairn.info/article/E_JIE_PR2_0203/pdf?lang=en",
-      "category": null,
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Cairn.info",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "bb1ee18ba81f",
       "title": "Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs",
       "slug": "contested-urbanisms-the-politics-of-heritage-and-housing-in-jakarta-s-kampungs",
@@ -1658,6 +1146,96 @@
       "topic_key": "ai"
     },
     {
+      "id": "3ecb720c1d4d",
+      "title": "The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation",
+      "slug": "the-sociolinguistics-of-machine-identity-llm-personality-and-ideology-propagation",
+      "abstract": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This manuscript is positioned explicitly as a conceptual perspective paper: it does not present original experimental data, nor does it constitute a systematic review with defined search strategies or inclusion criteria. Instead, it synthesises key published findings into two original theoretical frameworks intended to guide future empirical and engineering work. We examine evidence that LLMs exhibit reliable, valid Big F",
+      "summary": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This ",
+      "authors": [
+        "Guangni Li"
+      ],
+      "author_line": "Guangni Li",
+      "url": "https://doi.org/10.17613/90v07-0pa54",
+      "pdf_url": "https://doi.org/10.17613/90v07-0pa54",
+      "category": "Artificial Intelligence in Healthcare and Education",
+      "published_at": "2026-12-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Knowledge Commons (Lakehead University)",
+      "topic": "LLM",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic_key": "llm"
+    },
+    {
+      "id": "011393e74150",
+      "title": "The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies",
+      "slug": "the-role-of-generative-artificial-intelligence-in-korean-language-learning-applications-ch",
+      "abstract": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develop an analytical framework for responsible classroom use. The review focuses on four dimensions: Korean language skills, Korean-specific linguistic and cultural features, instructional design, and governance risks. The analysis suggests that generative AI can support listening, speaking, reading, and writing when tasks are explicitly designed around Korean phonology, morphology, pragmatics, and learner purposes such a",
+      "summary": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develo",
+      "authors": [
+        "Yundong Wu"
+      ],
+      "author_line": "Yundong Wu",
+      "url": "https://pub.respai.de/articles/1-2/5ywu.html",
+      "pdf_url": "https://pub.respai.de/articles/1-2/is2-5.pdf",
+      "category": "Diverse Interdisciplinary Research Innovations",
+      "published_at": "2026-12-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Open MIND",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "e1c3d3676522",
+      "title": "SOAR: Smooth Online Activation Routing for Stable Neural Learning from Evolving Streams",
+      "slug": "soar-smooth-online-activation-routing-for-stable-neural-learning-from-evolving-streams",
+      "abstract": "Online neural learning requires models that update after each incoming example, remain calibrated under distributional change, and avoid brittle gradient transmission. The original version of this work used a small static benchmark, a shallow model, few random seeds, and no significance tests. This revision reformulates the problem as genuine prequential online learning and introduces Smooth Online Activation Routing (SOAR), a Hedge-style routing algorithm over smooth activation experts trained by singleinstance adaptive updates. SOAR links activation smoothness with online regret through a prediction-with-expert-advice bound: the mixture incurs only logarithmic-exponential-weight overhead r",
+      "summary": "Online neural learning requires models that update after each incoming example, remain calibrated under distributional change, and avoid brittle gradient transmission. The original version of this work used a small static benchmark, a shallow model, few random seeds, and no signi",
+      "authors": [
+        "Sizhen Niu"
+      ],
+      "author_line": "Sizhen Niu",
+      "url": "https://pub.respai.de/articles/1-2/3sniu.html",
+      "pdf_url": "https://pub.respai.de/articles/1-2/is2-3.pdf",
+      "category": "Data Stream Mining Techniques",
+      "published_at": "2026-12-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Open MIND",
+      "topic": "Machine Learning",
+      "topics": [
+        "Machine Learning"
+      ],
+      "topic_key": "machine-learning"
+    },
+    {
+      "id": "724b9ab6ab58",
+      "title": "DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON",
+      "slug": "dynamics-of-portfolio-assessment-strategy-in-evaluating-the-english-language-skills-for-pu",
+      "abstract": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive education, where traditional assessment methods often fail to adequately reflect the abilities of learners with hearing loss. The research utilised a quasi-experimental design involving pupils with hearing impairment in selected inclusive primary schools. Data were gathered through English language tests, classroom observations, and interviews with parents, teachers, head teachers, and the divisional delegate. Quantitative ",
+      "summary": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive educati",
+      "authors": [
+        "Ngenwie Emilia Tanyie",
+        "Therese Mungah Shalo Tchombe"
+      ],
+      "author_line": "Ngenwie Emilia Tanyie, Therese Mungah Shalo Tchombe",
+      "url": "https://ubueajournals.org/index.php/IJDIEH/article/view/28",
+      "pdf_url": "https://ubueajournals.org/index.php/IJDIEH/article/download/28/24",
+      "category": "Reflective Practices in Education",
+      "published_at": "2026-12-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "b063dbf33923",
       "title": "Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia",
       "slug": "algorithmic-justice-and-responsible-ai-journalism-a-comparative-communication-policy-persp",
@@ -1743,50 +1321,6 @@
       "published_at": "2026-12-31T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "PhilPapers (PhilPapers Foundation)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "d98e7d311771",
-      "title": "Borrowed Shame: Hao Hongmei as a Narrative Resource for Sun Shaoping's Moral Image",
-      "slug": "borrowed-shame-hao-hongmei-as-a-narrative-resource-for-sun-shaoping-s-moral-image",
-      "abstract": "This article reconsiders one of the most frequently moralized episodes in Lu Yao's Ordinary World: Hao Hongmei's theft of handkerchiefs at the end of high school and Sun Shaoping's intervention on her behalf. Existing readings often treat the incident as evidence of Hao's vanity, compromised character, or eventual moral education. Such interpretations remain too close to the evaluative grammar supplied by the novel itself. Through close reading informed by affect theory, the anthropology of the gift, class analysis, and rhetorical narrative ethics, this article argues that the episode organizes a transfer of moral value. Hao's shame originates in a social relation. Graduation gifts impose a ",
-      "summary": "This article reconsiders one of the most frequently moralized episodes in Lu Yao's Ordinary World: Hao Hongmei's theft of handkerchiefs at the end of high school and Sun Shaoping's intervention on her behalf. Existing readings often treat the incident as evidence of Hao's vanity,",
-      "authors": [
-        "Khoo-Hong Chang"
-      ],
-      "author_line": "Khoo-Hong Chang",
-      "url": "https://refuture.respai.de/articles/1-1/borrowed-shame-hao-hongmei-as-a-narrative-resource-for-sun-shaopings-moral-image-20260722-.html",
-      "pdf_url": "https://refuture.respai.de/articles/1-1/borrowed-shame-hao-hongmei-as-a-narrative-resource-for-sun-shaopings-moral-image-20260722-.pdf",
-      "category": "Chinese history and philosophy",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Open MIND",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "011393e74150",
-      "title": "The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies",
-      "slug": "the-role-of-generative-artificial-intelligence-in-korean-language-learning-applications-ch",
-      "abstract": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develop an analytical framework for responsible classroom use. The review focuses on four dimensions: Korean language skills, Korean-specific linguistic and cultural features, instructional design, and governance risks. The analysis suggests that generative AI can support listening, speaking, reading, and writing when tasks are explicitly designed around Korean phonology, morphology, pragmatics, and learner purposes such a",
-      "summary": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develo",
-      "authors": [
-        "Yundong Wu"
-      ],
-      "author_line": "Yundong Wu",
-      "url": "https://pub.respai.de/articles/1-2/5ywu.html",
-      "pdf_url": "https://pub.respai.de/articles/1-2/is2-5.pdf",
-      "category": "Diverse Interdisciplinary Research Innovations",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Open MIND",
       "topic": "AI",
       "topics": [
         "AI"
@@ -2059,6 +1593,29 @@
       "topic_key": "agents"
     },
     {
+      "id": "ea50bce5c422",
+      "title": "Giraffe Papers: A Framework for Fully Customizable AI Agent Orchestration in the Browser for Real-Time Task Support",
+      "slug": "giraffe-papers-a-framework-for-fully-customizable-ai-agent-orchestration-in-the-browser-fo",
+      "abstract": "Schreyer, Oscar Affiliation: Optimando.ai – AI Workflow Automation",
+      "summary": "Schreyer, Oscar Affiliation: Optimando.ai – AI Workflow Automation",
+      "authors": [
+        "Schreyer, Oscar"
+      ],
+      "author_line": "Schreyer, Oscar",
+      "url": "https://doi.org/10.5281/zenodo.17656320",
+      "pdf_url": "https://doi.org/10.5281/zenodo.17656320",
+      "category": "Multi-Agent Systems and Negotiation",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "Agents",
+      "topics": [
+        "Agents",
+        "AI"
+      ],
+      "topic_key": "agents"
+    },
+    {
       "id": "d7730fc43221",
       "title": "Precision Dosing, Adaptive Algorithms and AI driven Prescribing",
       "slug": "precision-dosing-adaptive-algorithms-and-ai-driven-prescribing",
@@ -2074,6 +1631,32 @@
       "author_line": "R. E. Ugandar, Rangu Naga Sai Sindhuja, Regati Pujitha Reddy, Lalitha Segu et al.",
       "url": "https://doi.org/10.5281/zenodo.20637834",
       "pdf_url": "https://doi.org/10.5281/zenodo.20637834",
+      "category": "Pharmacogenetics and Drug Metabolism",
+      "published_at": "2026-10-09T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "ce7674ce6862",
+      "title": "Precision Dosing, Adaptive Algorithms and AI driven Prescribing",
+      "slug": "precision-dosing-adaptive-algorithms-and-ai-driven-prescribing",
+      "abstract": "Personalized drug exposure The concept of precision dosing is the next generation of drug-based therapy, which stops at a stereotyped regimen and gets triggered by targeted biological, clinical, and digital data streams that are unique to each patient. The use of pharmacometrics, real-time therapeutic drug monitoring, artificial intelligence (AI), and adaptive algorithmic modeling has allowed more active and adjustable systems of prescribing. Adaptive dosing models involve the introduction of pharmacokinetic-pharmacodynamic (PK-PD) mechanistic modeling and an integration of pharmacogenomic data and organ functions, wearable biosensor, and real-world data are used to continuously optimize cli",
+      "summary": "Personalized drug exposure The concept of precision dosing is the next generation of drug-based therapy, which stops at a stereotyped regimen and gets triggered by targeted biological, clinical, and digital data streams that are unique to each patient. The use of pharmacometrics,",
+      "authors": [
+        "R. E. Ugandar",
+        "Rangu Naga Sai Sindhuja",
+        "Regati Pujitha Reddy",
+        "Lalitha Segu",
+        "Shiva Kumar Dande Shiva Kumar"
+      ],
+      "author_line": "R. E. Ugandar, Rangu Naga Sai Sindhuja, Regati Pujitha Reddy, Lalitha Segu et al.",
+      "url": "https://doi.org/10.5281/zenodo.20637835",
+      "pdf_url": "https://doi.org/10.5281/zenodo.20637835",
       "category": "Pharmacogenetics and Drug Metabolism",
       "published_at": "2026-10-09T00:00:00.000Z",
       "source": "OpenAlex",
@@ -2135,6 +1718,31 @@
       "topic_key": "multimodal"
     },
     {
+      "id": "1b69210205bb",
+      "title": "ASM@:A co-designed digital prototype for accessible asthma self-management",
+      "slug": "asm-a-co-designed-digital-prototype-for-accessible-asthma-self-management",
+      "abstract": "interpret translational immunology studies, including single-cell omics, and biomarker validation; Apply immunological concepts to design clinical trials, biomarker studies, and patient management strategies",
+      "summary": "interpret translational immunology studies, including single-cell omics, and biomarker validation; Apply immunological concepts to design clinical trials, biomarker studies, and patient management strategies",
+      "authors": [
+        "Alice M Turner",
+        "Aneesa Sajid",
+        "Lukasz Luzewski",
+        "Marco; id_orcid 0000-0002-0707-7196 Bardus"
+      ],
+      "author_line": "Alice M Turner, Aneesa Sajid, Lukasz Luzewski, Marco; id_orcid 0000-0002-0707-7196 Bardus",
+      "url": "https://research.birmingham.ac.uk/en/publications/8b23ce93-c58a-468c-a47d-68f4ba69e66d",
+      "pdf_url": "https://www.ersnet.org/wp-content/uploads/2026/06/ExportFinalProgram_19062026042927-cover.pdf",
+      "category": null,
+      "published_at": "2026-09-09T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "University of Birmingham Research Portal (University of Birmingham)",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "daae3b6e265c",
       "title": "Universal Audio Generation",
       "slug": "universal-audio-generation",
@@ -2164,7 +1772,7 @@
       ],
       "author_line": "Antoine Laurent, Sameer Khurana, Anthony Larcher, Dominik Klement et al.",
       "url": "https://hal.science/hal-05110014",
-      "pdf_url": "https://hal.science/hal-05110014v1/document",
+      "pdf_url": "https://hal.science/hal-05110014v1/file/ESPERANTO_JSALT2024.pdf",
       "category": "Music and Audio Processing",
       "published_at": "2026-09-01T00:00:00.000Z",
       "source": "OpenAlex",
@@ -2194,6 +1802,62 @@
       "published_at": "2026-09-01T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "Open Research Online (The Open University)",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "6aaf6e80cce3",
+      "title": "Fusing Structural Phenotypes with Functional Data for Early Prediction of Primary Angle-Closure Glaucoma Progression.",
+      "slug": "fusing-structural-phenotypes-with-functional-data-for-early-prediction-of-primary-angle-cl",
+      "abstract": "Purpose: To classify eyes as slow or fast glaucoma progressors in patients with primary angle-closure glaucoma (PACG) using an integrated approach combining optic nerve head (ONH) structural features and sector-based visual field (VF) functional parameters. Design: Retrospective longitudinal study. Participants: Patients with PACG from glaucoma clinics. Methods: Patients with PACG with ≥5 reliable VF tests over ≥5 years were included. Visual field progression was assessed using ZEISS FORUM Software, with the baseline VF test selected within 6 months of the OCT scan. Fast progression was defined as a VF index (VFI) decline of < -2.0% per year; slow progression as ≥ -2.0% per year. OCT volumes",
+      "summary": "Purpose: To classify eyes as slow or fast glaucoma progressors in patients with primary angle-closure glaucoma (PACG) using an integrated approach combining optic nerve head (ONH) structural features and sector-based visual field (VF) functional parameters. Design: Retrospective ",
+      "authors": [
+        "Swati Sharma",
+        "Thanadet Chuangsuwanich",
+        "Royston K Y Tan",
+        "Shimna Clara Prasad",
+        "Tin A Tun",
+        "Shamira A Perera",
+        "Martin L. Buist",
+        "Tin Aung",
+        "Monisha E. Nongpiur",
+        "Michaël J A Girard"
+      ],
+      "author_line": "Swati Sharma, Thanadet Chuangsuwanich, Royston K Y Tan, Shimna Clara Prasad et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42621142",
+      "pdf_url": null,
+      "category": "Glaucoma and retinal disorders",
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "PubMed",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Machine Learning",
+        "AI"
+      ],
+      "topic_key": "multimodal"
+    },
+    {
+      "id": "69238a244de4",
+      "title": "Influencing differently: how Chinese male beauty influencers develop influencer marketing beyond Silicon Valley",
+      "slug": "influencing-differently-how-chinese-male-beauty-influencers-develop-influencer-marketing-b",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "S. Yang",
+        "J. Waverley"
+      ],
+      "author_line": "S. Yang, J. Waverley",
+      "url": "https://orcid.org/0000-0003-2634-2028>",
+      "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/240958/10/1-s2.0-S0148296326003085-main.pdf",
+      "category": "Gender, Feminism, and Media",
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
       "topic": "AI",
       "topics": [
         "AI"
@@ -2231,29 +1895,6 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "69238a244de4",
-      "title": "Influencing differently: how Chinese male beauty influencers develop influencer marketing beyond Silicon Valley",
-      "slug": "influencing-differently-how-chinese-male-beauty-influencers-develop-influencer-marketing-b",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "S. Yang",
-        "J. Waverley"
-      ],
-      "author_line": "S. Yang, J. Waverley",
-      "url": "https://orcid.org/0000-0003-2634-2028>",
-      "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/240958/10/1-s2.0-S0148296326003085-main.pdf",
-      "category": "Gender, Feminism, and Media",
-      "published_at": "2026-09-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "07cfa64d4940",
       "title": "Road-oriented attention and class-balanced learning for post-disaster road damage segmentation",
       "slug": "road-oriented-attention-and-class-balanced-learning-for-post-disaster-road-damage-segmenta",
@@ -2276,101 +1917,6 @@
         "AI"
       ],
       "topic_key": "ai"
-    },
-    {
-      "id": "8ac52a8634e4",
-      "title": "Neurophysiological Correlates of Neuroanatomical Dimensions in Major Depressive Disorder: Electroencephalographic Markers of Brain Function and Treatment Outcome.",
-      "slug": "neurophysiological-correlates-of-neuroanatomical-dimensions-in-major-depressive-disorder-e",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Wenyi Xiao",
-        "Rachel D. Woodham",
-        "Mathilde Antoniades",
-        "Srinivasan Dp",
-        "Yong Fan",
-        "Guray Erus",
-        "José García",
-        "Stephen R. Arnott",
-        "T Donna Chen",
-        "Ki Sueng Choi",
-        "Cherise R Chin Fatt",
-        "Benicio N Frey",
-        "Faranak Farzan",
-        "Vibe G Frøkjær",
-        "Melanie Ganz",
-        "Beata R. Godlewska",
-        "Stefanie Hassel",
-        "Keith Ho",
-        "Andrew M. McIntosh",
-        "K Qin",
-        "Susan Rotzinger",
-        "Matthew D Sacchet",
-        "Jonathan Savitz",
-        "Haochang Shou",
-        "Ashish Singh",
-        "Aleks Stolicyn",
-        "Irina Strigo",
-        "Stephen C. Strother",
-        "Duygu Tosun",
-        "Dongtao Wei",
-        "Roland Zahn",
-        "Ian M Anderson",
-        "W Edward Craighead",
-        "J F William Deakin",
-        "Boadie W Dunlop",
-        "Rebecca Elliott",
-        "Q H Gong",
-        "Ian H Gotlib",
-        "C Gerald Harmer",
-        "Sidney H. Kennedy",
-        "Gitte M Knudsen",
-        "Helen S Mayberg",
-        "Paulus Mw",
-        "Jiang Qiu",
-        "Madhukar H Trivedi",
-        "Heather C Whalley",
-        "Chao gan Yan",
-        "Young AH",
-        "Christos Davatzikos",
-        "Cynthia H Y Fu"
-      ],
-      "author_line": "Wenyi Xiao, Rachel D. Woodham, Mathilde Antoniades, Srinivasan Dp et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42494826",
-      "pdf_url": "https://kclpure.kcl.ac.uk/ws/files/383287281/NeurophysiologicalCorrelates_Xiao_GoldVoR.pdf",
-      "category": "Treatment of Major Depression",
-      "published_at": "2026-09-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "f01e64373a16",
-      "title": "Analyse en detectie van vroege reumatische hartziekte met behulp van goedkope ECG- en PCG-metingen door middel van machinaal leren",
-      "slug": "analyse-en-detectie-van-vroege-reumatische-hartziekte-met-behulp-van-goedkope-ecg-en-pcg-m",
-      "abstract": "Rheumatic Heart Disease (RHD) affects approximately 55 million people worldwide, with the Global South bearing the greatest burden, particularly among children, adolescents, and young adults. Recently, the WHO declared RHD a global health priority, targeting a 25% reduction in premature deaths by 2030. Achieving this goal requires cost‑effective and scalable interventions for early detection in at‑risk populations. However, in low-resource settings, effective RHD prevention is hindered primarily by the absence of periodic community-based screening programs. As a result, patients often present late with severe complications, overwhelming cardiology services and making valve surgery unaffordab",
-      "summary": "Rheumatic Heart Disease (RHD) affects approximately 55 million people worldwide, with the Global South bearing the greatest burden, particularly among children, adolescents, and young adults. Recently, the WHO declared RHD a global health priority, targeting a 25% reduction in pr",
-      "authors": [
-        "Amsalu Thomas Chuma"
-      ],
-      "author_line": "Amsalu Thomas Chuma",
-      "url": "https://lirias.kuleuven.be/handle/20.500.12942/790449",
-      "pdf_url": null,
-      "category": "Streptococcal Infections and Treatments",
-      "published_at": "2026-08-25T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Lirias (KU Leuven)",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "Machine Learning",
-        "AI"
-      ],
-      "topic_key": "multimodal"
     },
     {
       "id": "c6afd7cba847",
@@ -5050,6 +4596,110 @@
       "topic_key": "world-models"
     },
     {
+      "id": "34a6702a3092",
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "slug": "flowevo-self-evolving-agents-through-the-co-evolution-of-workflows-and-executable-skills",
+      "abstract": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills",
+      "summary": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline a",
+      "authors": [
+        "Zeyu Ren",
+        "Ling Yue",
+        "Ran Li",
+        "Yishu Wang",
+        "Shengxiang Xu",
+        "Hanmo Liu",
+        "Shaowu Pan",
+        "Shimin Di"
+      ],
+      "author_line": "Zeyu Ren, Ling Yue, Ran Li, Yishu Wang et al.",
+      "url": "https://huggingface.co/papers/2607.21596",
+      "pdf_url": "https://arxiv.org/pdf/2607.21596.pdf",
+      "category": null,
+      "published_at": "2026-08-19T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM"
+      ],
+      "topic_key": "llm"
+    },
+    {
+      "id": "d1443c21210a",
+      "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+      "slug": "goag-generative-and-object-agnostic-grasp-planner-for-dexterous-robotic-manipulation",
+      "abstract": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that the gripper and the object share identical surface geometry at their mutual contact points. We propose GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation, a novel deep generative model that learns a compact latent representation of a specific gripper's contact surface distribution, enabling the efficient sampling of valid grasp configurations without relying on object-specific trai",
+      "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that",
+      "authors": [
+        "Julien Merand",
+        "Boris Meden",
+        "Mathieu Grossard",
+        "Liming Chen"
+      ],
+      "author_line": "Julien Merand, Boris Meden, Mathieu Grossard, Liming Chen",
+      "url": "https://huggingface.co/papers/2608.19759",
+      "pdf_url": "https://arxiv.org/pdf/2608.19759.pdf",
+      "category": null,
+      "published_at": "2026-08-19T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Robotics",
+      "topics": [
+        "Robotics"
+      ],
+      "topic_key": "robotics"
+    },
+    {
+      "id": "a02bfd3bfd60",
+      "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+      "slug": "cotograsp-contact-topology-conditioned-dexterous-grasp-synthesis-via-canonical-workspace-l",
+      "abstract": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitively expensive, object-annotated datasets. To address these limitations, we propose CoToGrasp, a novel generative framework that synthesizes diverse, stable grasps strictly conditioned on specific contact topologies. To bypass the data collection bottleneck, CoToGrasp is trained entirely in an object-agnostic manner. We introduce a feature-based canonical workspace that projects local object featur",
+      "summary": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically",
+      "authors": [
+        "Julien Merand",
+        "Boris Meden",
+        "Liming Chen",
+        "Mathieu Grossard"
+      ],
+      "author_line": "Julien Merand, Boris Meden, Liming Chen, Mathieu Grossard",
+      "url": "https://huggingface.co/papers/2608.19776",
+      "pdf_url": "https://arxiv.org/pdf/2608.19776.pdf",
+      "category": null,
+      "published_at": "2026-08-19T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Robotics",
+      "topics": [
+        "Robotics"
+      ],
+      "topic_key": "robotics"
+    },
+    {
+      "id": "10431203ef7d",
+      "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
+      "slug": "listening-forward-next-patch-embedding-prediction-enables-scalable-audio-learners",
+      "abstract": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most influential progress in language modeling and, more recently, in visual representation learning: rather than train encoders as static feature extractors, models are trained to predict the next element, a discrete token or a continuous embedding, from the preceding context. Autoregressive prediction thereby provides a unified pre-training interface that transfers across modalities, compelling the model to learn the unde",
+      "summary": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most in",
+      "authors": [
+        "Umberto Cappellazzo",
+        "Xubo Liu",
+        "Stavros Petridis",
+        "Maja Pantic"
+      ],
+      "author_line": "Umberto Cappellazzo, Xubo Liu, Stavros Petridis, Maja Pantic",
+      "url": "https://huggingface.co/papers/2608.19863",
+      "pdf_url": "https://arxiv.org/pdf/2608.19863.pdf",
+      "category": null,
+      "published_at": "2026-08-19T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "6a1c86d0798e",
       "title": "Towards Quantifying Benchmark Optimization in ASR Models",
       "slug": "towards-quantifying-benchmark-optimization-in-asr-models",
@@ -5536,133 +5186,27 @@
       "topic_key": "computer-vision"
     },
     {
-      "id": "a9c33154967c",
-      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
-      "slug": "skillgate-training-in-policy-skill-selection-in-long-horizon-agents",
-      "abstract": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existing signal trains it. We show that the default remedy, outcome-rewarded RL over the candidate slate, cannot teach it, for a structural reason we identify and name selector credit starvation: under a broadcast, sequence-level advantage, the few tokens that name the chosen skill carry a vanishing share of the loss, and the credit they inherit is increasingly wrong-signed as trajectories lengthen. A correct choice is punis",
-      "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existing",
+      "id": "8249467aef6f",
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+      "slug": "thinking-in-a-low-resource-language-what-sft-builds-what-rl-fixes-what-accuracy-cannot-see",
+      "abstract": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune them to reason in a low-resource language. On accuracy benchmarks almost nothing happens, and the benchmark itself is noise at this scale: changing only the random seed moves the score by 7.7 points, more than every data and recipe effect we measured. That null is our first result. The real changes live where accuracy cannot see. Base models never think in Greek: 0 of 1,000 reasoning traces, even when the question is Greek, so the model answers correctly while reasoning in a form its user cannot read, audit, or correct. After supervised fine-tuning (SFT), every released chec",
+      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune them to reason in a low-resource language. On accuracy benchmarks almost nothing happens, and the benchmark itself is noise at this scale: changing only the rand",
       "authors": [
-        "Qingyao Li",
-        "Wenxiang Jiao",
-        "Shuai Shao",
-        "Kangning Zhang",
-        "Yuan Lu",
-        "Yi Guo",
-        "Weiwen Liu",
-        "Weinan Zhang",
-        "Yong Yu"
+        "Ayoub Kirouane",
+        "Christos Petrocheilos"
       ],
-      "author_line": "Qingyao Li, Wenxiang Jiao, Shuai Shao, Kangning Zhang et al.",
-      "url": "https://huggingface.co/papers/2608.18852",
-      "pdf_url": "https://arxiv.org/pdf/2608.18852.pdf",
+      "author_line": "Ayoub Kirouane, Christos Petrocheilos",
+      "url": "https://huggingface.co/papers/2608.17744",
+      "pdf_url": "https://arxiv.org/pdf/2608.17744.pdf",
       "category": null,
-      "published_at": "2026-08-18T20:00:00.000Z",
+      "published_at": "2026-08-18T09:09:03.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "Agents",
+      "topic": "Reinforcement Learning",
       "topics": [
-        "Agents",
         "Reinforcement Learning"
       ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "2f17fdccfc77",
-      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
-      "slug": "co-rl-unsupervised-reasoning-emerges-from-diverse-cohort-in-multi-agent-rl",
-      "abstract": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this",
-      "summary": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become ",
-      "authors": [
-        "Yunhao Yang",
-        "Yuexin Bian",
-        "Yunjie Tian",
-        "Di Fu",
-        "Tianjin Huang",
-        "Yuanyuan Shi",
-        "Ziang Xiao",
-        "Nuno Vasconcelos",
-        "Yijiang Li"
-      ],
-      "author_line": "Yunhao Yang, Yuexin Bian, Yunjie Tian, Di Fu et al.",
-      "url": "https://huggingface.co/papers/2608.17253",
-      "pdf_url": "https://arxiv.org/pdf/2608.17253.pdf",
-      "category": null,
-      "published_at": "2026-08-18T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "Multimodal",
-        "Reinforcement Learning"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "f203dcad2262",
-      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
-      "slug": "decision-metric-alignment-in-latent-world-models-diagnostics-and-action-conditioned-object",
-      "abstract": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the latter property decision-metric alignment. We introduce Plan-Real Spearman, which measures latent--real rank agreement on random plans, and CEM-stage Spearman, which measures the same agreement as cross-entropy-method (CEM) search concentrates its proposal. We analyze sufficient conditions under which latent distance preserves real-cost rankings, identifying encoder distortion, terminal rollout error, and candidate m",
-      "summary": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the ",
-      "authors": [
-        "Jiawei Wang",
-        "Ke Rui",
-        "Yushen Zuo",
-        "Yichun Feng",
-        "Minglei Li"
-      ],
-      "author_line": "Jiawei Wang, Ke Rui, Yushen Zuo, Yichun Feng et al.",
-      "url": "https://huggingface.co/papers/2608.18746",
-      "pdf_url": "https://arxiv.org/pdf/2608.18746.pdf",
-      "category": null,
-      "published_at": "2026-08-18T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "World Models",
-      "topics": [
-        "World Models"
-      ],
-      "topic_key": "world-models"
-    },
-    {
-      "id": "e2f059ff6d1a",
-      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
-      "slug": "softvtbench-a-deformation-aware-visuo-tactile-dataset-and-benchmark-for-deformable-object-",
-      "abstract": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible contact observations with independent physical ground truth over complete tasks. We introduce SoftVTBench, a visuo-tactile dataset for physical-interaction-aware deformable-object manipulation. It contains 4,000 expert demonstrations and more than 50 assets, including volumetric deformable objects and visually matched rigid twins. At 20 Hz, each episode synchronizes multi-view RGB, dual-finger tactile",
-      "summary": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pair",
-      "authors": [
-        "Bowen Jing",
-        "Mingxin Wang",
-        "Ruiyang Hao",
-        "Chenchen Ge",
-        "Hanwen Shen",
-        "Junjie He",
-        "Yang Cui",
-        "Yiming Hou",
-        "Weitao Zhou",
-        "Jiawei Wang",
-        "Minglei Li",
-        "Dandan Zhang",
-        "Ding Zhao",
-        "Houde Liu",
-        "Xiaofan Li",
-        "Si Liu",
-        "Ping Luo",
-        "Haibao Yu"
-      ],
-      "author_line": "Bowen Jing, Mingxin Wang, Ruiyang Hao, Chenchen Ge et al.",
-      "url": "https://huggingface.co/papers/2608.18701",
-      "pdf_url": "https://arxiv.org/pdf/2608.18701.pdf",
-      "category": null,
-      "published_at": "2026-08-18T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "Robotics"
-      ],
-      "topic_key": "multimodal"
+      "topic_key": "reinforcement-learning"
     },
     {
       "id": "4c3298378332",
@@ -5719,6 +5263,68 @@
       "topic_key": "ai"
     },
     {
+      "id": "fbf033215e8d",
+      "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "slug": "0-vla-a-hierarchical-robot-foundation-model-with-world-model-guided-test-time-computation",
+      "abstract": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce τ_0-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its o",
+      "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate",
+      "authors": [
+        "Xiaowei Cai",
+        "Yunuo Cai",
+        "Bingao Chen",
+        "Jingxiao Chen",
+        "Zhi Chen",
+        "Siyuan Feng",
+        "Tengyu Hou",
+        "Jingshun Huang",
+        "Han Jiang",
+        "Runkun Ju",
+        "Dong Li",
+        "Mingxiang Li",
+        "Shaowei Li",
+        "Xinchen Li",
+        "Yifan Li",
+        "Yi Liu",
+        "Zhongyuan Liu",
+        "Jianlan Luo",
+        "Junwen Miao",
+        "Ruiqi Ni",
+        "Buqing Nie",
+        "Mingjie Pan",
+        "Xinlin Ren",
+        "Jianheng Song",
+        "Jiaxu Wang",
+        "Peiqi Wang",
+        "Sen Wang",
+        "Xiaoyan Wang",
+        "Dafeng Wei",
+        "Dongming Wu",
+        "Pengwei Xie",
+        "Pu Yang",
+        "Hangjian Ye",
+        "Xiangyu Yue",
+        "Jinyu Zhang",
+        "Qinglin Zhang",
+        "Xueyong Zhao",
+        "Pengfei Zhou",
+        "Yue Zhou"
+      ],
+      "author_line": "Xiaowei Cai, Yunuo Cai, Bingao Chen, Jingxiao Chen et al.",
+      "url": "https://huggingface.co/papers/2608.16885",
+      "pdf_url": "https://arxiv.org/pdf/2608.16885.pdf",
+      "category": null,
+      "published_at": "2026-08-16T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM",
+        "Multimodal",
+        "Robotics"
+      ],
+      "topic_key": "llm"
+    },
+    {
       "id": "225b3b15fe6a",
       "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
       "slug": "towards-real-time-and-adaptable-lidar-scene-completion",
@@ -5743,58 +5349,17 @@
       "topic_key": "ai"
     },
     {
-      "id": "60961e59b340",
-      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
-      "slug": "zetta-an-efficient-closed-loop-embodied-harness-for-self-evolving-physical-intelligence",
-      "abstract": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not realized closed-loop learning in physical execution: existing harnesses remain largely open-loop, following fixed skills during rollout and reflecting only after an episode completes. Such post-hoc reflection cannot govern execution as it unfolds, because physical interaction requires decisions to track rapidly changing robot-environment states at a frequency beyond today's large agentic models. We present Zetta, a closed-loop embodied harness that evolves code-based runtime critics and recovery skills online while keeping the base policy frozen. Through three timescale-separ",
-      "summary": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not realized closed-loop learning in physical execution: existing harnesses remain largely open-loop, following fixed skills during rollout and reflecting only after ",
+      "id": "7baa468c32b3",
+      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
+      "slug": "tinycast-probabilistic-zero-shot-forecasting-with-computed-periodicity",
+      "abstract": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies the dominant periods, the context is folded on their phase, and a dilated convolutional encoder and a block-autoregressive quantile decoder model the rest. It is smaller than every zero-shot entry on the GIFT-Eval board whose parameter count can be established. On probabilistic accuracy it defines the size-accuracy frontier. Among zero-shot entries declaring no test-data leakage it is the only one below 1.4M parameters",
+      "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies th",
       "authors": [
-        "Xin Ding",
-        "Liang Mi",
-        "Mingzhe Huang",
-        "Zixuan Wang",
-        "Chao Zhang",
-        "Zixu Hao",
-        "Fu Chen",
-        "Xiangyu Li",
-        "Yikai Zheng",
-        "Yaoyu Guo",
-        "Weijun Wang",
-        "Kun Li",
-        "Hao Wu",
-        "Yunxin Liu",
-        "Ting Cao"
+        "Armin Steinhauser"
       ],
-      "author_line": "Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang et al.",
-      "url": "https://huggingface.co/papers/2608.16590",
-      "pdf_url": "https://arxiv.org/pdf/2608.16590.pdf",
-      "category": null,
-      "published_at": "2026-08-16T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "Robotics"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "abf51be17260",
-      "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
-      "slug": "llms-get-smarter-from-targeted-synthetic-multilingual-data",
-      "abstract": "Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in different languages. Prior work attributes this to an internal misalignment of semantic representation across languages. Currently, there are two main approaches to address LSC in the literature: (1) routing all queries through English, improving performance, but limiting language expressivity to English; or (2) training on language-balanced data, equalizing model performance across languages, but reducing overall performa",
-      "summary": "Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in differ",
-      "authors": [
-        "Ishika Agarwal",
-        "Arkajyoti Charaborty",
-        "Tanner Sorensen",
-        "Neha Gupta",
-        "Andreas Stolcke"
-      ],
-      "author_line": "Ishika Agarwal, Arkajyoti Charaborty, Tanner Sorensen, Neha Gupta et al.",
-      "url": "https://huggingface.co/papers/2608.15964",
-      "pdf_url": "https://arxiv.org/pdf/2608.15964.pdf",
+      "author_line": "Armin Steinhauser",
+      "url": "https://huggingface.co/papers/2608.15767",
+      "pdf_url": "https://arxiv.org/pdf/2608.15767.pdf",
       "category": null,
       "published_at": "2026-08-15T20:00:00.000Z",
       "source": "Hugging Face",
@@ -5804,32 +5369,6 @@
         "AI"
       ],
       "topic_key": "ai"
-    },
-    {
-      "id": "0dcf15b4d7de",
-      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
-      "slug": "bounded-agents-delegation-security-for-multi-agent-ai-systems",
-      "abstract": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an agent may act contrary to the delegated task, combine individually permitted actions into a prohibited outcome, or delegate authority to a sub-agent without limiting it. A prompt injection poses a risk only if the agent has authority to perform such actions; this is therefore a problem of authorization architecture, not just the model. The Agentic Principal Chain (APC) tracks delegated authority from one principal to th",
-      "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an age",
-      "authors": [
-        "Xabier Muruaga"
-      ],
-      "author_line": "Xabier Muruaga",
-      "url": "https://huggingface.co/papers/2608.15888",
-      "pdf_url": "https://arxiv.org/pdf/2608.15888.pdf",
-      "category": null,
-      "published_at": "2026-08-15T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Agents",
-        "Robotics",
-        "Cybersecurity",
-        "AI"
-      ],
-      "topic_key": "llm"
     },
     {
       "id": "a9193329383b",
@@ -5864,22 +5403,21 @@
       "topic_key": "world-models"
     },
     {
-      "id": "cc1575b980f6",
-      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
-      "slug": "the-more-popular-the-harder-to-forget-adaptive-popularity-for-llm-unlearning",
-      "abstract": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines local token confidence with a per-fact popularity-dependent exponent derived from an external proxy (e.g., Wikidata sitelinks, LLM-as-Judge), and automates the forget-retain balance via a dual-ascent controller that adjusts the retain penalty each epoch. Across three model families and two benchmarks, AdaPop leaks ~5x less forgotten content than competing methods under paraphrased queries and ~1.6x less under adversarial ",
-      "summary": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines local",
+      "id": "07fc05f17d60",
+      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+      "slug": "the-embedder-s-dilemma-llms-are-better-but-at-what-cost",
+      "abstract": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval. In aggregate the two paradigms are effectively tied: the best LLM (Gemini 3.1 Pro, 77.6) and the best embedding model (77.2) differ by 0.4 points. Their strengths differ by task: LLMs lead on reasoning-heavy retrieval, embedding models lead on classification, and the two match on clustering, STS, and pair classification. Reaching that parity is expensive. An LLM c",
+      "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (",
       "authors": [
-        "Anna Borisiuk",
-        "Andrey Savchenko",
-        "Alexander Panchenko",
-        "Elena Tutubalina"
+        "Adnan El Assadi",
+        "Niklas Muennighoff",
+        "Jinhyuk Lee"
       ],
-      "author_line": "Anna Borisiuk, Andrey Savchenko, Alexander Panchenko, Elena Tutubalina",
-      "url": "https://huggingface.co/papers/2608.14229",
-      "pdf_url": "https://arxiv.org/pdf/2608.14229.pdf",
+      "author_line": "Adnan El Assadi, Niklas Muennighoff, Jinhyuk Lee",
+      "url": "https://huggingface.co/papers/2608.12875",
+      "pdf_url": "https://arxiv.org/pdf/2608.12875.pdf",
       "category": null,
-      "published_at": "2026-08-13T20:00:00.000Z",
+      "published_at": "2026-08-12T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
       "topic": "LLM",
@@ -5889,24 +5427,52 @@
       "topic_key": "llm"
     },
     {
-      "id": "717e698b6458",
-      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
-      "slug": "scaling-creative-writing-beyond-story-centric-data-with-attribute-guided-genre-expansion",
-      "abstract": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats. We propose an attribute-guided genre expansion framework for scaling creative writing data beyond story generation. By separating thematic breadth from genre-form control, our framework leverages human-authored story prompts as diverse creative seeds, while utilizing manually curated genre attributes to enforce distinct structural, stylistic, and formatting conventions. We combine these to prompt strong LLMs for genre-faithful query-response pairs, which are then quality-filtered.",
-      "summary": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats. We propose an attribute-guided genre expansion framework for scal",
+      "id": "d5d8103ef609",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "slug": "quotebench-how-matched-scores-can-hide-command-path-failures",
+      "abstract": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point reproduces each replayed reply's raw-path outcome, so any recovery under a disclosed boundary must come from the model changing its generation. Across eight same-window configurations, replaying the sam",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-s",
       "authors": [
-        "Hwan Chang",
-        "Yongil Kim",
-        "Heuiyeen Yeen",
-        "Yireun Kim",
-        "Jinsik Lee",
-        "Hwanhee Lee"
+        "Shangao Li",
+        "Yao Zhang",
+        "Volker Tresp",
+        "Yuanyuan Yang"
       ],
-      "author_line": "Hwan Chang, Yongil Kim, Heuiyeen Yeen, Yireun Kim et al.",
-      "url": "https://huggingface.co/papers/2608.13947",
-      "pdf_url": "https://arxiv.org/pdf/2608.13947.pdf",
+      "author_line": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang",
+      "url": "https://huggingface.co/papers/2608.13547",
+      "pdf_url": "https://arxiv.org/pdf/2608.13547.pdf",
       "category": null,
-      "published_at": "2026-08-13T20:00:00.000Z",
+      "published_at": "2026-08-12T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM"
+      ],
+      "topic_key": "llm"
+    },
+    {
+      "id": "4aa969426641",
+      "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+      "slug": "naru-a-benchmark-for-narrative-evolution-and-cultural-nuance-understanding-in-japanese-ext",
+      "abstract": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in high-context, non-English media. To address this gap, we introduce NARU, a benchmark designed to evaluate Narrative evolution and Reasoning on cultural Understanding in Japanese long-form video. NARU consists of 1,481 questions grounded in 155 videos totaling 146.8 hours, spanning four narrative and five cultural dimensions. To construct the benchmark at this scale, we propose a hierarchical memory-based annotation pi",
+      "summary": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in h",
+      "authors": [
+        "Yuheng Huang",
+        "Jianlang Chen",
+        "Jiayang Song",
+        "Hua Qi",
+        "Aza Kai",
+        "Vincent Markert",
+        "Edison Marrese-Taylor",
+        "Jianjun Zhao",
+        "Lei Ma"
+      ],
+      "author_line": "Yuheng Huang, Jianlang Chen, Jiayang Song, Hua Qi et al.",
+      "url": "https://huggingface.co/papers/2608.13210",
+      "pdf_url": "https://arxiv.org/pdf/2608.13210.pdf",
+      "category": null,
+      "published_at": "2026-08-12T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
       "topic": "AI",
@@ -5943,52 +5509,26 @@
       "topic_key": "llm"
     },
     {
-      "id": "e55a74ca97ed",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "slug": "omniscientist-an-omni-modal-omni-discipline-ai-scientist",
-      "abstract": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, omni-modal AI scientist that conducts multidisciplinary research directly from heterogeneous raw evidence. A perception layer and 3 autonomous agents fo",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scienti",
+      "id": "4269eb794934",
+      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+      "slug": "hierarchical-self-improvement-a-framework-for-task-specific-evolvable-agent-harnesses",
+      "abstract": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously evolvable: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce Hierarchical Self-Improvement (HSI), a framework in which a single frozen LLM M operates across three hierarchical scopes: a task harness H that executes tasks, an evolver that rewrites H, and a meta-evolver that r",
+      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-speci",
       "authors": [
-        "Bobo Li",
-        "Hao Fei",
-        "Tianjie Ju",
-        "Mong-Li Lee",
-        "Wynne Hsu"
+        "Tailin Zhou"
       ],
-      "author_line": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee et al.",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "pdf_url": "https://arxiv.org/pdf/2608.13558.pdf",
+      "author_line": "Tailin Zhou",
+      "url": "https://huggingface.co/papers/2608.08466",
+      "pdf_url": "https://arxiv.org/pdf/2608.08466.pdf",
       "category": null,
-      "published_at": "2026-08-12T20:00:00.000Z",
+      "published_at": "2026-08-08T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "AI",
+      "topic": "LLM",
       "topics": [
-        "AI"
+        "LLM"
       ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "8094a67f7eff",
-      "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
-      "slug": "temporal-multi-signal-fusion-for-token-level-hallucination-detection",
-      "abstract": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scored from a 33-dimensional feature stream that fuses text statistics, Natural Language Inference (NLI) entailment, and language model surprisal, with no access to model internals. A Bidirectional Gated Recurrent Unit (BiGRU) over these features reaches an AUC of 0.840 on RAGTruth (10 seeds), an 11-point gain over an independent logistic-regression baseline (p = 0.002, Wilcoxon signed-rank). A controlled decomposition at",
-      "summary": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is score",
-      "authors": [
-        "Igor Itkin"
-      ],
-      "author_line": "Igor Itkin",
-      "url": "https://huggingface.co/papers/2608.18115",
-      "pdf_url": "https://arxiv.org/pdf/2608.18115.pdf",
-      "category": null,
-      "published_at": "2026-06-29T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "NLP",
-      "topics": [
-        "NLP"
-      ],
-      "topic_key": "nlp"
+      "topic_key": "llm"
     }
   ]
 }
