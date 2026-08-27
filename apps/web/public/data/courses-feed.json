@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T06:42:47.784Z",
-  "total": 49,
+  "generated_at": "2026-08-27T17:19:59.020Z",
+  "total": 53,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 30,
+    "coursera_new": 33,
     "edx": 0,
-    "newsapi": 5
+    "newsapi": 6
   },
   "topics": [
     "LLM",
@@ -23,7 +23,7 @@
   ],
   "topic_counts": {
     "LLM": 8,
-    "AI": 42,
+    "AI": 46,
     "World Models": 0,
     "Agents": 4,
     "Multimodal": 1,
@@ -457,6 +457,141 @@
   ],
   "newly_launched": [
     {
+      "id": "594603701529",
+      "name": "Cisco ACI Fundamentals for Beginners",
+      "slug": "packt-cisco-aci-fundamentals-for-beginners-zvf6g",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Dive into Cisco ACI with this beginner-friendly course that covers everything from basic setup to advanced configurations. Learn to deploy and manage the Nexus 9K, APIC, ACI fabric, and configure tenants, bridge domains, and VLAN pools. Step-by-step guidance ensures clear learnin",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-cisco-aci-fundamentals-for-beginners-zvf6g",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/52/7d718ba37f44a1b019b7051c8c2bdf/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:03:34.802Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "c4f694e942e5",
+      "name": "AI-Driven Salesforce Development with Cursor and Agentforce",
+      "slug": "packt-ai-driven-salesforce-development-with-cursor-and-agentforce",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Explore how AI-powered development tools are transforming the Salesforce ecosystem. Learn to build Apex classes, flows, triggers, and Lightning Web Components using Cursor IDE. Integrate Agentforce and MCP workflows to streamline development and automate Salesforce tasks. Modern ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-ai-driven-salesforce-development-with-cursor-and-agentforce",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/70/a33229a0344cadb240a518123dd8ac/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:03:06.764Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "08869e57f446",
+      "name": "Mastering SwiftUI- iOS 26 App Development Bootcamp",
+      "slug": "packt-mastering-swiftui-ios-26-app-development-bootcamp-ib0gu",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Dive into SwiftUI with this hands-on bootcamp, designed for iOS 26 development. Learn how to build and optimize modern apps with all the tools and techniques you need. From beginner basics to advanced UI controls, you'll be creating amazing apps in no time. This course takes you ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-mastering-swiftui-ios-26-app-development-bootcamp-ib0gu",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/8e/d9340029f8425c96be1d26870d9d30/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:02:19.221Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "ff97c9d6bd40",
+      "name": "Harvard Is Offering a New $699 Bootcamp for Entrepreneurs, But There’s a Catch",
+      "slug": "harvard-is-offering-a-new-699-bootcamp-for-entrepreneurs-but-there-s-a-catch",
+      "provider": "Entrepreneur",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Would you take the new course?",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.entrepreneur.com/business-news/harvard-is-offering-a-new-699-bootcamp-for-entrepreneurs-but-theres-a-catch",
+      "image_url": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/Harvard-University-GettyImages-578751544-copy.jpg?resize=1024,640",
+      "workload": null,
+      "launched_at": "2026-08-25T18:14:27Z",
+      "source": "Entrepreneur"
+    },
+    {
+      "id": "d8951fd3cb51",
+      "name": "Reproducible Training Data and ML-Ready Data Pipelines",
+      "slug": "reproducible-training-data-and-ml-ready-data-pipelines",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "machine-learning"
+      ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
+      "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/reproducible-training-data-and-ml-ready-data-pipelines",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
+      "workload": "3 weeks / 6–7 hours per week",
+      "launched_at": "2026-08-25T15:39:35.441Z",
+      "source": "Coursera"
+    },
+    {
       "id": "0e1ed1ca892c",
       "name": "You can earn your Google Al Professional Certificate for free - and I highly recommend it",
       "slug": "you-can-earn-your-google-al-professional-certificate-for-free-and-i-highly-recom",
@@ -619,35 +754,6 @@
       "workload": null,
       "launched_at": "2026-08-08T10:57:48Z",
       "source": "YouTube"
-    },
-    {
-      "id": "d8951fd3cb51",
-      "name": "Reproducible Training Data and ML-Ready Data Pipelines",
-      "slug": "reproducible-training-data-and-ml-ready-data-pipelines",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning"
-      ],
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "topic": "Machine Learning",
-      "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/reproducible-training-data-and-ml-ready-data-pipelines",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
-      "workload": "3 weeks / 6–7 hours per week",
-      "launched_at": "2026-07-31T19:04:21.527Z",
-      "source": "Coursera"
     },
     {
       "id": "c625b32b7892",
@@ -1838,6 +1944,141 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "594603701529",
+      "name": "Cisco ACI Fundamentals for Beginners",
+      "slug": "packt-cisco-aci-fundamentals-for-beginners-zvf6g",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Dive into Cisco ACI with this beginner-friendly course that covers everything from basic setup to advanced configurations. Learn to deploy and manage the Nexus 9K, APIC, ACI fabric, and configure tenants, bridge domains, and VLAN pools. Step-by-step guidance ensures clear learnin",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-cisco-aci-fundamentals-for-beginners-zvf6g",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/52/7d718ba37f44a1b019b7051c8c2bdf/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:03:34.802Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "c4f694e942e5",
+      "name": "AI-Driven Salesforce Development with Cursor and Agentforce",
+      "slug": "packt-ai-driven-salesforce-development-with-cursor-and-agentforce",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Explore how AI-powered development tools are transforming the Salesforce ecosystem. Learn to build Apex classes, flows, triggers, and Lightning Web Components using Cursor IDE. Integrate Agentforce and MCP workflows to streamline development and automate Salesforce tasks. Modern ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-ai-driven-salesforce-development-with-cursor-and-agentforce",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/70/a33229a0344cadb240a518123dd8ac/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:03:06.764Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "08869e57f446",
+      "name": "Mastering SwiftUI- iOS 26 App Development Bootcamp",
+      "slug": "packt-mastering-swiftui-ios-26-app-development-bootcamp-ib0gu",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Dive into SwiftUI with this hands-on bootcamp, designed for iOS 26 development. Learn how to build and optimize modern apps with all the tools and techniques you need. From beginner basics to advanced UI controls, you'll be creating amazing apps in no time. This course takes you ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-mastering-swiftui-ios-26-app-development-bootcamp-ib0gu",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/8e/d9340029f8425c96be1d26870d9d30/skill_image_square.jpg",
+      "workload": null,
+      "launched_at": "2026-08-26T13:02:19.221Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "ff97c9d6bd40",
+      "name": "Harvard Is Offering a New $699 Bootcamp for Entrepreneurs, But There’s a Catch",
+      "slug": "harvard-is-offering-a-new-699-bootcamp-for-entrepreneurs-but-there-s-a-catch",
+      "provider": "Entrepreneur",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Would you take the new course?",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.entrepreneur.com/business-news/harvard-is-offering-a-new-699-bootcamp-for-entrepreneurs-but-theres-a-catch",
+      "image_url": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/Harvard-University-GettyImages-578751544-copy.jpg?resize=1024,640",
+      "workload": null,
+      "launched_at": "2026-08-25T18:14:27Z",
+      "source": "Entrepreneur"
+    },
+    {
+      "id": "d8951fd3cb51",
+      "name": "Reproducible Training Data and ML-Ready Data Pipelines",
+      "slug": "reproducible-training-data-and-ml-ready-data-pipelines",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "machine-learning"
+      ],
+      "topics": [
+        "Machine Learning",
+        "AI"
+      ],
+      "topic": "Machine Learning",
+      "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/reproducible-training-data-and-ml-ready-data-pipelines",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
+      "workload": "3 weeks / 6–7 hours per week",
+      "launched_at": "2026-08-25T15:39:35.441Z",
+      "source": "Coursera"
+    },
+    {
       "id": "0e1ed1ca892c",
       "name": "You can earn your Google Al Professional Certificate for free - and I highly recommend it",
       "slug": "you-can-earn-your-google-al-professional-certificate-for-free-and-i-highly-recom",
@@ -2000,35 +2241,6 @@
       "workload": null,
       "launched_at": "2026-08-08T10:57:48Z",
       "source": "YouTube"
-    },
-    {
-      "id": "d8951fd3cb51",
-      "name": "Reproducible Training Data and ML-Ready Data Pipelines",
-      "slug": "reproducible-training-data-and-ml-ready-data-pipelines",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning"
-      ],
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "topic": "Machine Learning",
-      "ai_summary": "This course teaches learners to design reproducible, leakage-safe, governance-ready training data pipelines for machine learning and AI systems. Learners work with dataset versioning, deterministic builds, feature and label pipelines, point-in-time correctness, slice validation, ",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/reproducible-training-data-and-ml-ready-data-pipelines",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/81/ea334c227c47388d21c258c7c13cb6/course_image.jpg",
-      "workload": "3 weeks / 6–7 hours per week",
-      "launched_at": "2026-07-31T19:04:21.527Z",
-      "source": "Coursera"
     },
     {
       "id": "c625b32b7892",
