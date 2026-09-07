@@ -1,17 +1,101 @@
 {
-  "generated_at": "2026-09-05T09:58:19.402Z",
-  "total": 95,
+  "generated_at": "2026-09-07T11:34:41.419Z",
+  "total": 97,
   "sources": {
     "rss": 47,
     "newsapi": 50
   },
   "counts": {
-    "funding": 38,
-    "acquisition": 6,
-    "ipo": 7,
-    "startup": 44
+    "funding": 36,
+    "acquisition": 5,
+    "ipo": 6,
+    "startup": 50
   },
   "funding": [
+    {
+      "id": "33b6795fb7c0",
+      "name": "Healthcare billing startup leases RiNo office after $120 million raise",
+      "slug": "healthcare-billing-startup-leases-rino-office-after-120-million-raise",
+      "summary": "Candid Health, which says it has 250 health care organizations as customers, is upgrading from the 2,000 square feet it had in the Wells Fargo Center downtown.",
+      "url": "https://www.denverpost.com/2026/09/06/healthcare-billing-startup-leases-rino-office-after-120-million-raise/",
+      "source": "The Denver Post",
+      "event_type": "funding",
+      "amount": "$120M",
+      "technologies": [
+        "health"
+      ],
+      "published_at": "2026-09-06T10:00:12Z",
+      "image_url": "https://www.denverpost.com/wp-content/uploads/2026/09/tdp-l-bizden-01.jpg?w=1395&h=1046"
+    },
+    {
+      "id": "a3e0f6023c2a",
+      "name": "24_Kan_AM_IIT Kanpur",
+      "slug": "24-kan-am-iit-kanpur",
+      "summary": "FIRST IIT Kanpur, via SIIC, named Knowledge Partner for RKVY-RAFTAAR; MoU announced in Noida to boost agri-startup incubation, mentorship, funding.",
+      "url": "https://timesofindia.indiatimes.com/city/kanpur/24_kan_am_iit-kanpur/articleshow/133822891.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T02:18:13Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "f8012bdfb8e1",
+      "name": "Budget reactions and photo quotes",
+      "slug": "budget-reactions-and-photo-quotes",
+      "summary": "Chhattisgarh Budget 2026–27 draws mixed reactions: opposition calls it hollow, industry seeks tariff relief, experts cite welfare-focus, Sirpur corridor funding, startup push.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/budget-reactions-and-photo-quotes/articleshow/133819536.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T23:22:57Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-133819534,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "8fb723380894",
+      "name": "Hyd deeptech startup Leanwatts raises $2M in seed funding to scale EV power solutions",
+      "slug": "hyd-deeptech-startup-leanwatts-raises-2m-in-seed-funding-to-scale-ev-power-solutions",
+      "summary": "Leanwatts raises $2M seed led by Trivest Partners to scale EV chargers and power electronics R&D in Hyderabad, aiming for ₹60 crore run-rate by 2027.",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyd-deeptech-startup-leanwatts-raises-2m-in-seed-funding-to-scale-ev-power-solutions/articleshow/133805390.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$2M",
+      "technologies": [],
+      "published_at": "2026-09-05T16:39:19Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "3875cbee0fed",
+      "name": "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn.",
+      "slug": "he-waited-nearly-20-years-to-start-a-company-now-he-s-the-cofounder-of-a-double-unicorn",
+      "summary": "Snehal Antani cofounded Horizon3, an AI hacking venture. He credits his experience in helping him navigate a funding downturn and the SVB collapse.",
+      "url": "https://www.businessinsider.com/horizon3-ceo-snehal-antani-prepared-2-billion-startup-2026-9#article",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T09:50:01Z",
+      "image_url": "https://i.insider.com/6a90797779f11f0a89f91b6a?width=1200&format=jpeg"
+    },
+    {
+      "id": "49d696025bb3",
+      "name": "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn.",
+      "slug": "he-waited-nearly-20-years-to-start-a-company-now-he-s-the-cofounder-of-a-double-unicorn",
+      "summary": "Snehal Antani cofounded Horizon3, an AI hacking venture. He credits his experience in helping him navigate a funding downturn and the SVB collapse.",
+      "url": "https://www.businessinsider.com/horizon3-ceo-snehal-antani-prepared-2-billion-startup-2026-9",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T09:50:01Z",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/38b8fbf8aff2ba0ba9d6a7fdae5472523eff8db3bfb8f15f9a417ef04aa40182/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2F8fb0b89042fb0414701274ed8f0757f6.jpg"
+    },
     {
       "id": "7795e9410cfe",
       "name": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
@@ -38,80 +122,6 @@
         "cloud"
       ],
       "published_at": "2026-09-04T17:59:30.000Z"
-    },
-    {
-      "id": "3c53835d8c38",
-      "name": "Newspace Research in talks to raise $35-40 million from 360 One, Avendus, others",
-      "slug": "newspace-research-in-talks-to-raise-35-40-million-from-360-one-avendus-others",
-      "summary": "Defence-tech startup Newspace Research and Technologies is seeking $35-40 million in a Series C round, even as investors weigh its uneven revenue growth and delayed government contract payments.",
-      "url": "https://www.livemint.com/companies/start-ups/newspace-research-and-technologies-nrt-series-c-defence-tech-aerospace-drones-deeptech-360-one-asset-avendus-11787457991475.html",
-      "source": "Livemint",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-04T07:00:59Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/09/04/1600x900/logo/g03796fb0a2561922e0f461f609892400b1b31d144493fa26d_1788496869329_1fb8e20a-7724-4795-8aae-b0f542d9edfd_1788496869488_0beb469d-46c5-4d29-8e39-6770a292d097_61985606-1148-413b-a502-1d0c39dd64ed_13799a2c-22a3-465b-8735-b42d59b25db9.jpg"
-    },
-    {
-      "id": "cfa31a415cdc",
-      "name": "AI startup Crusoe valued at $30 billion after new funding",
-      "slug": "ai-startup-crusoe-valued-at-30-billion-after-new-funding",
-      "summary": "Separately, ‌the startup has signed a five-year ​cloud contract ​with trading firm Jane Street Group valued ⁠at around $13 billion, Bloomberg News reported on ​Thursday, citing sources.",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startup-crusoe-valued-at-30-billion-after-new-funding/articleshow/133751506.cms",
-      "source": "The Times of India",
-      "event_type": "funding",
-      "amount": "$30B",
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-09-04T04:10:02Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-203296,resizemode-75,msid-133751506/tech/artificial-intelligence/ai-startup-crusoe-valued-at-30-billion-after-new-funding.jpg"
-    },
-    {
-      "id": "fd5da17426c1",
-      "name": "Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
-      "slug": "musk-s-boring-co-pushes-investors-for-recruiting-business-help",
-      "summary": "Billionaire’s tunneling startup makes unusual demands of backers to participate in latest funding round.",
-      "url": "https://biztoc.com/x/c65dc9590360addf",
-      "source": "Biztoc.com",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T00:10:25Z",
-      "image_url": "https://biztoc.com/cdn/995/og.png"
-    },
-    {
-      "id": "8c30356a6600",
-      "name": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
-      "slug": "thinking-machines-lab-seeks-1-billion-at-40-billion-valuation",
-      "summary": "Thinking Machines Lab, the artificial intelligence startup led by former OpenAI Chief Technology Officer Mira Murati, is in talks to raise at least $1 billion at a valuation of at least $40 billion, The Information reported Thursday (Sept. 3). Existing invest…",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/",
-      "source": "pymnts.com",
-      "event_type": "funding",
-      "amount": "$1B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T22:04:20Z",
-      "image_url": "https://www.pymnts.com/wp-content/uploads/2025/11/Thinking-machines-logo.jpg"
-    },
-    {
-      "id": "33ef832670a6",
-      "name": "AI startup Crusoe valued at $30 billion after new funding, Bloomberg News reports",
-      "slug": "ai-startup-crusoe-valued-at-30-billion-after-new-funding-bloomberg-news-reports",
-      "summary": "Sept 3 : AI data center startup Crusoe has raised over $3 billion in a funding round that values it at roughly $30 billion, Bloomberg News reported on Thursday, citing people familiar with the matter.Launched in 2018 as a cryptocurrency business, Crusoe has p…",
-      "url": "https://www.channelnewsasia.com/business/ai-startup-crusoe-valued-30-billion-after-new-funding-bloomberg-news-reports-6361451",
-      "source": "CNA",
-      "event_type": "funding",
-      "amount": "$30B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T19:53:26Z",
-      "image_url": "https://dam.mediacorp.sg/image/upload/s--lqUCM5ys--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-03T195326Z_1_LYNXMPEM821WK_RTROPTP_3_JANE-STREET-SITUATIONAL-AWARENESS.JPG?itok=x8Ph8--G"
     },
     {
       "id": "9e053115bc01",
@@ -248,37 +258,6 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1978310/20260831054240EDT_image_1.jpg?id=OA2920243&p=facebook"
     },
     {
-      "id": "0de39f1ffdb8",
-      "name": "Crypto VCs are all making the same ‘safe’ bet, and that’s the real risk",
-      "slug": "crypto-vcs-are-all-making-the-same-safe-bet-and-that-s-the-real-risk",
-      "summary": "The shift towards safer bets in crypto VC funding risks stifling innovation and reducing potential high returns from early-stage investments. The post Crypto VCs are all making the same ‘safe’ bet, and that’s the real risk appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/crypto-vcs-consensus-trade-discipline/",
-      "source": "Crypto Briefing",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-02T15:29:34Z",
-      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/02112930/library-crypto-vcs-are-all-making-the-same-safe-bet-and-that-s-t-800x450.png"
-    },
-    {
-      "id": "8f0b5803e437",
-      "name": "Lyte raises $165M, triples valuation to $1.6B in funding round",
-      "slug": "lyte-raises-165m-triples-valuation-to-1-6b-in-funding-round",
-      "summary": "Lyte's rapid valuation growth highlights the increasing investor confidence in AI hardware's potential to revolutionize real-world applications. The post Lyte raises $165M, triples valuation to $1.6B in funding round appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/lyte-raises-165m-triples-valuation/",
-      "source": "Crypto Briefing",
-      "event_type": "funding",
-      "amount": "$165M",
-      "technologies": [
-        "ai",
-        "fintech"
-      ],
-      "published_at": "2026-09-02T11:30:33Z",
-      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/02073030/library-lyte-raises-165m-triples-valuation-to-1-6b-in-funding-ro-800x450.png"
-    },
-    {
       "id": "dfa8e7883ee3",
       "name": "WhatsApp Remittance Startup Félix Secures $200M Series C Led By A16z, General Catalyst",
       "slug": "whatsapp-remittance-startup-f-lix-secures-200m-series-c-led-by-a16z-general-catalyst",
@@ -291,20 +270,6 @@
         "ai"
       ],
       "published_at": "2026-09-01T17:21:50.000Z"
-    },
-    {
-      "id": "25d4959e1b48",
-      "name": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "slug": "air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use",
-      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
-      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$50M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-01T15:45:51.000Z"
     },
     {
       "id": "c10e38ccacf5",
@@ -537,47 +502,32 @@
   ],
   "acquisitions": [
     {
-      "id": "4b54214cc394",
-      "name": "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
-      "slug": "nvidia-confirms-12-9b-acquisition-of-ai-hosting-platform-hugging-face",
-      "summary": "Nvidia Corp. today confirmed that it has agreed to buy Hugging Face Inc. for just over $12.93 billion. CNBC reported that the acquisition talks began a few weeks ago. Rumors that a deal was in the works surfaced last Monday, when sources tipped off Business I…",
-      "url": "https://siliconangle.com/2026/09/03/nvidia-confirms-12-9b-acquisition-of-ai-hosting-platform-hugging-face/",
-      "source": "SiliconANGLE News",
-      "event_type": "acquisition",
-      "amount": "$12.93B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T20:25:34Z",
-      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Nvidia1.jpg"
-    },
-    {
-      "id": "91370924d61d",
-      "name": "Daily Digest: PG&E defers $2B in planned work, Caldecott Tunnel to receive $267M makeover",
-      "slug": "daily-digest-pg-e-defers-2b-in-planned-work-caldecott-tunnel-to-receive-267m-makeover",
-      "summary": "Nvidia acquired startup Hugging Face for $13 billion in a major AI deal.",
-      "url": "https://biztoc.com/x/4735463bb921e604",
-      "source": "Biztoc.com",
-      "event_type": "acquisition",
-      "amount": "$267M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T20:20:26Z",
-      "image_url": "https://biztoc.com/cdn/4735463bb921e604_s.webp"
-    },
-    {
-      "id": "437c312d51d4",
-      "name": "5.0L-Powered 1953 Chevrolet 210 Club Coupe at No Reserve",
-      "slug": "5-0l-powered-1953-chevrolet-210-club-coupe-at-no-reserve",
-      "summary": "This 1953 Chevrolet 210 Club Coupe was retrofitted with a fuel-injected 5.0-liter V8 and a four-speed automatic transmission before it was sold on BaT in February 2023, and it was acquired by the seller in 2026. The body is finished in black and has 1954-styl…",
-      "url": "https://bringatrailer.com/listing/1953-chevrolet-210-33/",
+      "id": "d0e9007aab94",
+      "name": "1972 Chevrolet Corvette Coupe",
+      "slug": "1972-chevrolet-corvette-coupe",
+      "summary": "This 1972 Chevrolet Corvette coupe was acquired by the current owner in 2017 and is powered by a 350ci V8 linked with a three-speed automatic transmission and a Positraction limited-slip differential. The body was repainted gold under previous ownership, and …",
+      "url": "https://bringatrailer.com/listing/1972-chevrolet-corvette-coupe-116/",
       "source": "Bringatrailer.com",
       "event_type": "acquisition",
       "amount": null,
       "technologies": [],
-      "published_at": "2026-09-03T19:45:21Z",
-      "image_url": "https://bringatrailer.com/wp-content/uploads/2026/08/IMG_4249-copy-2026-08-26-nhk-71677.jpg"
+      "published_at": "2026-09-05T17:10:06Z",
+      "image_url": "https://bringatrailer.com/wp-content/uploads/2026/08/IMG_71931-scaled-copy-2026-09-03-uis-67516.jpg"
+    },
+    {
+      "id": "73b4857ca0b9",
+      "name": "Acquires Rilo to Accelerate Agentic AI — What It Means for Investors",
+      "slug": "acquires-rilo-to-accelerate-agentic-ai-what-it-means-for-investors",
+      "summary": "Adobe Inc. (NASDAQ:ADBE) is strengthening its position in agentic artificial intelligence as the company looks to expand its marketing intelligence and workflow automation capabilities. The company had recently acquired Rilo, an India-based AI workflow automa…",
+      "url": "https://biztoc.com/x/a9164bd492cdcfc5",
+      "source": "Biztoc.com",
+      "event_type": "acquisition",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T15:36:56Z",
+      "image_url": "https://biztoc.com/cdn/a9164bd492cdcfc5_s.webp"
     },
     {
       "id": "9d3f57e5910d",
@@ -625,17 +575,33 @@
   ],
   "ipos": [
     {
-      "id": "cf595a853c3d",
-      "name": "Rentomojo to go public at Rs 4,246 crore valuation; up 5x from last private round",
-      "slug": "rentomojo-to-go-public-at-rs-4-246-crore-valuation-up-5x-from-last-private-round",
-      "summary": "Through its public offering, Rentomojo is raising Rs 150 crore in fresh capital, while investors including Accel, Chiratae Ventures and ValueQuest are selling shares worth Rs 1,106 crore.",
-      "url": "https://economictimes.indiatimes.com/tech/startups/rentomojo-to-go-public-at-rs-4246-crore-valuation-up-5x-from-last-private-round/articleshow/133752736.cms",
+      "id": "73f21f19b2be",
+      "name": "Unicorn NoBroker aims to be profitable in 8-10 months; FY26 revenue crosses Rs 1,000 crore: CEO",
+      "slug": "unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1-000-crore-",
+      "summary": "NoBroker.com cofounder and CEO Amit Kumar Agarwal said the company's entire focus is currently on becoming profitable, and it is not looking at raising funds from its investors or launching an initial public offering (IPO) at this stage.",
+      "url": "https://economictimes.indiatimes.com/tech/technology/unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1000-crore-ceo/articleshow/133834814.cms",
       "source": "The Times of India",
       "event_type": "ipo",
       "amount": null,
       "technologies": [],
-      "published_at": "2026-09-04T05:47:24Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-27128,resizemode-75,msid-133752736/tech/startups/rentomojo-to-go-public-at-rs-4246-crore-valuation-up-5x-from-last-private-round.jpg"
+      "published_at": "2026-09-06T11:11:00Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-13810,resizemode-75,msid-133834814/tech/technology/unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1000-crore-ceo.jpg"
+    },
+    {
+      "id": "5bd63594efdf",
+      "name": "Nvidia-backed AI company Nscale reveals staggering $103B contracted revenue ahead of IPO",
+      "slug": "nvidia-backed-ai-company-nscale-reveals-staggering-103b-contracted-revenue-ahead-of-ipo",
+      "summary": "Nscale's massive contracted revenue highlights the escalating demand for AI infrastructure, potentially reshaping the tech investment landscape. The post Nvidia-backed AI company Nscale reveals staggering $103B contracted revenue ahead of IPO appeared first o…",
+      "url": "https://cryptobriefing.com/nscale-103-billion-contracted-revenue-ipo/",
+      "source": "Crypto Briefing",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-09-05T23:35:31Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/05193528/library-nvidia-backed-ai-company-nscale-reveals-staggering-103b--800x450.png"
     },
     {
       "id": "3962548e8958",
@@ -652,37 +618,6 @@
       ],
       "published_at": "2026-09-04T04:49:30Z",
       "image_url": "https://static.wixstatic.com/media/9d6350_8ec53f5f2a304a78be67f5714f5389d4~mv2.jpeg/v1/fill/w_698,h_814,al_c,q_85/9d6350_8ec53f5f2a304a78be67f5714f5389d4~mv2.jpeg"
-    },
-    {
-      "id": "d6ac52b6ff74",
-      "name": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO",
-      "slug": "chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo",
-      "summary": "Moonshot's latest version, Kimi K3 released in July, has met with positive reviews and robust demand, and sources have said the startup is in talks with Microsoft, Amazon and Google on ‌revenue-sharing agreements that ⁠would allow ⁠the U.S. cloud companies to…",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo/articleshow/133751573.cms",
-      "source": "The Times of India",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-09-04T04:14:53Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-46850,resizemode-75,msid-133751573/tech/artificial-intelligence/chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo.jpg"
-    },
-    {
-      "id": "98b7c6de7a5f",
-      "name": "Moonshot AI reportedly files for Hong Kong IPO, targets US$3B",
-      "slug": "moonshot-ai-reportedly-files-for-hong-kong-ipo-targets-us-3b",
-      "summary": "Chinese AI startup Moonshot AI has reportedly filed confidentially for an initial public offering in Hong Kong, potentially setting up one of the city's most closely watched technology listings and one of the largest Chinese AI IPOs in recent years.",
-      "url": "https://www.digitimes.com/news/a20260904VL204/moonshot-startup-ipo-demand-technology.html",
-      "source": "Digitimes",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-04T02:49:25Z",
-      "image_url": "https://img.digitimes.com/newsshow/20260904vl204_files/2_2b.jpg"
     },
     {
       "id": "85f5f4b3bb4b",
@@ -723,6 +658,405 @@
   ],
   "deals": [
     {
+      "id": "05525d6ebff2",
+      "name": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "slug": "travis-kalanick-s-atoms-might-be-getting-into-the-robotaxi-business",
+      "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T16:45:00.000Z"
+    },
+    {
+      "id": "73f21f19b2be",
+      "name": "Unicorn NoBroker aims to be profitable in 8-10 months; FY26 revenue crosses Rs 1,000 crore: CEO",
+      "slug": "unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1-000-crore-",
+      "summary": "NoBroker.com cofounder and CEO Amit Kumar Agarwal said the company's entire focus is currently on becoming profitable, and it is not looking at raising funds from its investors or launching an initial public offering (IPO) at this stage.",
+      "url": "https://economictimes.indiatimes.com/tech/technology/unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1000-crore-ceo/articleshow/133834814.cms",
+      "source": "The Times of India",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T11:11:00Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-13810,resizemode-75,msid-133834814/tech/technology/unicorn-nobroker-aims-to-be-profitable-in-8-10-months-fy26-revenue-crosses-rs-1000-crore-ceo.jpg"
+    },
+    {
+      "id": "57b644fa95bd",
+      "name": "Seoul Forum To Ask Whether AI Can Cut A Decade Off Drug Development Amid Healthcare Revolution",
+      "slug": "seoul-forum-to-ask-whether-ai-can-cut-a-decade-off-drug-development-amid-healthcare-revolu",
+      "summary": "A major forum in Seoul will explore AI's potential to revolutionise drug development, with sessions on its impact across industries like art, architecture, and entertainment, featuring global executives and experts.",
+      "url": "https://www.ibtimes.com.au/ai-forum-seoul-drug-development-impact-1875086",
+      "source": "Ibtimes.com.au",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-06T10:49:44Z",
+      "image_url": "https://d.ibtimes.com.au/en/full/1858825/ai-data.jpg"
+    },
+    {
+      "id": "33b6795fb7c0",
+      "name": "Healthcare billing startup leases RiNo office after $120 million raise",
+      "slug": "healthcare-billing-startup-leases-rino-office-after-120-million-raise",
+      "summary": "Candid Health, which says it has 250 health care organizations as customers, is upgrading from the 2,000 square feet it had in the Wells Fargo Center downtown.",
+      "url": "https://www.denverpost.com/2026/09/06/healthcare-billing-startup-leases-rino-office-after-120-million-raise/",
+      "source": "The Denver Post",
+      "event_type": "funding",
+      "amount": "$120M",
+      "technologies": [
+        "health"
+      ],
+      "published_at": "2026-09-06T10:00:12Z",
+      "image_url": "https://www.denverpost.com/wp-content/uploads/2026/09/tdp-l-bizden-01.jpg?w=1395&h=1046"
+    },
+    {
+      "id": "281c52660878",
+      "name": "NoBroker targets profitability in 8-10 months, FY26 revenue tops ₹1,000 cr",
+      "slug": "nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1-000-cr",
+      "summary": "NoBroker aims for profitability in 8-10 months, with FY26 revenue projected to exceed ₹1,000 crore.",
+      "url": "https://www.thehindubusinessline.com/companies/nobroker-targets-profitability-in-8-10-months-fy26-revenue-tops-1000-cr/article71434840.ece",
+      "source": "BusinessLine",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T08:39:34Z",
+      "image_url": "https://bl-i.thgim.com/public/incoming/wmvh80/article71434854.ece/alternates/LANDSCAPE_1200/Prosus-to-invesGSRGDSE35.4.jpg.jpg"
+    },
+    {
+      "id": "74d152fabea0",
+      "name": "NoBroker eyes profitability in 8-10 months, FY26 revenue tops ₹1k cr: CEO",
+      "slug": "nobroker-eyes-profitability-in-8-10-months-fy26-revenue-tops-1k-cr-ceo",
+      "summary": "Unicorn real estate platform NoBroker.com's revenue crossed Rs 1,000 crore last fiscal year, and it aims to become profitable in the next 8-10 months, a top company official said. The proptech startup based in Bengaluru, established in 2013, operates mainly i…",
+      "url": "https://www.business-standard.com/companies/news/nobroker-eyes-profitability-in-8-10-months-fy26-revenue-tops-1k-cr-ceo-126090600259_1.html",
+      "source": "Business Standard",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T08:36:12Z",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/09/thumb/featurecrop/1200X628/1773037025-7975.jpg"
+    },
+    {
+      "id": "6a3e321c3e7f",
+      "name": "\"We Have to Assume That the Internet Will Go Offline in the Next Few Years\"",
+      "slug": "we-have-to-assume-that-the-internet-will-go-offline-in-the-next-few-years",
+      "summary": "He was once seen as one of the leading minds in AI development, today he is one of its major critics: On stage at the startup conference TechBBQ in",
+      "url": "https://www.trendingtopics.eu/emad-mostaque-ai-internet-outlook-english/",
+      "source": "Trendingtopics.eu",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-06T08:31:01Z",
+      "image_url": "https://www.trendingtopics.eu/wp-content/uploads/2026/08/Stability_AI_Founder_TechBQ-scaled-social.jpg"
+    },
+    {
+      "id": "a1ed2ecebd8a",
+      "name": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
+      "slug": "week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Anthropic locks out Claude users after infostealers hijack login sessions Anthropic has started locking users out of their Claude accounts due to their login ses…",
+      "url": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
+      "source": "Help Net Security",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T08:00:56Z",
+      "image_url": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25124832/cybersecurity-week-review-2-1500.webp"
+    },
+    {
+      "id": "fddd3707bb16",
+      "name": "fde-framework added to PyPI",
+      "slug": "fde-framework-added-to-pypi",
+      "summary": "A framework for Forward Deployed Engineers: from problem statement to a deployable AI project, every decision traced to a fact.",
+      "url": "https://pypi.org/project/fde-framework/",
+      "source": "Pypi.org",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-06T07:48:52Z",
+      "image_url": null
+    },
+    {
+      "id": "d34f8cca742b",
+      "name": "jedi-board-of-directors added to PyPI",
+      "slug": "jedi-board-of-directors-added-to-pypi",
+      "summary": "A board of directors made of free models: independent votes, blind ranking, a chair that didn't vote.",
+      "url": "https://pypi.org/project/jedi-board-of-directors/",
+      "source": "Pypi.org",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T05:11:16Z",
+      "image_url": null
+    },
+    {
+      "id": "a3e0f6023c2a",
+      "name": "24_Kan_AM_IIT Kanpur",
+      "slug": "24-kan-am-iit-kanpur",
+      "summary": "FIRST IIT Kanpur, via SIIC, named Knowledge Partner for RKVY-RAFTAAR; MoU announced in Noida to boost agri-startup incubation, mentorship, funding.",
+      "url": "https://timesofindia.indiatimes.com/city/kanpur/24_kan_am_iit-kanpur/articleshow/133822891.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T02:18:13Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "0efecb956d9c",
+      "name": "kitchensink4xl added to PyPI",
+      "slug": "kitchensink4xl-added-to-pypi",
+      "summary": "Everything plus the kitchen sink for Microsoft Excel - a .xlsx MCP server engineered not to corrupt: every value labeled calculated, cached or absent, structural edits that carry their formulas, Excel-exact sort, atomic validated saves, tiered loading",
+      "url": "https://pypi.org/project/kitchensink4xl/",
+      "source": "Pypi.org",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T00:36:36Z",
+      "image_url": null
+    },
+    {
+      "id": "a6b5c645e498",
+      "name": "2026 Creative Arts Emmys Winners List Night One",
+      "slug": "2026-creative-arts-emmys-winners-list-night-one",
+      "summary": "The majority of this year's top TV awards are being presented in ceremonies on Saturday, Sept. 5 and Sunday, Sept. 6.",
+      "url": "http://www.hollywoodreporter.com/tv/tv-news/2026-creative-arts-emmys-winners-list-night-one-1236683725/",
+      "source": "Hollywood Reporter",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-06T00:01:49Z",
+      "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2024/09/Emmy-statuette-getty-H-2024.jpg?w=1296&h=730&crop=1"
+    },
+    {
+      "id": "88ce2ea7cead",
+      "name": "Sam Altman wants OpenAI to build the computer that comes after the smartphone",
+      "slug": "sam-altman-wants-openai-to-build-the-computer-that-comes-after-the-smartphone",
+      "summary": "OpenAI's push for AI-native devices could redefine human-computer interaction, but faces challenges in execution, competition, and legal hurdles. The post Sam Altman wants OpenAI to build the computer that comes after the smartphone appeared first on Crypto B…",
+      "url": "https://cryptobriefing.com/openai-altman-consumer-devices-ai-hardware/",
+      "source": "Crypto Briefing",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-09-05T23:41:00Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/05194056/library-sam-altman-wants-openai-to-build-the-computer-that-comes-800x450.png"
+    },
+    {
+      "id": "62ad03bc94e9",
+      "name": "Creative Arts Emmy Awards: Winners List (Updating Live)",
+      "slug": "creative-arts-emmy-awards-winners-list-updating-live",
+      "summary": "The first of two Creative Arts ceremonies are being held at the Peacock Theatre in Los Angeles. Going into Emmys week, HBO’s hit medical series “The Pitt” — the incumbent drama winner — led all programs with a whopping 25 nominations, including outstanding dr…",
+      "url": "https://variety.com/2026/artisans/news/creative-arts-emmy-awards-winners-list-night-one-1236849746/",
+      "source": "Variety",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T23:40:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/78th-emmys-horiz-generic-v1-e1788649570183.jpg?w=1000&h=563&crop=1"
+    },
+    {
+      "id": "5bd63594efdf",
+      "name": "Nvidia-backed AI company Nscale reveals staggering $103B contracted revenue ahead of IPO",
+      "slug": "nvidia-backed-ai-company-nscale-reveals-staggering-103b-contracted-revenue-ahead-of-ipo",
+      "summary": "Nscale's massive contracted revenue highlights the escalating demand for AI infrastructure, potentially reshaping the tech investment landscape. The post Nvidia-backed AI company Nscale reveals staggering $103B contracted revenue ahead of IPO appeared first o…",
+      "url": "https://cryptobriefing.com/nscale-103-billion-contracted-revenue-ipo/",
+      "source": "Crypto Briefing",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-09-05T23:35:31Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/05193528/library-nvidia-backed-ai-company-nscale-reveals-staggering-103b--800x450.png"
+    },
+    {
+      "id": "f8012bdfb8e1",
+      "name": "Budget reactions and photo quotes",
+      "slug": "budget-reactions-and-photo-quotes",
+      "summary": "Chhattisgarh Budget 2026–27 draws mixed reactions: opposition calls it hollow, industry seeks tariff relief, experts cite welfare-focus, Sirpur corridor funding, startup push.",
+      "url": "https://timesofindia.indiatimes.com/city/raipur/budget-reactions-and-photo-quotes/articleshow/133819536.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T23:22:57Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-133819534,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "919c289ff213",
+      "name": "Nvidia-backed AI company reveals staggering $103 billion number",
+      "slug": "nvidia-backed-ai-company-reveals-staggering-103-billion-number",
+      "summary": "The company reveals how big AI infrastructure is getting",
+      "url": "https://www.thestreet.com/investing/nvidia-backed-ai-startup-nscale-reveals-103-billion-contracted-revenue",
+      "source": "TheStreet",
+      "event_type": "startup",
+      "amount": "$103B",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-09-05T23:17:00Z",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/04bdcf992bdadcb9bd355a53e191652b19dd14c7ca88bced52f65a4ba88be0eb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F73030be86044ce42ace7d711bbbbd692.jpg"
+    },
+    {
+      "id": "d0e9007aab94",
+      "name": "1972 Chevrolet Corvette Coupe",
+      "slug": "1972-chevrolet-corvette-coupe",
+      "summary": "This 1972 Chevrolet Corvette coupe was acquired by the current owner in 2017 and is powered by a 350ci V8 linked with a three-speed automatic transmission and a Positraction limited-slip differential. The body was repainted gold under previous ownership, and …",
+      "url": "https://bringatrailer.com/listing/1972-chevrolet-corvette-coupe-116/",
+      "source": "Bringatrailer.com",
+      "event_type": "acquisition",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T17:10:06Z",
+      "image_url": "https://bringatrailer.com/wp-content/uploads/2026/08/IMG_71931-scaled-copy-2026-09-03-uis-67516.jpg"
+    },
+    {
+      "id": "8fb723380894",
+      "name": "Hyd deeptech startup Leanwatts raises $2M in seed funding to scale EV power solutions",
+      "slug": "hyd-deeptech-startup-leanwatts-raises-2m-in-seed-funding-to-scale-ev-power-solutions",
+      "summary": "Leanwatts raises $2M seed led by Trivest Partners to scale EV chargers and power electronics R&D in Hyderabad, aiming for ₹60 crore run-rate by 2027.",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyd-deeptech-startup-leanwatts-raises-2m-in-seed-funding-to-scale-ev-power-solutions/articleshow/133805390.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$2M",
+      "technologies": [],
+      "published_at": "2026-09-05T16:39:19Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "381abb0cdca7",
+      "name": "scrubproof added to PyPI",
+      "slug": "scrubproof-added-to-pypi",
+      "summary": "Removes metadata from 71 file formats and proves it by searching the output bytes",
+      "url": "https://pypi.org/project/scrubproof/",
+      "source": "Pypi.org",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:41:46Z",
+      "image_url": null
+    },
+    {
+      "id": "73b4857ca0b9",
+      "name": "Acquires Rilo to Accelerate Agentic AI — What It Means for Investors",
+      "slug": "acquires-rilo-to-accelerate-agentic-ai-what-it-means-for-investors",
+      "summary": "Adobe Inc. (NASDAQ:ADBE) is strengthening its position in agentic artificial intelligence as the company looks to expand its marketing intelligence and workflow automation capabilities. The company had recently acquired Rilo, an India-based AI workflow automa…",
+      "url": "https://biztoc.com/x/a9164bd492cdcfc5",
+      "source": "Biztoc.com",
+      "event_type": "acquisition",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T15:36:56Z",
+      "image_url": "https://biztoc.com/cdn/a9164bd492cdcfc5_s.webp"
+    },
+    {
+      "id": "5b76db774d61",
+      "name": "Court denies bail to ex-JPSC chief, former computer operator in exam irregularities case",
+      "slug": "court-denies-bail-to-ex-jpsc-chief-former-computer-operator-in-exam-irregularities-case",
+      "summary": "Special CID court in Ranchi rejects bail for ex-JPSC chairman L Khiangte and aide Dharmendra Kumar in exam irregularities case; CID arrested him Aug 10.",
+      "url": "https://timesofindia.indiatimes.com/city/ranchi/court-denies-bail-to-ex-jpsc-chief-former-computer-operator-in-exam-irregularities-case/articleshow/133806579.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:34:24Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-133806577,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "fe737d786809",
+      "name": "JD(U) launches campaign against Farakka treaty’s impact on Bihar",
+      "slug": "jd-u-launches-campaign-against-farakka-treaty-s-impact-on-bihar",
+      "summary": "JD(U) launches “Nitish Samvad” campaign in 12 Bihar districts, urging changes to the Farakka Water Treaty to protect water needs and address floods, silt and drought.",
+      "url": "https://timesofindia.indiatimes.com/city/patna/jdu-launches-campaign-against-farakka-treatys-impact-on-bihar/articleshow/133806569.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:34:19Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "fe8d0b660985",
+      "name": "Fire at Siliguri pvt hospital sparks panic",
+      "slug": "fire-at-siliguri-pvt-hospital-sparks-panic",
+      "summary": "Fire at a private hospital in Siliguri sent thick smoke through a section, sparking panic; patients were shifted, no casualties; short circuit suspected.",
+      "url": "https://timesofindia.indiatimes.com/city/kolkata/fire-at-siliguri-pvt-hospital-sparks-panic/articleshow/133806571.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:34:15Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-133806501,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "036bcab7ae4c",
+      "name": "Malda med college MSVP removed after 89 infant deaths in Aug",
+      "slug": "malda-med-college-msvp-removed-after-89-infant-deaths-in-aug",
+      "summary": "West Bengal removes Malda Medical College MSVP and paediatrics head after 89 infant and neonatal deaths in August; probe cites lapses, calls case reviews.",
+      "url": "https://timesofindia.indiatimes.com/city/kolkata/malda-med-college-msvp-removed-after-89-infant-deaths-in-aug/articleshow/133806568.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:34:07Z",
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg"
+    },
+    {
+      "id": "b70f4f115077",
+      "name": "BJP begins outreach push ahead of local polls",
+      "slug": "bjp-begins-outreach-push-ahead-of-local-polls",
+      "summary": "BJP on Saturday launched a two-day state executive meeting in Cuttack, adopting resolutions lauding the Narendra Modi-led Centre and the Mohan Charan Majhi government. The party also began drawing up a three-month organisational and political roadmap.",
+      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/bjp-begins-outreach-push-ahead-of-local-polls/articleshow/133806566.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-09-05T15:34:04Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-133806043,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "3875cbee0fed",
+      "name": "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn.",
+      "slug": "he-waited-nearly-20-years-to-start-a-company-now-he-s-the-cofounder-of-a-double-unicorn",
+      "summary": "Snehal Antani cofounded Horizon3, an AI hacking venture. He credits his experience in helping him navigate a funding downturn and the SVB collapse.",
+      "url": "https://www.businessinsider.com/horizon3-ceo-snehal-antani-prepared-2-billion-startup-2026-9#article",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T09:50:01Z",
+      "image_url": "https://i.insider.com/6a90797779f11f0a89f91b6a?width=1200&format=jpeg"
+    },
+    {
+      "id": "49d696025bb3",
+      "name": "He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn.",
+      "slug": "he-waited-nearly-20-years-to-start-a-company-now-he-s-the-cofounder-of-a-double-unicorn",
+      "summary": "Snehal Antani cofounded Horizon3, an AI hacking venture. He credits his experience in helping him navigate a funding downturn and the SVB collapse.",
+      "url": "https://www.businessinsider.com/horizon3-ceo-snehal-antani-prepared-2-billion-startup-2026-9",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-05T09:50:01Z",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/38b8fbf8aff2ba0ba9d6a7fdae5472523eff8db3bfb8f15f9a417ef04aa40182/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2F8fb0b89042fb0414701274ed8f0757f6.jpg"
+    },
+    {
       "id": "7795e9410cfe",
       "name": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
       "slug": "xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
@@ -762,6 +1096,21 @@
       "published_at": "2026-09-04T14:47:20.000Z"
     },
     {
+      "id": "be687fc2cdda",
+      "name": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI",
+      "slug": "nvidia-bags-hugging-face-ai-models-play-leapfrog-and-crowdstrike-doubles-down-on-ai",
+      "summary": "Perhaps it’s no surprise that Nvidia ended up embracing open artificial intelligence model archive Hugging Face this week following more than a week of rumors. Even at almost $13 billion, it may end up being a steal — especially for a company that had $24 bil…",
+      "url": "https://siliconangle.com/2026/09/04/nvidia-bags-hugging-face-ai-models-play-leapfrog-and-crowdstrike-doubles-down-on-ai/",
+      "source": "SiliconANGLE News",
+      "event_type": "startup",
+      "amount": "$13B",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-09-04T14:01:33Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/aiceosleapfrog-chatgpt-800x496.png"
+    },
+    {
       "id": "cbf6df5e6a68",
       "name": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
       "slug": "less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event",
@@ -772,6 +1121,22 @@
       "amount": null,
       "technologies": [],
       "published_at": "2026-09-04T14:00:00.000Z"
+    },
+    {
+      "id": "0669f3fd9593",
+      "name": "The New Kingmakers: Crypto, AI and Betting Firms Fuel Record Spending on the 2026 Midterms",
+      "slug": "the-new-kingmakers-crypto-ai-and-betting-firms-fuel-record-spending-on-the-2026-midterms",
+      "summary": "NEW YORK, Aug 20 (Reuters) – A handful of billionaires and companies are driving corporate spending in U.S. midterm elections this year, and they aren’t the usual power brokers who have sat atop the political food chain in Washington in previous decades. Cryp…",
+      "url": "https://www.dailysignal.com/2026/09/04/crypto-ai-betting-spending-midterms/",
+      "source": "Daily Signal",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-09-04T13:56:04Z",
+      "image_url": "https://static.dailysignalmedia.org/2026/09/260904_Trump_Crypto-White_House.jpg"
     },
     {
       "id": "f803f471ba81",
@@ -818,35 +1183,6 @@
       "image_url": "https://zycrypto.com/wp-content/uploads/2026/09/BingX-Ranks-No.-1-for-Tradfi-Perpetual-Futures-Liquidity-1.jpg"
     },
     {
-      "id": "d8753c7b635f",
-      "name": "Nvidia becomes one of world's biggest strategic tech backers as equity investments soar to $99 billion",
-      "slug": "nvidia-becomes-one-of-world-s-biggest-strategic-tech-backers-as-equity-investments-soar-to",
-      "summary": "Nvidia reported $99 billion in equity holdings as it backs AI labs, cloud providers and infrastructure companies across the sector.",
-      "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
-      "source": "CNBC",
-      "event_type": "startup",
-      "amount": "$99B",
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-09-04T08:08:51Z",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1787832050&w=1920&h=1080"
-    },
-    {
-      "id": "65c2350914ad",
-      "name": "hate_crack v2.36.1",
-      "slug": "hate-crack-v2-36-1",
-      "summary": "A tool for automating cracking methodologies through Hashcat from the TrustedSec team.",
-      "url": "https://kitploit.com/en/posts/github-trustedsec-hate_crack-v2361",
-      "source": "Kitploit.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T07:52:45Z",
-      "image_url": "https://assets.kitploit.com/production/public/tools/1701/6e83ab0b86204fbc440dd38c7484fb6328a7b8865a763ae2341ea7cd9a396096.png"
-    },
-    {
       "id": "9a4f33f42a99",
       "name": "Axis Robotics Open-Sources One of the Largest Franka Arm Simulation Datasets for Physical AI",
       "slug": "axis-robotics-open-sources-one-of-the-largest-franka-arm-simulation-datasets-for-physical-",
@@ -860,77 +1196,6 @@
       ],
       "published_at": "2026-09-04T07:48:19Z",
       "image_url": "https://www.newsbtc.com/wp-content/uploads/2026/09/d2475afa99044a7390c0c341c56b3079-2.png"
-    },
-    {
-      "id": "3c53835d8c38",
-      "name": "Newspace Research in talks to raise $35-40 million from 360 One, Avendus, others",
-      "slug": "newspace-research-in-talks-to-raise-35-40-million-from-360-one-avendus-others",
-      "summary": "Defence-tech startup Newspace Research and Technologies is seeking $35-40 million in a Series C round, even as investors weigh its uneven revenue growth and delayed government contract payments.",
-      "url": "https://www.livemint.com/companies/start-ups/newspace-research-and-technologies-nrt-series-c-defence-tech-aerospace-drones-deeptech-360-one-asset-avendus-11787457991475.html",
-      "source": "Livemint",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-04T07:00:59Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/09/04/1600x900/logo/g03796fb0a2561922e0f461f609892400b1b31d144493fa26d_1788496869329_1fb8e20a-7724-4795-8aae-b0f542d9edfd_1788496869488_0beb469d-46c5-4d29-8e39-6770a292d097_61985606-1148-413b-a502-1d0c39dd64ed_13799a2c-22a3-465b-8735-b42d59b25db9.jpg"
-    },
-    {
-      "id": "87878acaf523",
-      "name": "Nvidia to buy Hugging Face for nearly $13 billion",
-      "slug": "nvidia-to-buy-hugging-face-for-nearly-13-billion",
-      "summary": "Nvidia will buy popular developer platform Hugging Face for $12.93 billion, using its growing AI war chest to expand its influence in the booming market for open-source models that can nearly match the best from OpenAI and Anthropic at lower costs.",
-      "url": "https://www.rte.ie/news/business/2026/0904/1590285-nvidia-to-buy-hugging-face/",
-      "source": "RTE",
-      "event_type": "startup",
-      "amount": "$13B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-04T06:29:40Z",
-      "image_url": "https://www.rte.ie/images/0024e7e7-1600.jpg"
-    },
-    {
-      "id": "a878958640e4",
-      "name": "toolyard added to PyPI",
-      "slug": "toolyard-added-to-pypi",
-      "summary": "Disciplined execution of model-directed tool calls: registry, fixed refusal order, path containment, structured refusals and a record of every call. A refusal is a result, never an exception.",
-      "url": "https://pypi.org/project/toolyard/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T06:26:22Z",
-      "image_url": null
-    },
-    {
-      "id": "cf595a853c3d",
-      "name": "Rentomojo to go public at Rs 4,246 crore valuation; up 5x from last private round",
-      "slug": "rentomojo-to-go-public-at-rs-4-246-crore-valuation-up-5x-from-last-private-round",
-      "summary": "Through its public offering, Rentomojo is raising Rs 150 crore in fresh capital, while investors including Accel, Chiratae Ventures and ValueQuest are selling shares worth Rs 1,106 crore.",
-      "url": "https://economictimes.indiatimes.com/tech/startups/rentomojo-to-go-public-at-rs-4246-crore-valuation-up-5x-from-last-private-round/articleshow/133752736.cms",
-      "source": "The Times of India",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T05:47:24Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-27128,resizemode-75,msid-133752736/tech/startups/rentomojo-to-go-public-at-rs-4246-crore-valuation-up-5x-from-last-private-round.jpg"
-    },
-    {
-      "id": "a9b589982f0f",
-      "name": "Songscription talks AI and music publishing: ‘We need to work alongside the industry’",
-      "slug": "songscription-talks-ai-and-music-publishing-we-need-to-work-alongside-the-industry",
-      "summary": "We first caught wind of startup Songscription in July 2025 when TechCrunch profiled its “automatic music transcription” service. The post is from Music Ally.",
-      "url": "https://musically.com/2026/09/04/songscription-talks-ai-and-music-publishing-we-need-to-work-alongside-the-industry/",
-      "source": "Music Ally",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-04T05:30:00Z",
-      "image_url": "https://i0.wp.com/musically.com/wp-content/uploads/2026/09/Screenshot-2026-09-02-at-13.49.55.png?fit=1057%2C528&ssl=1"
     },
     {
       "id": "3962548e8958",
@@ -947,165 +1212,6 @@
       ],
       "published_at": "2026-09-04T04:49:30Z",
       "image_url": "https://static.wixstatic.com/media/9d6350_8ec53f5f2a304a78be67f5714f5389d4~mv2.jpeg/v1/fill/w_698,h_814,al_c,q_85/9d6350_8ec53f5f2a304a78be67f5714f5389d4~mv2.jpeg"
-    },
-    {
-      "id": "d6ac52b6ff74",
-      "name": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO",
-      "slug": "chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo",
-      "summary": "Moonshot's latest version, Kimi K3 released in July, has met with positive reviews and robust demand, and sources have said the startup is in talks with Microsoft, Amazon and Google on ‌revenue-sharing agreements that ⁠would allow ⁠the U.S. cloud companies to…",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo/articleshow/133751573.cms",
-      "source": "The Times of India",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-09-04T04:14:53Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-46850,resizemode-75,msid-133751573/tech/artificial-intelligence/chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-ipo.jpg"
-    },
-    {
-      "id": "cfa31a415cdc",
-      "name": "AI startup Crusoe valued at $30 billion after new funding",
-      "slug": "ai-startup-crusoe-valued-at-30-billion-after-new-funding",
-      "summary": "Separately, ‌the startup has signed a five-year ​cloud contract ​with trading firm Jane Street Group valued ⁠at around $13 billion, Bloomberg News reported on ​Thursday, citing sources.",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startup-crusoe-valued-at-30-billion-after-new-funding/articleshow/133751506.cms",
-      "source": "The Times of India",
-      "event_type": "funding",
-      "amount": "$30B",
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-09-04T04:10:02Z",
-      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-203296,resizemode-75,msid-133751506/tech/artificial-intelligence/ai-startup-crusoe-valued-at-30-billion-after-new-funding.jpg"
-    },
-    {
-      "id": "e8e39fcbf923",
-      "name": "OpenAI unveils GPT‑6 Astra amid rising scrutiny and safety concerns",
-      "slug": "openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety-concerns",
-      "summary": "OpenAI claims GPT-6 Astra is the most advanced AI model, amid escalating safety and ethical concerns.",
-      "url": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety",
-      "source": "Al Jazeera English",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-04T03:36:19Z",
-      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-03T171416Z_1469135381_RC2QRLANB0GV_RTRMADP_3_TECH-AI-OPENAI-1788480833_516ec7-1788488332.jpg?resize=1200%2C630&quality=80"
-    },
-    {
-      "id": "98b7c6de7a5f",
-      "name": "Moonshot AI reportedly files for Hong Kong IPO, targets US$3B",
-      "slug": "moonshot-ai-reportedly-files-for-hong-kong-ipo-targets-us-3b",
-      "summary": "Chinese AI startup Moonshot AI has reportedly filed confidentially for an initial public offering in Hong Kong, potentially setting up one of the city's most closely watched technology listings and one of the largest Chinese AI IPOs in recent years.",
-      "url": "https://www.digitimes.com/news/a20260904VL204/moonshot-startup-ipo-demand-technology.html",
-      "source": "Digitimes",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-04T02:49:25Z",
-      "image_url": "https://img.digitimes.com/newsshow/20260904vl204_files/2_2b.jpg"
-    },
-    {
-      "id": "3215599e3b06",
-      "name": "Sugar’s valuation slump; Slice takes a hit",
-      "slug": "sugar-s-valuation-slump-slice-takes-a-hit",
-      "summary": "Happy Friday! A91 Partners is backing Sugar Cosmetics in a round that will see the beauty brand’s valuation fall sharply. This and more in today’s ETtech Morning Dispatch.",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/sugars-valuation-slump-slice-takes-a-hit/articleshow/133749383.cms",
-      "source": "The Times of India",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T02:01:18Z",
-      "image_url": "https://img.etimg.com/thumb/msid-133749383,width-1070,height-580,imgsize-23190,overlay-ettech/editionshow.jpg"
-    },
-    {
-      "id": "e512376b0f3f",
-      "name": "As global heating heads to 1.8C, is it time to consider the ‘Voldemort’ of climate policy?",
-      "slug": "as-global-heating-heads-to-1-8c-is-it-time-to-consider-the-voldemort-of-climate-policy",
-      "summary": "The case for large-scale technologies that reflect solar radiation back into space rests on global warming’s grim reality.",
-      "url": "https://theconversation.com/as-global-heating-heads-to-1-8c-is-it-time-to-consider-the-voldemort-of-climate-policy-290427",
-      "source": "The Conversation Africa",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "climate"
-      ],
-      "published_at": "2026-09-04T01:32:57Z",
-      "image_url": "https://images.theconversation.com/files/757928/original/file-20260904-50-68ikq2.jpg?ixlib=rb-4.1.1&rect=0%2C1002%2C6000%2C3000&q=45&auto=format&w=1356&h=668&fit=crop"
-    },
-    {
-      "id": "7ac02fab0e10",
-      "name": "pydaqx added to PyPI",
-      "slug": "pydaqx-added-to-pypi",
-      "summary": "A programmable front panel for scientific experiments: LabVIEW-style widgets bound to named signals, over a hardware-neutral data engine.",
-      "url": "https://pypi.org/project/pydaqx/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T01:00:38Z",
-      "image_url": null
-    },
-    {
-      "id": "fd5da17426c1",
-      "name": "Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
-      "slug": "musk-s-boring-co-pushes-investors-for-recruiting-business-help",
-      "summary": "Billionaire’s tunneling startup makes unusual demands of backers to participate in latest funding round.",
-      "url": "https://biztoc.com/x/c65dc9590360addf",
-      "source": "Biztoc.com",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-04T00:10:25Z",
-      "image_url": "https://biztoc.com/cdn/995/og.png"
-    },
-    {
-      "id": "d858bcc74247",
-      "name": "javascript-obfuscator",
-      "slug": "javascript-obfuscator",
-      "summary": "Obfuscates JavaScript and Node.js code with variable renaming, string encryption, control flow flattening, and anti-debugging to protect source code from reverse engineering.",
-      "url": "https://kitploit.com/en/tools/github/javascript-obfuscator/javascript-obfuscator/",
-      "source": "Kitploit.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-03T23:45:52Z",
-      "image_url": "https://assets.kitploit.com/production/public/tools/53911/80c45063cba5486a6bef3b45d00981048bb45515ad244f32c792408d3799269a-social-v1.webp"
-    },
-    {
-      "id": "a2908d66bdf4",
-      "name": "Slice Valuation Crash: Fintech Unicorn’s Value Plunges Nearly 70% in $100 Million Down Round as It Transforms Into Small Finance Bank",
-      "slug": "slice-valuation-crash-fintech-unicorn-s-value-plunges-nearly-70-in-100-million-down-round-",
-      "summary": "Earlier this week, Unacademy completed a sale at 94% below its peak valuation. Now, Slice is reportedly raising $100 million at approximately $450–470 million—roughly two-thirds below its unicorn-era price. Was its unicorn valuation ever a measure of the busi…",
-      "url": "https://openthemagazine.com/business/pop-goes-another-unicorn-slices-valuation-falls-nearly-70-in-a-100-million-round",
-      "source": "Openthemagazine.com",
-      "event_type": "startup",
-      "amount": "$100M",
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-03T22:04:55Z",
-      "image_url": "https://media.openthemagazine.com/openthemagazine/2026-09-03/s91tqrxo/POPCORN.jpg?w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
-    },
-    {
-      "id": "8c30356a6600",
-      "name": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
-      "slug": "thinking-machines-lab-seeks-1-billion-at-40-billion-valuation",
-      "summary": "Thinking Machines Lab, the artificial intelligence startup led by former OpenAI Chief Technology Officer Mira Murati, is in talks to raise at least $1 billion at a valuation of at least $40 billion, The Information reported Thursday (Sept. 3). Existing invest…",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/",
-      "source": "pymnts.com",
-      "event_type": "funding",
-      "amount": "$1B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T22:04:20Z",
-      "image_url": "https://www.pymnts.com/wp-content/uploads/2025/11/Thinking-machines-logo.jpg"
     },
     {
       "id": "cac9bd24bdd6",
@@ -1135,77 +1241,6 @@
         "ai"
       ],
       "published_at": "2026-09-03T20:59:23.000Z"
-    },
-    {
-      "id": "c51be59513e2",
-      "name": "nftable-router added to PyPI",
-      "slug": "nftable-router-added-to-pypi",
-      "summary": "Software Policy Router for nftables",
-      "url": "https://pypi.org/project/nftable-router/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-03T20:46:08Z",
-      "image_url": null
-    },
-    {
-      "id": "4b54214cc394",
-      "name": "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
-      "slug": "nvidia-confirms-12-9b-acquisition-of-ai-hosting-platform-hugging-face",
-      "summary": "Nvidia Corp. today confirmed that it has agreed to buy Hugging Face Inc. for just over $12.93 billion. CNBC reported that the acquisition talks began a few weeks ago. Rumors that a deal was in the works surfaced last Monday, when sources tipped off Business I…",
-      "url": "https://siliconangle.com/2026/09/03/nvidia-confirms-12-9b-acquisition-of-ai-hosting-platform-hugging-face/",
-      "source": "SiliconANGLE News",
-      "event_type": "acquisition",
-      "amount": "$12.93B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T20:25:34Z",
-      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Nvidia1.jpg"
-    },
-    {
-      "id": "91370924d61d",
-      "name": "Daily Digest: PG&E defers $2B in planned work, Caldecott Tunnel to receive $267M makeover",
-      "slug": "daily-digest-pg-e-defers-2b-in-planned-work-caldecott-tunnel-to-receive-267m-makeover",
-      "summary": "Nvidia acquired startup Hugging Face for $13 billion in a major AI deal.",
-      "url": "https://biztoc.com/x/4735463bb921e604",
-      "source": "Biztoc.com",
-      "event_type": "acquisition",
-      "amount": "$267M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T20:20:26Z",
-      "image_url": "https://biztoc.com/cdn/4735463bb921e604_s.webp"
-    },
-    {
-      "id": "33ef832670a6",
-      "name": "AI startup Crusoe valued at $30 billion after new funding, Bloomberg News reports",
-      "slug": "ai-startup-crusoe-valued-at-30-billion-after-new-funding-bloomberg-news-reports",
-      "summary": "Sept 3 : AI data center startup Crusoe has raised over $3 billion in a funding round that values it at roughly $30 billion, Bloomberg News reported on Thursday, citing people familiar with the matter.Launched in 2018 as a cryptocurrency business, Crusoe has p…",
-      "url": "https://www.channelnewsasia.com/business/ai-startup-crusoe-valued-30-billion-after-new-funding-bloomberg-news-reports-6361451",
-      "source": "CNA",
-      "event_type": "funding",
-      "amount": "$30B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-03T19:53:26Z",
-      "image_url": "https://dam.mediacorp.sg/image/upload/s--lqUCM5ys--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-03T195326Z_1_LYNXMPEM821WK_RTROPTP_3_JANE-STREET-SITUATIONAL-AWARENESS.JPG?itok=x8Ph8--G"
-    },
-    {
-      "id": "437c312d51d4",
-      "name": "5.0L-Powered 1953 Chevrolet 210 Club Coupe at No Reserve",
-      "slug": "5-0l-powered-1953-chevrolet-210-club-coupe-at-no-reserve",
-      "summary": "This 1953 Chevrolet 210 Club Coupe was retrofitted with a fuel-injected 5.0-liter V8 and a four-speed automatic transmission before it was sold on BaT in February 2023, and it was acquired by the seller in 2026. The body is finished in black and has 1954-styl…",
-      "url": "https://bringatrailer.com/listing/1953-chevrolet-210-33/",
-      "source": "Bringatrailer.com",
-      "event_type": "acquisition",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-09-03T19:45:21Z",
-      "image_url": "https://bringatrailer.com/wp-content/uploads/2026/08/IMG_4249-copy-2026-08-26-nhk-71677.jpg"
     },
     {
       "id": "1ff9c0bc5bc2",
@@ -1570,36 +1605,6 @@
       "image_url": "https://mmx.prnewswire.com/media/MS1978310/20260831054240EDT_image_1.jpg?id=OA2920243&p=facebook"
     },
     {
-      "id": "0de39f1ffdb8",
-      "name": "Crypto VCs are all making the same ‘safe’ bet, and that’s the real risk",
-      "slug": "crypto-vcs-are-all-making-the-same-safe-bet-and-that-s-the-real-risk",
-      "summary": "The shift towards safer bets in crypto VC funding risks stifling innovation and reducing potential high returns from early-stage investments. The post Crypto VCs are all making the same ‘safe’ bet, and that’s the real risk appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/crypto-vcs-consensus-trade-discipline/",
-      "source": "Crypto Briefing",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-02T15:29:34Z",
-      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/02112930/library-crypto-vcs-are-all-making-the-same-safe-bet-and-that-s-t-800x450.png"
-    },
-    {
-      "id": "c3596c6d320d",
-      "name": "New Ecommerce Tools: September 2, 2026",
-      "slug": "new-ecommerce-tools-september-2-2026",
-      "summary": "This week's rollouts include tools for payments, shipping, affiliate marketing, CRMs, supply chain, merchant-of-record services, and more. The post New Ecommerce Tools: September 2, 2026 appeared first on Practical Ecommerce.",
-      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-september-2-2026",
-      "source": "Practical Ecommerce",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-02T15:02:32Z",
-      "image_url": "https://www.practicalecommerce.com/wp-content/uploads/2026/09/thumb.jpg"
-    },
-    {
       "id": "88ba845cc645",
       "name": "Adobe acquires Indian market intelligence startup Rilo",
       "slug": "adobe-acquires-indian-market-intelligence-startup-rilo",
@@ -1612,52 +1617,6 @@
         "ai"
       ],
       "published_at": "2026-09-02T14:03:57.000Z"
-    },
-    {
-      "id": "780d9bc78578",
-      "name": "Anthropic hires architect of UK AI policy as MPs warn of 'clear conflict of interest'",
-      "slug": "anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest",
-      "summary": "Matt Clifford plans to keep role as ARIA chair while leading the LLM maker's dealings with governments outside North America",
-      "url": "https://www.theregister.com/public-sector/2026/09/02/anthropic-hires-architect-of-uk-ai-policy-as-mps-warn-of-clear-conflict-of-interest/5293903",
-      "source": "Theregister.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-02T13:15:00Z",
-      "image_url": "https://image.theregister.com/5254625.jpg?imageId=5254625&x=0&y=1.39&cropw=100&croph=71.67&panox=0&panoy=1.39&panow=100&panoh=71.67&width=1200&height=683"
-    },
-    {
-      "id": "0d82bfba1b6f",
-      "name": "Stripe is giving off early Google vibes—for good and for bad",
-      "slug": "stripe-is-giving-off-early-google-vibes-for-good-and-for-bad",
-      "summary": "The fintech’s recent M&A spree is reminiscent of what Google did a generation before.",
-      "url": "https://fortune.com/2026/09/02/stripe-is-giving-off-early-google-vibesfor-good-and-for-bad/",
-      "source": "Fortune",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-09-02T12:12:41Z",
-      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2025/09/GettyImages-938151664-e1756997857474.jpg?resize=1200,600"
-    },
-    {
-      "id": "8f0b5803e437",
-      "name": "Lyte raises $165M, triples valuation to $1.6B in funding round",
-      "slug": "lyte-raises-165m-triples-valuation-to-1-6b-in-funding-round",
-      "summary": "Lyte's rapid valuation growth highlights the increasing investor confidence in AI hardware's potential to revolutionize real-world applications. The post Lyte raises $165M, triples valuation to $1.6B in funding round appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/lyte-raises-165m-triples-valuation/",
-      "source": "Crypto Briefing",
-      "event_type": "funding",
-      "amount": "$165M",
-      "technologies": [
-        "ai",
-        "fintech"
-      ],
-      "published_at": "2026-09-02T11:30:33Z",
-      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/09/02073030/library-lyte-raises-165m-triples-valuation-to-1-6b-in-funding-ro-800x450.png"
     },
     {
       "id": "85f5f4b3bb4b",
@@ -1698,20 +1657,6 @@
         "cloud"
       ],
       "published_at": "2026-09-01T16:31:04.000Z"
-    },
-    {
-      "id": "25d4959e1b48",
-      "name": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "slug": "air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use",
-      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
-      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$50M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-09-01T15:45:51.000Z"
     },
     {
       "id": "c10e38ccacf5",
