@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T10:46:04.696Z",
-  "total": 49,
+  "generated_at": "2026-09-11T10:36:50.677Z",
+  "total": 50,
   "sources": {
     "curated_popular": 15,
     "coursera_new": 31,
     "edx": 0,
-    "newsapi": 4
+    "newsapi": 5
   },
   "topics": [
     "LLM",
@@ -23,7 +23,7 @@
   ],
   "topic_counts": {
     "LLM": 10,
-    "AI": 43,
+    "AI": 44,
     "World Models": 0,
     "Agents": 5,
     "Multimodal": 1,
@@ -457,6 +457,60 @@
   ],
   "newly_launched": [
     {
+      "id": "434ab01a4772",
+      "name": "John Ternus enters, with folding phones and AI watches",
+      "slug": "john-ternus-enters-with-folding-phones-and-ai-watches",
+      "provider": "sixcolors.com",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "In his first event video since taking over as Apple CEO, John Ternus got a cheeky introduction from his predecessor Tim Cook before boldly referencing some classic Steve Jobs moments and setting the company’s most important product on a new course.…",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://sixcolors.com/post/2026/09/john-ternus-enters-with-folding-phones-and-ai-watches/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": "2026-09-10T00:39:17Z",
+      "source": "sixcolors.com"
+    },
+    {
+      "id": "20e1f83bcf62",
+      "name": "Faculty-student partnership brings AI ethics to the classroom",
+      "slug": "faculty-student-partnership-brings-ai-ethics-to-the-classroom",
+      "provider": "Yale.edu",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Yale faculty member Julian Posada recently joined forces with undergraduate Yair Guijosa-Torres ’27 to design a new course focused on artificial intelligence and its societal&nbsp;implications.",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://poorvucenter.yale.edu/posts/2026-09-08-faculty-student-partnership-brings-ai-ethics-to-the-classroom",
+      "image_url": "https://poorvucenter.yale.edu/sites/default/files/2026-09/Faculty_Bulldog_Days_2026-73.jpg",
+      "workload": null,
+      "launched_at": "2026-09-08T20:32:50Z",
+      "source": "Yale.edu"
+    },
+    {
       "id": "64232be6eba3",
       "name": "Draft Employment Contract Pack",
       "slug": "draft-employment-contract-pack",
@@ -702,34 +756,6 @@
       "workload": "3 weeks / 6–7 hours per week",
       "launched_at": "2026-08-25T15:39:35.441Z",
       "source": "Coursera"
-    },
-    {
-      "id": "0e1ed1ca892c",
-      "name": "You can earn your Google Al Professional Certificate for free - and I highly recommend it",
-      "slug": "you-can-earn-your-google-al-professional-certificate-for-free-and-i-highly-recom",
-      "provider": "ZDNet",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "data"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "From AI fundamentals to data analysis and app building, Google's certificate covers quite a lot. And there's a way to avoid paying anything to earn your credential.",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.zdnet.com/article/you-can-earn-your-google-al-professional-certificate-for-free/",
-      "image_url": "https://www.zdnet.com/a/img/resize/aa8c1336a668820efd5bc17fe09523e0279986f5/2026/08/20/b8b04478-e5f1-4d07-b7d1-23fe32b7a03c/gettyimages-2104088942.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "workload": null,
-      "launched_at": "2026-08-20T11:49:14Z",
-      "source": "ZDNet"
     },
     {
       "id": "7c5de6ceddda",
@@ -982,7 +1008,7 @@
       "provider": "Coursera",
       "country_code": "US",
       "modality": "online",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "is_free": true,
       "technologies": [
         "ai",
@@ -994,7 +1020,7 @@
         "AI"
       ],
       "topic": "Cybersecurity",
-      "ai_summary": "Launch into application modernization — one of enterprise software's most in-demand specialties — with a portfolio-ready capstone that proves you can run a legacy transformation end to end. Legacy application modernization is one of the most in-demand and rarely well-taught skill",
+      "ai_summary": "Launch into application modernization, one of enterprise software's most in-demand specialties, with a portfolio-ready capstone that proves you can run a legacy transformation end to end. This course is built for developers and students new to modernization: no prior experience w",
       "is_promoted": false,
       "category": "newly_launched",
       "rating": null,
@@ -1384,7 +1410,7 @@
       "rating": null,
       "review_count": null,
       "url": "https://www.coursera.org/learn/unlock-multimodal-search",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d3/97429bd18549298ce94197064850ec/CON-04114_img_courselogo.png",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
       "source": "Coursera"
@@ -1839,6 +1865,60 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "434ab01a4772",
+      "name": "John Ternus enters, with folding phones and AI watches",
+      "slug": "john-ternus-enters-with-folding-phones-and-ai-watches",
+      "provider": "sixcolors.com",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "In his first event video since taking over as Apple CEO, John Ternus got a cheeky introduction from his predecessor Tim Cook before boldly referencing some classic Steve Jobs moments and setting the company’s most important product on a new course.…",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://sixcolors.com/post/2026/09/john-ternus-enters-with-folding-phones-and-ai-watches/",
+      "image_url": null,
+      "workload": null,
+      "launched_at": "2026-09-10T00:39:17Z",
+      "source": "sixcolors.com"
+    },
+    {
+      "id": "20e1f83bcf62",
+      "name": "Faculty-student partnership brings AI ethics to the classroom",
+      "slug": "faculty-student-partnership-brings-ai-ethics-to-the-classroom",
+      "provider": "Yale.edu",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Yale faculty member Julian Posada recently joined forces with undergraduate Yair Guijosa-Torres ’27 to design a new course focused on artificial intelligence and its societal&nbsp;implications.",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://poorvucenter.yale.edu/posts/2026-09-08-faculty-student-partnership-brings-ai-ethics-to-the-classroom",
+      "image_url": "https://poorvucenter.yale.edu/sites/default/files/2026-09/Faculty_Bulldog_Days_2026-73.jpg",
+      "workload": null,
+      "launched_at": "2026-09-08T20:32:50Z",
+      "source": "Yale.edu"
+    },
+    {
       "id": "64232be6eba3",
       "name": "Draft Employment Contract Pack",
       "slug": "draft-employment-contract-pack",
@@ -2084,34 +2164,6 @@
       "workload": "3 weeks / 6–7 hours per week",
       "launched_at": "2026-08-25T15:39:35.441Z",
       "source": "Coursera"
-    },
-    {
-      "id": "0e1ed1ca892c",
-      "name": "You can earn your Google Al Professional Certificate for free - and I highly recommend it",
-      "slug": "you-can-earn-your-google-al-professional-certificate-for-free-and-i-highly-recom",
-      "provider": "ZDNet",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "data"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "From AI fundamentals to data analysis and app building, Google's certificate covers quite a lot. And there's a way to avoid paying anything to earn your credential.",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.zdnet.com/article/you-can-earn-your-google-al-professional-certificate-for-free/",
-      "image_url": "https://www.zdnet.com/a/img/resize/aa8c1336a668820efd5bc17fe09523e0279986f5/2026/08/20/b8b04478-e5f1-4d07-b7d1-23fe32b7a03c/gettyimages-2104088942.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "workload": null,
-      "launched_at": "2026-08-20T11:49:14Z",
-      "source": "ZDNet"
     },
     {
       "id": "7c5de6ceddda",
@@ -2364,7 +2416,7 @@
       "provider": "Coursera",
       "country_code": "US",
       "modality": "online",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "is_free": true,
       "technologies": [
         "ai",
@@ -2376,7 +2428,7 @@
         "AI"
       ],
       "topic": "Cybersecurity",
-      "ai_summary": "Launch into application modernization — one of enterprise software's most in-demand specialties — with a portfolio-ready capstone that proves you can run a legacy transformation end to end. Legacy application modernization is one of the most in-demand and rarely well-taught skill",
+      "ai_summary": "Launch into application modernization, one of enterprise software's most in-demand specialties, with a portfolio-ready capstone that proves you can run a legacy transformation end to end. This course is built for developers and students new to modernization: no prior experience w",
       "is_promoted": false,
       "category": "newly_launched",
       "rating": null,
@@ -2766,7 +2818,7 @@
       "rating": null,
       "review_count": null,
       "url": "https://www.coursera.org/learn/unlock-multimodal-search",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d3/97429bd18549298ce94197064850ec/CON-04114_img_courselogo.png",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
       "source": "Coursera"
