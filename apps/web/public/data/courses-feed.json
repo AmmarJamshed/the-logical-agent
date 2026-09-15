@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-13T11:05:48.225Z",
+  "generated_at": "2026-09-15T11:04:00.763Z",
   "total": 50,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 31,
+    "coursera_new": 30,
     "edx": 0,
-    "newsapi": 5
+    "newsapi": 6
   },
   "topics": [
     "LLM",
@@ -33,7 +33,7 @@
     "Robotics": 0,
     "Quantum": 0,
     "Cybersecurity": 6,
-    "Machine Learning": 7
+    "Machine Learning": 6
   },
   "popular": [
     {
@@ -457,6 +457,31 @@
   ],
   "newly_launched": [
     {
+      "id": "3b424e1c0b12",
+      "name": "After NCT exit, Mark Lee trades maximalism for stripped-down sound - The Korea Times",
+      "slug": "after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound-the-korea-time",
+      "provider": "코리아타임스",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Singer Mark Lee has returned to music, charting a new course after parting ways with K-pop group NCT. Lee debuted in 2016 and spent nearly a decade...",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260914/after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound",
+      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/14/a25aef00-a4c7-4d99-814a-4ad9a28cd44f.jpg",
+      "workload": null,
+      "launched_at": "2026-09-14T07:06:49Z",
+      "source": "코리아타임스"
+    },
+    {
       "id": "434ab01a4772",
       "name": "John Ternus enters, with folding phones and AI watches",
       "slug": "john-ternus-enters-with-folding-phones-and-ai-watches",
@@ -1413,35 +1438,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "0f6ca00083b4",
-      "name": "Optimize ML Models: Hyperparameter Tuning ",
-      "slug": "optimize-ml-models-hyperparameter-tuning",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning"
-      ],
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "topic": "Machine Learning",
-      "ai_summary": "Optimize ML Models: Hyperparameter Tuning gives you the practical skills to move from “good enough” models to models that perform reliably at scale. You’ll learn how default hyperparameters shape model behavior, how computational complexity affects training cost, and why structur",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/optimize-ml-models-hyperparameter-tuning",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2b/9d51181fd74630a1431bc77189f422/Na-im-Tyson.jpg",
-      "workload": null,
-      "launched_at": "2026-03-18T20:48:49.044Z",
       "source": "Coursera"
     }
   ],
@@ -1865,6 +1861,31 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "3b424e1c0b12",
+      "name": "After NCT exit, Mark Lee trades maximalism for stripped-down sound - The Korea Times",
+      "slug": "after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound-the-korea-time",
+      "provider": "코리아타임스",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Singer Mark Lee has returned to music, charting a new course after parting ways with K-pop group NCT. Lee debuted in 2016 and spent nearly a decade...",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260914/after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound",
+      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/14/a25aef00-a4c7-4d99-814a-4ad9a28cd44f.jpg",
+      "workload": null,
+      "launched_at": "2026-09-14T07:06:49Z",
+      "source": "코리아타임스"
+    },
+    {
       "id": "434ab01a4772",
       "name": "John Ternus enters, with folding phones and AI watches",
       "slug": "john-ternus-enters-with-folding-phones-and-ai-watches",
@@ -2821,35 +2842,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
       "workload": "Approximately 91 minutes",
       "launched_at": "2026-03-24T12:53:08.210Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "0f6ca00083b4",
-      "name": "Optimize ML Models: Hyperparameter Tuning ",
-      "slug": "optimize-ml-models-hyperparameter-tuning",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning"
-      ],
-      "topics": [
-        "Machine Learning",
-        "AI"
-      ],
-      "topic": "Machine Learning",
-      "ai_summary": "Optimize ML Models: Hyperparameter Tuning gives you the practical skills to move from “good enough” models to models that perform reliably at scale. You’ll learn how default hyperparameters shape model behavior, how computational complexity affects training cost, and why structur",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/optimize-ml-models-hyperparameter-tuning",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/2b/9d51181fd74630a1431bc77189f422/Na-im-Tyson.jpg",
-      "workload": null,
-      "launched_at": "2026-03-18T20:48:49.044Z",
       "source": "Coursera"
     }
   ]
