@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T10:18:42.524Z",
+  "generated_at": "2026-09-21T11:59:41.080Z",
   "total": 51,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 31,
+    "coursera_new": 30,
     "edx": 0,
-    "newsapi": 6
+    "newsapi": 7
   },
   "topics": [
     "LLM",
@@ -26,7 +26,7 @@
     "AI": 45,
     "World Models": 0,
     "Agents": 5,
-    "Multimodal": 1,
+    "Multimodal": 0,
     "Computer Vision": 0,
     "NLP": 3,
     "Reinforcement Learning": 0,
@@ -457,6 +457,31 @@
   ],
   "newly_launched": [
     {
+      "id": "7944577287a3",
+      "name": "NIIT Ltd. And SPJIMR Launch Professional Certificate in FinTech Operations to Build Talent for India’s Digital Finance Ecosystem",
+      "slug": "niit-ltd-and-spjimr-launch-professional-certificate-in-fintech-operations-to-bui",
+      "provider": "BusinessLine",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "NIIT Ltd. And SPJIMR Launch Professional Certificate in FinTech Operations to Build Talent for India's Digital Finance Ecosystem",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/niit-ltd-and-spjimr-launch-professional-certificate-in-fintech-operations-to-build-talent-for-indias-digital-finance-ecosystem/article71479456.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/ffdoqi/article71479452.ece/alternates/LANDSCAPE_1200/PCPCPC.jpg",
+      "workload": null,
+      "launched_at": "2026-09-18T12:06:38Z",
+      "source": "BusinessLine"
+    },
+    {
       "id": "1126d4f44890",
       "name": "NIIT and SPJIMR launch Professional Certificate in FinTech Operations",
       "slug": "niit-and-spjimr-launch-professional-certificate-in-fintech-operations",
@@ -1435,36 +1460,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f5/4de494781e45fab73e646460aa9f3a/CC-PS-DF-DSS.jpg",
       "workload": "Approximately 8 hours to complete",
       "launched_at": "2026-03-28T15:10:31.006Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "95e1630e8515",
-      "name": "Unlock Multimodal Search",
-      "slug": "unlock-multimodal-search",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "intermediate",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning",
-        "python"
-      ],
-      "topics": [
-        "Multimodal",
-        "AI"
-      ],
-      "topic": "Multimodal",
-      "ai_summary": "\"Unlock Multimodal Search\" is an intermediate, hands-on course for developers and ML engineers ready to build the next generation of AI-powered search. Text-only search is no longer enough; this 90-minute course will teach you how to create applications that can search across dif",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/unlock-multimodal-search",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
-      "workload": "Approximately 91 minutes",
-      "launched_at": "2026-03-24T12:53:08.210Z",
       "source": "Coursera"
     }
   ],
@@ -1888,6 +1883,31 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "7944577287a3",
+      "name": "NIIT Ltd. And SPJIMR Launch Professional Certificate in FinTech Operations to Build Talent for India’s Digital Finance Ecosystem",
+      "slug": "niit-ltd-and-spjimr-launch-professional-certificate-in-fintech-operations-to-bui",
+      "provider": "BusinessLine",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "NIIT Ltd. And SPJIMR Launch Professional Certificate in FinTech Operations to Build Talent for India's Digital Finance Ecosystem",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/niit-ltd-and-spjimr-launch-professional-certificate-in-fintech-operations-to-build-talent-for-indias-digital-finance-ecosystem/article71479456.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/ffdoqi/article71479452.ece/alternates/LANDSCAPE_1200/PCPCPC.jpg",
+      "workload": null,
+      "launched_at": "2026-09-18T12:06:38Z",
+      "source": "BusinessLine"
+    },
+    {
       "id": "1126d4f44890",
       "name": "NIIT and SPJIMR launch Professional Certificate in FinTech Operations",
       "slug": "niit-and-spjimr-launch-professional-certificate-in-fintech-operations",
@@ -2866,36 +2886,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/f5/4de494781e45fab73e646460aa9f3a/CC-PS-DF-DSS.jpg",
       "workload": "Approximately 8 hours to complete",
       "launched_at": "2026-03-28T15:10:31.006Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "95e1630e8515",
-      "name": "Unlock Multimodal Search",
-      "slug": "unlock-multimodal-search",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "intermediate",
-      "is_free": true,
-      "technologies": [
-        "ai",
-        "machine-learning",
-        "python"
-      ],
-      "topics": [
-        "Multimodal",
-        "AI"
-      ],
-      "topic": "Multimodal",
-      "ai_summary": "\"Unlock Multimodal Search\" is an intermediate, hands-on course for developers and ML engineers ready to build the next generation of AI-powered search. Text-only search is no longer enough; this 90-minute course will teach you how to create applications that can search across dif",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/unlock-multimodal-search",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/b2/3fafb4565240b9957383d30054149b/Course-card-39-.png",
-      "workload": "Approximately 91 minutes",
-      "launched_at": "2026-03-24T12:53:08.210Z",
       "source": "Coursera"
     }
   ]
