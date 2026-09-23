@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T11:59:41.080Z",
-  "total": 51,
+  "generated_at": "2026-09-23T10:46:43.496Z",
+  "total": 55,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 30,
+    "coursera_new": 34,
     "edx": 0,
     "newsapi": 7
   },
@@ -22,17 +22,17 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 10,
-    "AI": 45,
+    "LLM": 11,
+    "AI": 48,
     "World Models": 0,
-    "Agents": 5,
+    "Agents": 6,
     "Multimodal": 0,
     "Computer Vision": 0,
     "NLP": 3,
-    "Reinforcement Learning": 0,
+    "Reinforcement Learning": 1,
     "Robotics": 0,
     "Quantum": 0,
-    "Cybersecurity": 6,
+    "Cybersecurity": 7,
     "Machine Learning": 6
   },
   "popular": [
@@ -456,6 +456,119 @@
     }
   ],
   "newly_launched": [
+    {
+      "id": "ff160a180857",
+      "name": "How to Measure Anything in Cybersecurity Risk",
+      "slug": "wiley-how-to-measure-anything-in-cybersecurity-risk",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "cybersecurity"
+      ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
+      "ai_summary": "This course provides a data-driven approach to measuring and managing cybersecurity risk. Learn to apply Bayesian methods and risk audits to improve decision-making and security metrics in enterprises. This resource provides a practical, data-driven approach to cybersecurity risk",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/wiley-how-to-measure-anything-in-cybersecurity-risk",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/65/7b74e9416641e6881e2e060f7639c4/9781807308278_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-23T01:03:23.055Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "edf9cf99292e",
+      "name": "Advanced Design and Deployment of Generative AI Applications",
+      "slug": "packt-advanced-design-deployment-generative-ai-applications",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "Reinforcement Learning",
+        "AI"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Advance your skills in designing, fine-tuning, and deploying sophisticated Generative AI applications, from agent architectures to production-ready systems. Gain the expertise to architect, optimize, and scale AI-powered solutions for real-world impact. This course focuses on adv",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-advanced-design-deployment-generative-ai-applications",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9b/1456280c3e488e80190ef46a0aa74a/9781806671199_3_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-22T13:01:45.280Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "14ded565cc4d",
+      "name": "Design Systems and Responsive UI in Figma",
+      "slug": "packt-design-systems-and-responsive-ui-in-figma",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Master the creation of consistent, adaptive interfaces by leveraging grids, typography, Auto Layout, and components in Figma. Develop responsive designs for mobile, tablet, and desktop while collaborating effectively in shared workspaces. This course focuses on building scalable ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-design-systems-and-responsive-ui-in-figma",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/bc/c18d2667be44b58758e6a80cd80a7d/9781805805892_2_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-22T13:01:40.541Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "c5f196e737a0",
+      "name": "Build Jupyter Skills and Visualize Python Data",
+      "slug": "build-notebook-skills-visualize-python-data",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "python",
+        "data"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Build practical Jupyter Notebook, IPython, and Python data visualization skills through a structured, hands-on course designed for beginners and practitioners who want to strengthen their data science, research, or analytics workflows. You will learn to install, configure, and cu",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/build-notebook-skills-visualize-python-data",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ef/487b14aea343028e6e8c08926e396a/13.1.1.png",
+      "workload": null,
+      "launched_at": "2026-09-21T22:32:10.484Z",
+      "source": "Coursera"
+    },
     {
       "id": "7944577287a3",
       "name": "NIIT Ltd. And SPJIMR Launch Professional Certificate in FinTech Operations to Build Talent for India’s Digital Finance Ecosystem",
@@ -1881,6 +1994,119 @@
       "workload": null,
       "launched_at": null,
       "source": "Microsoft Learn"
+    },
+    {
+      "id": "ff160a180857",
+      "name": "How to Measure Anything in Cybersecurity Risk",
+      "slug": "wiley-how-to-measure-anything-in-cybersecurity-risk",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "intermediate",
+      "is_free": true,
+      "technologies": [
+        "cybersecurity"
+      ],
+      "topics": [
+        "Cybersecurity"
+      ],
+      "topic": "Cybersecurity",
+      "ai_summary": "This course provides a data-driven approach to measuring and managing cybersecurity risk. Learn to apply Bayesian methods and risk audits to improve decision-making and security metrics in enterprises. This resource provides a practical, data-driven approach to cybersecurity risk",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/wiley-how-to-measure-anything-in-cybersecurity-risk",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/65/7b74e9416641e6881e2e060f7639c4/9781807308278_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-23T01:03:23.055Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "edf9cf99292e",
+      "name": "Advanced Design and Deployment of Generative AI Applications",
+      "slug": "packt-advanced-design-deployment-generative-ai-applications",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "agents"
+      ],
+      "topics": [
+        "LLM",
+        "Agents",
+        "Reinforcement Learning",
+        "AI"
+      ],
+      "topic": "LLM",
+      "ai_summary": "Advance your skills in designing, fine-tuning, and deploying sophisticated Generative AI applications, from agent architectures to production-ready systems. Gain the expertise to architect, optimize, and scale AI-powered solutions for real-world impact. This course focuses on adv",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-advanced-design-deployment-generative-ai-applications",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9b/1456280c3e488e80190ef46a0aa74a/9781806671199_3_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-22T13:01:45.280Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "14ded565cc4d",
+      "name": "Design Systems and Responsive UI in Figma",
+      "slug": "packt-design-systems-and-responsive-ui-in-figma",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Master the creation of consistent, adaptive interfaces by leveraging grids, typography, Auto Layout, and components in Figma. Develop responsive designs for mobile, tablet, and desktop while collaborating effectively in shared workspaces. This course focuses on building scalable ",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/packt-design-systems-and-responsive-ui-in-figma",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/bc/c18d2667be44b58758e6a80cd80a7d/9781805805892_2_square.jpg",
+      "workload": null,
+      "launched_at": "2026-09-22T13:01:40.541Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "c5f196e737a0",
+      "name": "Build Jupyter Skills and Visualize Python Data",
+      "slug": "build-notebook-skills-visualize-python-data",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "python",
+        "data"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Build practical Jupyter Notebook, IPython, and Python data visualization skills through a structured, hands-on course designed for beginners and practitioners who want to strengthen their data science, research, or analytics workflows. You will learn to install, configure, and cu",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/build-notebook-skills-visualize-python-data",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ef/487b14aea343028e6e8c08926e396a/13.1.1.png",
+      "workload": null,
+      "launched_at": "2026-09-21T22:32:10.484Z",
+      "source": "Coursera"
     },
     {
       "id": "7944577287a3",
