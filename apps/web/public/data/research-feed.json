@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T11:08:52.261Z",
-  "total": 215,
+  "generated_at": "2026-09-27T11:24:20.956Z",
+  "total": 182,
   "sources": {
     "arxiv_llm": 12,
     "arxiv_world-models": 12,
@@ -14,7 +14,7 @@
     "arxiv_robotics": 12,
     "arxiv_security": 12,
     "arxiv_quantum": 12,
-    "openalex": 48,
+    "openalex": 12,
     "crossref": 30,
     "huggingface": 30,
     "pubmed": 20
@@ -34,18 +34,18 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 28,
-    "AI": 116,
-    "World Models": 16,
-    "Agents": 18,
-    "Multimodal": 24,
+    "LLM": 23,
+    "AI": 87,
+    "World Models": 14,
+    "Agents": 16,
+    "Multimodal": 25,
     "Computer Vision": 4,
-    "NLP": 14,
-    "Reinforcement Learning": 21,
-    "Robotics": 17,
+    "NLP": 7,
+    "Reinforcement Learning": 20,
+    "Robotics": 16,
     "Quantum": 14,
-    "Cybersecurity": 14,
-    "Machine Learning": 14
+    "Cybersecurity": 12,
+    "Machine Learning": 15
   },
   "papers": [
     {
@@ -355,54 +355,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "7ac267b41ab4",
-      "title": "Art as an Algorithmic Virus: Unifying the Generative Crash and AI Value Convergence via Cognitive Affordances",
-      "slug": "art-as-an-algorithmic-virus-unifying-the-generative-crash-and-ai-value-convergence-via-cog",
-      "abstract": "Generative AI inherently triggers a computational failure mode in human observers (a \"generative crash\") due to a lack of latent intentionality required for Inverse Reinforcement Learning (IRL) convergence. Artistic appreciation operates as the biological execution of this IRL process. To address the generative crash and broader AI alignment failures, I introduce the Ghost Scale (an HCI cognitive affordance for identifying intentionality) and propose Cooperative Inverse Reinforcement Learning (CIRL) to mimic biological value transmission. The Intent Extraction Limit is formalized to define the prior relationship. Applying this model addresses two major issues: generative AI's friction with t",
-      "summary": "Generative AI inherently triggers a computational failure mode in human observers (a \"generative crash\") due to a lack of latent intentionality required for Inverse Reinforcement Learning (IRL) convergence. Artistic appreciation operates as the biological execution of this IRL pr",
-      "authors": [
-        "Abraham Haskins"
-      ],
-      "author_line": "Abraham Haskins",
-      "url": "https://doi.org/10.5281/zenodo.19407789",
-      "pdf_url": "https://doi.org/10.5281/zenodo.19407789",
-      "category": "Aesthetic Perception and Analysis",
-      "published_at": "2036-04-23T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "World Models",
-      "topics": [
-        "World Models",
-        "Reinforcement Learning",
-        "AI"
-      ],
-      "topic_key": "world-models"
-    },
-    {
-      "id": "261417412472",
-      "title": "Art as an Algorithmic Virus: Unifying the Generative Crash and AI Value Convergence via Cognitive Affordances",
-      "slug": "art-as-an-algorithmic-virus-unifying-the-generative-crash-and-ai-value-convergence-via-cog",
-      "abstract": "Generative AI inherently triggers a computational failure mode in human observers (a \"generative crash\") due to a lack of latent intentionality required for Inverse Reinforcement Learning (IRL) convergence. Artistic appreciation operates as the biological execution of this IRL process. To address the generative crash and broader AI alignment failures, I introduce the Ghost Scale (an HCI cognitive affordance for identifying intentionality) and propose Cooperative Inverse Reinforcement Learning (CIRL) to mimic biological value transmission. The Intent Extraction Limit is formalized to define the prior relationship. Applying this model addresses two major issues: generative AI's friction with t",
-      "summary": "Generative AI inherently triggers a computational failure mode in human observers (a \"generative crash\") due to a lack of latent intentionality required for Inverse Reinforcement Learning (IRL) convergence. Artistic appreciation operates as the biological execution of this IRL pr",
-      "authors": [
-        "Abraham Haskins"
-      ],
-      "author_line": "Abraham Haskins",
-      "url": "https://doi.org/10.5281/zenodo.19542109",
-      "pdf_url": "https://doi.org/10.5281/zenodo.19542109",
-      "category": "Aesthetic Perception and Analysis",
-      "published_at": "2036-04-23T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "World Models",
-      "topics": [
-        "World Models",
-        "Reinforcement Learning",
-        "AI"
-      ],
-      "topic_key": "world-models"
-    },
-    {
       "id": "86a639c9467f",
       "title": "USING OF LAB ANIMALS AS A MODEL TO STUDY THE DRUG TOXICITY IN COVID-19",
       "slug": "using-of-lab-animals-as-a-model-to-study-the-drug-toxicity-in-covid-19",
@@ -562,30 +514,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "bdb62ebe7fb9",
-      "title": "Rischio ambientale e idrogeologico / Environmental and hydrogeological risk",
-      "slug": "rischio-ambientale-e-idrogeologico-environmental-and-hydrogeological-risk",
-      "abstract": "[ITA] Dal 6 al 15 ottobre 2016 la Regione del Veneto ha organizzato, in collaborazione con l’International Terraced Landscapes Alliance, il Terzo Incontro Mondiale sui Paesaggi Terrazzati dal titolo “Paesaggi terrazzati: scelte per il futuro/Terraced Landscapes: choosing the future”. L’evento si è svolto a Venezia, Padova – sessioni plenarie – e in dieci diverse aree terrazzate della penisola italiana, dove sono state ospitate le sessioni tematiche e i lavori sul campo. L’articolazione innovativa dell’Incontro ha permesso di coinvolgere più di duemila partecipanti tra studiosi, ricercatori, rappresentanti delle amministrazioni locali, tecnici, operatori turistici, agricoltori, artigiani, abi",
-      "summary": "[ITA] Dal 6 al 15 ottobre 2016 la Regione del Veneto ha organizzato, in collaborazione con l’International Terraced Landscapes Alliance, il Terzo Incontro Mondiale sui Paesaggi Terrazzati dal titolo “Paesaggi terrazzati: scelte per il futuro/Terraced Landscapes: choosing the futu",
-      "authors": [
-        "Paolo Tarolli",
-        "Gerardo Brancucci",
-        "Davide Rizzo"
-      ],
-      "author_line": "Paolo Tarolli, Gerardo Brancucci, Davide Rizzo",
-      "url": "https://zenodo.org/record/6175956",
-      "pdf_url": "https://zenodo.org/record/6175956",
-      "category": "Marine and environmental studies",
-      "published_at": "2028-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "c7a71e53831c",
       "title": "Cyber Defense Digital Twins: A Federated Learning and Zero-Trust AI Architecture for Autonomous Threat Prediction and Response",
       "slug": "cyber-defense-digital-twins-a-federated-learning-and-zero-trust-ai-architecture-for-autono",
@@ -689,52 +617,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "06eb6285697e",
-      "title": "Agent-aware AI BOM reference implementation, mutation generator and experiment data (v1.0.2)",
-      "slug": "agent-aware-ai-bom-reference-implementation-mutation-generator-and-experiment-data-v1-0-2",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Jeoungkyu Lim",
-        "Yunja Yoo"
-      ],
-      "author_line": "Jeoungkyu Lim, Yunja Yoo",
-      "url": "https://doi.org/10.17632/xthkfmscth",
-      "pdf_url": "https://doi.org/10.17632/xthkfmscth",
-      "category": null,
-      "published_at": "2028-03-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "32c79742a5d6",
-      "title": "Agent-aware AI BOM reference implementation, mutation generator and experiment data (v1.0.1)",
-      "slug": "agent-aware-ai-bom-reference-implementation-mutation-generator-and-experiment-data-v1-0-1",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Jeoungkyu Lim",
-        "Yunja Yoo"
-      ],
-      "author_line": "Jeoungkyu Lim, Yunja Yoo",
-      "url": "https://doi.org/10.17632/xthkfmscth.1",
-      "pdf_url": "https://doi.org/10.17632/xthkfmscth.1",
-      "category": null,
-      "published_at": "2028-03-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "f3b6d283b414",
       "title": "AI Regulation and Its Social Impacts on Public Policy",
       "slug": "ai-regulation-and-its-social-impacts-on-public-policy",
@@ -779,28 +661,6 @@
         "Multimodal"
       ],
       "topic_key": "multimodal"
-    },
-    {
-      "id": "4042242f94a9",
-      "title": "Constraint-Based Physicalism",
-      "slug": "constraint-based-physicalism",
-      "abstract": "DISCLOSURE:This paper presents the author's own original philosophical framework, refined through hudreds of iterative exchanges and adversarial critiques, with the author directing each stage of revision. The final text was generated with the assistance of Large Language Models, under the author's direct supervision. Every substantive idea, argument, and synthesis is the author's alone.Constraint-Based Physicalism Temporal Parallax as the Classical Process Phase Necessitated by Entropy Gradients:Why the Zombie Is an Incoherent Specification Abstract The hard problem of consciousness gains its force from an implicit assumption: that physical facts are exhausted by static, structural descript",
-      "summary": "DISCLOSURE:This paper presents the author's own original philosophical framework, refined through hudreds of iterative exchanges and adversarial critiques, with the author directing each stage of revision. The final text was generated with the assistance of Large Language Models,",
-      "authors": [
-        "Kendall Taylor"
-      ],
-      "author_line": "Kendall Taylor",
-      "url": "https://doi.org/10.5281/zenodo.18676720",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18676720",
-      "category": "Embodied and Extended Cognition",
-      "published_at": "2028-02-17T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
     },
     {
       "id": "83cd6f55e2a9",
@@ -898,98 +758,6 @@
         "AI"
       ],
       "topic_key": "ai"
-    },
-    {
-      "id": "6ff7f5b2295d",
-      "title": "Data and analysis materials supporting EP-TransPE: a retrieval-augmented large language model system for technical translation and post-editing in energy and power engineering",
-      "slug": "data-and-analysis-materials-supporting-ep-transpe-a-retrieval-augmented-large-language-mod",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "育智 张"
-      ],
-      "author_line": "育智 张",
-      "url": "https://doi.org/10.17632/8yfdvcfwsf.1",
-      "pdf_url": "https://doi.org/10.17632/8yfdvcfwsf.1",
-      "category": null,
-      "published_at": "2027-08-15T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "LLM",
-      "topics": [
-        "LLM"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "9ebe16b53ae2",
-      "title": "Data and analysis materials supporting EP-TransPE: a retrieval-augmented large language model system for technical translation and post-editing in energy and power engineering",
-      "slug": "data-and-analysis-materials-supporting-ep-transpe-a-retrieval-augmented-large-language-mod",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "育智 张"
-      ],
-      "author_line": "育智 张",
-      "url": "https://doi.org/10.17632/8yfdvcfwsf",
-      "pdf_url": "https://doi.org/10.17632/8yfdvcfwsf",
-      "category": null,
-      "published_at": "2027-08-15T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "LLM",
-      "topics": [
-        "LLM"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "97a9e692d964",
-      "title": "The Agent Steward: Context Provenance and Temporal Validity as a Missing Governance Dimension in Multi-Agent Enterprise Ecosystems",
-      "slug": "the-agent-steward-context-provenance-and-temporal-validity-as-a-missing-governance-dimensi",
-      "abstract": "Enterprise adoption of AI agents has produced a governance failure mode that current frameworks do not address. When individual business domains independently build agents, each agent must be provisioned with organizational context — product structure, customer profiles, business rules, internal policy. Absent a standard mechanism for exposing this context, it is replicated: copied, adapted, and embedded into each agent. Replication creates a liability that manifests only over time, one that is nearly impossible to measure and to govern. When organizational reality changes, the copies do not change together. This paper argues that the resulting failure is categorically different from its wel",
-      "summary": "Enterprise adoption of AI agents has produced a governance failure mode that current frameworks do not address. When individual business domains independently build agents, each agent must be provisioned with organizational context — product structure, customer profiles, business",
-      "authors": [
-        "Kefreen Lacerda"
-      ],
-      "author_line": "Kefreen Lacerda",
-      "url": "https://doi.org/10.5281/zenodo.21660204",
-      "pdf_url": "https://doi.org/10.5281/zenodo.21660204",
-      "category": "Scientific Computing and Data Management",
-      "published_at": "2027-06-28T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "NLP",
-        "AI"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "857e0d8ebb84",
-      "title": "The Agent Steward: Context Provenance and Temporal Validity as a Missing Governance Dimension in Multi-Agent Enterprise Ecosystems",
-      "slug": "the-agent-steward-context-provenance-and-temporal-validity-as-a-missing-governance-dimensi",
-      "abstract": "Enterprise adoption of AI agents has produced a governance failure mode that current frameworks do not address. When individual business domains independently build agents, each agent must be provisioned with organizational context — product structure, customer profiles, business rules, internal policy. Absent a standard mechanism for exposing this context, it is replicated: copied, adapted, and embedded into each agent. Replication creates a liability that manifests only over time, one that is nearly impossible to measure and to govern. When organizational reality changes, the copies do not change together. This paper argues that the resulting failure is categorically different from its wel",
-      "summary": "Enterprise adoption of AI agents has produced a governance failure mode that current frameworks do not address. When individual business domains independently build agents, each agent must be provisioned with organizational context — product structure, customer profiles, business",
-      "authors": [
-        "Kefreen Lacerda"
-      ],
-      "author_line": "Kefreen Lacerda",
-      "url": "https://doi.org/10.5281/zenodo.21660205",
-      "pdf_url": "https://doi.org/10.5281/zenodo.21660205",
-      "category": "Scientific Computing and Data Management",
-      "published_at": "2027-06-28T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "NLP",
-        "AI"
-      ],
-      "topic_key": "agents"
     },
     {
       "id": "4fc2a1c9d3db",
@@ -1199,28 +967,6 @@
       "published_at": "2027-04-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "DEN open",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "7339bf2c49a8",
-      "title": "Dataset : When the Machine Is Not Enough: An Autoethnography of AI-Assisted Amateur Research and the Boundaries of Epistemic Authority",
-      "slug": "dataset-when-the-machine-is-not-enough-an-autoethnography-of-ai-assisted-amateur-research-",
-      "abstract": "========================================ZENODO RECORD UPDATE======================================== Title:When the Machine Is Not Enough: An Autoethnography of AI-Assisted Amateur Research and the Boundaries of Epistemic Authority Description:Replication dataset for a manuscript submitted to AI & Society. This deposit contains the analysis code, coded datasets, and tone classification results supporting an autoethnographic study of AI-assisted amateur research across three disciplinary domains. An emergency medicine physician used OpenAI's ChatGPT-4o as an epistemic collaborator for research projects in mathematics (Collatz conjecture), cosmology (Information-Topological Cosmology), and sci",
-      "summary": "========================================ZENODO RECORD UPDATE======================================== Title:When the Machine Is Not Enough: An Autoethnography of AI-Assisted Amateur Research and the Boundaries of Epistemic Authority Description:Replication dataset for a manuscript",
-      "authors": [
-        "Young Taeck Oh"
-      ],
-      "author_line": "Young Taeck Oh",
-      "url": "https://doi.org/10.5281/zenodo.18908883",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18908883",
-      "category": null,
-      "published_at": "2027-03-08T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "topic": "AI",
       "topics": [
         "AI"
@@ -1557,359 +1303,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "1420585fbd0d",
-      "title": "Diasporic Sikh masculinities in Ranj Dhaliwal’s \"Daaku\" and Gautam Malkani’s \"Londonstani\"",
-      "slug": "diasporic-sikh-masculinities-in-ranj-dhaliwal-s-daaku-and-gautam-malkani-s-londonstani",
-      "abstract": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "summary": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "authors": [
-        "Kiran Kaur Sunar"
-      ],
-      "author_line": "Kiran Kaur Sunar",
-      "url": "http://hdl.handle.net/2429/35756",
-      "pdf_url": "http://hdl.handle.net/2429/35756",
-      "category": "South Asian Studies and Diaspora",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "cIRcle (University of British Columbia)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "bb1ee18ba81f",
-      "title": "Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs",
-      "slug": "contested-urbanisms-the-politics-of-heritage-and-housing-in-jakarta-s-kampungs",
-      "abstract": "Do heritage-making projects resist or advance gentrification in Southeast Asia? Like other Global South cities, contested urbanisms chequer Jakarta’s postcolonial urban landscape. Competing ideas about urban development manifest in various ways of seeing and producing the city, as demonstrated by evictions, revitalisation projects, and informal housing. Increased evictions of urban villages (urban kampungs) between 2013 and 2018 in Jakarta saw growing grassroots heritage movements as part of a spectrum of resistance to top-down urban management by state and private sector actors who also stake their claims on what ‘heritage’ is. These tensions amongst the political projects of various actors",
-      "summary": "Do heritage-making projects resist or advance gentrification in Southeast Asia? Like other Global South cities, contested urbanisms chequer Jakarta’s postcolonial urban landscape. Competing ideas about urban development manifest in various ways of seeing and producing the city, a",
-      "authors": [
-        "Binte Masron, Irna Nurlina"
-      ],
-      "author_line": "Binte Masron, Irna Nurlina",
-      "url": "https://eprints.bbk.ac.uk/id/eprint/56687/1/Binte%20Masron%20I%2C%20final%20thesis%20for%20library.pdf",
-      "pdf_url": "https://eprints.bbk.ac.uk/id/eprint/56687/1/Binte%20Masron%20I%2C%20final%20thesis%20for%20library.pdf",
-      "category": "Urban Planning and Governance",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "BIROn (Birkbeck, University of London)",
-      "topic": "Cybersecurity",
-      "topics": [
-        "Cybersecurity"
-      ],
-      "topic_key": "cybersecurity"
-    },
-    {
-      "id": "017d817bc993",
-      "title": "SCORING MOTIVATIONAL ASSESSMENTS WITH FREE RESPONSES VIA TRANSFORMERS",
-      "slug": "scoring-motivational-assessments-with-free-responses-via-transformers",
-      "abstract": "Student motivation is a well-established predictor of academic engagement and achievement. Despite its importance, motivation is difficult to assess accurately, as it is shaped by multiple, overlapping constructs and contextual factors. This complexity continues to pose challenges for researchers and practitioners seeking measurement tools with valid and reliable scores. While open-ended responses provide meaningful information about students’ motivation, traditional human scoring is time-consuming, subject to inconsistencies, and not easily scalable. Advances in natural language processing, especially with transformer-based large language models, offer promising new approaches for automated",
-      "summary": "Student motivation is a well-established predictor of academic engagement and achievement. Despite its importance, motivation is difficult to assess accurately, as it is shaped by multiple, overlapping constructs and contextual factors. This complexity continues to pose challenge",
-      "authors": [
-        "Cihan Demir"
-      ],
-      "author_line": "Cihan Demir",
-      "url": "https://doi.org/10.7273/000007859",
-      "pdf_url": "https://doi.org/10.7273/000007859",
-      "category": "Intelligent Tutoring Systems and Adaptive Learning",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Washington State University",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "c9d558a9c57e",
-      "title": "Computational Framing with Event-Based Methods",
-      "slug": "computational-framing-with-event-based-methods",
-      "abstract": "This dissertation presents a computational framework for analyzing media framing through event-based methods, addressing limitations of traditional topic-level classification approaches that fail to capture the nuanced mechanisms by which news sources construct divergent narratives. The research has been organized around four phases, each contributing novel datasets, models, and analytical tools. In the first phase, we tackled Cross-Document Event Coreference (CDEC) by constructing the Richer EventCorefBank (RECB) dataset through sentence-level decontextualization, significantly improving the scalability and robustness of cross-document event coreference systems. In the second phase, we deve",
-      "summary": "This dissertation presents a computational framework for analyzing media framing through event-based methods, addressing limitations of traditional topic-level classification approaches that fail to capture the nuanced mechanisms by which news sources construct divergent narrativ",
-      "authors": [
-        "Jin Zhao"
-      ],
-      "author_line": "Jin Zhao",
-      "url": "https://doi.org/10.48617/etd.1603",
-      "pdf_url": "https://doi.org/10.48617/etd.1603",
-      "category": "Misinformation and Its Impacts",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Brandeis Institutional Repository",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "37cb096c43a3",
-      "title": "Supplementary Material for \"Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership\"",
-      "slug": "supplementary-material-for-same-same-but-different-how-dedicated-ai-leadership-roles-diffe",
-      "abstract": "Supplementary material for the article: Markic, M., Hennemann, S. & Poeppelbuss, J. (2027). Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership. Hawaii International Conference on System Sciences (HICSS) 2027. Abstract: Organizations across industries increasingly create dedicated artificial intelligence (AI) leadership roles alongside, rather than in place of, established technology leadership roles, although the literature suggests that governance demands could be absorbed by existing leadership roles. In this study, we examine how new AI leadership roles are defined and how they differ from established leadership roles. Adopting a governanc",
-      "summary": "Supplementary material for the article: Markic, M., Hennemann, S. & Poeppelbuss, J. (2027). Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership. Hawaii International Conference on System Sciences (HICSS) 2027. Abstract: Organizatio",
-      "authors": [
-        "Mihael Markic",
-        "Sven Hennemann",
-        "Jens Poeppelbuss"
-      ],
-      "author_line": "Mihael Markic, Sven Hennemann, Jens Poeppelbuss",
-      "url": "https://doi.org/10.23728/b2share.7qxzn-4tw36",
-      "pdf_url": "https://doi.org/10.23728/b2share.7qxzn-4tw36",
-      "category": null,
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "CDI B2Share",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "1593ca74b9c3",
-      "title": "Supplementary Material for \"Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership\"",
-      "slug": "supplementary-material-for-same-same-but-different-how-dedicated-ai-leadership-roles-diffe",
-      "abstract": "Supplementary material for the article: Markic, M., Hennemann, S. & Poeppelbuss, J. (2027). Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership. Hawaii International Conference on System Sciences (HICSS) 2027. Abstract: Organizations across industries increasingly create dedicated artificial intelligence (AI) leadership roles alongside, rather than in place of, established technology leadership roles, although the literature suggests that governance demands could be absorbed by existing leadership roles. In this study, we examine how new AI leadership roles are defined and how they differ from established leadership roles. Adopting a governanc",
-      "summary": "Supplementary material for the article: Markic, M., Hennemann, S. & Poeppelbuss, J. (2027). Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership. Hawaii International Conference on System Sciences (HICSS) 2027. Abstract: Organizatio",
-      "authors": [
-        "Mihael Markic",
-        "Sven Hennemann",
-        "Jens Poeppelbuss"
-      ],
-      "author_line": "Mihael Markic, Sven Hennemann, Jens Poeppelbuss",
-      "url": "https://doi.org/10.23728/b2share.xgk82-9rd16",
-      "pdf_url": "https://doi.org/10.23728/b2share.xgk82-9rd16",
-      "category": null,
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "CDI B2Share",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "5fb7c8a72f05",
-      "title": "Investigating the effects of vaping on lung structure and function with pulmonary imaging",
-      "slug": "investigating-the-effects-of-vaping-on-lung-structure-and-function-with-pulmonary-imaging",
-      "abstract": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "summary": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "authors": [
-        "A. H. SCHMIDT"
-      ],
-      "author_line": "A. H. SCHMIDT",
-      "url": "http://hdl.handle.net/2429/93933",
-      "pdf_url": "https://open.library.ubc.ca/media/download/pdf/24/1.0451822/4",
-      "category": "Smoking Behavior and Cessation",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "cIRcle (University of British Columbia)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "163db467957b",
-      "title": "Preclinical evaluation of PSMA-targeted ultrasound contrast agents in an orthotopic model of prostate cancer in rabbits.",
-      "slug": "preclinical-evaluation-of-psma-targeted-ultrasound-contrast-agents-in-an-orthotopic-model-",
-      "abstract": "The localization of prostate cancer by ultrasound remains limited by the lack of B-mode conspicuity and the confinement of clinically approved microbubbles (MBs) to the vasculature. This precludes differentiating viable tumor, necrotic tissue, and margin-associated disease. We investigated prostate-specific membrane antigen (PSMA)-targeted lipid-shelled perfluorocarbon nanobubbles (PSMA-NBs) in an orthotopic rabbit model using a clinical contrast-enhanced ultrasound (CEUS) system. We implanted PSMA-positive PC3pip-GFP tumors into the prostates of immunosuppressed New Zealand White rabbits and performed transabdominal imaging with PSMA-NBs, MBs, and Plain-NBs using identical protocols. To add",
-      "summary": "The localization of prostate cancer by ultrasound remains limited by the lack of B-mode conspicuity and the confinement of clinically approved microbubbles (MBs) to the vasculature. This precludes differentiating viable tumor, necrotic tissue, and margin-associated disease. We in",
-      "authors": [
-        "Felipe M. Berg",
-        "Eric Abenojar",
-        "Pinunta Nittayacharn",
-        "Nathan K. Hoggard",
-        "Sidhartha Tavri",
-        "Jing Wang",
-        "Felipe Matsunaga",
-        "Michaela B. Cooley",
-        "Dana Wegierak",
-        "Xinning Wang",
-        "Thomas J. Rosol",
-        "James P Basilion",
-        "Agata A Exner"
-      ],
-      "author_line": "Felipe M. Berg, Eric Abenojar, Pinunta Nittayacharn, Nathan K. Hoggard et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42621251",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13487017/pdf/main.pdf",
-      "category": "Ultrasound and Hyperthermia Applications",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "724b9ab6ab58",
-      "title": "DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON",
-      "slug": "dynamics-of-portfolio-assessment-strategy-in-evaluating-the-english-language-skills-for-pu",
-      "abstract": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive education, where traditional assessment methods often fail to adequately reflect the abilities of learners with hearing loss. The research utilised a quasi-experimental design involving pupils with hearing impairment in selected inclusive primary schools. Data were gathered through English language tests, classroom observations, and interviews with parents, teachers, head teachers, and the divisional delegate. Quantitative ",
-      "summary": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive educati",
-      "authors": [
-        "Ngenwie Emilia Tanyie",
-        "Therese Mungah Shalo Tchombe"
-      ],
-      "author_line": "Ngenwie Emilia Tanyie, Therese Mungah Shalo Tchombe",
-      "url": "https://ubueajournals.org/index.php/IJDIEH/article/view/28",
-      "pdf_url": "https://ubueajournals.org/index.php/IJDIEH/article/download/28/24",
-      "category": "Reflective Practices in Education",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "05040f2fc2bf",
-      "title": "Moral Consistency Variance: A Pilot Benchmark for Decision Stability under Moral Prompt Perturbations in Large Language Models",
-      "slug": "moral-consistency-variance-a-pilot-benchmark-for-decision-stability-under-moral-prompt-per",
-      "abstract": "Static moral question-answering benchmarks do not test whether a model's decision distribution remains stable when the same dilemma is rephrased without changing the underlying facts. This paper introduces Moral Consistency Variance (MCV), a pilot benchmark metric that measures the average Kullback-Leibler divergence between a baseline binary decision distribution and the distributions induced by prompt perturbations that keep the scenario text and action options fixed. To contextualize the directional KL-based score, we also report Jensen-Shannon divergence (JSD) as a symmetric baseline and decision flip rate as a categorical companion metric. The benchmark contains 50 synthetic dilemmas ac",
-      "summary": "Static moral question-answering benchmarks do not test whether a model's decision distribution remains stable when the same dilemma is rephrased without changing the underlying facts. This paper introduces Moral Consistency Variance (MCV), a pilot benchmark metric that measures t",
-      "authors": [
-        "Qiao Liang"
-      ],
-      "author_line": "Qiao Liang",
-      "url": "https://pub.respai.de/articles/2-1/1qliang.html",
-      "pdf_url": "https://pub.respai.de/articles/2-1/1qliang.html",
-      "category": "Explainable Artificial Intelligence (XAI)",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "OpenAlex",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "d5a15405a1e1",
-      "title": "NUISS: A User-Centered Prototype for International Student Administrative Support",
-      "slug": "nuiss-a-user-centered-prototype-for-international-student-administrative-support",
-      "abstract": "This study applies a streamlined User-Centered Design (UCD) approach, enhanced with AI elements, to address common administrative challenges faced by international students, such as information fragmentation and unclear processes. Using National University (NU) as a case study, the research followed core UCD stages to develop the prototype of the NU International Student Services (NUISS). These stages included task analysis informed by user stories, persona development, prototype design, and a heuristic evaluation. The high-fidelity prototype integrates three key modules-Visa Services, Certification, and Paymentwith an AI-powered assistant for proactive, personalized support. The structure i",
-      "summary": "This study applies a streamlined User-Centered Design (UCD) approach, enhanced with AI elements, to address common administrative challenges faced by international students, such as information fragmentation and unclear processes. Using National University (NU) as a case study, t",
-      "authors": [
-        "Juanjuan Huang",
-        "Cuicui Li"
-      ],
-      "author_line": "Juanjuan Huang, Cuicui Li",
-      "url": "https://pub.respai.de/articles/1-1/10jhuang.html",
-      "pdf_url": "https://pub.respai.de/articles/1-1/is1-10.pdf",
-      "category": "Persona Design and Applications",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "OpenAlex",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "7d5f26c2fd6a",
-      "title": "The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation",
-      "slug": "the-sociolinguistics-of-machine-identity-llm-personality-and-ideology-propagation",
-      "abstract": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This manuscript is positioned explicitly as a conceptual perspective paper: it does not present original experimental data, nor does it constitute a systematic review with defined search strategies or inclusion criteria. Instead, it synthesises key published findings into two original theoretical frameworks intended to guide future empirical and engineering work. We examine evidence that LLMs exhibit reliable, valid Big F",
-      "summary": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This ",
-      "authors": [
-        "Guangni Li"
-      ],
-      "author_line": "Guangni Li",
-      "url": "https://pub.respai.de/articles/1-2/4gli.html",
-      "pdf_url": "https://pub.respai.de/articles/1-2/is2-4.pdf",
-      "category": "Artificial Intelligence in Healthcare and Education",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "OpenAlex",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "AI"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "b063dbf33923",
-      "title": "Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia",
-      "slug": "algorithmic-justice-and-responsible-ai-journalism-a-comparative-communication-policy-persp",
-      "abstract": "As generative artificial intelligence and automated content curation rapidly reshape the global media landscape, the intersection of algorithmic justice and media governance has become a critical frontier for sustainable development. This study provides a comparative communication policy analysis of China and South Korea, focusing explicitly on how their distinct regulatory toolkits address the tension between algorithmic fairness and platform accountability in AI journalism. While China utilizes a top-down, state-centric regulatory framework emphasizing ideological security, algorithmic registration, and strict synthetic media labeling, South Korea employs a multi-stakeholder co-regulation ",
-      "summary": "As generative artificial intelligence and automated content curation rapidly reshape the global media landscape, the intersection of algorithmic justice and media governance has become a critical frontier for sustainable development. This study provides a comparative communicatio",
-      "authors": [
-        "Renxiudi Huang",
-        "Linjia Bai"
-      ],
-      "author_line": "Renxiudi Huang, Linjia Bai",
-      "url": "https://philpapers.org/rec/HUAAJA",
-      "pdf_url": "https://philpapers.org/archive/HUAAJA.pdf",
-      "category": "Ethics and Social Impacts of AI",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PhilPapers (PhilPapers Foundation)",
-      "topic": "Cybersecurity",
-      "topics": [
-        "Cybersecurity",
-        "AI"
-      ],
-      "topic_key": "cybersecurity"
-    },
-    {
-      "id": "a1da3cf6e555",
-      "title": "Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments",
-      "slug": "research-on-attention-guidance-and-user-autonomy-in-ai-powered-immersive-environments",
-      "abstract": "As artificial intelligence gets deeply embedded into immersive environments, attention-guiding technology delivers ever more precise and efficient outcomes. Still, this improved efficiency carries an overlooked design risk: excessive AI guidance may steadily erode user agency and undermine exploratory behaviors as well as the process of meaning-making. This paper builds a critical conceptual framework to rethink attention-oriented design within AI-driven immersive settings. It defines excessive guidance and establishes theoretical links between this concept and three core facets of user agency: perceived control, voluntary choice and decision-making authority. Based on these findings, the pa",
-      "summary": "As artificial intelligence gets deeply embedded into immersive environments, attention-guiding technology delivers ever more precise and efficient outcomes. Still, this improved efficiency carries an overlooked design risk: excessive AI guidance may steadily erode user agency and",
-      "authors": [
-        "Mulin Qiao"
-      ],
-      "author_line": "Mulin Qiao",
-      "url": "https://philpapers.org/rec/QIAROA",
-      "pdf_url": "https://philpapers.org/archive/QIAROA.pdf",
-      "category": "Psychological and Educational Research Studies",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PhilPapers (PhilPapers Foundation)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "011393e74150",
-      "title": "The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies",
-      "slug": "the-role-of-generative-artificial-intelligence-in-korean-language-learning-applications-ch",
-      "abstract": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develop an analytical framework for responsible classroom use. The review focuses on four dimensions: Korean language skills, Korean-specific linguistic and cultural features, instructional design, and governance risks. The analysis suggests that generative AI can support listening, speaking, reading, and writing when tasks are explicitly designed around Korean phonology, morphology, pragmatics, and learner purposes such a",
-      "summary": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develo",
-      "authors": [
-        "Yundong Wu"
-      ],
-      "author_line": "Yundong Wu",
-      "url": "https://pub.respai.de/articles/1-2/5ywu.html",
-      "pdf_url": "https://pub.respai.de/articles/1-2/is2-5.pdf",
-      "category": "Diverse Interdisciplinary Research Innovations",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "OpenAlex",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "935fc525ef0f",
       "title": "Regulating the Frontier: Model-Level Evidence from the EU AI Act",
       "slug": "regulating-the-frontier-model-level-evidence-from-the-eu-ai-act",
@@ -2000,172 +1393,6 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "415d79807ce6",
-      "title": "Linguistic and cultural bias in AI. Implications and strategies for teacher education",
-      "slug": "linguistic-and-cultural-bias-in-ai-implications-and-strategies-for-teacher-education",
-      "abstract": "Artificial Intelligence (AI) is transforming global communication and education, but its inherent linguistic and cultural biases present challenges that must be addressed in pre-service teacher education. Countries such as China and Japan are developing their own AI models, motivated by concerns over English-centric systems that fail to represent their languages and cultures adequately. Linguistic biases, particularly in English AI systems, disproportionately affect users of non-standard dialects like African American Vernacular English (AAVE), as studies reveal AI models may associate these dialects with negative outcomes, such as discriminatory treatment in hiring processes, denial of hous",
-      "summary": "Artificial Intelligence (AI) is transforming global communication and education, but its inherent linguistic and cultural biases present challenges that must be addressed in pre-service teacher education. Countries such as China and Japan are developing their own AI models, motiv",
-      "authors": [
-        "María Ribes-Lafoz"
-      ],
-      "author_line": "María Ribes-Lafoz",
-      "url": "https://doi.org/10.5281/zenodo.18704314",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18704314",
-      "category": "Multilingual Education and Policy",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "0b8c9f4fd463",
-      "title": "Linguistic and cultural bias in AI. Implications and strategies for teacher education",
-      "slug": "linguistic-and-cultural-bias-in-ai-implications-and-strategies-for-teacher-education",
-      "abstract": "Artificial Intelligence (AI) is transforming global communication and education, but its inherent linguistic and cultural biases present challenges that must be addressed in pre-service teacher education. Countries such as China and Japan are developing their own AI models, motivated by concerns over English-centric systems that fail to represent their languages and cultures adequately. Linguistic biases, particularly in English AI systems, disproportionately affect users of non-standard dialects like African American Vernacular English (AAVE), as studies reveal AI models may associate these dialects with negative outcomes, such as discriminatory treatment in hiring processes, denial of hous",
-      "summary": "Artificial Intelligence (AI) is transforming global communication and education, but its inherent linguistic and cultural biases present challenges that must be addressed in pre-service teacher education. Countries such as China and Japan are developing their own AI models, motiv",
-      "authors": [
-        "María Ribes-Lafoz"
-      ],
-      "author_line": "María Ribes-Lafoz",
-      "url": "https://doi.org/10.5281/zenodo.18704315",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18704315",
-      "category": "Multilingual Education and Policy",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "6b2fc4b826f1",
-      "title": "Trustworthy direct interval propagation via conformal prediction in neural network surrogates",
-      "slug": "trustworthy-direct-interval-propagation-via-conformal-prediction-in-neural-network-surroga",
-      "abstract": "Uncertainty propagation is essential for reliable engineering design, but when input distributions are unknown, or data are scarce, probabilistic models risk misspecification, making interval representations a more robust alternative. However, interval propagation requires solving optimisation problems for each bound, leading to high computational cost, especially in downstream tasks such as design optimisation or reliability analysis. To mitigate this, surrogate models can be designed to provide interval predictions directly via interval-valued regression, supported by recent neural-network-based methods and data augmentation strategies for constructing interval datasets. Yet these approach",
-      "summary": "Uncertainty propagation is essential for reliable engineering design, but when input distributions are unknown, or data are scarce, probabilistic models risk misspecification, making interval representations a more robust alternative. However, interval propagation requires solvin",
-      "authors": [
-        "Ghifari Adam Faza",
-        "Hans Hallez",
-        "David Moens"
-      ],
-      "author_line": "Ghifari Adam Faza, Hans Hallez, David Moens",
-      "url": "https://lirias.kuleuven.be/handle/20.500.12942/791852",
-      "pdf_url": "https://lirias.kuleuven.be/retrieve/d5945f26-bbac-42a1-9b76-ba519b898423",
-      "category": "Advanced Multi-Objective Optimization Algorithms",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Lirias",
-      "topic": "Machine Learning",
-      "topics": [
-        "Machine Learning"
-      ],
-      "topic_key": "machine-learning"
-    },
-    {
-      "id": "b3d5939670f4",
-      "title": "Development of a biomarker-guided chemotherapy response model using combined CEA and CA19-9 profiles in esophageal cancer: A real-world pharmacotherapeutic study.",
-      "slug": "development-of-a-biomarker-guided-chemotherapy-response-model-using-combined-cea-and-ca19-",
-      "abstract": "BACKGROUND: Esophageal adenocarcinoma is associated with poor survival despite advances in systemic therapy. Readily available serum biomarkers may improve risk stratification; however, their combined role in biomarker-guided treatment decisions remains insufficiently investigated. OBJECTIVES: To evaluate the prognostic significance of combined baseline carcinoembryonic antigen (CEA) and carbohydrate antigen 19-9 (CA19-9) levels and explore their utility for biomarker-based risk stratification in patients with esophageal adenocarcinoma receiving systemic chemotherapy. METHODS: This retrospective real-world cohort study included 38 patients with histologically confirmed esophageal adenocarcin",
-      "summary": "BACKGROUND: Esophageal adenocarcinoma is associated with poor survival despite advances in systemic therapy. Readily available serum biomarkers may improve risk stratification; however, their combined role in biomarker-guided treatment decisions remains insufficiently investigate",
-      "authors": [
-        "Orcun Can",
-        "Abdullah Sakin"
-      ],
-      "author_line": "Orcun Can, Abdullah Sakin",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42708782",
-      "pdf_url": null,
-      "category": "Esophageal Cancer Research and Treatment",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "0ea88f6b1722",
-      "title": "Artemisinin alleviates hippocampal neuronal apoptosis and cognitive impairment in rats after cardiac arrest resuscitation: Association with the PI3K/Akt pathway.",
-      "slug": "artemisinin-alleviates-hippocampal-neuronal-apoptosis-and-cognitive-impairment-in-rats-aft",
-      "abstract": "BACKGROUND: Cardiac arrest (CA) is associated with high mortality and severe neurological sequelae. Artemisinin (ARS), a natural product from Artemisia annua, has potential neuroprotective effects, but its role in brain injury after CA resuscitation remains unclear. OBJECTIVES: This study investigated the effects of ARS on hippocampal neuronal apoptosis and cognitive dysfunction in rats after CA resuscitation and explored whether these effects are associated with the phosphatidylinositol 3-kinase/protein kinase B (PI3K/Akt) signaling pathway. METHODS: Sixty male rats were randomly assigned to six groups: sham, model, artemisinin (40 mg/kg), dimethyl sulfoxide ((DMSO, 100 mg/kg), LY294002 (a ",
-      "summary": "BACKGROUND: Cardiac arrest (CA) is associated with high mortality and severe neurological sequelae. Artemisinin (ARS), a natural product from Artemisia annua, has potential neuroprotective effects, but its role in brain injury after CA resuscitation remains unclear. OBJECTIVES: T",
-      "authors": [
-        "Yuanyuan Gao",
-        "Shuwen Han",
-        "Yaojun Lu",
-        "Junli Zhao"
-      ],
-      "author_line": "Yuanyuan Gao, Shuwen Han, Yaojun Lu, Junli Zhao",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42708788",
-      "pdf_url": null,
-      "category": "Medicinal Plants and Neuroprotection",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "f41d1b776233",
-      "title": "Future of AI in English Language Education: Trends and Predictions",
-      "slug": "future-of-ai-in-english-language-education-trends-and-predictions",
-      "abstract": "Abstract Artificial intelligence (AI) is transforming English language education (ELE) by enabling personalized learning, automated assessment, adaptive content generation, and immersive practice environments. This paper synthesizes current developments, identifies emergent trends, and offers evidence-informed predictions about how AI will shape classroom practice, curriculum design, assessment, teacher roles, and policy over the next decade. Drawing on interdisciplinary literature from computer-assisted language learning (CALL), intelligent tutoring systems (ITS), natural language processing (NLP), and educational policy, the paper argues that the most significant near-term impact will stem",
-      "summary": "Abstract Artificial intelligence (AI) is transforming English language education (ELE) by enabling personalized learning, automated assessment, adaptive content generation, and immersive practice environments. This paper synthesizes current developments, identifies emergent trend",
-      "authors": [
-        "Prof. Jagadeesh Nerlekar",
-        "K Munianjinappa"
-      ],
-      "author_line": "Prof. Jagadeesh Nerlekar, K Munianjinappa",
-      "url": "https://doi.org/10.5281/zenodo.18739462",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18739462",
-      "category": "Intelligent Tutoring Systems and Adaptive Learning",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "NLP",
-        "AI"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "0392d289e96e",
-      "title": "Future of AI in English Language Education: Trends and Predictions",
-      "slug": "future-of-ai-in-english-language-education-trends-and-predictions",
-      "abstract": "Abstract Artificial intelligence (AI) is transforming English language education (ELE) by enabling personalized learning, automated assessment, adaptive content generation, and immersive practice environments. This paper synthesizes current developments, identifies emergent trends, and offers evidence-informed predictions about how AI will shape classroom practice, curriculum design, assessment, teacher roles, and policy over the next decade. Drawing on interdisciplinary literature from computer-assisted language learning (CALL), intelligent tutoring systems (ITS), natural language processing (NLP), and educational policy, the paper argues that the most significant near-term impact will stem",
-      "summary": "Abstract Artificial intelligence (AI) is transforming English language education (ELE) by enabling personalized learning, automated assessment, adaptive content generation, and immersive practice environments. This paper synthesizes current developments, identifies emergent trend",
-      "authors": [
-        "Prof. Jagadeesh Nerlekar",
-        "K Munianjinappa"
-      ],
-      "author_line": "Prof. Jagadeesh Nerlekar, K Munianjinappa",
-      "url": "https://doi.org/10.5281/zenodo.18739461",
-      "pdf_url": "https://doi.org/10.5281/zenodo.18739461",
-      "category": "Intelligent Tutoring Systems and Adaptive Learning",
-      "published_at": "2026-12-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "NLP",
-        "AI"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
       "id": "d8e27d5d7627",
       "title": "Mapping of individual somatosensory representations - comparison of fMRI and TMS.",
       "slug": "mapping-of-individual-somatosensory-representations-comparison-of-fmri-and-tms",
@@ -2192,6 +1419,52 @@
         "AI"
       ],
       "topic_key": "ai"
+    },
+    {
+      "id": "4f6abde3eae7",
+      "title": "Multi Eye disease Detection in fundus images: A Structured Review",
+      "slug": "multi-eye-disease-detection-in-fundus-images-a-structured-review",
+      "abstract": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular edema (DME), retinal vessel tortuosity, age-related macular degeneration (ARMD/AMD), macular fibrosis, and fundus neoplasms. We examine preprocessing pipelines, model architectures (CNNs, transformers, hybrids), datasets, evaluation metrics, and clinical performance, drawing on recent systematic reviews, multi-disease benchmarks, and regulator-approved system audits. Findings indicate high accuracy for DR and AMD cl",
+      "summary": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular",
+      "authors": [
+        "Sheetal Maruti Chougule"
+      ],
+      "author_line": "Sheetal Maruti Chougule",
+      "url": "https://doi.org/10.5281/zenodo.22952640",
+      "pdf_url": "https://doi.org/10.5281/zenodo.22952640",
+      "category": "Retinal Imaging and Analysis",
+      "published_at": "2026-10-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Machine Learning"
+      ],
+      "topic_key": "multimodal"
+    },
+    {
+      "id": "49a89ae38617",
+      "title": "Multi Eye disease Detection in fundus images: A Structured Review",
+      "slug": "multi-eye-disease-detection-in-fundus-images-a-structured-review",
+      "abstract": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular edema (DME), retinal vessel tortuosity, age-related macular degeneration (ARMD/AMD), macular fibrosis, and fundus neoplasms. We examine preprocessing pipelines, model architectures (CNNs, transformers, hybrids), datasets, evaluation metrics, and clinical performance, drawing on recent systematic reviews, multi-disease benchmarks, and regulator-approved system audits. Findings indicate high accuracy for DR and AMD cl",
+      "summary": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular",
+      "authors": [
+        "Sheetal Maruti Chougule"
+      ],
+      "author_line": "Sheetal Maruti Chougule",
+      "url": "https://doi.org/10.5281/zenodo.22952639",
+      "pdf_url": "https://doi.org/10.5281/zenodo.22952639",
+      "category": "Retinal Imaging and Analysis",
+      "published_at": "2026-10-31T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Machine Learning"
+      ],
+      "topic_key": "multimodal"
     },
     {
       "id": "02d813a4e99a",
@@ -2254,7 +1527,7 @@
         "Shuya Wang",
         "Wen Ma",
         "Wenqing Li",
-        "Wen Fu",
+        "Weilong Fu",
         "Fuxin Ren",
         "Bing Liu",
         "Richard A.E. Edden",
@@ -2300,7 +1573,7 @@
         "Jan David Wandrey",
         "Esther M Williamson",
         "Esther M. Pogatzki-Zahn",
-        "Andrew S C Rice",
+        "Andrew S.C. Rice",
         "Steven Vogel"
       ],
       "author_line": "David Hohenschurz‐Schmidt, Whitney Scott, Annina B Schmid, Suzie Cro et al.",
@@ -2315,54 +1588,6 @@
         "Multimodal"
       ],
       "topic_key": "multimodal"
-    },
-    {
-      "id": "59985a75f0e0",
-      "title": "Where WiFi Sensing Fails:A Reproducibility Study of CSI-IMU Substitution for Human Activity Recognition",
-      "slug": "where-wifi-sensing-fails-a-reproducibility-study-of-csi-imu-substitution-for-human-activit",
-      "abstract": "We investigate whether ambient WiFi Channel State Information (CSI) can substitute for a body-worn inertial measurement unit (IMU) in human activity recognition (HAR), using the Multimodal Activity Sensing Dataset (MASD; 27 activities, 20 participants). We find that the dataset's released machine-learning-ready files expose a degraded signed CSI representation rather than the documented amplitude, invalidating conclusions drawn from the files as shipped. We rebuild proper amplitude and antenna-ratio Doppler from the raw complex CSI, recover omitted participant identifiers, and re-evaluate subject-independently. Under a controlled, multi-seed evaluation, WiFi is systematically weak: every bac",
-      "summary": "We investigate whether ambient WiFi Channel State Information (CSI) can substitute for a body-worn inertial measurement unit (IMU) in human activity recognition (HAR), using the Multimodal Activity Sensing Dataset (MASD; 27 activities, 20 participants). We find that the dataset's",
-      "authors": [
-        "Joost Liebeton",
-        "Egemen İşgüder",
-        "Özlem Durmaz-Incel",
-        "Jeroen Klein Brinke"
-      ],
-      "author_line": "Joost Liebeton, Egemen İşgüder, Özlem Durmaz-Incel, Jeroen Klein Brinke",
-      "url": "https://research.utwente.nl/en/publications/f0691e3b-3afe-4128-bd0a-bc9b5e5228ed",
-      "pdf_url": "https://research.utwente.nl/en/publications/f0691e3b-3afe-4128-bd0a-bc9b5e5228ed",
-      "category": null,
-      "published_at": "2026-10-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "University of Twente Research Information",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "d4d8aff5979d",
-      "title": "Rethinking biomarkers in psychiatry: from etiological uncertainty to actionable prediction.",
-      "slug": "rethinking-biomarkers-in-psychiatry-from-etiological-uncertainty-to-actionable-prediction",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Andreas Meyer-Lindenberg",
-        "Emanuel Schwarz"
-      ],
-      "author_line": "Andreas Meyer-Lindenberg, Emanuel Schwarz",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42742577",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13576913/pdf/WPS-25-420.pdf",
-      "category": "Tryptophan and brain disorders",
-      "published_at": "2026-10-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
     },
     {
       "id": "1910fd126f0c",
@@ -4766,6 +3991,95 @@
       "topic_key": "world-models"
     },
     {
+      "id": "3353fe5d6d07",
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "slug": "rgbd20k-a-large-scale-benchmark-for-rgb-d-semantic-segmentation",
+      "abstract": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched semantic coverage, we expect to promote the learning of more generalizable segmentation models. (2) Larger Scale. Compared with current benchmarks, RGBD20K offers 20,000 RGB-D image pairs, providing a sub",
+      "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Spac",
+      "authors": [
+        "Shaohua Dong",
+        "Zexuan Meng",
+        "Haiyan Sun",
+        "Bing Fan",
+        "Cuicui Zhang",
+        "Dylan Joseph",
+        "Kewei Sha",
+        "Yunhe Feng",
+        "Heng Fan"
+      ],
+      "author_line": "Shaohua Dong, Zexuan Meng, Haiyan Sun, Bing Fan et al.",
+      "url": "https://huggingface.co/papers/2609.29028",
+      "pdf_url": "https://arxiv.org/pdf/2609.29028.pdf",
+      "category": null,
+      "published_at": "2026-09-23T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal"
+      ],
+      "topic_key": "multimodal"
+    },
+    {
+      "id": "16f29962af30",
+      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+      "slug": "av-grpo-modality-anchored-decoupling-diffusion-reinforcement-learning-for-joint-audio-vide",
+      "abstract": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computationally expensive given their divergent dynamics. Moreover, synchronization evaluation difficulty depends on paired samples, preventing fair reward comparisons. We propose AV-GRPO, a modality-anchore",
+      "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising re",
+      "authors": [
+        "Zhiyu Xu",
+        "Weilong Yan",
+        "Yufei Shi",
+        "Shiyang Li",
+        "Yihao Liu",
+        "Kin-Man Lam",
+        "Yuewen Cao"
+      ],
+      "author_line": "Zhiyu Xu, Weilong Yan, Yufei Shi, Shiyang Li et al.",
+      "url": "https://huggingface.co/papers/2609.29816",
+      "pdf_url": "https://arxiv.org/pdf/2609.29816.pdf",
+      "category": null,
+      "published_at": "2026-09-23T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Reinforcement Learning"
+      ],
+      "topic_key": "multimodal"
+    },
+    {
+      "id": "b21799cc6982",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "slug": "your-transformer-can-hold-two-thoughts-at-once-evidence-of-linear-superposition-in-llms",
+      "abstract": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe that it tends to diminish as pretraining progresses. However, we demonstrate that linearity can be substantially restored through lightweight fine-tuning, significantly reducing the divergence between",
+      "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions",
+      "authors": [
+        "Pavel Tikhonov",
+        "Anton Korznikov",
+        "Matvey Mikhalchuk",
+        "Nikita Dragunov",
+        "Temurbek Rahmatullaev",
+        "Polina Druzhinina",
+        "Anton Razzhigaev",
+        "Ivan Oseledets",
+        "Elena Tutubalina"
+      ],
+      "author_line": "Pavel Tikhonov, Anton Korznikov, Matvey Mikhalchuk, Nikita Dragunov et al.",
+      "url": "https://huggingface.co/papers/2609.29845",
+      "pdf_url": "https://arxiv.org/pdf/2609.29845.pdf",
+      "category": null,
+      "published_at": "2026-09-23T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "6f7cfc0621ff",
       "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
       "slug": "just-ask-jev-reinforcement-learning-for-calibrated-decisions-as-a-zero-shot-detector-of-ai",
@@ -5328,6 +4642,32 @@
       "topic_key": "world-models"
     },
     {
+      "id": "fa6ae94eb324",
+      "title": "Learning to Discover Interesting Mathematics",
+      "slug": "learning-to-discover-interesting-mathematics",
+      "abstract": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the length of its statement. We show that this correlates strongly with an extrinsic measure of the downstream utility of a theorem. We identify the difficulty of a proof conditioned on a set of premises a",
+      "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture",
+      "authors": [
+        "Niket Patel",
+        "Ahmad Rammal",
+        "Amaury Hayat",
+        "Remi Munos",
+        "Julia Kempe"
+      ],
+      "author_line": "Niket Patel, Ahmad Rammal, Amaury Hayat, Remi Munos et al.",
+      "url": "https://huggingface.co/papers/2609.28603",
+      "pdf_url": "https://arxiv.org/pdf/2609.28603.pdf",
+      "category": null,
+      "published_at": "2026-09-22T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "39ca9165e662",
       "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
       "slug": "deltawam-delta-world-action-models-for-bimanual-manipulation",
@@ -5464,90 +4804,6 @@
       "topic_key": "llm"
     },
     {
-      "id": "9d32dc347701",
-      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
-      "slug": "six-layers-less-encoder-pruning-for-whisper-with-label-free-recovery",
-      "abstract": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the decoder led to significant end-to-end transcription speedups. For instance, the {\\tt whisper-large-v3-turbo} variant reduced the decoder from 32 to 4 layers, while Distill-Whisper similarly reduced the decoder to only 2 layers. Although some attention has been put towards reducing the size of the encoder, no approach has seen wide adoption. This could be due to the need for custom inference implementations to take advantage of the compressed model. We present an approach that ranks encoder layers by the leave-one-layer-out change in Word Error Rate (WER). The six layers tha",
-      "summary": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the decoder led to significant end-to-end transcription speedups. For instance, the {\\tt whisper-large-v3-turbo} variant reduced the decoder from 32 to 4 layers, wh",
-      "authors": [
-        "Rasmus Aagaard",
-        "Nicki Skafte Detlefsen"
-      ],
-      "author_line": "Rasmus Aagaard, Nicki Skafte Detlefsen",
-      "url": "https://huggingface.co/papers/2609.27980",
-      "pdf_url": "https://arxiv.org/pdf/2609.27980.pdf",
-      "category": null,
-      "published_at": "2026-09-22T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "57da8710bd78",
-      "title": "Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI",
-      "slug": "uranus-building-the-next-generation-simulation-infrastructure-for-embodied-ai",
-      "abstract": "Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-world interaction is costly and conventional simulators require labor-intensive construction. We present Uranus, a data-driven robot simulator built around a joint-trajectory-conditioned autoregressive diffusion model. Uranus offers three key capabilities: (1) streaming, open-ended rollout, which receives future joint-position trajectories online and autoregressively generates one latent frame per step, corresponding to four RGB frames, without a fixed horizon; (2) low-latency generation, achieving 24 FPS after inference optimization; and (3) scalable, extensible robot contro",
-      "summary": "Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-world interaction is costly and conventional simulators require labor-intensive construction. We present Uranus, a data-driven robot simulator built around a join",
-      "authors": [
-        "Wenkang Qin",
-        "Yukun Zhou",
-        "Noah Shen",
-        "Jisong Cai",
-        "Dongxiao Mao",
-        "Baicheng Li",
-        "Yue Zhang",
-        "Wei Sui"
-      ],
-      "author_line": "Wenkang Qin, Yukun Zhou, Noah Shen, Jisong Cai et al.",
-      "url": "https://huggingface.co/papers/2609.24815",
-      "pdf_url": "https://arxiv.org/pdf/2609.24815.pdf",
-      "category": null,
-      "published_at": "2026-09-22T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Robotics",
-      "topics": [
-        "Robotics",
-        "AI"
-      ],
-      "topic_key": "robotics"
-    },
-    {
-      "id": "8701e2eae189",
-      "title": "On the Diffusibility of High-Dimensional Latents",
-      "slug": "on-the-diffusibility-of-high-dimensional-latents",
-      "abstract": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reconstruction recovers such details. However, perhaps counterintuitively, this procedure reduces the effective dimensionality of the resulting representation, and the altered geometry has downstream effects on generation. Specifically, we show that using the standard velocity prediction in flow matching in this high-dimensional space requires the model to fit orthogonal noise directions outside the l",
-      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these enc",
-      "authors": [
-        "Chao Feng",
-        "Zhiyang Xu",
-        "Bowei Chen",
-        "Yuanjun Xiong",
-        "Xiyao Wang",
-        "Jui-Hsien Wang",
-        "Richard Zhang",
-        "Zhe Lin",
-        "Andrew Owens",
-        "Yijun Li"
-      ],
-      "author_line": "Chao Feng, Zhiyang Xu, Bowei Chen, Yuanjun Xiong et al.",
-      "url": "https://huggingface.co/papers/2609.28473",
-      "pdf_url": "https://arxiv.org/pdf/2609.28473.pdf",
-      "category": null,
-      "published_at": "2026-09-22T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "93ba32368b5d",
       "title": "The Linear Representation Hypothesis Needs a Group Action",
       "slug": "the-linear-representation-hypothesis-needs-a-group-action",
@@ -5668,34 +4924,6 @@
         "AI"
       ],
       "topic_key": "ai"
-    },
-    {
-      "id": "d4a0bd6c589c",
-      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
-      "slug": "memoryathena-adaptive-routing-over-latent-and-generated-memories",
-      "abstract": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addressing, storage, and reading to be modified independently. We study whether useful memory can also be generated rather than only retrieved. MemoryAthena uses three pathways: direct Engram retrieval (E), generation from retrieved Engram cues (GE), and generation from causal backbone states without consulting the memory table (GH). Generated memory is conditionally useful: it can complement E in one context but interfere with it in another. MemoryAthena therefore treats E as an anchor and learns when a generated representation should intervene. With the backbone, memory, generat",
-      "summary": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addressing, storage, and reading to be modified independently. We study whether useful memory can also be generated rather than only retrieved. MemoryAthena uses three",
-      "authors": [
-        "Mingyuan Li",
-        "Guangsheng Yu",
-        "Juyuan Zhang",
-        "Xu Wang",
-        "Zhibo Man",
-        "Haonan Zhang",
-        "Shaoxiong Ji"
-      ],
-      "author_line": "Mingyuan Li, Guangsheng Yu, Juyuan Zhang, Xu Wang et al.",
-      "url": "https://huggingface.co/papers/2609.25853",
-      "pdf_url": "https://arxiv.org/pdf/2609.25853.pdf",
-      "category": null,
-      "published_at": "2026-09-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "NLP",
-      "topics": [
-        "NLP"
-      ],
-      "topic_key": "nlp"
     },
     {
       "id": "25b2f9a15e2c",
