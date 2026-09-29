@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T11:24:07.460Z",
-  "total": 53,
+  "generated_at": "2026-09-29T12:08:07.281Z",
+  "total": 52,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 33,
+    "coursera_new": 32,
     "edx": 0,
     "newsapi": 6
   },
@@ -23,7 +23,7 @@
   ],
   "topic_counts": {
     "LLM": 10,
-    "AI": 47,
+    "AI": 46,
     "World Models": 0,
     "Agents": 5,
     "Multimodal": 0,
@@ -457,6 +457,33 @@
   ],
   "newly_launched": [
     {
+      "id": "6b6b75ffdd2c",
+      "name": "English for Technology, Culture, and Travel",
+      "slug": "english-for-technology-culture-and-travel",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "In this course, you will build foundational English skills through case-based units about technology, an art museum, and the airport. You will practice vocabulary connected to each setting, then use listening and reading investigations to answer comprehension questions from the c",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/english-for-technology-culture-and-travel",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/76/52beb418144c0a8b6e01b3857eebf8/Course-1-English-for-Technology-Culture-and-Travel.png",
+      "workload": null,
+      "launched_at": "2026-09-28T01:01:14.764Z",
+      "source": "Coursera"
+    },
+    {
       "id": "ff160a180857",
       "name": "How to Measure Anything in Cybersecurity Risk",
       "slug": "wiley-how-to-measure-anything-in-cybersecurity-risk",
@@ -1276,33 +1303,6 @@
       "source": "Coursera"
     },
     {
-      "id": "5098df08121b",
-      "name": "Mutual Fund Investing and Market Preparation",
-      "slug": "mutual-fund-investing-market-preparation",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "advanced",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Learn how to analyze mutual funds, ETFs, portfolio strategies, and investment risks using practical financial market concepts and industry-focused learning. This course provides a comprehensive understanding of mutual fund investing, taxation, debt funds, ETFs, portfolio metrics,",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/mutual-fund-investing-market-preparation",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/69bd6d7a4844a9bbd159718b61fc81/367.1.png",
-      "workload": null,
-      "launched_at": "2026-06-02T00:01:10.212Z",
-      "source": "Coursera"
-    },
-    {
       "id": "06ad4aed3533",
       "name": "Google Workspace 问题排查",
       "slug": "google-workspace-troubleshooting-zh",
@@ -1489,33 +1489,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/48/5d33e5e3ee46d0afb74bca4e7b16ea/Course-card-9-.png",
       "workload": null,
       "launched_at": "2026-04-06T13:57:49.601Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "b2f5f80cbeaa",
-      "name": "Qualitative Research Interviews",
-      "slug": "qualitative-research-interviews",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "intermediate",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "\"Qualitative Research Interviews\" is a beginner course for aspiring market analysts and professionals who need to uncover the \"why\" behind customer behavior. This course moves beyond theory to provide the practical skills needed to conduct high-quality interviews that yield deep,",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/qualitative-research-interviews",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/1f9cb3b99746159d88acb3633e5d82/CON-02809_img_courselogo.png",
-      "workload": "117 minutes",
-      "launched_at": "2026-04-01T19:18:18.717Z",
       "source": "Coursera"
     }
   ],
@@ -1939,6 +1912,33 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "6b6b75ffdd2c",
+      "name": "English for Technology, Culture, and Travel",
+      "slug": "english-for-technology-culture-and-travel",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": true,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "In this course, you will build foundational English skills through case-based units about technology, an art museum, and the airport. You will practice vocabulary connected to each setting, then use listening and reading investigations to answer comprehension questions from the c",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/english-for-technology-culture-and-travel",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/76/52beb418144c0a8b6e01b3857eebf8/Course-1-English-for-Technology-Culture-and-Travel.png",
+      "workload": null,
+      "launched_at": "2026-09-28T01:01:14.764Z",
+      "source": "Coursera"
+    },
+    {
       "id": "ff160a180857",
       "name": "How to Measure Anything in Cybersecurity Risk",
       "slug": "wiley-how-to-measure-anything-in-cybersecurity-risk",
@@ -2758,33 +2758,6 @@
       "source": "Coursera"
     },
     {
-      "id": "5098df08121b",
-      "name": "Mutual Fund Investing and Market Preparation",
-      "slug": "mutual-fund-investing-market-preparation",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "advanced",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Learn how to analyze mutual funds, ETFs, portfolio strategies, and investment risks using practical financial market concepts and industry-focused learning. This course provides a comprehensive understanding of mutual fund investing, taxation, debt funds, ETFs, portfolio metrics,",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/mutual-fund-investing-market-preparation",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/1d/69bd6d7a4844a9bbd159718b61fc81/367.1.png",
-      "workload": null,
-      "launched_at": "2026-06-02T00:01:10.212Z",
-      "source": "Coursera"
-    },
-    {
       "id": "06ad4aed3533",
       "name": "Google Workspace 问题排查",
       "slug": "google-workspace-troubleshooting-zh",
@@ -2971,33 +2944,6 @@
       "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/48/5d33e5e3ee46d0afb74bca4e7b16ea/Course-card-9-.png",
       "workload": null,
       "launched_at": "2026-04-06T13:57:49.601Z",
-      "source": "Coursera"
-    },
-    {
-      "id": "b2f5f80cbeaa",
-      "name": "Qualitative Research Interviews",
-      "slug": "qualitative-research-interviews",
-      "provider": "Coursera",
-      "country_code": "US",
-      "modality": "online",
-      "difficulty": "intermediate",
-      "is_free": true,
-      "technologies": [
-        "ai"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "\"Qualitative Research Interviews\" is a beginner course for aspiring market analysts and professionals who need to uncover the \"why\" behind customer behavior. This course moves beyond theory to provide the practical skills needed to conduct high-quality interviews that yield deep,",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.coursera.org/learn/qualitative-research-interviews",
-      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/da/1f9cb3b99746159d88acb3633e5d82/CON-02809_img_courselogo.png",
-      "workload": "117 minutes",
-      "launched_at": "2026-04-01T19:18:18.717Z",
       "source": "Coursera"
     }
   ]
