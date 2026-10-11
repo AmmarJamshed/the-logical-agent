@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T12:35:37.927Z",
-  "total": 197,
+  "generated_at": "2026-10-11T12:07:01.002Z",
+  "total": 198,
   "sources": {
     "arxiv_llm": 12,
     "arxiv_world-models": 12,
@@ -34,17 +34,17 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 34,
-    "AI": 92,
-    "World Models": 16,
-    "Agents": 27,
-    "Multimodal": 28,
+    "LLM": 33,
+    "AI": 103,
+    "World Models": 13,
+    "Agents": 24,
+    "Multimodal": 25,
     "Computer Vision": 3,
-    "NLP": 12,
-    "Reinforcement Learning": 18,
+    "NLP": 11,
+    "Reinforcement Learning": 15,
     "Robotics": 17,
-    "Quantum": 13,
-    "Cybersecurity": 16,
+    "Quantum": 14,
+    "Cybersecurity": 17,
     "Machine Learning": 19
   },
   "papers": [
@@ -423,28 +423,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "bbb03fca7ca6",
-      "title": "A Circulatory System Approach to Needs Assessment: A Conceptual Model Integrating Societal, Organizational, and Human Resource Levels",
-      "slug": "a-circulatory-system-approach-to-needs-assessment-a-conceptual-model-integrating-societal-",
-      "abstract": "Needs Assessment (NA) is an important process for organizational and educational contexts as they develop plans. However, many of today's predominant needs assessment frameworks conceptualize needs assessments as linear or otherwise level-limited processes, making them less effective in highly complex and rapidly changing environments. This article provides a critical review of five currently influential models of needs assessment and proposes a conceptual framework that looks at needs assessment as an ongoing process through the lens of a systems thinking approach. By using the metaphor of a circulatory system, the proposed model integrates all three levels (social, organizational, and huma",
-      "summary": "Needs Assessment (NA) is an important process for organizational and educational contexts as they develop plans. However, many of today's predominant needs assessment frameworks conceptualize needs assessments as linear or otherwise level-limited processes, making them less effec",
-      "authors": [
-        "Nader Neiroukh"
-      ],
-      "author_line": "Nader Neiroukh",
-      "url": "https://doi.org/10.12973/eujem.9.3.171",
-      "pdf_url": null,
-      "category": null,
-      "published_at": "2029-09-15T00:00:00.000Z",
-      "source": "Crossref",
-      "venue": "European Journal of Educational Management",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "708ada76b88c",
       "title": "Local Interaction Autoregressive Model for High Dimension Time Series Data",
       "slug": "local-interaction-autoregressive-model-for-high-dimension-time-series-data",
@@ -456,6 +434,30 @@
       ],
       "author_line": "Jingyang Li, Yang Chen",
       "url": "https://doi.org/10.5705/ss.202025.0419",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2029-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "Statistica Sinica",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "70ee0ee18364",
+      "title": "Determining the Number of Factors in Two-way Factor Model of High-dimensional Matrix-variate Time Series: a White-noise Based Method for Serial Correlation Models",
+      "slug": "determining-the-number-of-factors-in-two-way-factor-model-of-high-dimensional-matrix-varia",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Qiang Xia",
+        "W.K. Li",
+        "Rubing Liang"
+      ],
+      "author_line": "Qiang Xia, W.K. Li, Rubing Liang",
+      "url": "https://doi.org/10.5705/ss.202025.0212",
       "pdf_url": null,
       "category": null,
       "published_at": "2029-01-01T00:00:00.000Z",
@@ -516,30 +518,6 @@
       "topic_key": "agents"
     },
     {
-      "id": "acc3854394d3",
-      "title": "Agent-aware AI BOM reference implementation, mutation generator and experiment data (v1.0.3)",
-      "slug": "agent-aware-ai-bom-reference-implementation-mutation-generator-and-experiment-data-v1-0-3",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Jeoung-Kyu Lim",
-        "Yunja Yoo"
-      ],
-      "author_line": "Jeoung-Kyu Lim, Yunja Yoo",
-      "url": "https://doi.org/10.17632/xthkfmscth.3",
-      "pdf_url": "https://doi.org/10.17632/xthkfmscth.3",
-      "category": "Multi-Agent Systems and Negotiation",
-      "published_at": "2028-03-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "AI"
-      ],
-      "topic_key": "agents"
-    },
-    {
       "id": "584953154a5a",
       "title": "Material-Process-Structure-Property Relationships for Direct-Ink-Writing of Polymer Composite-type Precursors",
       "slug": "material-process-structure-property-relationships-for-direct-ink-writing-of-polymer-compos",
@@ -560,6 +538,30 @@
         "Multimodal"
       ],
       "topic_key": "multimodal"
+    },
+    {
+      "id": "daa6d7b8a186",
+      "title": "Can Large Language Models Perceive Low-Cost Prosocial Behavior",
+      "slug": "can-large-language-models-perceive-low-cost-prosocial-behavior",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Jiajia Zhu",
+        "Chengzhe Ma",
+        "Lawrence Hoc Nang Fong"
+      ],
+      "author_line": "Jiajia Zhu, Chengzhe Ma, Lawrence Hoc Nang Fong",
+      "url": "https://doi.org/10.17632/nfmz7fn4g2",
+      "pdf_url": "https://doi.org/10.17632/nfmz7fn4g2",
+      "category": "Ethics and Social Impacts of AI",
+      "published_at": "2027-10-09T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Mendeley Data",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
     },
     {
       "id": "54e0d3eb673d",
@@ -948,6 +950,228 @@
       "topic_key": "ai"
     },
     {
+      "id": "38867de23804",
+      "title": "An AI-driven clinical decision support system for coronary artery disease prediction in T2DM patients using clinical laboratory parameters and deep fusion learning.",
+      "slug": "an-ai-driven-clinical-decision-support-system-for-coronary-artery-disease-prediction-in-t2",
+      "abstract": "",
+      "summary": "An AI-driven clinical decision support system for coronary artery disease prediction in T2DM patients using clinical laboratory parameters and deep fusion learning.",
+      "authors": [
+        "Zahedi M",
+        "Dabla PK",
+        "Das S",
+        "Kandar S"
+      ],
+      "author_line": "Zahedi M, Dabla PK, Das S, Kandar S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42665118/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "4c92e17e3f38",
+      "title": "Clinical significance of lncRNA-miRNA axes in ischemic stroke: Diagnostic value, prognostic relevance, and therapeutic potential.",
+      "slug": "clinical-significance-of-lncrna-mirna-axes-in-ischemic-stroke-diagnostic-value-prognostic-",
+      "abstract": "",
+      "summary": "Clinical significance of lncRNA-miRNA axes in ischemic stroke: Diagnostic value, prognostic relevance, and therapeutic potential.",
+      "authors": [
+        "El-Sehrawy AAMA",
+        "Sapaev I",
+        "Nematov O",
+        "Turakulov R",
+        "Bayramdurdi S",
+        "Turaeva NO",
+        "Bainsal N",
+        "Bansal P",
+        "Smerat A"
+      ],
+      "author_line": "El-Sehrawy AAMA, Sapaev I, Nematov O, Turakulov R et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648528/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "e6ec81fafb86",
+      "title": "Development and validation of a generalizable M-protein screening model using routine laboratory indicators: a multicenter retrospective study.",
+      "slug": "development-and-validation-of-a-generalizable-m-protein-screening-model-using-routine-labo",
+      "abstract": "",
+      "summary": "Development and validation of a generalizable M-protein screening model using routine laboratory indicators: a multicenter retrospective study.",
+      "authors": [
+        "Luo HL",
+        "Zhou L",
+        "Xiao H",
+        "Zhang Q",
+        "Li X",
+        "Ye J",
+        "Liu Y",
+        "Li J",
+        "Liang Y",
+        "Xu A",
+        "Ji L"
+      ],
+      "author_line": "Luo HL, Zhou L, Xiao H, Zhang Q et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648524/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "05315fec7942",
+      "title": "Decision-making logic for samples of clinically significant EDTA-dependent pseudothrombocytopenia with machine learning.",
+      "slug": "decision-making-logic-for-samples-of-clinically-significant-edta-dependent-pseudothrombocy",
+      "abstract": "",
+      "summary": "Decision-making logic for samples of clinically significant EDTA-dependent pseudothrombocytopenia with machine learning.",
+      "authors": [
+        "Meng X",
+        "Li N",
+        "Yang L",
+        "Wang X",
+        "Wu W"
+      ],
+      "author_line": "Meng X, Li N, Yang L, Wang X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42624190/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "Machine Learning",
+      "topics": [
+        "Machine Learning"
+      ],
+      "topic_key": "machine-learning"
+    },
+    {
+      "id": "419491d05333",
+      "title": "Comprehensive review of chronic kidney disease molecular biomarkers: Clinical significance, human health impact, and emerging diagnostic strategies.",
+      "slug": "comprehensive-review-of-chronic-kidney-disease-molecular-biomarkers-clinical-significance-",
+      "abstract": "",
+      "summary": "Comprehensive review of chronic kidney disease molecular biomarkers: Clinical significance, human health impact, and emerging diagnostic strategies.",
+      "authors": [
+        "Chhillar M",
+        "Bhatt P"
+      ],
+      "author_line": "Chhillar M, Bhatt P",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42594981/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "d00f0b891921",
+      "title": "Automated detection of intravenous fluid contamination using longitudinal routine laboratory data: development and external validation of a multitask learning framework.",
+      "slug": "automated-detection-of-intravenous-fluid-contamination-using-longitudinal-routine-laborato",
+      "abstract": "",
+      "summary": "Automated detection of intravenous fluid contamination using longitudinal routine laboratory data: development and external validation of a multitask learning framework.",
+      "authors": [
+        "Tortosa-Carreres J",
+        "Martí-Montoro N",
+        "Acevedo-Galvis JA",
+        "Pascual-Escrivà C",
+        "Alonso-Díaz R",
+        "Fuster-Lluch Ó",
+        "Sahuquillo-Frias L",
+        "Laiz-Marro B"
+      ],
+      "author_line": "Tortosa-Carreres J, Martí-Montoro N, Acevedo-Galvis JA, Pascual-Escrivà C et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42486315/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "9c9b4e905e08",
+      "title": "Precision forensic toxicology: Leveraging Toxicogenomics, multi-omics, and artificial intelligence for next-generation poisoning investigations.",
+      "slug": "precision-forensic-toxicology-leveraging-toxicogenomics-multi-omics-and-artificial-intelli",
+      "abstract": "",
+      "summary": "Precision forensic toxicology: Leveraging Toxicogenomics, multi-omics, and artificial intelligence for next-generation poisoning investigations.",
+      "authors": [
+        "Nurkolis F",
+        "Amri MF",
+        "Sibarani JN",
+        "Tjandrawinata RR"
+      ],
+      "author_line": "Nurkolis F, Amri MF, Sibarani JN, Tjandrawinata RR",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42476280/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "77ba560c91d7",
+      "title": "Establishment and validation of intelligent review rules for blood cell analysis based on the gradient boosting decision tree algorithm.",
+      "slug": "establishment-and-validation-of-intelligent-review-rules-for-blood-cell-analysis-based-on-",
+      "abstract": "",
+      "summary": "Establishment and validation of intelligent review rules for blood cell analysis based on the gradient boosting decision tree algorithm.",
+      "authors": [
+        "Tang W",
+        "Chen S",
+        "Yu Z",
+        "Gu X",
+        "Pan B",
+        "Wang B",
+        "Ding R",
+        "Zhang S",
+        "Wang C",
+        "Lin J",
+        "Guo W"
+      ],
+      "author_line": "Tang W, Chen S, Yu Z, Gu X et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42331130/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-02-15T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Clinica chimica acta; international journal of clinical chemistry",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "b5c608005cef",
       "title": "Trust in emergency response: The impact of time pressure and artificial intelligence rank.",
       "slug": "trust-in-emergency-response-the-impact-of-time-pressure-and-artificial-intelligence-rank",
@@ -1019,230 +1243,6 @@
       "published_at": "2027-02-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "Applied ergonomics",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "1459a0600fbb",
-      "title": "Next-generation optical biosensors for ultra-early detection of Alzheimer's and Parkinson's diseases: Recent advances, challenges, and future perspectives.",
-      "slug": "next-generation-optical-biosensors-for-ultra-early-detection-of-alzheimer-s-and-parkinson-",
-      "abstract": "",
-      "summary": "Next-generation optical biosensors for ultra-early detection of Alzheimer's and Parkinson's diseases: Recent advances, challenges, and future perspectives.",
-      "authors": [
-        "Usmani MW",
-        "Rahim A",
-        "Farid F",
-        "Mahmoud ERI",
-        "Hayat A",
-        "Wang J"
-      ],
-      "author_line": "Usmani MW, Rahim A, Farid F, Mahmoud ERI et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42772054/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "fa0c045acdd4",
-      "title": "A deep learning-assisted whole-cell biosensor for catechol monitoring: Synergizing BphC recognition with a multi-feature fusion vision transformer.",
-      "slug": "a-deep-learning-assisted-whole-cell-biosensor-for-catechol-monitoring-synergizing-bphc-rec",
-      "abstract": "",
-      "summary": "A deep learning-assisted whole-cell biosensor for catechol monitoring: Synergizing BphC recognition with a multi-feature fusion vision transformer.",
-      "authors": [
-        "Qi X",
-        "Sun G",
-        "Xue Y",
-        "Liang Y",
-        "Wang P",
-        "Ning F",
-        "Wu D",
-        "Zhang W",
-        "Li Y",
-        "Xie S"
-      ],
-      "author_line": "Qi X, Sun G, Xue Y, Liang Y et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42766880/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
-      "topic": "Machine Learning",
-      "topics": [
-        "Machine Learning"
-      ],
-      "topic_key": "machine-learning"
-    },
-    {
-      "id": "b5ac947f4cce",
-      "title": "Colorimetric sensor array based on pH-modulated inhibitory effect of a single nanozyme'activity for antioxidant recognition.",
-      "slug": "colorimetric-sensor-array-based-on-ph-modulated-inhibitory-effect-of-a-single-nanozyme-act",
-      "abstract": "",
-      "summary": "Colorimetric sensor array based on pH-modulated inhibitory effect of a single nanozyme'activity for antioxidant recognition.",
-      "authors": [
-        "Feng X",
-        "Liang S",
-        "Gu D",
-        "Leng Y",
-        "Chen Z"
-      ],
-      "author_line": "Feng X, Liang S, Gu D, Leng Y et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42762755/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "cc0001559a77",
-      "title": "Artificial intelligence-guided nanozyme engineering for chronic wound healing: from rational design to precision therapeutics.",
-      "slug": "artificial-intelligence-guided-nanozyme-engineering-for-chronic-wound-healing-from-rationa",
-      "abstract": "",
-      "summary": "Artificial intelligence-guided nanozyme engineering for chronic wound healing: from rational design to precision therapeutics.",
-      "authors": [
-        "Yang D",
-        "Zheng Z",
-        "Wang H",
-        "Zhao H",
-        "Li Z",
-        "Liu Y",
-        "Xiong Y",
-        "Luo Z"
-      ],
-      "author_line": "Yang D, Zheng Z, Wang H, Zhao H et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42741683/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Bioactive materials",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "df2da24e62d6",
-      "title": "Organoid Intelligent Morphomics: Decoding the organoid morphome through artificial intelligence from phenotypic quantification to mechanistic insight.",
-      "slug": "organoid-intelligent-morphomics-decoding-the-organoid-morphome-through-artificial-intellig",
-      "abstract": "",
-      "summary": "Organoid Intelligent Morphomics: Decoding the organoid morphome through artificial intelligence from phenotypic quantification to mechanistic insight.",
-      "authors": [
-        "Li S",
-        "Huang J",
-        "Yan Y",
-        "Jaspers RT",
-        "Pathak JL",
-        "Xiao Y",
-        "Zhang Q"
-      ],
-      "author_line": "Li S, Huang J, Yan Y, Jaspers RT et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42733575/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Bioactive materials",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "b32aa64593c1",
-      "title": "Parafilm-laminated microfluidic cloth devices: A durable graphdiyne-based nanozyme platform for machine learning-assisted antibiotic detection.",
-      "slug": "parafilm-laminated-microfluidic-cloth-devices-a-durable-graphdiyne-based-nanozyme-platform",
-      "abstract": "",
-      "summary": "Parafilm-laminated microfluidic cloth devices: A durable graphdiyne-based nanozyme platform for machine learning-assisted antibiotic detection.",
-      "authors": [
-        "Xiao Y",
-        "Zhang X",
-        "Tang X",
-        "Xian S",
-        "Kong J",
-        "He H"
-      ],
-      "author_line": "Xiao Y, Zhang X, Tang X, Xian S et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42731265/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
-      "topic": "Machine Learning",
-      "topics": [
-        "Machine Learning"
-      ],
-      "topic_key": "machine-learning"
-    },
-    {
-      "id": "46c167ce0192",
-      "title": "Early diagnosis of cadmium stress in rice by intelligent profiling of multiple response indicators with portable Raman SERS and deep learning.",
-      "slug": "early-diagnosis-of-cadmium-stress-in-rice-by-intelligent-profiling-of-multiple-response-in",
-      "abstract": "",
-      "summary": "Early diagnosis of cadmium stress in rice by intelligent profiling of multiple response indicators with portable Raman SERS and deep learning.",
-      "authors": [
-        "Wu T",
-        "Zhang L",
-        "Ding Y",
-        "Sun H",
-        "Gao Y",
-        "Zhao Q",
-        "Tang F",
-        "Lu C",
-        "Jiang Q",
-        "Zhu C"
-      ],
-      "author_line": "Wu T, Zhang L, Ding Y, Sun H et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42731264/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
-      "topic": "Machine Learning",
-      "topics": [
-        "Machine Learning"
-      ],
-      "topic_key": "machine-learning"
-    },
-    {
-      "id": "928d162ff093",
-      "title": "Integrated GC-MS, LC-MS/MS and FTIR-deep-learning analysis for chemical differentiation and rapid discrimination of four porcini mushroom species.",
-      "slug": "integrated-gc-ms-lc-ms-ms-and-ftir-deep-learning-analysis-for-chemical-differentiation-and",
-      "abstract": "",
-      "summary": "Integrated GC-MS, LC-MS/MS and FTIR-deep-learning analysis for chemical differentiation and rapid discrimination of four porcini mushroom species.",
-      "authors": [
-        "Zheng C",
-        "Li J",
-        "Liu H",
-        "Wang Y"
-      ],
-      "author_line": "Zheng C, Li J, Liu H, Wang Y",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721737/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-02-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "Talanta",
       "topic": "AI",
       "topics": [
         "AI"
@@ -1927,6 +1927,31 @@
       "topic_key": "multimodal"
     },
     {
+      "id": "dbf4c848de66",
+      "title": "Orchestrating Agentic AI in Program Management: Governance Frameworks for Autonomous Project Workflows",
+      "slug": "orchestrating-agentic-ai-in-program-management-governance-frameworks-for-autonomous-projec",
+      "abstract": "The fast adoption of digital ecosystems and hybrid clouds infrastructure has added an unprecedented complexity to the contemporary program management that has generated a major rift between the generation of data and the process of making decisions. Conventional Artificial Intelligence (AI) systems which have been mostly recognized to be passive analytics and human-initiated results have been found to be inadequate in meeting real-time operational requirements like resource optimization, dependency management, and compliance enforcement. The paper provides a new form of governance in how to coordinate the use of Agentic AI, a new paradigm where autonomous agents driven by Large Action Models",
+      "summary": "The fast adoption of digital ecosystems and hybrid clouds infrastructure has added an unprecedented complexity to the contemporary program management that has generated a major rift between the generation of data and the process of making decisions. Conventional Artificial Intell",
+      "authors": [
+        "Dr. Sureshkumar Somanathan"
+      ],
+      "author_line": "Dr. Sureshkumar Somanathan",
+      "url": "https://doi.org/10.5281/zenodo.19508816",
+      "pdf_url": "https://doi.org/10.5281/zenodo.19508816",
+      "category": "Artificial Intelligence Applications",
+      "published_at": "2026-11-01T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "topic": "Agents",
+      "topics": [
+        "Agents",
+        "Quantum",
+        "Cybersecurity",
+        "AI"
+      ],
+      "topic_key": "agents"
+    },
+    {
       "id": "4f6abde3eae7",
       "title": "Multi Eye disease Detection in fundus images: A Structured Review",
       "slug": "multi-eye-disease-detection-in-fundus-images-a-structured-review",
@@ -1974,28 +1999,105 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "ac7c310e71ea",
-      "title": "A residual weighted physics informed neural network for forward and inverse problems of reaction diffusion equations",
-      "slug": "a-residual-weighted-physics-informed-neural-network-for-forward-and-inverse-problems-of-re",
+      "id": "206ed3f95ce5",
+      "title": "Paint outside the box: synthesizing and selecting training data for visual grounding",
+      "slug": "paint-outside-the-box-synthesizing-and-selecting-training-data-for-visual-grounding",
       "abstract": "",
       "summary": "",
       "authors": [
-        "K. Murari",
-        "Pradip Roul",
-        "S. Sundar"
+        "Zilin Du",
+        "Haoxin Li",
+        "Jianfei Yu",
+        "Boyang Li"
       ],
-      "author_line": "K. Murari, Pradip Roul, S. Sundar",
-      "url": "https://doi.org/10.1016/j.icheatmasstransfer.2026.112729",
-      "pdf_url": "https://arxiv.org/pdf/2504.07058",
-      "category": "Model Reduction and Neural Networks",
-      "published_at": "2026-10-09T00:00:00.000Z",
+      "author_line": "Zilin Du, Haoxin Li, Jianfei Yu, Boyang Li",
+      "url": "https://doi.org/10.1007/s00138-026-01928-4",
+      "pdf_url": "https://arxiv.org/pdf/2412.00684",
+      "category": "Multimodal Machine Learning Applications",
+      "published_at": "2026-10-10T00:00:00.000Z",
       "source": "OpenAlex",
-      "venue": "International Communications in Heat and Mass Transfer",
+      "venue": "Machine Vision and Applications",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Machine Learning"
+      ],
+      "topic_key": "multimodal"
+    },
+    {
+      "id": "8c4fc5b6797b",
+      "title": "How does hard magnetic soft matter deform?",
+      "slug": "how-does-hard-magnetic-soft-matter-deform",
+      "abstract": "Abstract Hard Magnetic Soft Materials, i.e., elastomers seeded with hard magnetic particles, convert magnetic energy into complex motion and have become central to the design of untethered soft robots, biomedical devices, and, in general, for enabling fast, wireless actuation. Their behavior depends critically on how the surrounding soft matrix deforms and transmits torque to each magnetized inclusion, yet there is no consensus on the correct mapping between macroscopic strain and microscopic motion. Competing models predict conflicting particle rotations and magnetic responses under identical loads. Here, we construct counterexamples that show the key shortcomings in these models, and then ",
+      "summary": "Abstract Hard Magnetic Soft Materials, i.e., elastomers seeded with hard magnetic particles, convert magnetic energy into complex motion and have become central to the design of untethered soft robots, biomedical devices, and, in general, for enabling fast, wireless actuation. Th",
+      "authors": [
+        "Daniel Katusele",
+        "Carmel Majidi",
+        "Liping Liu",
+        "Pradeep Sharma",
+        "Kaushik Dayal"
+      ],
+      "author_line": "Daniel Katusele, Carmel Majidi, Liping Liu, Pradeep Sharma et al.",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag345",
+      "pdf_url": "https://doi.org/10.1093/pnasnexus/pgag345",
+      "category": "Advanced Materials and Mechanics",
+      "published_at": "2026-10-10T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "PNAS Nexus",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "3163b3aebe2d",
+      "title": "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins",
+      "slug": "flexenn-a-graph-neural-network-for-binding-energy-prediction-of-globular-and-intrinsically",
+      "abstract": "Abstract Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription, and assembly through interfaces that often lack a defined geometry, making the prediction of their binding energies challenging for methods developed primarily for folded complexes. Here, we introduce FlexENN, an interface-focused message-passing graph neural network framework comprising two independently trained models: FlexENN-F for folded protein complexes and FlexENN-I for complexes containing a disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates the relative geometry, flexibility-related structural descriptors, a",
+      "summary": "Abstract Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription, and assembly through interfaces that often lack a defined geometry, making the prediction of their binding energies challenging for methods developed primarily for folde",
+      "authors": [
+        "Maryum Irshad",
+        "Kassandra Ori-McKenney",
+        "Ruxandra I. Dima"
+      ],
+      "author_line": "Maryum Irshad, Kassandra Ori-McKenney, Ruxandra I. Dima",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01545",
+      "pdf_url": "https://pubs.acs.org/jcisd8/article-pdf/doi/10.1021/acs.jcim.6c01545/68809859/acs.jcim.6c01545.pdf",
+      "category": "Protein Structure and Dynamics",
+      "published_at": "2026-10-10T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Journal of Chemical Information and Modeling",
       "topic": "Machine Learning",
       "topics": [
         "Machine Learning"
       ],
       "topic_key": "machine-learning"
+    },
+    {
+      "id": "97056dade67f",
+      "title": "A Disease-Memory Guided Framework for Radiology Report Generation from Multi-View Chest X-rays",
+      "slug": "a-disease-memory-guided-framework-for-radiology-report-generation-from-multi-view-chest-x-",
+      "abstract": "Chest X-rays are widely used, low-cost diagnostic tools. Writing chest X-ray reports manually is a time-consuming and tedious task. The increasing number of X-rays burdens radiologists, creating a need for a clinically accurate, fast and automated report generation system. To solve this challenge, we propose a new disease-memory-guided vision-language framework for radiology report generation. Frontal and lateral chest X-rays (multi-view) are encoded using a Swin-Transformer. These encoded visual features are then passed through a multi-label classification head that predicts disease probabilities, from which the top three labels are converted into learnable disease-memory embeddings. These ",
+      "summary": "Chest X-rays are widely used, low-cost diagnostic tools. Writing chest X-ray reports manually is a time-consuming and tedious task. The increasing number of X-rays burdens radiologists, creating a need for a clinically accurate, fast and automated report generation system. To sol",
+      "authors": [
+        "Prajakta Dhamanskar",
+        "Chintan Bhupeshbhai Thacker",
+        "Saurabh A Shah"
+      ],
+      "author_line": "Prajakta Dhamanskar, Chintan Bhupeshbhai Thacker, Saurabh A Shah",
+      "url": "https://doi.org/10.35882/jeeemi.v8i4.1882",
+      "pdf_url": "https://jeeemi.org/index.php/jeeemi/article/download/1882/456",
+      "category": "Multimodal Machine Learning Applications",
+      "published_at": "2026-10-10T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "Machine Learning"
+      ],
+      "topic_key": "multimodal"
     },
     {
       "id": "cb623cbbc504",
@@ -4403,27 +4505,23 @@
       "topic_key": "cybersecurity"
     },
     {
-      "id": "63b730147003",
-      "title": "USF-Net: a Unified Spatiotemporal Fusion Network for ground-based remote sensing cloud image sequence extrapolation",
-      "slug": "usf-net-a-unified-spatiotemporal-fusion-network-for-ground-based-remote-sensing-cloud-imag",
-      "abstract": "Ground-based remote sensing cloud image sequence extrapolation is a key research area in the development of photovoltaic power systems. However, existing approaches exhibit several limitations:(1)they primarily rely on static kernels to augment feature information, lacking adaptive mechanisms to extract features at varying resolutions dynamically;(2)temporal guidance is insufficient, leading to suboptimal modeling of long-range spatiotemporal dependencies; and(3)the quadratic computational cost of attention mechanisms is often overlooked, limiting efficiency in practical deployment. To address these challenges, we propose USF-Net, a Unified Spatiotemporal Fusion Network that integrates adapt",
-      "summary": "Ground-based remote sensing cloud image sequence extrapolation is a key research area in the development of photovoltaic power systems. However, existing approaches exhibit several limitations:(1)they primarily rely on static kernels to augment feature information, lacking adapti",
+      "id": "21caa1a953ae",
+      "title": "The Lattice of Transition Laws",
+      "slug": "the-lattice-of-transition-laws",
+      "abstract": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its decoding schedule by design. In this paper, we ask whether the performance of decoding schedules of one model can be predicted before decoding at a fixed number of steps. We describe diffusion, AR, and models in between as paths on one corruption lattice, and define the cost of a schedule as the dependence its parallel steps discard. The cost shows that the fewest steps of a zero-cost schedule are set by the geometry o",
+      "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its de",
       "authors": [
-        "Penghui Niu",
-        "Taotao Cai",
-        "Suqi Zhang",
-        "Junhua Gua",
-        "Ping Zhanga",
-        "Qiqi Liu",
-        "Jianxin Li"
+        "T. Y. Tsui",
+        "Jiatao Gu",
+        "Lingjie Liu"
       ],
-      "author_line": "Penghui Niu, Taotao Cai, Suqi Zhang, Junhua Gua et al.",
-      "url": "https://doi.org/10.1080/01431161.2026.2738900",
-      "pdf_url": "https://arxiv.org/pdf/2511.09045",
-      "category": "Advanced Image Processing Techniques",
-      "published_at": "2026-10-08T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "International Journal of Remote Sensing",
+      "author_line": "T. Y. Tsui, Jiatao Gu, Lingjie Liu",
+      "url": "https://huggingface.co/papers/2610.11216",
+      "pdf_url": "https://arxiv.org/pdf/2610.11216.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
       "topic": "AI",
       "topics": [
         "AI"
@@ -4431,25 +4529,30 @@
       "topic_key": "ai"
     },
     {
-      "id": "a747aa34ddec",
-      "title": "Are large language models able to predict highly cited papers? Evidence from statistical publications",
-      "slug": "are-large-language-models-able-to-predict-highly-cited-papers-evidence-from-statistical-pu",
-      "abstract": "",
-      "summary": "",
+      "id": "20d1aa17384b",
+      "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+      "slug": "opera-a-verbal-critic-framework-for-long-horizon-coding-agents",
+      "abstract": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens after feedback is delivered. We present Opera, a verbal critic framework that treats each correction as a persistent note, followed until the diagnosed problem is resolved. Opera decides when to review through periodic and event-driven triggers, diagnoses issues with typed operators, audits feedback against visible evidence before delivery, and tracks the agent's subsequent actions to distinguish mere compliance from",
+      "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens ",
       "authors": [
-        "Zhanshuo Ye",
-        "Yiming Hou",
-        "Rui Pan",
-        "Tianchen Gao",
-        "Hansheng Wang"
+        "Kai Mei",
+        "Zhiyuan Hu",
+        "Yutong Dai",
+        "Juntao Tan",
+        "Yifan Zhang",
+        "Dingjie Song",
+        "Dimitris N. Metaxas",
+        "Silvio Savarese",
+        "Ran Xu",
+        "Zeyuan Chen"
       ],
-      "author_line": "Zhanshuo Ye, Yiming Hou, Rui Pan, Tianchen Gao et al.",
-      "url": "https://doi.org/10.1007/s11192-026-05839-z",
-      "pdf_url": "https://arxiv.org/pdf/2601.13627",
-      "category": "scientometrics and bibliometrics research",
-      "published_at": "2026-10-08T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Scientometrics",
+      "author_line": "Kai Mei, Zhiyuan Hu, Yutong Dai, Juntao Tan et al.",
+      "url": "https://huggingface.co/papers/2609.33987",
+      "pdf_url": "https://arxiv.org/pdf/2609.33987.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
       "topic": "AI",
       "topics": [
         "AI"
@@ -4457,34 +4560,105 @@
       "topic_key": "ai"
     },
     {
-      "id": "5de9fd1265e1",
-      "title": "Physics-grounded multi-agent architecture for traceable, risk-aware human–AI decision support in manufacturing",
-      "slug": "physics-grounded-multi-agent-architecture-for-traceable-risk-aware-human-ai-decision-suppo",
-      "abstract": "",
-      "summary": "",
+      "id": "5176ebf85849",
+      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "slug": "skill-constellations-tracing-the-supply-chain-of-agent-skills-on-github",
+      "abstract": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or provenance. The origin of a copied skill, the reach of a security fix and the repositories that warrant review are therefore unknown. Studies that record which repositories hold a skill at a single point in time cannot reveal who copied it from whom. We contribute the first dated copy network of agent skills, built from the git history of every SKILL.md in GitSkills and covering 2,193,119 skill adoptions across GitHub,",
+      "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or pr",
       "authors": [
-        "Danny Hoang",
-        "Ryan Matthiessen",
-        "Christopher Miller",
-        "Nasir Mannan",
-        "Ruby ElKharboutly",
-        "David Gorsich",
-        "Matthew P. Castanier",
-        "Farhad Imani"
+        "Fahd Seddik"
       ],
-      "author_line": "Danny Hoang, Ryan Matthiessen, Christopher Miller, Nasir Mannan et al.",
-      "url": "https://doi.org/10.1016/j.jmsy.2026.09.010",
-      "pdf_url": "https://arxiv.org/pdf/2605.04003",
-      "category": "Digital Transformation in Industry",
-      "published_at": "2026-10-08T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Journal of Manufacturing Systems",
-      "topic": "Agents",
+      "author_line": "Fahd Seddik",
+      "url": "https://huggingface.co/papers/2610.11169",
+      "pdf_url": "https://arxiv.org/pdf/2610.11169.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Cybersecurity",
       "topics": [
-        "Agents",
+        "Cybersecurity",
         "AI"
       ],
-      "topic_key": "agents"
+      "topic_key": "cybersecurity"
+    },
+    {
+      "id": "8619a3d0e580",
+      "title": "Predicting Cable Dynamics with Physical Attention Bias",
+      "slug": "predicting-cable-dynamics-with-physical-attention-bias",
+      "abstract": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segments can represent contact between parts of the cable that are far apart along its length, but attention has no notion of geometry. A cable has two pairwise distances, which agree only while it is straight: the arc-length distance along the cable, which governs elastic forces, and the Euclidean distance in space, which governs contact. We add a physical attention bias, an additive term on the attention logits with a l",
+      "summary": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segme",
+      "authors": [
+        "Avihai Giuili",
+        "Rotem Atari",
+        "Avishai Sintov",
+        "Maya Bechler-Speicher"
+      ],
+      "author_line": "Avihai Giuili, Rotem Atari, Avishai Sintov, Maya Bechler-Speicher",
+      "url": "https://huggingface.co/papers/2610.11975",
+      "pdf_url": "https://arxiv.org/pdf/2610.11975.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "6fc1efb1c212",
+      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+      "slug": "pumpire-unified-benchmark-for-metric-distance-estimation",
+      "abstract": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separately or evaluate point-clouds with geometric similarity metrics, which cannot directly reflect models' point-to-point distance estimation capability, Pumpire directly assesses point-to-point distances from the reconstructed geometry. To this end, we collect a large-scale and diverse dataset (pumpire-6k) comprising 100 real-world scenes, each annotated with physically measured point-pair distances and containing 64 fra",
+      "summary": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separat",
+      "authors": [
+        "Siyu Chen",
+        "Zehan Wang",
+        "Jiayang Xu",
+        "Yihan Wu",
+        "Jialei Wang",
+        "Junming Chen",
+        "Ziang Zhang",
+        "Yutong Ying",
+        "Zhou Zhao"
+      ],
+      "author_line": "Siyu Chen, Zehan Wang, Jiayang Xu, Yihan Wu et al.",
+      "url": "https://huggingface.co/papers/2610.12423",
+      "pdf_url": "https://arxiv.org/pdf/2610.12423.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "25e5430b247c",
+      "title": "Incremental Open-Ended Deep Research with Structured Harness",
+      "slug": "incremental-open-ended-deep-research-with-structured-harness",
+      "abstract": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We introduce Incremental Open-Ended Deep Research (Incremental-OEDR), a research setting that treats a report as an evolving research state and incrementally updates it by preserving valid knowledge, revising outdated or incomplete content, and incorporating newly available information. To support this setting, we propose Structured Harness, which represents reports as structured collections of outlines, sections, and supporting evidence, and provides structured retrieval, a persis",
+      "summary": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We introduce Incremental Open-Ended Deep Research (Incremental-OED",
+      "authors": [
+        "Meilin Chen",
+        "Hongyuan Bao"
+      ],
+      "author_line": "Meilin Chen, Hongyuan Bao",
+      "url": "https://huggingface.co/papers/2610.11566",
+      "pdf_url": "https://arxiv.org/pdf/2610.11566.pdf",
+      "category": null,
+      "published_at": "2026-10-07T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
     },
     {
       "id": "58ec3bd768ee",
@@ -4683,476 +4857,17 @@
       "topic_key": "ai"
     },
     {
-      "id": "e7137ae63237",
-      "title": "MARGIN: Runtime Confidence Calibration for Multi-Agent Foundation Model Coordination",
-      "slug": "margin-runtime-confidence-calibration-for-multi-agent-foundation-model-coordination",
-      "abstract": "When a coordinator compares answers from heterogeneous foundation models, self-reported confidence may have different meanings across responders and changing workloads. This paper presents MARGIN (Multi-Agent Runtime Grading via Incremental Normalisation), a runtime calibration method that learns model-specific confidence corrections from observed answer outcomes without retraining the models or requiring a held-out calibration set. MARGIN tracks recent accuracy and stated confidence within confidence bands, uses their ratio to correct reported confidence, and blends sparse-band corrections toward a model-level estimate. The corrected scores weight candidate answers in a collective decision.",
-      "summary": "When a coordinator compares answers from heterogeneous foundation models, self-reported confidence may have different meanings across responders and changing workloads. This paper presents MARGIN (Multi-Agent Runtime Grading via Incremental Normalisation), a runtime calibration m",
+      "id": "c102ab38f298",
+      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+      "slug": "evaluating-the-transfer-of-co-evolved-communication-from-2d-to-3d-simulation",
+      "abstract": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D environment retains its functional role after transfer to a 3D physics-based simulator. To support this analysis, the effects of the episode time budget, the social cue, and the asymmetry between the two co-evolved roles were examined. The results indicate that the success rate increased approximately linearly with the evaluated time budgets, with no evidence of a plateau between 2,000 and 6,000 physics steps, suggestin",
+      "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D env",
       "authors": [
-        "Joss Armstrong"
+        "Fernando Montes-Gonzalez"
       ],
-      "author_line": "Joss Armstrong",
-      "url": "https://huggingface.co/papers/2605.22949",
-      "pdf_url": "https://arxiv.org/pdf/2605.22949.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Agents"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "95ea6f1ac3b7",
-      "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
-      "slug": "mimo-v2-6-scaling-reinforcement-learning-towards-self-improvement",
-      "abstract": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on the pretrained hybrid-SWA architecture to support subsequent scale-up. We scale RL compute along three dimensions: (1) larger batches and higher throughput, with an asynchronous training that consumes 1,568 samples and 2.7-3.7B tokens per step at context lengths of up to 1M; (2) more diverse and comp",
-      "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we con",
-      "authors": [
-        "Core Team",
-        "Zongming Qiao",
-        "Ziyue Hua",
-        "Zirui Ou",
-        "Zihao Yue",
-        "Zihan Jiang",
-        "Zhuo Huang",
-        "Zhiyang Chen",
-        "Zhixian Zheng",
-        "Zhipeng Xu",
-        "Zhengrui Ma",
-        "Yuyang Hu",
-        "Yuhang Dong",
-        "Yuechen Zhang",
-        "Yudong Wang",
-        "Yuanxin Liu",
-        "Yixin Yang",
-        "Yishuo Cai",
-        "Yikai Zhao",
-        "Yihan Yan",
-        "Yifan Zhang",
-        "Yifan Song",
-        "Xiyu Wei",
-        "Xing Zhang",
-        "Xin Zhang",
-        "Xiaoqian Liu",
-        "Xiaodong Ji",
-        "Xiangwei Deng",
-        "Xueyu Guo",
-        "Wenhan Ma",
-        "Weimin Xiong",
-        "Weikun Wang",
-        "Weiji Zhuang",
-        "Shuo Liu",
-        "Shuhuai Ren",
-        "Shuhao Gu",
-        "Shimao Chen",
-        "Shijie Cao",
-        "Shihua Yu",
-        "Shicheng Li",
-        "Shengjie Zhou",
-        "Shaolei Zhang",
-        "Rang Li",
-        "Qiying Wang",
-        "Qingkai Fang",
-        "Qianli Chen",
-        "Minzheng Wang",
-        "Liwen Wang",
-        "Linli Yao",
-        "Linghao Zhang",
-        "Liangyu Cheng",
-        "Liang Zhao",
-        "Lei Li",
-        "Jinhao Dong",
-        "Jinyu Xiang",
-        "Jianyu Wei",
-        "Jiangshan Duo",
-        "Huaqiu Liu",
-        "Huanjie Fan",
-        "Hongyi Guan",
-        "Hongshen Xu",
-        "Hao Tian",
-        "Hanyu Li",
-        "Hailin Zhang",
-        "Gang Wang",
-        "Fuli Luo",
-        "Feng Wei",
-        "Dong Zhang",
-        "Dawei Zhu",
-        "Chiheng Lou",
-        "Chenhong He",
-        "Chenhao He",
-        "Chenghua Liu",
-        "Bowen Ye",
-        "Bowen Shen",
-        "Boshen Xu",
-        "Bo Yang",
-        "Bingquan Xia",
-        "Bangjun Xiao",
-        "Baixuan Xu",
-        "Zhouxiang Mao",
-        "Zhiyang Zhang",
-        "Zhixiang Xu",
-        "Zhenru Lin",
-        "Zhengju Tang",
-        "Zhaojun Huang",
-        "Yuzhe Weng",
-        "Yuxing Xiang",
-        "Yuxiao Li",
-        "Yuheng Yang",
-        "Yuhang Wang",
-        "Yuchen Liu",
-        "Yuanyuan Tian",
-        "Yuanliang Dong",
-        "Yu Cheng",
-        "Yongzhe He",
-        "Yongshun Liang",
-        "Yong Wang",
-        "Yiyan Wang",
-        "Yitian Gong",
-        "Yijie Zhang",
-        "Yanshu Xin",
-        "Xun Zhang",
-        "Xingjian Zhao",
-        "Wenyu Yang",
-        "Wenshan Huang",
-        "Wenhao Li",
-        "Tingwei Huang",
-        "Tianyu Yu",
-        "Tianyang Lu",
-        "Taoyu Yang",
-        "Sinan Du",
-        "Shutong Tian",
-        "Shulin Du",
-        "Shengfan Wang",
-        "Shanchuan Fang",
-        "Qihao Zhang",
-        "Qibin Yang",
-        "Qian Yu",
-        "Qian Tu",
-        "Pengrong Xie",
-        "Peipei Wang",
-        "Peidian Li",
-        "Minkun Guo",
-        "Mingchen Shao",
-        "Luohan Gao",
-        "Lijie Wang",
-        "Liang Shi",
-        "Kaiqi Chen",
-        "Kaiming Liu",
-        "Kaifei Wang",
-        "Kai Yang",
-        "Jinlong Xue",
-        "Jiechen Zhang",
-        "Jiaxuan Liu",
-        "Hongxu An",
-        "Hao Peng",
-        "Hanglong Lü",
-        "Guonan Wang",
-        "Feiyu Yang",
-        "Fanyu Cao",
-        "Fangyue Liu",
-        "Fan Cui",
-        "Cong Wang",
-        "Chun Chen",
-        "Chenxu Bai",
-        "Chengxuan Zhu",
-        "Chenghua Wang",
-        "Boyi Zeng"
-      ],
-      "author_line": "Core Team, Zongming Qiao, Ziyue Hua, Zirui Ou et al.",
-      "url": "https://huggingface.co/papers/2610.11959",
-      "pdf_url": "https://arxiv.org/pdf/2610.11959.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "Multimodal",
-        "Reinforcement Learning",
-        "Cybersecurity"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "298050b73472",
-      "title": "Foundations of Large Language Models",
-      "slug": "foundations-of-large-language-models",
-      "abstract": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyone interested in large language models.",
-      "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, genera",
-      "authors": [
-        "Tong Xiao",
-        "Jingbo Zhu"
-      ],
-      "author_line": "Tong Xiao, Jingbo Zhu",
-      "url": "https://huggingface.co/papers/2501.09223",
-      "pdf_url": "https://arxiv.org/pdf/2501.09223.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "NLP",
-      "topics": [
-        "NLP"
-      ],
-      "topic_key": "nlp"
-    },
-    {
-      "id": "7168419c50a1",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
-      "slug": "ouroworld-bringing-any-3d-world-alive-as-diverse-endlessly-looping-3d-cinemagraphs",
-      "abstract": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inconsistency-Robust Periodic 4DGS: a Fourier-series deformation field guarantees looping by construction, while a Grounded Drift Field anchored at the reference view absorbs cross-view inconsistency. Unl",
-      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoi",
-      "authors": [
-        "You-Zhe Xie",
-        "Ting-Wei Chou",
-        "Yu-Hsuan Li",
-        "Kaipeng Zhang",
-        "Zhixiang Wang",
-        "Yu-Lun Liu"
-      ],
-      "author_line": "You-Zhe Xie, Ting-Wei Chou, Yu-Hsuan Li, Kaipeng Zhang et al.",
-      "url": "https://huggingface.co/papers/2610.12461",
-      "pdf_url": "https://arxiv.org/pdf/2610.12461.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "World Models",
-      "topics": [
-        "World Models",
-        "Multimodal"
-      ],
-      "topic_key": "world-models"
-    },
-    {
-      "id": "c5160a3128d2",
-      "title": "BrickBench: Evaluating Agentic Brick Design",
-      "slug": "brickbench-evaluating-agentic-brick-design",
-      "abstract": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding agents to construct, inspect, and validate their designs. We find that leading agents largely satisfy verifiable physical and semantic requirements, but fall short of human designs. We release our ben",
-      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discre",
-      "authors": [
-        "Peter Kulits",
-        "Yiqing Xu",
-        "R. Kenny Jones",
-        "Cordelia Schmid",
-        "Jiajun Wu"
-      ],
-      "author_line": "Peter Kulits, Yiqing Xu, R. Kenny Jones, Cordelia Schmid et al.",
-      "url": "https://huggingface.co/papers/2610.12452",
-      "pdf_url": "https://arxiv.org/pdf/2610.12452.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Agents",
-      "topics": [
-        "Agents"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "81a569231ff5",
-      "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
-      "slug": "omnicapbench-a-deep-structured-evaluation-framework-for-fine-grained-audio-visual-captioni",
-      "abstract": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and unconstrained LLM judges introduce instability. We introduce OmniCapBench (Omni-Video Caption Benchmark), a benchmark that reframes audio--visual caption evaluation as a deep-structured diagnostic framework. OmniCapBench shifts the prediction target from free-form text to sets of atomic, verifiable",
-      "summary": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-",
-      "authors": [
-        "Zhongyu Yang",
-        "Jiale Tao",
-        "Ruitao Chen",
-        "Zuhao Yang",
-        "Yingfang Yuan",
-        "Xueliang Zhao",
-        "Auden",
-        "Kai Wang",
-        "Shuai Shao",
-        "Biao Wang",
-        "Steve Yves",
-        "Qinglin Lu"
-      ],
-      "author_line": "Zhongyu Yang, Jiale Tao, Ruitao Chen, Zuhao Yang et al.",
-      "url": "https://huggingface.co/papers/2610.12458",
-      "pdf_url": "https://arxiv.org/pdf/2610.12458.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Multimodal"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "ae42f4123b87",
-      "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
-      "slug": "accurate-but-not-humble-evaluating-epistemic-humility-in-llm-agents-under-knowledge-confli",
-      "abstract": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through three trajectory-level behavioral dimensions: Identify, Solve, and Escalate (ISE). Through knowledge conflict, situations where the backbone language model's parametric knowledge contradicts the evidence it encounters, or wh",
-      "summary": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such",
-      "authors": [
-        "Kaiser Sun",
-        "Bernal Jimenez Gutierrez",
-        "Hongjun Liu",
-        "Jingyu Zhang",
-        "Jie Gao",
-        "Mark Dredze",
-        "Daniel Khashabi"
-      ],
-      "author_line": "Kaiser Sun, Bernal Jimenez Gutierrez, Hongjun Liu, Jingyu Zhang et al.",
-      "url": "https://huggingface.co/papers/2610.12360",
-      "pdf_url": "https://arxiv.org/pdf/2610.12360.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Agents"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "9230fab2f1fb",
-      "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
-      "slug": "embodied-turing-machines-stateful-code-for-robot-recursive-self-improvement",
-      "abstract": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. If this state can be represented accurately, the decision making can be written entirely in code. We therefore propose Code-Only-as-Policy (COAP): code measures and tracks the robot, environment, and task state from camera images and proprioception, and makes every decision from it. The same code applies across episodes, and different tasks share on",
-      "summary": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, who",
-      "authors": [
-        "Kairui Hu",
-        "Siyuan Hu",
-        "Fangzhou Hong",
-        "Zhaoxi Chen",
-        "Ziwei Liu"
-      ],
-      "author_line": "Kairui Hu, Siyuan Hu, Fangzhou Hong, Zhaoxi Chen et al.",
-      "url": "https://huggingface.co/papers/2610.12369",
-      "pdf_url": "https://arxiv.org/pdf/2610.12369.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "Robotics"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "0422ef5d1698",
-      "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
-      "slug": "multi-agent-egocentric-world-model-with-fine-grained-embodied-interaction",
-      "abstract": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multiple agents interacting through fine-grained actions in a shared world. This requires cross-view action consistency, shared-environment consistency, and consistent propagation of interaction-induced sta",
-      "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse ",
-      "authors": [
-        "Dahyun Chung",
-        "Siyoon Jin",
-        "Hyunwook Choi",
-        "Honggyu An",
-        "Junyoung Seo",
-        "Hyunsung Kim",
-        "Seung Wook Kim",
-        "Seungryong Kim"
-      ],
-      "author_line": "Dahyun Chung, Siyoon Jin, Hyunwook Choi, Honggyu An et al.",
-      "url": "https://huggingface.co/papers/2610.12299",
-      "pdf_url": "https://arxiv.org/pdf/2610.12299.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "World Models",
-      "topics": [
-        "World Models",
-        "Agents"
-      ],
-      "topic_key": "world-models"
-    },
-    {
-      "id": "ded4e6adb627",
-      "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
-      "slug": "onesearch-vl-unified-multimodal-deep-research-agent-for-image-and-video",
-      "abstract": "Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grounded Evidence Graph (VGEG), which encodes these dependencies as a shared task-level reference for data construction, process supervision, and operation-level evaluation. Our VGEG-based data engine constructs and verifies multi-image and video questions and filters expert trajectories. Using these da",
-      "summary": "Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-su",
-      "authors": [
-        "Hongyu Li",
-        "Manyuan Zhang",
-        "Kaituo Feng",
-        "Shu Chen",
-        "Dian Zheng",
-        "Hao Li",
-        "Hao Yu",
-        "Zhangquan Chen",
-        "Zoey Guo",
-        "Ray Zhang",
-        "Shaofei Huang",
-        "Tianrui Hui",
-        "Linjiang Huang",
-        "Si Liu"
-      ],
-      "author_line": "Hongyu Li, Manyuan Zhang, Kaituo Feng, Shu Chen et al.",
-      "url": "https://huggingface.co/papers/2610.12419",
-      "pdf_url": "https://arxiv.org/pdf/2610.12419.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "Reinforcement Learning"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "d941a7376b22",
-      "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
-      "slug": "distilling-routed-3d-privilege-for-spatial-reasoning-in-vision-language-models",
-      "abstract": "Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards that supervise only the final answer. Spatial errors originate in perception: a misjudged depth or direction can be corrected only by the scene's true geometry, which the 3D-scanned sources of spatial training corpora already provide. We propose GPD (Geometry-Privileged Distillation), which makes geometric evidence the privilege in on-policy self-distillation (OPSD). For each question, depth, semantic, and bird's-eye-v",
-      "summary": "Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards th",
-      "authors": [
-        "Hongxing Li",
-        "Yixin Li",
-        "Dingming Li",
-        "Zixuan Wang",
-        "Yuchen Yan",
-        "Wenqi Zhang",
-        "Weiming Lu",
-        "Yongliang Shen"
-      ],
-      "author_line": "Hongxing Li, Yixin Li, Dingming Li, Zixuan Wang et al.",
-      "url": "https://huggingface.co/papers/2610.12355",
-      "pdf_url": "https://arxiv.org/pdf/2610.12355.pdf",
-      "category": null,
-      "published_at": "2026-10-07T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "6ad5986af6f8",
-      "title": "On-Policy Distillation Teaches New Skills but Not New Knowledge",
-      "slug": "on-policy-distillation-teaches-new-skills-but-not-new-knowledge",
-      "abstract": "On-policy distillation (OPD) strengthens language-model reasoning, yet whether students acquire new factual knowledge or compositional skill for multi-step reasoning remains unknown. We separate these capabilities using a controlled synthetic framework that measures the student's initial capabilities and independently controls the teacher's additional facts, compositional skill, or both. Across four models from three families, reverse-KL OPD reliably transfers compositional skill across unseen reasoning structures, but transfers minimal factual knowledge. Decoupling the distillation recipe reveals the source of this asymmetry: replacing reverse KL with forward KL restores factual transfer, w",
-      "summary": "On-policy distillation (OPD) strengthens language-model reasoning, yet whether students acquire new factual knowledge or compositional skill for multi-step reasoning remains unknown. We separate these capabilities using a controlled synthetic framework that measures the student's",
-      "authors": [
-        "Yixuan Tang",
-        "Yi Yang"
-      ],
-      "author_line": "Yixuan Tang, Yi Yang",
-      "url": "https://huggingface.co/papers/2610.09639",
-      "pdf_url": "https://arxiv.org/pdf/2610.09639.pdf",
+      "author_line": "Fernando Montes-Gonzalez",
+      "url": "https://huggingface.co/papers/2610.09280",
+      "pdf_url": "https://arxiv.org/pdf/2610.09280.pdf",
       "category": null,
       "published_at": "2026-10-06T20:00:00.000Z",
       "source": "Hugging Face",
@@ -5162,6 +4877,175 @@
         "AI"
       ],
       "topic_key": "ai"
+    },
+    {
+      "id": "8905231232a5",
+      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
+      "slug": "mira-a-musical-intent-refinement-agent-for-aligning-text-to-music-generation-with-user-int",
+      "abstract": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio relevance score can overlook the implicit intent in underspecified prompts and mask failures in specific requirements, such as instrumentation, structure, rhythm, or mood progression. To bridge this gap, we formulate text-to-music intent alignment as satisfying a per-request rubric of independently verifiable items covering both a request's explicit requirements and its implied musical intent. Scoring items individually makes evaluation diagnostic by intent source and musical dimension, rather than a single opaque score. We instantiate t",
+      "summary": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio relevance score can overlook the implicit intent in underspecified prompts and mask failures in specific requirements, such",
+      "authors": [
+        "Zekai Liu",
+        "Zhilin Wang",
+        "Xuzheng He",
+        "Yu Cheng",
+        "Yang Yang"
+      ],
+      "author_line": "Zekai Liu, Zhilin Wang, Xuzheng He, Yu Cheng et al.",
+      "url": "https://huggingface.co/papers/2610.10355",
+      "pdf_url": "https://arxiv.org/pdf/2610.10355.pdf",
+      "category": null,
+      "published_at": "2026-10-06T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "8ae5b89d85f3",
+      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+      "slug": "a-gpu-parallel-framework-for-heterogeneous-multi-task-reinforcement-learning",
+      "abstract": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac Lab benchmark that enables efficient joint training and evaluation of a single policy across all 40 heterogeneous tasks. Scaling experiments show that increasing parallel replicas per task improves success under a fixed wall-clock budget. To support learning with sparse rewards and limited demonstrations, we propose Demonstration-Guided Policy Optimization (DGPO), which reuses demonstrations for dense tracking rewards",
+      "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac L",
+      "authors": [
+        "Rui Zhang",
+        "Qiwei Wu",
+        "Zhengyu Zhang",
+        "Tao Li",
+        "Hongyu Zhou",
+        "Xiang Li",
+        "Yunrong Guo",
+        "Junjie Lai",
+        "Renjing Xu",
+        "Weihua Zhang"
+      ],
+      "author_line": "Rui Zhang, Qiwei Wu, Zhengyu Zhang, Tao Li et al.",
+      "url": "https://huggingface.co/papers/2606.03335",
+      "pdf_url": "https://arxiv.org/pdf/2606.03335.pdf",
+      "category": null,
+      "published_at": "2026-10-05T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Reinforcement Learning",
+      "topics": [
+        "Reinforcement Learning",
+        "Robotics"
+      ],
+      "topic_key": "reinforcement-learning"
+    },
+    {
+      "id": "d603adbc32e7",
+      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
+      "slug": "incidental-information-contaminates-patient-notes-and-disrupts-clinical-reasoning-in-large",
+      "abstract": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode shared between these two applications by assessing their sensitivity to information incidental to the patient encounter. In 576 patient-clinician dialogues, we found that frontier models inserted small-talk exchanges into 35% of notes, while mean quality scores changed by at most 0.20 points on five-point scales. In 3.7% of frontier notes, models misattributed the asides or used them clinically. In 57 mock recorded consultations, background speech from a separate patient encounter at -10 dB leaked into 48.2% of transcripts, with conta",
+      "summary": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode shared between these two applications by assessing their sensitivity to information incidental to the patient encounter.",
+      "authors": [
+        "Krithik Vishwanath",
+        "Brandon Ye",
+        "Anton Alyakin",
+        "John E. Markert",
+        "Aaron Hsieh",
+        "Michał Mańkowski",
+        "Eric K. Oermann"
+      ],
+      "author_line": "Krithik Vishwanath, Brandon Ye, Anton Alyakin, John E. Markert et al.",
+      "url": "https://huggingface.co/papers/2610.08585",
+      "pdf_url": "https://arxiv.org/pdf/2610.08585.pdf",
+      "category": null,
+      "published_at": "2026-10-05T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM"
+      ],
+      "topic_key": "llm"
+    },
+    {
+      "id": "9abab8ee718c",
+      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
+      "slug": "frozen-models-evolving-expertise-model-agnostic-learning-from-deployment-experience-for-mu",
+      "abstract": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, updated guidelines, and new therapies can change established practice. Fine-tuning can update the model, but it requires access to model weights and additional training. Parameter-free methods avoid training, but they may overfit a fixed validation set, lack reliable domain knowledge, or lose visual details by saving experience only as text. To address these limitations, we present a model-agnostic framework that allows frozen LLMs and VLMs to learn from deployment experience",
+      "summary": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, updated guidelines, and new therapies can change established",
+      "authors": [
+        "Yexiao He",
+        "Yucheng Tang",
+        "Pengfei Guo",
+        "Yufan He",
+        "Andriy Myronenko",
+        "Can Zhao",
+        "Ang Li",
+        "Daguang Xu",
+        "Dong Yang"
+      ],
+      "author_line": "Yexiao He, Yucheng Tang, Pengfei Guo, Yufan He et al.",
+      "url": "https://huggingface.co/papers/2610.09146",
+      "pdf_url": "https://arxiv.org/pdf/2610.09146.pdf",
+      "category": null,
+      "published_at": "2026-10-05T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Agents",
+      "topics": [
+        "Agents",
+        "Multimodal",
+        "AI"
+      ],
+      "topic_key": "agents"
+    },
+    {
+      "id": "feb30c832655",
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "slug": "specfold-folding-multi-branch-redundancy-for-faster-speculative-decoding-in-diffusion-lang",
+      "abstract": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass. While prior DLLM acceleration methods primarily exploit temporal redundancy across denoising steps, we identify a complementary redundancy axis within each speculative verification step: multi-branch computational redundancy. During speculative verification, draft branches inherit most tokens from their parents while unmasking a small set of additional positions, causing large portions of hidden states to remain highly similar across branches. We propos",
+      "summary": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in a single forward pass. While prior DLLM acceleration methods",
+      "authors": [
+        "Chung-En Ho",
+        "Weiyu Sun",
+        "Cheng-Jhih Shih",
+        "He Li",
+        "Yong Liu",
+        "Yingyan Celine Lin"
+      ],
+      "author_line": "Chung-En Ho, Weiyu Sun, Cheng-Jhih Shih, He Li et al.",
+      "url": "https://huggingface.co/papers/2610.04875",
+      "pdf_url": "https://arxiv.org/pdf/2610.04875.pdf",
+      "category": null,
+      "published_at": "2026-10-05T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "436d65be996e",
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "slug": "can-ai-agents-make-open-ended-scientific-discovery-evidence-from-station",
+      "abstract": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multiple agents simulate a scientific ecosystem. To tackle challenges specific to open-ended tasks, we propose augmenting Station with two mechanisms: a Supervisor mechanism and periodic Meta Reflection, which encourage persistent exploration even when intermediate metrics are lacking. We construct open-ended tasks from three recent oral papers presented at ICLR. We give agents the main research questi",
+      "summary": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world enviro",
+      "authors": [
+        "Wenyu Du",
+        "Stephen Chung"
+      ],
+      "author_line": "Wenyu Du, Stephen Chung",
+      "url": "https://huggingface.co/papers/2610.08927",
+      "pdf_url": "https://arxiv.org/pdf/2610.08927.pdf",
+      "category": null,
+      "published_at": "2026-10-05T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Agents",
+      "topics": [
+        "Agents",
+        "AI"
+      ],
+      "topic_key": "agents"
     },
     {
       "id": "a33b643e10c7",
@@ -5248,37 +5132,6 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "e618a0a0aae5",
-      "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
-      "slug": "spw-nav-a-streaming-panoramic-world-model-for-language-guided-navigation",
-      "abstract": "Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training. Existing panoramic generators follow predefined trajectories, and interactive world models act through low-level actions in perspective views. We propose SPW-Nav, a streaming panoramic world model that understands movement instructions and streams one minute of 2K 360-degree video in real time from a single panorama. SPW-Nav interprets each instruction in the previously generated panorama as camera motion. Spherical rotation decoupling applies rotation exactly on the sphere, pose-aligned conditioning keeps tra",
-      "summary": "Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training. Existing panoramic generators follow predefined trajectories, and interactive world models act ",
-      "authors": [
-        "Yunheng Liu",
-        "Ziqi Cai",
-        "Siqi Yang",
-        "Yimu Wang",
-        "Minggui Teng",
-        "Jiaming Tan",
-        "Shuchen Weng",
-        "Erwin Wu",
-        "Kaipeng Zhang",
-        "Boxin Shi"
-      ],
-      "author_line": "Yunheng Liu, Ziqi Cai, Siqi Yang, Yimu Wang et al.",
-      "url": "https://huggingface.co/papers/2610.08941",
-      "pdf_url": "https://arxiv.org/pdf/2610.08941.pdf",
-      "category": null,
-      "published_at": "2026-10-05T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "World Models",
-      "topics": [
-        "World Models"
-      ],
-      "topic_key": "world-models"
-    },
-    {
       "id": "d747339c53a3",
       "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
       "slug": "you-changed-your-mind-the-model-didn-t-demystifying-intent-in-multi-turn-dialogue",
@@ -5308,88 +5161,50 @@
       "topic_key": "llm"
     },
     {
-      "id": "df5dc080a4e8",
-      "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
-      "slug": "mc-sparse-deconstructing-and-closing-the-dense-sparse-attention-gap-in-diffusion-transform",
-      "abstract": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inaccurate interaction selection, and the attention contributions lost when tokens are discarded. Guided by this analysis, we propose Meta-Cached Sparse Attention (MC-Sparse), a training-free framework that selects individual key-value (KV) tokens while organizing similar queries into tile-aligned group",
-      "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Throug",
+      "id": "c1f64b164050",
+      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
+      "slug": "investigating-the-role-of-reasoning-language-alignment-in-monolingual-retrieval-augmented-",
+      "abstract": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the reasoning language matches the language of the prompt -- but only for a setting where the model reasons over a short prompt. Here, we ask whether the same holds for retrieval-augmented generation (RAG), where the model must read and integrate a large amount of retrieved evidence in the target language. To study this, we build a fully monolingual German RAG question-answering testbed over the fictional world of the tabletop role-playing game The Dark Eye, a domain that is richly ",
+      "summary": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the reasoning language matches the language of the prompt -- but on",
       "authors": [
-        "Jiarui Chen",
-        "Zeqiang Lai",
-        "Jiangshan Wang",
-        "Ziheng Ouyang",
-        "Ye Huang",
-        "Xiangyu Yue",
-        "Cewu Lu",
-        "Chunchao Guo"
+        "Oliver Hauck",
+        "Mario Sanz-Guerrero",
+        "Katharina von der Wense"
       ],
-      "author_line": "Jiarui Chen, Zeqiang Lai, Jiangshan Wang, Ziheng Ouyang et al.",
-      "url": "https://huggingface.co/papers/2610.06801",
-      "pdf_url": "https://arxiv.org/pdf/2610.06801.pdf",
-      "category": null,
-      "published_at": "2026-10-04T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "6ebd2e58e6e6",
-      "title": "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
-      "slug": "do-llms-understand-sequential-structure-a-controlled-study-of-inference-and-generation",
-      "abstract": "Large language models (LLMs) are increasingly used as interactive agents and simulators, yet it remains unclear whether they can recover latent sequential structure beyond surface action frequencies. This distinction is critical for behavioral simulation, where actions are often shaped by prior context rather than marginal frequencies alone. We study this question using controlled two-player Rock--Paper--Scissors interactions and a one-player stochastic n-gram continuation task. Across these experiments, we test whether LLMs can identify latent strategies, follow simple Markov rules, and sustain higher-order conditional dependencies. Our framework separates distribution matching from conditi",
-      "summary": "Large language models (LLMs) are increasingly used as interactive agents and simulators, yet it remains unclear whether they can recover latent sequential structure beyond surface action frequencies. This distinction is critical for behavioral simulation, where actions are often ",
-      "authors": [
-        "Jerry Wang",
-        "Zhengxiang Wang",
-        "Ting Yu Liu",
-        "Hsin-Ling Hsu",
-        "Yi-Cheng Lai",
-        "Tengfei Ma"
-      ],
-      "author_line": "Jerry Wang, Zhengxiang Wang, Ting Yu Liu, Hsin-Ling Hsu et al.",
-      "url": "https://huggingface.co/papers/2610.04977",
-      "pdf_url": "https://arxiv.org/pdf/2610.04977.pdf",
-      "category": null,
-      "published_at": "2026-10-03T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "fd0b380a4381",
-      "title": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
-      "slug": "post-training-frontier-text-to-image-models-by-composing-preference-and-rubric-rewards",
-      "abstract": "Recent text-to-image generation models have achieved remarkable visual quality, but improving them through post-training remains challenging because no single reward signal captures the full range of human preference. In this work, we develop a simple and effective post-training recipe for open-domain text-to-image generation based on the composition of complementary reward signals. Our reward system consists of two main components: a preference reward, trained on large-scale human preference data using a Bradley-Terry objective to capture overall human aesthetic and perceptual preferences, and rubric-based rewards, which explicitly evaluate prompt faithfulness and other desirable properties",
-      "summary": "Recent text-to-image generation models have achieved remarkable visual quality, but improving them through post-training remains challenging because no single reward signal captures the full range of human preference. In this work, we develop a simple and effective post-training ",
-      "authors": [
-        "Yuanhao Ban",
-        "I-Hung Hsu",
-        "Anastasios Angelopoulos",
-        "Wei-Lin Chiang",
-        "Ion Stoica",
-        "Cho-Jui Hsieh"
-      ],
-      "author_line": "Yuanhao Ban, I-Hung Hsu, Anastasios Angelopoulos, Wei-Lin Chiang et al.",
-      "url": "https://huggingface.co/papers/2610.02967",
-      "pdf_url": "https://arxiv.org/pdf/2610.02967.pdf",
+      "author_line": "Oliver Hauck, Mario Sanz-Guerrero, Katharina von der Wense",
+      "url": "https://huggingface.co/papers/2610.03136",
+      "pdf_url": "https://arxiv.org/pdf/2610.03136.pdf",
       "category": null,
       "published_at": "2026-10-01T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "Reinforcement Learning",
+      "topic": "Agents",
       "topics": [
-        "Reinforcement Learning",
+        "Agents"
+      ],
+      "topic_key": "agents"
+    },
+    {
+      "id": "5be91ffa5535",
+      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+      "slug": "behavioral-persistence-and-incomplete-functional-transfer-of-co-evolved-communication-in-e",
+      "abstract": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seeking task with social signaling. The sensory and motor translation layer required three corrections for stable physical operation, including the calibration of a hunger term based on a measurable asymmetry in the trained residual weights. Even with these corrections, the transfer was partial and asymmetric: one agent reached the food source in one of thirty tested seeds, while the other did not reach it in any. Task succ",
+      "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seeking",
+      "authors": [
+        "Fernando Montes-Gonzalez"
+      ],
+      "author_line": "Fernando Montes-Gonzalez",
+      "url": "https://huggingface.co/papers/2609.38527",
+      "pdf_url": "https://arxiv.org/pdf/2609.38527.pdf",
+      "category": null,
+      "published_at": "2026-09-28T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
         "AI"
       ],
-      "topic_key": "reinforcement-learning"
+      "topic_key": "ai"
     },
     {
       "id": "7944884b0b45",
@@ -5426,28 +5241,31 @@
       "topic_key": "reinforcement-learning"
     },
     {
-      "id": "cc9e2d07e5af",
-      "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
-      "slug": "respo-reshaped-sequence-policy-optimization-for-gradient-starvation-in-off-policy-learning",
-      "abstract": "Reinforcement learning from verifiable rewards (RLVR) frequently reuses rollouts across multiple policy updates, increasing the mismatch between the current policy and the data-generating policy. We identify a sign-dependent gradient starvation problem in clipped policy optimization: clipping suppresses under-generated positive responses at the low-importance-weight tail while permitting severely over-generated negative responses to dominate the high-weight tail. To address this, we propose ReSPO (Reshaped Sequence Policy Optimization), which replaces clipping with a smooth, two-branch sequence-level kernel derived from an α-divergence variational objective and an exponential variance-contro",
-      "summary": "Reinforcement learning from verifiable rewards (RLVR) frequently reuses rollouts across multiple policy updates, increasing the mismatch between the current policy and the data-generating policy. We identify a sign-dependent gradient starvation problem in clipped policy optimizat",
+      "id": "4115b64402b4",
+      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
+      "slug": "mara-chain-rethinking-failure-as-a-stepping-stone-for-ai-system-auto-evolution",
+      "abstract": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedures, where candidate configurations are evaluated and only those meeting an acceptance criterion are selected. Yet our analysis shows that discarded candidates often contain information critical for subsequent optimization. Discarding them causes later proposals to revisit the same failure modes. We introduce Mara Chain, a refinement procedure that turns rejected candidates into stepping stones. Rather than discarding a rejected candidate, Mara Chain retains and iteratively r",
+      "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedures, where candidate configurations are evaluated and only t",
       "authors": [
-        "Yihang Chen",
-        "Yuanhao Ban",
-        "Cho-Jui Hsieh"
+        "Yubin Lyu",
+        "Fu Li",
+        "Jiawei Fei",
+        "Yang Zhao",
+        "Weixing Mei",
+        "Yinan Wu"
       ],
-      "author_line": "Yihang Chen, Yuanhao Ban, Cho-Jui Hsieh",
-      "url": "https://huggingface.co/papers/2609.35433",
-      "pdf_url": "https://arxiv.org/pdf/2609.35433.pdf",
+      "author_line": "Yubin Lyu, Fu Li, Jiawei Fei, Yang Zhao et al.",
+      "url": "https://huggingface.co/papers/2609.35855",
+      "pdf_url": "https://arxiv.org/pdf/2609.35855.pdf",
       "category": null,
-      "published_at": "2026-09-27T20:00:00.000Z",
+      "published_at": "2026-09-24T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "Reinforcement Learning",
+      "topic": "AI",
       "topics": [
-        "Reinforcement Learning"
+        "AI"
       ],
-      "topic_key": "reinforcement-learning"
+      "topic_key": "ai"
     },
     {
       "id": "0124e2891ba8",
@@ -5476,6 +5294,34 @@
         "Multimodal"
       ],
       "topic_key": "multimodal"
+    },
+    {
+      "id": "75f1b2c60ba6",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "slug": "synthesis-through-simulation-generating-coherent-enterprise-data-via-scalable-agent-system",
+      "abstract": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS), a **schema--free** data synthesis paradigm in which an LLM agent generates data by executing operations against policy-enforcing APIs within simul",
+      "summary": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its ",
+      "authors": [
+        "Yipeng Li",
+        "Ashutosh Hathidara",
+        "Jane Lo",
+        "Harshavardhan Abichandani",
+        "Gunraj Singh",
+        "Atin Ghosh"
+      ],
+      "author_line": "Yipeng Li, Ashutosh Hathidara, Jane Lo, Harshavardhan Abichandani et al.",
+      "url": "https://huggingface.co/papers/2610.10549",
+      "pdf_url": "https://arxiv.org/pdf/2610.10549.pdf",
+      "category": null,
+      "published_at": "2026-09-23T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "topic_key": "llm"
     }
   ]
 }
