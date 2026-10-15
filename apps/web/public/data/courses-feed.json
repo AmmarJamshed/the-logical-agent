@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T13:34:02.713Z",
-  "total": 51,
+  "generated_at": "2026-10-15T10:52:36.005Z",
+  "total": 52,
   "sources": {
     "curated_popular": 15,
-    "coursera_new": 32,
+    "coursera_new": 33,
     "edx": 0,
     "newsapi": 5
   },
@@ -23,7 +23,7 @@
   ],
   "topic_counts": {
     "LLM": 10,
-    "AI": 43,
+    "AI": 44,
     "World Models": 0,
     "Agents": 5,
     "Multimodal": 0,
@@ -32,7 +32,7 @@
     "Reinforcement Learning": 1,
     "Robotics": 0,
     "Quantum": 0,
-    "Cybersecurity": 6,
+    "Cybersecurity": 7,
     "Machine Learning": 6
   },
   "popular": [
@@ -457,6 +457,62 @@
   ],
   "newly_launched": [
     {
+      "id": "0b395d01341d",
+      "name": "Excel Efficiency: Automation, Security, and AI Tools",
+      "slug": "wiley-excel-efficiency-automation-security-and-ai-tools",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "cybersecurity"
+      ],
+      "topics": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "topic": "Cybersecurity",
+      "ai_summary": "Enhance your Excel productivity by learning automation, security best practices, and the latest AI-powered features. Streamline workflows, protect your data, and leverage cutting-edge tools for maximum efficiency. This course focuses on optimizing your Excel experience through co",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/wiley-excel-efficiency-automation-security-and-ai-tools",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/29/b452b0b6a242899c4be74a2eef9b35/9781807426958_3_square.jpg",
+      "workload": null,
+      "launched_at": "2026-10-13T19:05:47.201Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "d9ad09b3edf8",
+      "name": "Organized Money: Charting a New Course on AI Regulation (With Rep. Pramila Jayapal)",
+      "slug": "organized-money-charting-a-new-course-on-ai-regulation-with-rep-pramila-jayapal",
+      "provider": "The American Prospect",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Why do we need new regulations if we don’t enforce existing law? The post Organized Money: Charting a New Course on AI Regulation (With Rep. Pramila Jayapal) appeared first on The American Prospect.",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://prospect.org/2026/10/13/organized-money-charting-a-new-course-on-ai-regulation-with-rep-pramila-jayapal/",
+      "image_url": "https://i0.wp.com/prospect.org/wp-content/uploads/2026/10/iStock-1191080384.jpg?fit=2121%2C1414&ssl=1",
+      "workload": null,
+      "launched_at": "2026-10-13T16:44:14Z",
+      "source": "The American Prospect"
+    },
+    {
       "id": "c4f42361c5ea",
       "name": "Supporting systems of success",
       "slug": "supporting-systems-of-success",
@@ -805,31 +861,6 @@
       "workload": null,
       "launched_at": "2026-09-17T02:42:35.693Z",
       "source": "Coursera"
-    },
-    {
-      "id": "3b424e1c0b12",
-      "name": "After NCT exit, Mark Lee trades maximalism for stripped-down sound - The Korea Times",
-      "slug": "after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound-the-korea-time",
-      "provider": "코리아타임스",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": false,
-      "technologies": [],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Singer Mark Lee has returned to music, charting a new course after parting ways with K-pop group NCT. Lee debuted in 2016 and spent nearly a decade...",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260914/after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound",
-      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/14/a25aef00-a4c7-4d99-814a-4ad9a28cd44f.jpg",
-      "workload": null,
-      "launched_at": "2026-09-14T07:06:49Z",
-      "source": "코리아타임스"
     },
     {
       "id": "64232be6eba3",
@@ -1882,6 +1913,62 @@
       "source": "Microsoft Learn"
     },
     {
+      "id": "0b395d01341d",
+      "name": "Excel Efficiency: Automation, Security, and AI Tools",
+      "slug": "wiley-excel-efficiency-automation-security-and-ai-tools",
+      "provider": "Coursera",
+      "country_code": "US",
+      "modality": "online",
+      "difficulty": "advanced",
+      "is_free": true,
+      "technologies": [
+        "ai",
+        "cybersecurity"
+      ],
+      "topics": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "topic": "Cybersecurity",
+      "ai_summary": "Enhance your Excel productivity by learning automation, security best practices, and the latest AI-powered features. Streamline workflows, protect your data, and leverage cutting-edge tools for maximum efficiency. This course focuses on optimizing your Excel experience through co",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://www.coursera.org/learn/wiley-excel-efficiency-automation-security-and-ai-tools",
+      "image_url": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/29/b452b0b6a242899c4be74a2eef9b35/9781807426958_3_square.jpg",
+      "workload": null,
+      "launched_at": "2026-10-13T19:05:47.201Z",
+      "source": "Coursera"
+    },
+    {
+      "id": "d9ad09b3edf8",
+      "name": "Organized Money: Charting a New Course on AI Regulation (With Rep. Pramila Jayapal)",
+      "slug": "organized-money-charting-a-new-course-on-ai-regulation-with-rep-pramila-jayapal",
+      "provider": "The American Prospect",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Why do we need new regulations if we don’t enforce existing law? The post Organized Money: Charting a New Course on AI Regulation (With Rep. Pramila Jayapal) appeared first on The American Prospect.",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://prospect.org/2026/10/13/organized-money-charting-a-new-course-on-ai-regulation-with-rep-pramila-jayapal/",
+      "image_url": "https://i0.wp.com/prospect.org/wp-content/uploads/2026/10/iStock-1191080384.jpg?fit=2121%2C1414&ssl=1",
+      "workload": null,
+      "launched_at": "2026-10-13T16:44:14Z",
+      "source": "The American Prospect"
+    },
+    {
       "id": "c4f42361c5ea",
       "name": "Supporting systems of success",
       "slug": "supporting-systems-of-success",
@@ -2230,31 +2317,6 @@
       "workload": null,
       "launched_at": "2026-09-17T02:42:35.693Z",
       "source": "Coursera"
-    },
-    {
-      "id": "3b424e1c0b12",
-      "name": "After NCT exit, Mark Lee trades maximalism for stripped-down sound - The Korea Times",
-      "slug": "after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound-the-korea-time",
-      "provider": "코리아타임스",
-      "country_code": null,
-      "modality": "online",
-      "difficulty": "beginner",
-      "is_free": false,
-      "technologies": [],
-      "topics": [
-        "AI"
-      ],
-      "topic": "AI",
-      "ai_summary": "Singer Mark Lee has returned to music, charting a new course after parting ways with K-pop group NCT. Lee debuted in 2016 and spent nearly a decade...",
-      "is_promoted": false,
-      "category": "newly_launched",
-      "rating": null,
-      "review_count": null,
-      "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260914/after-nct-exit-mark-lee-trades-maximalism-for-stripped-down-sound",
-      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/14/a25aef00-a4c7-4d99-814a-4ad9a28cd44f.jpg",
-      "workload": null,
-      "launched_at": "2026-09-14T07:06:49Z",
-      "source": "코리아타임스"
     },
     {
       "id": "64232be6eba3",
