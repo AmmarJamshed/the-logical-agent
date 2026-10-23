@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T11:10:32.317Z",
-  "total": 52,
+  "generated_at": "2026-10-23T11:01:07.248Z",
+  "total": 53,
   "sources": {
     "curated_popular": 15,
     "coursera_new": 34,
     "edx": 0,
-    "newsapi": 4
+    "newsapi": 5
   },
   "topics": [
     "LLM",
@@ -23,7 +23,7 @@
   ],
   "topic_counts": {
     "LLM": 10,
-    "AI": 44,
+    "AI": 45,
     "World Models": 0,
     "Agents": 5,
     "Multimodal": 0,
@@ -456,6 +456,33 @@
     }
   ],
   "newly_launched": [
+    {
+      "id": "8b33b8d83f6f",
+      "name": "New Course: How to Build a Responsible AI Chatbot Using Open Technologies",
+      "slug": "new-course-how-to-build-a-responsible-ai-chatbot-using-open-technologies",
+      "provider": "Okfn.org",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Take a look at the new hands-on course from School of Data, designed for educators and community practitioners. The course focuses on accuracy, source-grounded information and AI with conversational guardrails. The post New Course: How to Build a Responsible …",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://blog.okfn.org/2026/10/21/new-course-how-to-build-a-responsible-ai-chatbot-using-open-technologies/",
+      "image_url": "https://blog.okfn.org/wp-content/uploads/2026/10/CABot-Scoda-course-thumb.png",
+      "workload": null,
+      "launched_at": "2026-10-21T19:22:27Z",
+      "source": "Okfn.org"
+    },
     {
       "id": "6371a4c0baef",
       "name": "AI Alignment Theory Course: Readings and Rapporteur Reports!",
@@ -1915,6 +1942,33 @@
       "workload": null,
       "launched_at": null,
       "source": "Microsoft Learn"
+    },
+    {
+      "id": "8b33b8d83f6f",
+      "name": "New Course: How to Build a Responsible AI Chatbot Using Open Technologies",
+      "slug": "new-course-how-to-build-a-responsible-ai-chatbot-using-open-technologies",
+      "provider": "Okfn.org",
+      "country_code": null,
+      "modality": "online",
+      "difficulty": "beginner",
+      "is_free": false,
+      "technologies": [
+        "ai"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "topic": "AI",
+      "ai_summary": "Take a look at the new hands-on course from School of Data, designed for educators and community practitioners. The course focuses on accuracy, source-grounded information and AI with conversational guardrails. The post New Course: How to Build a Responsible …",
+      "is_promoted": false,
+      "category": "newly_launched",
+      "rating": null,
+      "review_count": null,
+      "url": "https://blog.okfn.org/2026/10/21/new-course-how-to-build-a-responsible-ai-chatbot-using-open-technologies/",
+      "image_url": "https://blog.okfn.org/wp-content/uploads/2026/10/CABot-Scoda-course-thumb.png",
+      "workload": null,
+      "launched_at": "2026-10-21T19:22:27Z",
+      "source": "Okfn.org"
     },
     {
       "id": "6371a4c0baef",
