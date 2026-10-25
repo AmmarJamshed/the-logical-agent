@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:01:26.414Z",
+  "generated_at": "2026-10-25T10:44:06.017Z",
   "total": 216,
   "sources": {
     "arxiv_llm": 12,
@@ -34,18 +34,18 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 39,
+    "LLM": 43,
     "AI": 105,
-    "World Models": 13,
-    "Agents": 19,
-    "Multimodal": 25,
+    "World Models": 12,
+    "Agents": 22,
+    "Multimodal": 23,
     "Computer Vision": 8,
     "NLP": 16,
-    "Reinforcement Learning": 20,
+    "Reinforcement Learning": 19,
     "Robotics": 26,
     "Quantum": 13,
     "Cybersecurity": 15,
-    "Machine Learning": 13
+    "Machine Learning": 12
   },
   "papers": [
     {
@@ -2173,55 +2173,71 @@
       "topic_key": "ai"
     },
     {
-      "id": "4f6abde3eae7",
-      "title": "Multi Eye disease Detection in fundus images: A Structured Review",
-      "slug": "multi-eye-disease-detection-in-fundus-images-a-structured-review",
-      "abstract": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular edema (DME), retinal vessel tortuosity, age-related macular degeneration (ARMD/AMD), macular fibrosis, and fundus neoplasms. We examine preprocessing pipelines, model architectures (CNNs, transformers, hybrids), datasets, evaluation metrics, and clinical performance, drawing on recent systematic reviews, multi-disease benchmarks, and regulator-approved system audits. Findings indicate high accuracy for DR and AMD cl",
-      "summary": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular",
+      "id": "53539fb89810",
+      "title": "Genomic and immune profiling characterizes immune heterogeneity and a TIGIT-associated subtype in intrahepatic cholangiocarcinoma.",
+      "slug": "genomic-and-immune-profiling-characterizes-immune-heterogeneity-and-a-tigit-associated-sub",
+      "abstract": "BACKGROUND: Intrahepatic cholangiocarcinoma (iCCA) is characterized by marked molecular and microenvironmental heterogeneity and moderate response to immunotherapy. We aimed to define the genomic and spatial determinants of immune checkpoint activity in iCCA and their association with clinical outcome. METHODS: We performed integrated transcriptomic, DNA panel sequencing, and multiplex immunohistochemistry analyses in a cohort of 144 patients with iCCA. Tumors were classified according to STIM-defined microenvironmental subtypes. Spatially resolved immune profiling was conducted across the tumor core, stroma, invasive margin, and adjacent liver. Immune checkpoint expression, cellular proximi",
+      "summary": "BACKGROUND: Intrahepatic cholangiocarcinoma (iCCA) is characterized by marked molecular and microenvironmental heterogeneity and moderate response to immunotherapy. We aimed to define the genomic and spatial determinants of immune checkpoint activity in iCCA and their association",
       "authors": [
-        "Sheetal Maruti Chougule"
+        "Anastasiia Korosteleva",
+        "Josephine Sophie Reschke",
+        "Dawei Yi",
+        "Silke Marhenke",
+        "Jinbo Zhao",
+        "Valery Volk",
+        "Tanja Reineke‐Plaaß",
+        "Simon Peters",
+        "Charlotte Hoffmann",
+        "Doan Duy Hai Tran",
+        "Christoph Gerdes",
+        "Melanie Bathon",
+        "Walter Kölch",
+        "Friedrich Feuerhake",
+        "Vadim Zhernovkov",
+        "Anna Lena Saborowski",
+        "Arndt Vogel"
       ],
-      "author_line": "Sheetal Maruti Chougule",
-      "url": "https://doi.org/10.5281/zenodo.22952639",
-      "pdf_url": "https://doi.org/10.5281/zenodo.22952639",
-      "category": "Retinal Imaging and Analysis",
-      "published_at": "2026-10-31T00:00:00.000Z",
+      "author_line": "Anastasiia Korosteleva, Josephine Sophie Reschke, Dawei Yi, Silke Marhenke et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900155",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13682834/pdf/hc9-10-e1052.pdf",
+      "category": "Cholangiocarcinoma and Gallbladder Cancer Studies",
+      "published_at": "2026-11-01T00:00:00.000Z",
       "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal",
-        "Machine Learning"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "6663e5b5a732",
-      "title": "Physical multiple long-term conditions and difficult-to-treat depression in late-life: an electronic health records study",
-      "slug": "physical-multiple-long-term-conditions-and-difficult-to-treat-depression-in-late-life-an-e",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Beatriz Pozuelo Moyano",
-        "Vasiliki Orgeta",
-        "Armin von Gunten",
-        "Pierre Vandel",
-        "Ruimin Ma",
-        "Robert Stewart",
-        "Christoph Mueller"
-      ],
-      "author_line": "Beatriz Pozuelo Moyano, Vasiliki Orgeta, Armin von Gunten, Pierre Vandel et al.",
-      "url": "https://discovery.ucl.ac.uk/id/eprint/10232048/",
-      "pdf_url": "https://discovery.ucl.ac.uk/id/eprint/10232048/3/Orgeta_Manuscript%20File%20Revised%20with%20author%20details%20clean.pdf",
-      "category": "Mental Health Treatment and Access",
-      "published_at": "2026-10-29T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "UCL Discovery (University College London)",
+      "venue": "PubMed",
       "topic": "AI",
       "topics": [
         "AI"
       ],
       "topic_key": "ai"
+    },
+    {
+      "id": "6e53ebf3a59a",
+      "title": "Framework for a large-scale hydraulic dispatching model for the Eastern and Middle Routes of the South-to-North Water Diversion Project",
+      "slug": "framework-for-a-large-scale-hydraulic-dispatching-model-for-the-eastern-and-middle-routes-",
+      "abstract": "Against the backdrop of the ongoing development of the national water network and advances in artificial intelligence，there is an urgent need for large-scale hydraulic dispatching models to support digital empowerment. This need arises from the complexity of the Eastern and Middle Routes of the South-to-North Water Diversion Project (SNWDP)，which features numerous sluice-pump facilities，densely distributed hydraulic dispatching nodes，strong coupling among real-time dispatching operations，massive data volumes，and diverse operational scenarios. To address technical challenges such as multi-source data integration，domain knowledge adaptation，and dynamic decision-making support，this study develo",
+      "summary": "Against the backdrop of the ongoing development of the national water network and advances in artificial intelligence，there is an urgent need for large-scale hydraulic dispatching models to support digital empowerment. This need arises from the complexity of the Eastern and Middl",
+      "authors": [
+        "Wei HE",
+        "Chenhao WEI",
+        "Shiqiang GAO",
+        "Haiyang WANG",
+        "Feng YE",
+        "任学良",
+        "Hongwu TANG"
+      ],
+      "author_line": "Wei HE, Chenhao WEI, Shiqiang GAO, Haiyang WANG et al.",
+      "url": "https://doaj.org/article/7a50c2bf0b134201ad16183ee7c051f2",
+      "pdf_url": null,
+      "category": "Water resources management and optimization",
+      "published_at": "2026-11-01T00:00:00.000Z",
+      "source": "OpenAlex",
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "topic": "Multimodal",
+      "topics": [
+        "Multimodal",
+        "AI"
+      ],
+      "topic_key": "multimodal"
     },
     {
       "id": "30ae2f11a0ca",
@@ -4539,34 +4555,6 @@
       "topic_key": "reinforcement-learning"
     },
     {
-      "id": "6938665dac82",
-      "title": "Rethinking Sequence Compression with Test-time Regression",
-      "slug": "rethinking-sequence-compression-with-test-time-regression",
-      "abstract": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficients are computed efficiently in closed form during the forward pass. This leads to TTR-Compressor, a general alternative to conventional pooling and projection-based compression. We evaluate TTR-Compr",
-      "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of tes",
-      "authors": [
-        "Sihan Yang",
-        "Jie Huang",
-        "Hanxuan Li",
-        "Yifan Guo",
-        "Weigao Sun",
-        "Yiran Zhong",
-        "Weiyang Liu"
-      ],
-      "author_line": "Sihan Yang, Jie Huang, Hanxuan Li, Yifan Guo et al.",
-      "url": "https://huggingface.co/papers/2610.31574",
-      "pdf_url": "https://arxiv.org/pdf/2610.31574.pdf",
-      "category": null,
-      "published_at": "2026-10-22T13:14:38.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
       "id": "ee15959ea86a",
       "title": "Evolving Federated Density Peak Clustering with Shuffler-Based Anonymization",
       "slug": "evolving-federated-density-peak-clustering-with-shuffler-based-anonymization",
@@ -4943,37 +4931,6 @@
       "topic_key": "world-models"
     },
     {
-      "id": "5d854b6dcbd3",
-      "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
-      "slug": "inherited-not-invented-tracing-the-provenance-of-wait-in-reasoning-models",
-      "abstract": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a model inherits from its training data. We trace the word through open models' training histories, reading it with label-free indices of frequency, position, form and usage and an injected-error test, all computed from sampled outputs. We find that zero-RL almost never coins the marker: on bases that lack the word, RL raises MATH-500 accuracy substantially while {wait} stays near absent. It arrives with training data: mid-training in OLMo-3, and fine-tuning on reasoning trace",
-      "summary": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a model inherits from its training data. We trace the word th",
-      "authors": [
-        "Zhizhuo Kou",
-        "Sizai Hou",
-        "Long Chen",
-        "Jian Yang",
-        "Junyu Luo",
-        "Jingshu Peng",
-        "Wenkai Zhang",
-        "Sirui Han",
-        "Yike Guo"
-      ],
-      "author_line": "Zhizhuo Kou, Sizai Hou, Long Chen, Jian Yang et al.",
-      "url": "https://huggingface.co/papers/2610.30882",
-      "pdf_url": "https://arxiv.org/pdf/2610.30882.pdf",
-      "category": null,
-      "published_at": "2026-10-22T04:03:07.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Reinforcement Learning"
-      ],
-      "topic_key": "llm"
-    },
-    {
       "id": "e89deddcb855",
       "title": "Anticipating Social Consequences with Distributional World Models",
       "slug": "anticipating-social-consequences-with-distributional-world-models",
@@ -4999,6 +4956,123 @@
         "AI"
       ],
       "topic_key": "world-models"
+    },
+    {
+      "id": "bdfb5118d474",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "slug": "different-tasks-different-timesteps-temporal-task-aware-quantization-for-diffusion-languag",
+      "abstract": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics. Building on these findings, we introduce T 2Quant, a task and time-aware mixedprecision quantization framework that uses a label-free sensitivity signal to optimally allocate activation precision across denoising steps under a fixed bit-width budget. Extensive experiments across th",
+      "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements acr",
+      "authors": [
+        "Ofek Avivi",
+        "Eliron Rahimi",
+        "Avi Mendelson",
+        "Chaim Baskin"
+      ],
+      "author_line": "Ofek Avivi, Eliron Rahimi, Avi Mendelson, Chaim Baskin",
+      "url": "https://huggingface.co/papers/2610.31198",
+      "pdf_url": "https://arxiv.org/pdf/2610.31198.pdf",
+      "category": null,
+      "published_at": "2026-10-21T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "87d444c904da",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "slug": "brickwright-agentic-creation-of-physically-feasible-brick-builds",
+      "abstract": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds, we present BrickWright, a framework for generating physically feasible brick builds from text or image prompts using pre-trained agents, where a build is physically feasible if it uses only real part",
+      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing age",
+      "authors": [
+        "Ava Pun",
+        "Kevin Dai",
+        "Sally Chen",
+        "Maxwell Jones",
+        "Ruixuan Liu",
+        "Kangle Deng",
+        "Changliu Liu",
+        "Maneesh Agrawala",
+        "Deva Ramanan",
+        "Jun-Yan Zhu"
+      ],
+      "author_line": "Ava Pun, Kevin Dai, Sally Chen, Maxwell Jones et al.",
+      "url": "https://huggingface.co/papers/2610.31651",
+      "pdf_url": "https://arxiv.org/pdf/2610.31651.pdf",
+      "category": null,
+      "published_at": "2026-10-21T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM",
+        "Agents"
+      ],
+      "topic_key": "llm"
+    },
+    {
+      "id": "aecced6260f8",
+      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+      "slug": "filmflow-agentic-system-for-3d-virtual-film-cinematography",
+      "abstract": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly control translation, rotation, and framing. The Director is supported by three specialized agents: an Interpreter that extracts scene-grounded cinematographic intent, a Scout that selects initial vie",
+      "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into ",
+      "authors": [
+        "Yiming Zhang",
+        "Jiarui Guo",
+        "Haojia Wei",
+        "Yifei Liu",
+        "Yifan Yang",
+        "Hongjie Zhang",
+        "Xue Yang",
+        "Zhihang Zhong"
+      ],
+      "author_line": "Yiming Zhang, Jiarui Guo, Haojia Wei, Yifei Liu et al.",
+      "url": "https://huggingface.co/papers/2610.30753",
+      "pdf_url": "https://arxiv.org/pdf/2610.30753.pdf",
+      "category": null,
+      "published_at": "2026-10-21T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Agents",
+      "topics": [
+        "Agents"
+      ],
+      "topic_key": "agents"
+    },
+    {
+      "id": "61b0c2527167",
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+      "slug": "ridar-safeguarding-research-integrity-in-autonomous-research-agents-via-automated-detectio",
+      "abstract": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framework to detect RIVs within agent trajectories. RIDAR-post-hoc achieves 85.2% F1 performance on RIV-Gold, a benchmark for RIV detection with 60 expert-annotated trajectories. Applying RIDAR-post-hoc to ",
+      "summary": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a fr",
+      "authors": [
+        "Jiening Siow",
+        "Amy Xin",
+        "Junjie Wang",
+        "Ziyu Tang",
+        "Zijun Yao",
+        "Yunjia Qi",
+        "Fanjin Zhang",
+        "Lei Hou",
+        "Jie Tang",
+        "Juanzi Li"
+      ],
+      "author_line": "Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang et al.",
+      "url": "https://huggingface.co/papers/2610.31372",
+      "pdf_url": "https://arxiv.org/pdf/2610.31372.pdf",
+      "category": null,
+      "published_at": "2026-10-21T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
     },
     {
       "id": "670087a731e9",
@@ -5309,199 +5383,58 @@
       "topic_key": "ai"
     },
     {
-      "id": "f6e035611089",
-      "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
-      "slug": "verus-insight-towards-explainable-artifact-detection-in-ai-generated-videos",
-      "abstract": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to recognize subtle artifacts or reach the correct source decision without faithfully identifying the evidence underlying it. In this work, we systematically investigate how to design and train effective artifact detectors and formulate artifact detection as a structured process comprising three complementary capabilities: Inspection Planning, which determines what should be examined; Evidence Verification, wh",
-      "summary": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may eithe",
+      "id": "117a5fd135c8",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "slug": "tarsphere-a-robot-oriented-full-stack-framework-for-long-horizon-embodied-agents-in-evolvi",
+      "abstract": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack framework for physically and socially grounded long-horizon embodied agents. TARSphere-Infra runs robot policies in a physics simulator with embodied NPCs and constrained dialogue. An event-driven finite-state machine (FSM) uses completed actions and delivered information to update task states and evaluate outcomes. TARSphere-Harness, its embodied brain harness, lets a frozen m",
+      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce",
       "authors": [
-        "Zhuoran Zhang",
-        "Yang Shi",
-        "Qixun Wang",
-        "Tengfei Liu",
-        "Yuqi Tang",
-        "Xuanyu Zhu",
-        "Yizhuo Jia",
-        "Jingyun Hua",
-        "Shixuan Liu",
-        "Xianghua Ying",
-        "Haotian Wang",
-        "Yuanxing Zhang",
-        "Pengfei Wan",
-        "Wenjing Yang"
+        "Yicheng Xu",
+        "Zhikai Xu",
+        "Ziyuan Chen",
+        "Yuhang Dong",
+        "Tao Zhang",
+        "Zhucun Xue",
+        "Yong Liu",
+        "Jiangning Zhang"
       ],
-      "author_line": "Zhuoran Zhang, Yang Shi, Qixun Wang, Tengfei Liu et al.",
-      "url": "https://huggingface.co/papers/2610.30866",
-      "pdf_url": "https://arxiv.org/pdf/2610.30866.pdf",
+      "author_line": "Yicheng Xu, Zhikai Xu, Ziyuan Chen, Yuhang Dong et al.",
+      "url": "https://huggingface.co/papers/2610.30043",
+      "pdf_url": "https://arxiv.org/pdf/2610.30043.pdf",
       "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
+      "published_at": "2026-10-20T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "AI",
+      "topic": "LLM",
       "topics": [
-        "AI"
+        "LLM",
+        "Multimodal",
+        "Robotics"
       ],
-      "topic_key": "ai"
+      "topic_key": "llm"
     },
     {
-      "id": "1a6e1357b2d9",
-      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
-      "slug": "cola2-co-adaptive-hierarchical-language-modeling-with-continuous-semantic-compression-and-",
-      "abstract": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamically segments text into semantic spans, controls the compression rate through auxiliary-loss-free negative feedback, and combines reconstruction and generation supervision to learn compact, predictive latent representations. A block-causal masked diffusion decoder is trained with clean, noisy, and drop",
-      "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic",
+      "id": "50c3a50a5ed3",
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "slug": "agent-mosaic-recognizing-confidentiality-leaks-in-agentic-llm-systems",
+      "abstract": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign queries designed to be answerable from one document, GPT-5.6-Sol, the best performing model tested, discloses forbidden composites in 7.08% of answers (95% CI: 3.75-10.67%) in simulation, with worse disclosure rates in live har",
+      "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity,",
       "authors": [
-        "Hongcan Guo",
-        "Yian Zhao",
-        "Feng Wang",
-        "Shen Nie",
-        "Guoqiang Wei",
-        "Yan Zeng",
-        "Hengshuang Zhao"
+        "Daniel Ruiz",
+        "Luca Luceri",
+        "Emilio Ferrara"
       ],
-      "author_line": "Hongcan Guo, Yian Zhao, Feng Wang, Shen Nie et al.",
-      "url": "https://huggingface.co/papers/2610.31305",
-      "pdf_url": "https://arxiv.org/pdf/2610.31305.pdf",
+      "author_line": "Daniel Ruiz, Luca Luceri, Emilio Ferrara",
+      "url": "https://huggingface.co/papers/2610.30418",
+      "pdf_url": "https://arxiv.org/pdf/2610.30418.pdf",
       "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "76b2861c90f4",
-      "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
-      "slug": "agentvqa-a-unified-benchmark-for-agentic-visual-understanding",
-      "abstract": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are costly and challenging to scale. Complementary offline VQA benchmarks can enable faster and more reliable comparisons across agentic domains, yet existing benchmarks remain limited and fragmented. To address this gap, we introduce AgentVQA, an offline benchmark for evaluating VLMs on realistic agentic scenarios across five agent domains: Web Agents, Robotics, Egocentric Videos, Games, and Spatial Pla",
-      "summary": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent perfo",
-      "authors": [
-        "Advait Gupta",
-        "Sachin Konan",
-        "Tom Yin",
-        "Gabriel Sarch",
-        "Zhuang Liu"
-      ],
-      "author_line": "Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch et al.",
-      "url": "https://huggingface.co/papers/2610.31494",
-      "pdf_url": "https://arxiv.org/pdf/2610.31494.pdf",
-      "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Agents",
-      "topics": [
-        "Agents",
-        "Multimodal"
-      ],
-      "topic_key": "agents"
-    },
-    {
-      "id": "a67d29fdc3a3",
-      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
-      "slug": "is-complex-agentic-memory-always-needed-naive-rag-is-stronger-than-we-thought",
-      "abstract": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and MemoryAgentBench, Raw-RAG ranks first among the compared memory systems in six of seven benchmark-model settings, outperforming the strongest compared agentic memory system by 0.13-5.53 points. We investigate why raw-history retrieval remains competitive. Evidence analysis shows that its higher coverag",
-      "summary": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dens",
-      "authors": [
-        "Zhengye Bao",
-        "Shengtao Zhang",
-        "Haokai Zhang",
-        "Shiqi Lou",
-        "Muning Wen",
-        "Minnan Luo"
-      ],
-      "author_line": "Zhengye Bao, Shengtao Zhang, Haokai Zhang, Shiqi Lou et al.",
-      "url": "https://huggingface.co/papers/2610.30755",
-      "pdf_url": "https://arxiv.org/pdf/2610.30755.pdf",
-      "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
+      "published_at": "2026-10-20T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
       "topic": "LLM",
       "topics": [
         "LLM",
         "Agents"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "325a8133816d",
-      "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
-      "slug": "skeleton-grounded-latent-action-model-for-robot-world-models",
-      "abstract": "Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their correspondence with robot controls. We propose SkeLAM, a skeleton-guided latent action model for controllable robot world modeling. SkeLAM decomposes latent actions into a kinematic component grounded by robot skeleton supervision and a residual component retaining complementary visual dynamics. Cross-modal swap reconstruction encourages RGB-derived and skeleton-derived kinematic",
-      "summary": "Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and ot",
-      "authors": [
-        "Qi Lv",
-        "Jiayi Lin",
-        "Yuxin Jiang",
-        "Jianzong Wang",
-        "Xiang Deng",
-        "Mike Shou Zheng"
-      ],
-      "author_line": "Qi Lv, Jiayi Lin, Yuxin Jiang, Jianzong Wang et al.",
-      "url": "https://huggingface.co/papers/2610.31474",
-      "pdf_url": "https://arxiv.org/pdf/2610.31474.pdf",
-      "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "World Models",
-      "topics": [
-        "World Models",
-        "Robotics"
-      ],
-      "topic_key": "world-models"
-    },
-    {
-      "id": "7a1cdc0db14f",
-      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
-      "slug": "beyond-watching-and-searching-benchmarking-agents-for-video-centered-deep-research-reports",
-      "abstract": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has direct practical value because it helps users locate relevant moments, verify claims, reproduce demonstrated procedures, and make informed decisions from video content. We present a skill-based workflow and OmniDR-Bench for this task. For evaluation, we propose Omni Atomic Rubric Trees (Omni-ARTs).",
-      "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, re",
-      "authors": [
-        "Jiahao Meng",
-        "Qize Yang",
-        "Yuxuan Wang",
-        "Yunfei Chu",
-        "Wensi Dai",
-        "Jin Xu",
-        "Yunhai Tong"
-      ],
-      "author_line": "Jiahao Meng, Qize Yang, Yuxuan Wang, Yunfei Chu et al.",
-      "url": "https://huggingface.co/papers/2610.31158",
-      "pdf_url": "https://arxiv.org/pdf/2610.31158.pdf",
-      "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "Multimodal",
-      "topics": [
-        "Multimodal"
-      ],
-      "topic_key": "multimodal"
-    },
-    {
-      "id": "63330b1d67b4",
-      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
-      "slug": "scope-compiling-natural-language-policies-into-neurosymbolic-predicate-programs",
-      "abstract": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisions composed under explicit logic. However, existing symbolic layers lack the required expressiveness and are optimized against fixed data rather than the policy itself. To address this, we introduce ",
-      "summary": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM",
-      "authors": [
-        "Arnon Mazza",
-        "Elad Levi"
-      ],
-      "author_line": "Arnon Mazza, Elad Levi",
-      "url": "https://huggingface.co/papers/2610.31062",
-      "pdf_url": "https://arxiv.org/pdf/2610.31062.pdf",
-      "category": null,
-      "published_at": "2026-10-21T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "LLM",
-      "topics": [
-        "LLM"
       ],
       "topic_key": "llm"
     },
@@ -5590,6 +5523,29 @@
       "topic_key": "robotics"
     },
     {
+      "id": "c0e72723d906",
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "slug": "hyperdrone-simulation-to-reality-transfer-at-millions-of-frames-per-second",
+      "abstract": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-tracing engine that supports Nvidia OptiX, Vulkan, Apple Metal and WebGPU backends that takes full advantage of modern ray-tracing hardware, capable of running both components entirely on the GPU. HyperLux renders RGB, depth, semantic/instance segmentation, surface normals and optical flow observations at configurable levels of fidelity, including reflections, realistic lighting, motion blur, anti-aliasing, and Physically",
+      "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-traci",
+      "authors": [
+        "Jonas Eschmann",
+        "Giuseppe Loianno"
+      ],
+      "author_line": "Jonas Eschmann, Giuseppe Loianno",
+      "url": "https://huggingface.co/papers/2610.28950",
+      "pdf_url": "https://arxiv.org/pdf/2610.28950.pdf",
+      "category": null,
+      "published_at": "2026-10-19T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "2e72add0ad93",
       "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
       "slug": "rlsplat-resource-linear-budget-control-for-feed-forward-3d-gaussian-splatting",
@@ -5617,21 +5573,23 @@
       "topic_key": "ai"
     },
     {
-      "id": "9ac38b1b49fd",
-      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
-      "slug": "policy-mask-budget-aware-adaptation-of-diffusion-features-to-discriminative-tasks",
-      "abstract": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the timestep, then reuse the same rule across inputs and budgets. We introduce Policy-Mask, a budget-conditioned policy trained on the downstream objective that jointly selects all three under a prescribed channel budget. Without normalization, the channel-score contribution grows with the number of sel",
-      "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subs",
+      "id": "e7aeaed04bee",
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "slug": "diffusion-language-models-change-speed-across-tasks-and-languages",
+      "abstract": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGemma, generating a token for story writing requires more than three times as many forward passes as for grammar correction. Two output properties explain much of this gap: how much of it is new relative",
+      "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two d",
       "authors": [
-        "Ivan Listopadov",
-        "Maksim Nakhodnov",
-        "Aibek Alanov"
+        "Mohsen Fayyaz",
+        "Ali Modarressi",
+        "Daniel Israel",
+        "Lucas Bandarkar",
+        "Nanyun Peng"
       ],
-      "author_line": "Ivan Listopadov, Maksim Nakhodnov, Aibek Alanov",
-      "url": "https://huggingface.co/papers/2610.28889",
-      "pdf_url": "https://arxiv.org/pdf/2610.28889.pdf",
+      "author_line": "Mohsen Fayyaz, Ali Modarressi, Daniel Israel, Lucas Bandarkar et al.",
+      "url": "https://huggingface.co/papers/2610.25835",
+      "pdf_url": "https://arxiv.org/pdf/2610.25835.pdf",
       "category": null,
-      "published_at": "2026-10-19T20:00:00.000Z",
+      "published_at": "2026-10-19T01:47:58.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
       "topic": "AI",
@@ -5639,6 +5597,33 @@
         "AI"
       ],
       "topic_key": "ai"
+    },
+    {
+      "id": "7c661044cfb8",
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "slug": "who-takes-the-lead-model-ability-and-task-conditioned-collaboration-with-humans",
+      "abstract": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone cannot tell the two apart. We study this systematically by placing an agent and a person under a shared objective while varying who holds the advantage: the human has a clear advantage, neither does, or the agent does. To obtain this control, we introduce a shared-control maze, in which an agent-controlled and a human-controlled avatar share the objective of reaching a common target in as few team turns as possible. ",
+      "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone ",
+      "authors": [
+        "Weien Li",
+        "Haochen Liu",
+        "Zeyu Li",
+        "Rui Song",
+        "Zixuan Dong",
+        "Ye Yuan"
+      ],
+      "author_line": "Weien Li, Haochen Liu, Zeyu Li, Rui Song et al.",
+      "url": "https://huggingface.co/papers/2610.27148",
+      "pdf_url": "https://arxiv.org/pdf/2610.27148.pdf",
+      "category": null,
+      "published_at": "2026-10-18T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM"
+      ],
+      "topic_key": "llm"
     },
     {
       "id": "0ab0db880fc5",
@@ -5696,77 +5681,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "7ba946894ec4",
-      "title": "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
-      "slug": "seam-spectral-embedding-alignment-and-merging-for-low-resource-tts",
-      "abstract": "Expanding the vocabulary of conditional text-to-speech (TTS) models typically requires extensive fine-tuning with paired audio, creating a major bottleneck for low-resource and cross-lingual adaptation. To address this, we introduce SEAM, a zero-audio initialization method that constructs embeddings for unseen tokens from known subtokens. Unlike standard pooling strategies that ignore sequential structure, SEAM applies a spectral filter to preserve temporal phonetic order and uses closed-form ridge regression to align the new embeddings with the pretrained conditioning manifold. Across three languages and two TTS architectures, SEAM approaches or matches baseline performance using up to four",
-      "summary": "Expanding the vocabulary of conditional text-to-speech (TTS) models typically requires extensive fine-tuning with paired audio, creating a major bottleneck for low-resource and cross-lingual adaptation. To address this, we introduce SEAM, a zero-audio initialization method that c",
-      "authors": [
-        "Walaa Othman",
-        "Baher Mohammad",
-        "Stamatios Lefkimmiatis",
-        "Ammar Ali"
-      ],
-      "author_line": "Walaa Othman, Baher Mohammad, Stamatios Lefkimmiatis, Ammar Ali",
-      "url": "https://huggingface.co/papers/2610.26252",
-      "pdf_url": "https://arxiv.org/pdf/2610.26252.pdf",
-      "category": null,
-      "published_at": "2026-10-18T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "41a3b9681b7e",
-      "title": "Deep Search in Real-World Web Environments",
-      "slug": "deep-search-in-real-world-web-environments",
-      "abstract": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and integrate relevant evidence during execution. To address this gap, we introduce the OpenDS task, designed to evaluate agents' ability to perform multi-step deep search in the live, open Web. This task requires agents to autonomously explore the real Web, discover and connect rele",
-      "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modali",
-      "authors": [
-        "Xiaomin Yu",
-        "Hongliang Chen",
-        "Zhe Huang",
-        "Shilin Yan",
-        "Shao-Rong Su",
-        "Xuqiao Ma",
-        "Feiyang Wang",
-        "Jiayu Chen",
-        "Jiwei Fang",
-        "Yu Yan",
-        "Yini Huang",
-        "Chen Chen",
-        "Ruoxi Cheng",
-        "Yuzhi He",
-        "Yuhui Zhang",
-        "Xiaoxing Hu",
-        "Chen Liu",
-        "Jianbo Lin",
-        "Yijiang Li",
-        "Xiaobin Hu",
-        "Menglong Li",
-        "Zhuoran Lu",
-        "Weishi Wang",
-        "Zhongqi Yue",
-        "Chengwei Qin"
-      ],
-      "author_line": "Xiaomin Yu, Hongliang Chen, Zhe Huang, Shilin Yan et al.",
-      "url": "https://huggingface.co/papers/2610.30181",
-      "pdf_url": "https://arxiv.org/pdf/2610.30181.pdf",
-      "category": null,
-      "published_at": "2026-10-18T20:00:00.000Z",
-      "source": "Hugging Face",
-      "venue": "Hugging Face Papers",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "ae0099ce1015",
       "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
       "slug": "tilde-teacher-in-the-loop-distillation-from-embodied-foundation-models",
@@ -5795,33 +5709,63 @@
       "topic_key": "robotics"
     },
     {
-      "id": "5bcb348361c4",
-      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
-      "slug": "deep-fusion-memory-a-chunk-level-parametric-memory-for-large-language-models",
-      "abstract": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow fusion. We introduce Deep Fusion Memory (DFM), a parametric memory architecture that reduces this construction workload and incorporates learned memory into intermediate hidden states. A causal memory predictor learns to generate memory from the preceding context, using retrieved chunk",
-      "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online ",
+      "id": "db0f09ee638b",
+      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+      "slug": "bridging-exploration-and-persona-information-directed-dueling-for-test-time-agent-personal",
+      "abstract": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neural dueling-bandit framework for large discrete persona spaces. ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer, and transfers comparison evidence across related queries through similarity-weighted warm starts. The neural model shares statistical strength across queries while preserving query-specific scores, and efficient BT updates score hypothetical challengers. Ac",
+      "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neur",
       "authors": [
-        "Rubin Wei",
-        "Siyuan Sun",
-        "Hao Sun",
-        "Yuliang Liu",
-        "Xiang Shi",
-        "Jiarui Wang",
-        "Junming Zhang",
-        "Zhouhan Lin"
+        "Jie Mao",
+        "Pingchen Lu",
+        "Xiangyi Wang",
+        "Hengquan Huang",
+        "Shuang Qiu",
+        "Min Zhang",
+        "Zhongxiang Dai"
       ],
-      "author_line": "Rubin Wei, Siyuan Sun, Hao Sun, Yuliang Liu et al.",
-      "url": "https://huggingface.co/papers/2610.25100",
-      "pdf_url": "https://arxiv.org/pdf/2610.25100.pdf",
+      "author_line": "Jie Mao, Pingchen Lu, Xiangyi Wang, Hengquan Huang et al.",
+      "url": "https://huggingface.co/papers/2610.24385",
+      "pdf_url": "https://arxiv.org/pdf/2610.24385.pdf",
       "category": null,
-      "published_at": "2026-10-17T20:00:00.000Z",
+      "published_at": "2026-10-16T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
-      "topic": "AI",
+      "topic": "LLM",
       "topics": [
-        "AI"
+        "LLM"
       ],
-      "topic_key": "ai"
+      "topic_key": "llm"
+    },
+    {
+      "id": "b8d7506244d3",
+      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+      "slug": "if-map-influence-function-inspired-agent-prioritization-in-multi-agent-systems",
+      "abstract": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for system-level improvement. For each agent, IF-MAP measures end-to-end loss changes under controlled semantic prompt perturbations, fits a regularized local response model in a low-dimensional prompt-emb",
+      "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's r",
+      "authors": [
+        "Jie Mao",
+        "Pingchen Lu",
+        "Zikun Qu",
+        "Jiahang Sun",
+        "Xiangyi Wang",
+        "Zhiwei Shang",
+        "Zhiyong Wang",
+        "Guojun Xiong",
+        "Zhongxiang Dai"
+      ],
+      "author_line": "Jie Mao, Pingchen Lu, Zikun Qu, Jiahang Sun et al.",
+      "url": "https://huggingface.co/papers/2610.24383",
+      "pdf_url": "https://arxiv.org/pdf/2610.24383.pdf",
+      "category": null,
+      "published_at": "2026-10-16T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM",
+        "Agents"
+      ],
+      "topic_key": "llm"
     },
     {
       "id": "ade12d136b31",
@@ -5853,6 +5797,34 @@
       "topic_key": "robotics"
     },
     {
+      "id": "095540de5a1b",
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "slug": "evalresearchbench-can-ai-agents-build-their-own-feedback-for-recursive-self-improvement",
+      "abstract": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time and API budgets, an agent called the researcher selects or synthesizes tasks, implements graders, and revises them in pilot tests before freezing an executable evaluator for coding, co-work, and reasoni",
+      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask",
+      "authors": [
+        "Yaolun Zhang",
+        "Tianyi Xu",
+        "Yujie Zhao",
+        "Jishen Zhao",
+        "Qingyun Wu",
+        "Huazheng Wang"
+      ],
+      "author_line": "Yaolun Zhang, Tianyi Xu, Yujie Zhao, Jishen Zhao et al.",
+      "url": "https://huggingface.co/papers/2610.04184",
+      "pdf_url": "https://arxiv.org/pdf/2610.04184.pdf",
+      "category": null,
+      "published_at": "2026-10-15T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "Agents",
+      "topics": [
+        "Agents",
+        "AI"
+      ],
+      "topic_key": "agents"
+    },
+    {
       "id": "6655ed8c462d",
       "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
       "slug": "mambaact-efficient-mamba-action-experts-for-flow-matching-vision-language-action-models",
@@ -5877,6 +5849,29 @@
         "Robotics"
       ],
       "topic_key": "multimodal"
+    },
+    {
+      "id": "b8015ff43e89",
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "slug": "the-llm-attacker-a-unified-red-team-framework-for-privacy-evaluation-of-split-and-distribu",
+      "abstract": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attacker, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictions are saved for independent scoring. The scoring rule requires a linked undefended reference before a defence can pass. Reports also identify attacks that remain untested. In a controlled GPT-2 exper",
+      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different d",
+      "authors": [
+        "Georgios Politis",
+        "Evangelos Pappas"
+      ],
+      "author_line": "Georgios Politis, Evangelos Pappas",
+      "url": "https://huggingface.co/papers/2610.22722",
+      "pdf_url": "https://arxiv.org/pdf/2610.22722.pdf",
+      "category": null,
+      "published_at": "2026-10-14T20:00:00.000Z",
+      "source": "Hugging Face",
+      "venue": "Hugging Face Papers",
+      "topic": "LLM",
+      "topics": [
+        "LLM"
+      ],
+      "topic_key": "llm"
     },
     {
       "id": "7099c6281c8a",
@@ -5933,20 +5928,26 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "c15f5c358a0f",
-      "title": "MolLean: A Process-Verifiable Language for Chemical Reasoning",
-      "slug": "mollean-a-process-verifiable-language-for-chemical-reasoning",
-      "abstract": "Chemical chain-of-thought can contain hallucinated structural and property claims. We thereby introduce MolLean, a process-verifiable language that grounds chemical reasoning in an explicit molecular state. A layered Lean-based kernel checks state transitions and assertions over molecular readouts, from primitive graph edits to compound transformations. Meanwhile, a typed witness protocol separates native structural checks from externally supplied measurements. We further introduce MolLean-MCP, a stateful tool interface that exposes these transitions, checks, and readouts during generation: the model receives feedback to decide its next action, and rejected actions leave the state unchanged.",
-      "summary": "Chemical chain-of-thought can contain hallucinated structural and property claims. We thereby introduce MolLean, a process-verifiable language that grounds chemical reasoning in an explicit molecular state. A layered Lean-based kernel checks state transitions and assertions over ",
+      "id": "a76cb6cface5",
+      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+      "slug": "realism-vs-accuracy-event-sequence-forecasting-from-a-generative-modeling-perspective",
+      "abstract": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event sequences as a conditional generative modeling problem. We evaluate forecasts not only for prediction accuracy, but also for distributional realism. To this end, we present a benchmark comprising metrics for both quality aspects, strong statistical baselines, recent models adapted from adjacent fields, and curated real-world datasets. Careful evaluation reveals that no method excels at both accuracy an",
+      "summary": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon foreca",
       "authors": [
-        "Jiatong Li",
-        "Yatao Bian"
+        "Dmitry Osin",
+        "Egor Surkov",
+        "Petr Mokrov",
+        "Igor Udovichenko",
+        "Ivan Karpukhin",
+        "Evgeny Burnaev",
+        "Egor Shvetsov",
+        "Alexander Korotin"
       ],
-      "author_line": "Jiatong Li, Yatao Bian",
-      "url": "https://huggingface.co/papers/2610.20459",
-      "pdf_url": "https://arxiv.org/pdf/2610.20459.pdf",
+      "author_line": "Dmitry Osin, Egor Surkov, Petr Mokrov, Igor Udovichenko et al.",
+      "url": "https://huggingface.co/papers/2610.12586",
+      "pdf_url": "https://arxiv.org/pdf/2610.12586.pdf",
       "category": null,
-      "published_at": "2026-10-13T20:00:00.000Z",
+      "published_at": "2026-10-07T20:00:00.000Z",
       "source": "Hugging Face",
       "venue": "Hugging Face Papers",
       "topic": "AI",
