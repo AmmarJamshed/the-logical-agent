@@ -1,17 +1,354 @@
 {
-  "generated_at": "2026-10-27T11:38:25.137Z",
-  "total": 96,
+  "generated_at": "2026-10-29T12:18:00.020Z",
+  "total": 95,
   "sources": {
     "rss": 50,
-    "newsapi": 49
+    "newsapi": 50
   },
   "counts": {
-    "funding": 30,
-    "acquisition": 1,
-    "ipo": 10,
-    "startup": 55
+    "funding": 39,
+    "acquisition": 2,
+    "ipo": 8,
+    "startup": 46
   },
   "funding": [
+    {
+      "id": "d2ad02243dfe",
+      "name": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+      "slug": "series-b-funding-is-up-but-fewer-deals-are-getting-done",
+      "summary": "Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. We take a look at the data.",
+      "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": "$48B",
+      "technologies": [],
+      "published_at": "2026-10-29T11:00:35.000Z"
+    },
+    {
+      "id": "0828ac505630",
+      "name": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "slug": "jumbo-series-a-rounds-hiding-the-real-squeeze-on-seed-startups",
+      "summary": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones.",
+      "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-29T11:00:12.000Z"
+    },
+    {
+      "id": "ab88c92b5141",
+      "name": "Lightspeed is betting this startup can lure shoppers with a feed of AI images. Read the pitch deck it used to raise $7M",
+      "slug": "lightspeed-is-betting-this-startup-can-lure-shoppers-with-a-feed-of-ai-images-read-the-pit",
+      "summary": "Omer Bar-Tal is the CEO of Dalet Labs. Dalet Labs Dalet Labs, an AI commerce startup, is coming out of stealth mode with a $7 million pre-seed round. It's launching a new app called Scene, where you can scroll through shoppable, AI-generated images. Read the …",
+      "url": "https://biztoc.com/x/528fb60a8c1ef719",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:04:04Z",
+      "image_url": "https://biztoc.com/cdn/528fb60a8c1ef719_s.webp"
+    },
+    {
+      "id": "6d0786c24bf0",
+      "name": "Circuit Mind lands $25M and puts AI agents to work checking circuit board schematics",
+      "slug": "circuit-mind-lands-25m-and-puts-ai-agents-to-work-checking-circuit-board-schematics",
+      "summary": "British circuit board design startup Circuit Mind Ltd. today announced it has raised $25 million in new funding to extend its artificial intelligence platform across more of the hardware design process. A verification tool that puts AI agents to work hunting …",
+      "url": "https://siliconangle.com/2026/10/28/circuit-mind-lands-25m-and-puts-ai-agents-to-work-checking-circuit-board-schematics/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$25M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:50Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/circuitmind1.png"
+    },
+    {
+      "id": "abc79df92e41",
+      "name": "Exclusive: Numeracle Raises $28M To Keep Legitimate Business Calls From Spam Label",
+      "slug": "exclusive-numeracle-raises-28m-to-keep-legitimate-business-calls-from-spam-label",
+      "summary": "Numeracle, a McLean, Virginia-based company that verifies businesses and links their identities to the phone numbers they use to contact customers, has raised $28 million from Edison Partners to help businesses whose calls are incorrectly labeled as spam or blocked by phone carri",
+      "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": "$28M",
+      "technologies": [],
+      "published_at": "2026-10-28T12:00:48.000Z"
+    },
+    {
+      "id": "10305db96b81",
+      "name": "Northstar launches with $7M to give AI agents the context to act on security risks",
+      "slug": "northstar-launches-with-7m-to-give-ai-agents-the-context-to-act-on-security-risks",
+      "summary": "Cybersecurity startup Northstar Security AI Inc. launched today with $7 million in new funding to give artificial intelligence agents the context they need to act on security risks. Northstar offers a platform that feeds data from a company’s existing securit…",
+      "url": "https://siliconangle.com/2026/10/28/northstar-launches-with-7m-to-give-ai-agents-the-context-to-act-on-security-risks/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai",
+        "cybersecurity"
+      ],
+      "published_at": "2026-10-28T12:00:41Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Amer_Deeba_Northstar-scaled.jpg"
+    },
+    {
+      "id": "26aa640ac7d8",
+      "name": "Cloud security startup Upwind raises $400M at $3.8B valuation as revenue quadruples",
+      "slug": "cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples",
+      "summary": "Cloud and artificial intelligence security startup Upwind Security Inc. today revealed that it has raised $400 million in new funding at a valuation of $3.8 billion. Reports in early September had the round at $300 million. By the time it closed, Upwind had t…",
+      "url": "https://siliconangle.com/2026/10/28/cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$400M",
+      "technologies": [
+        "ai",
+        "cybersecurity",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T12:00:23Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/upwind.png"
+    },
+    {
+      "id": "5b08d1063eb0",
+      "name": "Lightspeed is betting this startup can lure shoppers with a feed of AI images. Read the pitch deck it used to raise $7M.",
+      "slug": "lightspeed-is-betting-this-startup-can-lure-shoppers-with-a-feed-of-ai-images-read-the-pit",
+      "summary": "Dalet Labs is launching a new app called Scene, where you can scroll through shoppable, AI-generated images.",
+      "url": "https://www.businessinsider.com/dalet-labs-raises-preseed-millions-shopping-app-scene-pitch-deck-2026-10#article",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:01Z",
+      "image_url": "https://i.insider.com/6ae0d0d83ae265b597b028cf?width=1200&format=jpeg"
+    },
+    {
+      "id": "158cbe62c7e5",
+      "name": "Financial AI startup Casap raises $56 million to help banks stop an explosion of customer fraud",
+      "slug": "financial-ai-startup-casap-raises-56-million-to-help-banks-stop-an-explosion-of-customer-f",
+      "summary": "A social media-driven epidemic of dishonesty means card companies are facing far more first party fraud.",
+      "url": "https://fortune.com/2026/10/28/dd/",
+      "source": "Fortune",
+      "event_type": "funding",
+      "amount": "$56M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:00Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/260922_ZeroOneDigital_Casap_16477_a3c1df.jpg?resize=1200,600"
+    },
+    {
+      "id": "3fee50adece2",
+      "name": "Climate VC fundraising is on track for its worst year since 2015. That’s the best thing that could happen to climate tech",
+      "slug": "climate-vc-fundraising-is-on-track-for-its-worst-year-since-2015-that-s-the-best-thing-tha",
+      "summary": "Climate-specialist funds are struggling to raise money while capital pours into the technologies they back. That shift is how climate tech wins.",
+      "url": "https://fortune.com/2026/10/28/climate-innovation-movement-to-market/",
+      "source": "Fortune",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "climate"
+      ],
+      "published_at": "2026-10-28T12:00:00Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2178159034.jpg?resize=1200,600"
+    },
+    {
+      "id": "e52ccbbb5c90",
+      "name": "Magic Vision lands €600K for AI-powered monitoring solution Silver Eye",
+      "slug": "magic-vision-lands-600k-for-ai-powered-monitoring-solution-silver-eye",
+      "summary": "Italian deeptech startup Magic Vision has raised €600,000 in funding to support the development and commercialisation of its AI-powered monitoring technology for older people and vulnerable individuals. Investors include SixS, the Italian company behind Gecos…",
+      "url": "https://biztoc.com/x/09e5754b3457693a",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T11:33:44Z",
+      "image_url": "https://biztoc.com/cdn/09e5754b3457693a_s.webp"
+    },
+    {
+      "id": "e2687d3910dc",
+      "name": "Inference cloud startup General Compute reels in $100M, despite broader AI funding fears",
+      "slug": "inference-cloud-startup-general-compute-reels-in-100m-despite-broader-ai-funding-fears",
+      "summary": "Neoclouds are supposed to be under pressure, with the likes of Gartner Inc. and Elon Musk both predicting a bloodbath in the nascent cloud infrastructure segment in the not-too-distant future, but apparently nobody told General Compute Inc. The cloud infrastr…",
+      "url": "https://siliconangle.com/2026/10/28/inference-cloud-startup-general-compute-reels-in-100m-despite-broader-ai-funding-fears/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$100M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T11:10:25Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Screenshot-from-2026-10-28-18-07-06.png"
+    },
+    {
+      "id": "9092d6a028d5",
+      "name": "Desktop 3D-printer startup Baishida secures angel-plus funding",
+      "slug": "desktop-3d-printer-startup-baishida-secures-angel-plus-funding",
+      "summary": "Chinese desktop 3D-printer startup Baishida has completed an angel-plus funding round exclusively backed by Still Water Lake Venture Partners. The amount was not disclosed. The financing follows an earlier angel round funded solely by GL Ventures, with the la…",
+      "url": "https://technode.com/2026/10/28/desktop-3d-printer-startup-baishida-secures-angel-plus-funding/",
+      "source": "TechNode",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T05:14:46Z",
+      "image_url": "https://i0.wp.com/technode.com/wp-content/uploads/2026/10/feed-20261021-cn-368124.png?fit=1920%2C817&ssl=1"
+    },
+    {
+      "id": "2758ed9c3811",
+      "name": "Brain-computer interface startup NeuroXess raises RMB 700 million in Series B funding",
+      "slug": "brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding",
+      "summary": "Chinese brain-computer interface startup NeuroXess has raised RMB 700 million in Series B funding, co-led by SDIC Juli, Shenzhen Capital Group and Qinzhi Capital. The proceeds will support multicenter clinical trials, regulatory submissions, manufacturing cap…",
+      "url": "https://technode.com/2026/10/28/brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding/",
+      "source": "TechNode",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T05:14:45Z",
+      "image_url": "https://i0.wp.com/technode.com/wp-content/uploads/2026/10/feed-20261028-cn-371816.png?fit=2350%2C1000&ssl=1"
+    },
+    {
+      "id": "e0556fc5dad2",
+      "name": "Live2.ai secures ₹130 crore in funding round led by IvyCap Ventures",
+      "slug": "live2-ai-secures-130-crore-in-funding-round-led-by-ivycap-ventures",
+      "summary": "The round comprises both primary capital, which will fund the company’s growth, and a secondary component, which provides partial liquidity to early shareholders",
+      "url": "https://www.thehindubusinessline.com/companies/live2ai-secures-130-crore-in-funding-round-led-by-ivycap-ventures/article71634218.ece",
+      "source": "BusinessLine",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T05:05:38Z",
+      "image_url": "https://bl-i.thgim.com/public/incoming/xp25ka/article71634378.ece/alternates/LANDSCAPE_1200/Edit_second-leaG76GFVVE8.3.jpg.jpg"
+    },
+    {
+      "id": "d1ef2c38b762",
+      "name": "Cognizant eyes Sarvam stake; Ather aims for higher market share",
+      "slug": "cognizant-eyes-sarvam-stake-ather-aims-for-higher-market-share",
+      "summary": "Happy Wednesday! Cognizant has held discussions to invest in homegrown AI startup Sarvam. This and more in today’s ETtech Morning Dispatch.",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/cognizant-eyes-sarvam-stake-ather-aims-for-higher-market-share/articleshow/135249122.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T01:55:17Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135249122,width-1070,height-580,imgsize-792873,overlay-ettech/editionshow.jpg"
+    },
+    {
+      "id": "4dd4f11e9862",
+      "name": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "slug": "re-build-which-spun-out-slate-auto-raises-2-1b",
+      "summary": "The manufacturing accelerator bills itself as \"America’s answer to Shenzhen.\"",
+      "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+      "source": "TechCrunch Startups",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-27T20:31:17.000Z"
+    },
+    {
+      "id": "6755505f6ef0",
+      "name": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "slug": "disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "source": "TechCrunch Startups",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T18:55:35.000Z"
+    },
+    {
+      "id": "fe68d95214e4",
+      "name": "Nvidia joins investors in $14 mn Simplismart funding",
+      "slug": "nvidia-joins-investors-in-14-mn-simplismart-funding",
+      "summary": "AI infrastructure startup Simplismart raises $14m led by Dallas Venture Capital, with Nvidia, Accel and others backing its AI inference optimization software.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nvidia-joins-investors-in-14-mn-simplismart-funding/articleshow/135240365.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$14M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-27T16:21:01Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-135240361,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "d918125440ec",
+      "name": "Swiss AI drug trial startup receives funding from Spotify-backer Creandum",
+      "slug": "swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum",
+      "summary": "An AI foundation model, trained on about two million human RNA readouts, would replace these and animal testing with 12-week simulations, the company said.",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum/articleshow/135238709.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T15:14:54Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-52430,resizemode-75,msid-135238709/tech/artificial-intelligence/swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum.jpg"
+    },
+    {
+      "id": "7eb748a2dc87",
+      "name": "US midterm elections 2026 funding is quietly shaped by cryptocurrency donations. Check how fat checks are benefitting Donald Trump, Republicans",
+      "slug": "us-midterm-elections-2026-funding-is-quietly-shaped-by-cryptocurrency-donations-check-how-",
+      "summary": "Cryptocurrency executives have spent on crypto-friendly candidates and crypto super political action committees, or PACs, that can raise and spend unlimited sums, contributing towards the industry's $175 million blitz this cycle, according to federal filings.",
+      "url": "https://economictimes.indiatimes.com/news/international/us/us-midterm-elections-2026-funding-is-quietly-shaped-by-cryptocurrency-donations-check-how-fat-checks-are-benefitting-donald-trump-republicans/articleshow/135237658.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$175M",
+      "technologies": [
+        "fintech"
+      ],
+      "published_at": "2026-10-27T14:32:05Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135237802,width-1200,height-900,imgsize-91878,overlay-economictimes/articleshow.jpg"
+    },
+    {
+      "id": "c306ff48de14",
+      "name": "Simplismart raises $14 million in Series B to expand AI inference platform",
+      "slug": "simplismart-raises-14-million-in-series-b-to-expand-ai-inference-platform",
+      "summary": "Led by Dallas Venture Capital, the Series B round will help Simplismart expand its AI inference platform, strengthen cloud partnerships and grow across North America and global markets",
+      "url": "https://www.business-standard.com/companies/start-ups/simplismart-raises-14-million-in-series-b-to-expand-ai-inference-platform-126102701498_1.html",
+      "source": "Business Standard",
+      "event_type": "funding",
+      "amount": "$14M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-27T14:17:40Z",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/18/thumb/fitandfill/1200X628/1792347411-3594.jpg"
+    },
+    {
+      "id": "65f338de39c3",
+      "name": "From two doctors to 800,000 clinicians: Vera Health raises $28.5M",
+      "slug": "from-two-doctors-to-800-000-clinicians-vera-health-raises-28-5m",
+      "summary": "Today, clinical health platform Vera Health announced a $28.5 million Series A led by Threshold Ventures, with participation from Optum Ventures, the healthcare venture firm backed by UnitedHealth Group, Mantis VC and SV Angel. Vera Health is a clinical AI s…",
+      "url": "https://biztoc.com/x/b6ebf2b000e7d27f",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": "$28.5M",
+      "technologies": [
+        "ai",
+        "health"
+      ],
+      "published_at": "2026-10-27T13:21:59Z",
+      "image_url": "https://biztoc.com/cdn/b6ebf2b000e7d27f_s.webp"
+    },
     {
       "id": "7c077f9d54f5",
       "name": "Crunchbase Data Shows Q3 Robotics Startup Funding Jumps 185% As US And China Lead Physical AI Push",
@@ -27,117 +364,19 @@
       "published_at": "2026-10-27T11:00:53.000Z"
     },
     {
-      "id": "953ea53660db",
-      "name": "California Startups Have Raised More So Far In 2026 Than The Entire US Ever Has In A Single Year",
-      "slug": "california-startups-have-raised-more-so-far-in-2026-than-the-entire-us-ever-has-in-a-singl",
-      "summary": "California companies have scooped up more than three-fourths of all U.S. startup funding this year. That, per Crunchbase data, is an apparent record share. And keep in mind: This year still has a couple months left.",
-      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
-      "source": "Crunchbase News",
+      "id": "b2f4c68e3401",
+      "name": "Lette raises $6.5M to scale AI automation for UK rental operators",
+      "slug": "lette-raises-6-5m-to-scale-ai-automation-for-uk-rental-operators",
+      "summary": "Lette, an AI-powered platform for residential property operators, has raised $6.5 million in seed funding to expand its operations in the UK and support its planned European expansion. The round was led by Peak, with participation from Heliad, Foreword VC, Pi…",
+      "url": "https://biztoc.com/x/d4a79af6825df4b7",
+      "source": "Biztoc.com",
       "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T11:00:35.000Z"
-    },
-    {
-      "id": "1a3bd547c435",
-      "name": "European tech weekly recap: €1.5B in funding and Q3 2026 highlights",
-      "slug": "european-tech-weekly-recap-1-5b-in-funding-and-q3-2026-highlights",
-      "summary": "Last week, we tracked more than 65 tech funding deals worth over €1.5 billion and over 4 exits, M&A transactions, rumours, and related news stories across Europe. According to our Q3 2026 Report, European tech companies raised €27.8 billion across 732 dea…",
-      "url": "https://tech.eu/2026/10/26/european-tech-weekly-recap-eur15b-in-deals-and-q3-2026-highlights/",
-      "source": "Tech.eu",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T10:04:36Z",
-      "image_url": "https://cdn.tech.eu/uploads/2026/10/featured-image-251012026-436.png"
-    },
-    {
-      "id": "7e229f94269e",
-      "name": "Digest: Anthropic Teams with Hg; DeepSeek Raises $15bn;",
-      "slug": "digest-anthropic-teams-with-hg-deepseek-raises-15bn",
-      "summary": "In today’s ExchangeWire news digest: Anthropic teams up with Hg to launch a European AI consultancy, DeepSeek raises $15bn as it tries to close the gap with US AI rivals, and WPP’s chief AI officer says shopping bots could reshape [...] The post Digest: Anthr…",
-      "url": "https://www.exchangewire.com/blog/2026/10/26/digest-anthropic-teams-with-hg-deepseek-raises-15bn/",
-      "source": "ExchangeWire",
-      "event_type": "funding",
-      "amount": "$15B",
+      "amount": "$6.5M",
       "technologies": [
         "ai"
       ],
-      "published_at": "2026-10-26T09:00:00Z",
-      "image_url": "https://cdn.exchangewire.com/wp-content/uploads/2026/07/AGENT-HANDSHAKE.jpg"
-    },
-    {
-      "id": "83e449c5db1d",
-      "name": "Tin Men Capital leads US$7.4M Series A for Vision AI startup Ailytics to expand across APAC, US and Gulf",
-      "slug": "tin-men-capital-leads-us-7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apa",
-      "summary": "SINGAPORE, Oct. 26, 2026 /PRNewswire/ -- Ailytics, a vision AI startup that turns existing industrial CCTV into a real-time safety and operations layer, has raised US$7.4 million in a Series A led by Tin Men Capital. SEEDS, part of SG Growth Capital, Safie, J…",
-      "url": "https://www.prnewswire.co.uk/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918676.html",
-      "source": "PR Newswire UK",
-      "event_type": "funding",
-      "amount": "$7.4M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T01:00:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS2020061/20261024080949EDT_image_1.jpg?id=OA3037809&p=facebook"
-    },
-    {
-      "id": "19e106a451df",
-      "name": "Tin Men Capital leads US$7.4M Series A for Vision AI startup Ailytics to expand across APAC, US and Gulf",
-      "slug": "tin-men-capital-leads-us-7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apa",
-      "summary": "SINGAPORE, Oct. 25, 2026 /PRNewswire/ -- Ailytics, a vision AI startup that turns existing industrial CCTV into a real-time safety and operations layer, has raised US$7.4 million in a Series A led by Tin Men Capital. SEEDS, part of SG Growth Capital, Safie, J…",
-      "url": "https://www.prnewswire.com/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918668.html",
-      "source": "PRNewswire",
-      "event_type": "funding",
-      "amount": "$7.4M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T01:00:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS2020061/20261024080949EDT_image_1.jpg?id=OA3037771&p=facebook"
-    },
-    {
-      "id": "f18b1b75d86b",
-      "name": "Introducing Lab Rats: A Mint series on India’s biotech startups",
-      "slug": "introducing-lab-rats-a-mint-series-on-india-s-biotech-startups",
-      "summary": "India’s drug innovation story has so far been told through the lens of established pharmaceutical companies. But a new generation of biotech startups is attempting bolder feats with a fraction of the funding.",
-      "url": "https://www.livemint.com/companies/start-ups/mint-lab-rats-biotech-startups-in-india-11791818972814.html",
-      "source": "Livemint",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "health"
-      ],
-      "published_at": "2026-10-26T00:30:33Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/10/22/1600x900/lab_rats_series_intro_1792681188897_kJrP_1792681189022_ClJN_03b3c50f-f64e-4aee-9f9b-b408f456c1eb_lFe0.jpg"
-    },
-    {
-      "id": "2df3c6792a2c",
-      "name": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-      "slug": "the-week-s-10-biggest-funding-rounds-ai-drives-a-varied-lineup-of-large-financings",
-      "summary": "It was another interesting week for AI-related startup funding, with a number of large rounds and quirky companies. The largest financings went to Tenstorrent, a developer of AI processors and systems, and AI lab Flapping Airplanes. The quirkiest round, meanwhile, was undoubtedly",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
-      "source": "Crunchbase News",
-      "event_type": "funding",
-      "amount": "$200M",
-      "technologies": [
-        "ai",
-        "health"
-      ],
-      "published_at": "2026-10-23T18:51:22.000Z"
-    },
-    {
-      "id": "d40a4add1ce7",
-      "name": "Knowing You Can Raise Versus Guessing",
-      "slug": "knowing-you-can-raise-versus-guessing",
-      "summary": "Somebody who successfully raises an A has done all the prior prep work. They're deeply embedded in their market. They've built relationships with VCs over the previous year or two, so nothing about the process is surprising going in. Their whole pre-A exec…",
-      "url": "https://www.thisisgoingtobebig.com/blog/2026/10/23/knowing-you-can-raise-versus-guessing",
-      "source": "Thisisgoingtobebig.com",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T13:13:47Z",
-      "image_url": "http://static1.squarespace.com/static/54f4b48fe4b01c0a849f7194/550c5ae3e4b08e9b9d3d37f7/6adb3e90d4da2747798755ee/1792761266624/batman-forever-riddler-jim-carey.jpeg?format=1500w"
+      "published_at": "2026-10-27T07:42:05Z",
+      "image_url": "https://biztoc.com/cdn/d4a79af6825df4b7_s.webp"
     },
     {
       "id": "17ba7c279f4a",
@@ -152,114 +391,16 @@
       "published_at": "2026-10-22T23:15:00.000Z"
     },
     {
-      "id": "b973cd439b13",
-      "name": "Robotics startup Enact Intelligence nabs $30M funding round",
-      "slug": "robotics-startup-enact-intelligence-nabs-30m-funding-round",
-      "summary": "Swiss robotics startup Enact Intelligence today announced that it has raised $30 million in pre-seed funding. The capital was provided by a consortium that included Yann LeCun, one of the world’s most prominent artificial intelligence researchers. He was join…",
-      "url": "https://siliconangle.com/2026/10/22/robotics-startup-enact-intelligence-nabs-30m-funding-round/",
-      "source": "SiliconANGLE News",
-      "event_type": "funding",
-      "amount": "$30M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-22T20:31:36Z",
-      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Unsplash.png"
-    },
-    {
-      "id": "e4240e2194a2",
-      "name": "For the first time, Canada’s venture capital strategy starts at pre-seed",
-      "slug": "for-the-first-time-canada-s-venture-capital-strategy-starts-at-pre-seed",
-      "summary": "$75 million dedicated stream will back Canadian founders at pre-seed and seed TORONTO, Oct. 22, 2026 (GLOBE NEWSWIRE) — The National Angel Capital Organization (NACO) welcomes today’s announcement by the Honourable Mélanie Joly, Minister of Industry, that, fo…",
-      "url": "https://financialpost.com/globe-newswire/for-the-first-time-canadas-venture-capital-strategy-starts-at-pre-seed",
-      "source": "Financial Post",
-      "event_type": "funding",
-      "amount": "$75M",
-      "technologies": [],
-      "published_at": "2026-10-22T19:41:41Z",
-      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/claudio-rojas-ceo-of-national-angel-capital-organization-nac.jpeg"
-    },
-    {
       "id": "e855e502d604",
       "name": "Investors break down how founders can raise a Series A today",
       "slug": "investors-break-down-how-founders-can-raise-a-series-a-today",
       "summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
       "url": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
-      "source": "TechCrunch Startups",
+      "source": "TechCrunch Fundraising",
       "event_type": "funding",
       "amount": null,
       "technologies": [],
       "published_at": "2026-10-22T15:15:00.000Z"
-    },
-    {
-      "id": "172dc2cd6dd1",
-      "name": "Exclusive: Slingshot Raises $27M In Seed Funding To Build An Insurer For Those Small Policies Sold At Checkout",
-      "slug": "exclusive-slingshot-raises-27m-in-seed-funding-to-build-an-insurer-for-those-small-policie",
-      "summary": "Slingshot Insurance, a Minneapolis-based AI-native embedded insurance startup, is emerging from stealth with $27 million in a seed funding round co-led by Rally Ventures and Skyward Group, it tells Crunchbase News exclusively.",
-      "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
-      "source": "Crunchbase News",
-      "event_type": "funding",
-      "amount": "$27M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-22T13:00:23.000Z"
-    },
-    {
-      "id": "ec425e5d20d9",
-      "name": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-      "slug": "year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation",
-      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
-      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$180M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T20:57:40.000Z"
-    },
-    {
-      "id": "adc429ff4a5b",
-      "name": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
-      "slug": "legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation",
-      "summary": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.",
-      "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$550M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T18:51:56.000Z"
-    },
-    {
-      "id": "c2a66b19512e",
-      "name": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "slug": "blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
-      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$66M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T17:18:27.000Z"
-    },
-    {
-      "id": "edf91cd626bd",
-      "name": "Mach9 raises $34M after pivoting to AI CAD software",
-      "slug": "mach9-raises-34m-after-pivoting-to-ai-cad-software",
-      "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
-      "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$34M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T13:00:00.000Z"
     },
     {
       "id": "2b07021e0e96",
@@ -423,22 +564,108 @@
   ],
   "acquisitions": [
     {
-      "id": "3cdc0df2d8ca",
-      "name": "Travel VC Funding Fell for the Second Straight Quarter, Rounds for AI Companies Cut in Half",
-      "slug": "travel-vc-funding-fell-for-the-second-straight-quarter-rounds-for-ai-companies-cut-in-half",
-      "summary": "Travel's next dollar is shifting. Funding rounds steadily dropped quarter over quarter in 2026 while incumbents made targeted acquisitions. Though it's too early to say whether this is a long-term market movement, it's a clear sign of the times.",
-      "url": "https://skift.com/2026/10/23/travel-vc-funding-fell-for-the-second-straight-quarter-rounds-for-ai-companies-cut-in-half/",
-      "source": "Skift",
+      "id": "c7fc55ab4b9b",
+      "name": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "slug": "upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer",
+      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "source": "TechCrunch Startups",
       "event_type": "acquisition",
+      "amount": "$400M",
+      "technologies": [
+        "cybersecurity",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T23:15:00.000Z"
+    },
+    {
+      "id": "cc96b5af2d41",
+      "name": "Onsemi reportedly in talks to buy AI power startup Ferric for nearly $1 billion",
+      "slug": "onsemi-reportedly-in-talks-to-buy-ai-power-startup-ferric-for-nearly-1-billion",
+      "summary": "Onsemi's potential acquisition of Ferric could significantly enhance its AI power management capabilities, impacting the broader chip industry. The post Onsemi reportedly in talks to buy AI power startup Ferric for nearly $1 billion appeared first on Crypto B…",
+      "url": "https://cryptobriefing.com/onsemi-talks-acquire-ferric-1-billion/",
+      "source": "Crypto Briefing",
+      "event_type": "acquisition",
+      "amount": "$1B",
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-10-28T10:05:59Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/28060554/library-onsemi-reportedly-in-talks-to-buy-ai-power-startup-ferri-800x450.png"
+    }
+  ],
+  "ipos": [
+    {
+      "id": "baf76f1e26c5",
+      "name": "Anthropic's record IPO faces some big questions",
+      "slug": "anthropic-s-record-ipo-faces-some-big-questions",
+      "summary": "No startup has ever grown so fast. Investors have already grown nervous.",
+      "url": "https://economictimes.indiatimes.com/tech/technology/anthropics-record-ipo-faces-some-big-questions/articleshow/135249836.cms",
+      "source": "The Times of India",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T02:42:31Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-26516,resizemode-75,msid-135249836/tech/technology/anthropics-record-ipo-faces-some-big-questions.jpg"
+    },
+    {
+      "id": "538291be9b83",
+      "name": "Anthropic's record IPO faces some big questions",
+      "slug": "anthropic-s-record-ipo-faces-some-big-questions",
+      "summary": "No startup has ever grown so fast. In five years, Anthropic has become an AI giant valued at $1 trillion, and it is now aiming for a record-breaking stock market debut. But it faces three threats: rivals that are catching up, prices that are collapsing, and b…",
+      "url": "https://biztoc.com/x/99f6f70b79cd6911",
+      "source": "Biztoc.com",
+      "event_type": "ipo",
       "amount": null,
       "technologies": [
         "ai"
       ],
-      "published_at": "2026-10-23T18:58:27Z",
-      "image_url": "https://skift.com/wp-content/uploads/2026/10/Skift_Capital_Allocation_Brief_Q3_2026.jpg?resize=1024,576"
-    }
-  ],
-  "ipos": [
+      "published_at": "2026-10-28T02:08:25Z",
+      "image_url": "https://biztoc.com/cdn/99f6f70b79cd6911_s.webp"
+    },
+    {
+      "id": "cc2d1623775a",
+      "name": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+      "slug": "vcs-will-make-billions-on-anthropic-8217-s-ipo-but-amazon-is-set-to-make-much-much-more",
+      "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "TechCrunch Startups",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T01:15:28.000Z"
+    },
+    {
+      "id": "04c094a13f1c",
+      "name": "Anthropic’s huge IPO warns of ‘catastrophic’ AI risk as China’s bubble pops",
+      "slug": "anthropic-s-huge-ipo-warns-of-catastrophic-ai-risk-as-china-s-bubble-pops",
+      "summary": "Anthropic’s $2 trillion IPO filing warns of ‘catastrophic or existential risks to humanity’ posed by AI.",
+      "url": "https://www.techradar.com/ai-platforms-assistants/anthropics-usd2-trillion-ipo-warns-of-self-preserving-ai-and-data-center-backlash-as-chinas-ai-bubble-reportedly-bursts-in-usd480-billion-meltdown",
+      "source": "TechRadar",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T16:16:02Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Cs2roYNMPsXEeiXkPus3NK-1920-80.jpg"
+    },
+    {
+      "id": "b8dc1e0c2c2f",
+      "name": "Who are the biggest investors backing Anthropic? A look at key stakeholders",
+      "slug": "who-are-the-biggest-investors-backing-anthropic-a-look-at-key-stakeholders",
+      "summary": "Anthropic’s planned IPO is set to test public-market appetite for artificial intelligence companies. Backed by Amazon, Google, leading venture capital firms, global institutions and prominent individual investors, the Claude maker has seen its valuation surge…",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/who-are-the-biggest-investors-backing-anthropic-a-look-at-key-stakeholders/articleshow/135224648.cms",
+      "source": "The Times of India",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T04:44:26Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135224673,width-1200,height-900,imgsize-268808,overlay-etmarkets/articleshow.jpg"
+    },
     {
       "id": "98f5041ed6fa",
       "name": "Some Observations About Anthropic’s IPO Filing",
@@ -450,100 +677,6 @@
       "amount": null,
       "technologies": [],
       "published_at": "2026-10-26T20:10:57.000Z"
-    },
-    {
-      "id": "a74d3830434b",
-      "name": "Wonder Plans IPO and Aims to Be Fully Autonomous by 2040",
-      "slug": "wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040",
-      "summary": "Food startup Wonder has reportedly set its sights on going public amid wider expansion plans. As CNBC reported Sunday (Oct. 25), the company is also eyeing an “aggressive” expansion in Texas and a subscription program that allows diners to operate their own “…",
-      "url": "https://biztoc.com/x/35bb56e7ecf7957c",
-      "source": "Biztoc.com",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T00:55:09Z",
-      "image_url": "https://biztoc.com/cdn/996/og.png"
-    },
-    {
-      "id": "dd8c8f4a1ad5",
-      "name": "Wonder Plans IPO and Aims to Be Fully Autonomous by 2040",
-      "slug": "wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040",
-      "summary": "Food startup Wonder has reportedly set its sights on going public amid wider expansion plans. As CNBC reported Sunday (Oct. 25), the company is also eyeing an “aggressive” expansion in Texas and a subscription program that allows diners to operate their own “…",
-      "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040/",
-      "source": "pymnts.com",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T00:26:09Z",
-      "image_url": "https://www.pymnts.com/wp-content/uploads/2026/10/Wonder-IPO-1.jpg"
-    },
-    {
-      "id": "60792190f525",
-      "name": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-      "slug": "marc-lore-s-wonder-bets-on-texas-automation-and-user-built-restaurants-as-it-mulls-ipo",
-      "summary": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
-      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
-      "source": "CNBC",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-25T12:00:01Z",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108448204-1792698576376-gettyimages-2235177281-McGregor250915NYCbusinesses04.jpeg?v=1792698756&w=1920&h=1080"
-    },
-    {
-      "id": "cef842b9d1c9",
-      "name": "What some of Anthropic's backers are worth before its IPO",
-      "slug": "what-some-of-anthropic-s-backers-are-worth-before-its-ipo",
-      "summary": "Image Credits:Kimberly White/Getty Images for TechCrunch Anthropic’s public listing, which is expected this year at a valuation of as much as $2 trillion, is bound to be a windfall for both early-stage and later-stage investors. But even at the company’s la…",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-backers-reportedly-worth-ipo-160243752.html",
-      "source": "Yahoo Entertainment",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T16:02:43Z",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/050052367ca2ed921c58c66a33b05dfacc4e621324eb16707b6988f288974589/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechcrunch_finance_785%2F878abd0e6155d4158f324aa5e53fc6fb"
-    },
-    {
-      "id": "184c655f5270",
-      "name": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
-      "slug": "report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo",
-      "summary": "Artificial intelligence leader OpenAI Group PBC might have plans to go public in the near future, but it isn’t done with private funding rounds. Indeed, it’s currently believed to be negotiating with investors an additional $30 billion investment that would b…",
-      "url": "https://siliconangle.com/?p=851622",
-      "source": "SiliconANGLE News",
-      "event_type": "ipo",
-      "amount": "$30B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-23T00:47:28Z",
-      "image_url": "https://siliconangle.com/files/2015/08/PLACEHOLDER-SiliconANGLE.png"
-    },
-    {
-      "id": "923d2ef83838",
-      "name": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "slug": "openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "source": "TechCrunch Startups",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-22T22:08:24.000Z"
-    },
-    {
-      "id": "6fe2cf99c43a",
-      "name": "The AI IPO Wave Is The Dot-Com Bubble&#8217;s Evil Twin. Anthropic’s Delay Just Proved It.",
-      "slug": "the-ai-ipo-wave-is-the-dot-com-bubble-8217-s-evil-twin-anthropic-s-delay-just-proved-it",
-      "summary": "In this guest article from Airrived co-founder and CEO Anurag Gurtu, he contends that Anthropic’s rapid revenue growth does not justify its proposed $2 trillion IPO valuation, given enormous infrastructure commitments, safety concerns, customer concentration and competition from ",
-      "url": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
-      "source": "Crunchbase News",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-10-22T11:00:42.000Z"
     },
     {
       "id": "b709b94893b1",
@@ -571,6 +704,808 @@
     }
   ],
   "deals": [
+    {
+      "id": "d2ad02243dfe",
+      "name": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+      "slug": "series-b-funding-is-up-but-fewer-deals-are-getting-done",
+      "summary": "Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. We take a look at the data.",
+      "url": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": "$48B",
+      "technologies": [],
+      "published_at": "2026-10-29T11:00:35.000Z"
+    },
+    {
+      "id": "0828ac505630",
+      "name": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "slug": "jumbo-series-a-rounds-hiding-the-real-squeeze-on-seed-startups",
+      "summary": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones.",
+      "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-29T11:00:12.000Z"
+    },
+    {
+      "id": "c7fc55ab4b9b",
+      "name": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "slug": "upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer",
+      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "source": "TechCrunch Startups",
+      "event_type": "acquisition",
+      "amount": "$400M",
+      "technologies": [
+        "cybersecurity",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T23:15:00.000Z"
+    },
+    {
+      "id": "b4a496179b9c",
+      "name": "Wiz’s CTO on PHP2Shell and the coming &#8216;vulnpocalypse&#8217;",
+      "slug": "wiz-s-cto-on-php2shell-and-the-coming-8216-vulnpocalypse-8217",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities coul",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T19:05:46.000Z"
+    },
+    {
+      "id": "ea0a60ccf85d",
+      "name": "The &#8216;Vulnpocalypse&#8217; is coming for the internet’s aging code, says Wiz’s CTO",
+      "slug": "the-8216-vulnpocalypse-8217-is-coming-for-the-internet-s-aging-code-says-wiz-s-cto",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities coul",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T18:50:39.000Z"
+    },
+    {
+      "id": "4bfdaf4e473a",
+      "name": "The Crunchbase Tech Layoffs Tracker",
+      "slug": "the-crunchbase-tech-layoffs-tracker",
+      "summary": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
+      "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+      "source": "Crunchbase News",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T16:25:30.000Z"
+    },
+    {
+      "id": "c38e1685a78e",
+      "name": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+      "slug": "7-days-until-techcrunch-founder-summit-save-up-to-100-on-your-pass-before-doors-open",
+      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+      "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T13:00:00.000Z"
+    },
+    {
+      "id": "02ab193791fd",
+      "name": "Meet the legal AI startup helping David take on Goliath",
+      "slug": "meet-the-legal-ai-startup-helping-david-take-on-goliath",
+      "summary": "Eve co-founder Jay Madheswaran explains how his legal AI startup is leveling the playing field in legal battles between everyday people and deep-pocketed companies.",
+      "url": "https://fortune.com/2026/10/28/legal-ai-startup-helping-david-take-on-goliath-eve/",
+      "source": "Fortune",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:06:01Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/Group-2-e1736999916962-copy.jpg?resize=1200,600"
+    },
+    {
+      "id": "ab88c92b5141",
+      "name": "Lightspeed is betting this startup can lure shoppers with a feed of AI images. Read the pitch deck it used to raise $7M",
+      "slug": "lightspeed-is-betting-this-startup-can-lure-shoppers-with-a-feed-of-ai-images-read-the-pit",
+      "summary": "Omer Bar-Tal is the CEO of Dalet Labs. Dalet Labs Dalet Labs, an AI commerce startup, is coming out of stealth mode with a $7 million pre-seed round. It's launching a new app called Scene, where you can scroll through shoppable, AI-generated images. Read the …",
+      "url": "https://biztoc.com/x/528fb60a8c1ef719",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:04:04Z",
+      "image_url": "https://biztoc.com/cdn/528fb60a8c1ef719_s.webp"
+    },
+    {
+      "id": "6d0786c24bf0",
+      "name": "Circuit Mind lands $25M and puts AI agents to work checking circuit board schematics",
+      "slug": "circuit-mind-lands-25m-and-puts-ai-agents-to-work-checking-circuit-board-schematics",
+      "summary": "British circuit board design startup Circuit Mind Ltd. today announced it has raised $25 million in new funding to extend its artificial intelligence platform across more of the hardware design process. A verification tool that puts AI agents to work hunting …",
+      "url": "https://siliconangle.com/2026/10/28/circuit-mind-lands-25m-and-puts-ai-agents-to-work-checking-circuit-board-schematics/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$25M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:50Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/circuitmind1.png"
+    },
+    {
+      "id": "abc79df92e41",
+      "name": "Exclusive: Numeracle Raises $28M To Keep Legitimate Business Calls From Spam Label",
+      "slug": "exclusive-numeracle-raises-28m-to-keep-legitimate-business-calls-from-spam-label",
+      "summary": "Numeracle, a McLean, Virginia-based company that verifies businesses and links their identities to the phone numbers they use to contact customers, has raised $28 million from Edison Partners to help businesses whose calls are incorrectly labeled as spam or blocked by phone carri",
+      "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
+      "source": "Crunchbase News",
+      "event_type": "funding",
+      "amount": "$28M",
+      "technologies": [],
+      "published_at": "2026-10-28T12:00:48.000Z"
+    },
+    {
+      "id": "10305db96b81",
+      "name": "Northstar launches with $7M to give AI agents the context to act on security risks",
+      "slug": "northstar-launches-with-7m-to-give-ai-agents-the-context-to-act-on-security-risks",
+      "summary": "Cybersecurity startup Northstar Security AI Inc. launched today with $7 million in new funding to give artificial intelligence agents the context they need to act on security risks. Northstar offers a platform that feeds data from a company’s existing securit…",
+      "url": "https://siliconangle.com/2026/10/28/northstar-launches-with-7m-to-give-ai-agents-the-context-to-act-on-security-risks/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai",
+        "cybersecurity"
+      ],
+      "published_at": "2026-10-28T12:00:41Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Amer_Deeba_Northstar-scaled.jpg"
+    },
+    {
+      "id": "26aa640ac7d8",
+      "name": "Cloud security startup Upwind raises $400M at $3.8B valuation as revenue quadruples",
+      "slug": "cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples",
+      "summary": "Cloud and artificial intelligence security startup Upwind Security Inc. today revealed that it has raised $400 million in new funding at a valuation of $3.8 billion. Reports in early September had the round at $300 million. By the time it closed, Upwind had t…",
+      "url": "https://siliconangle.com/2026/10/28/cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$400M",
+      "technologies": [
+        "ai",
+        "cybersecurity",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T12:00:23Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/upwind.png"
+    },
+    {
+      "id": "5b08d1063eb0",
+      "name": "Lightspeed is betting this startup can lure shoppers with a feed of AI images. Read the pitch deck it used to raise $7M.",
+      "slug": "lightspeed-is-betting-this-startup-can-lure-shoppers-with-a-feed-of-ai-images-read-the-pit",
+      "summary": "Dalet Labs is launching a new app called Scene, where you can scroll through shoppable, AI-generated images.",
+      "url": "https://www.businessinsider.com/dalet-labs-raises-preseed-millions-shopping-app-scene-pitch-deck-2026-10#article",
+      "source": "Business Insider",
+      "event_type": "funding",
+      "amount": "$7M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:01Z",
+      "image_url": "https://i.insider.com/6ae0d0d83ae265b597b028cf?width=1200&format=jpeg"
+    },
+    {
+      "id": "158cbe62c7e5",
+      "name": "Financial AI startup Casap raises $56 million to help banks stop an explosion of customer fraud",
+      "slug": "financial-ai-startup-casap-raises-56-million-to-help-banks-stop-an-explosion-of-customer-f",
+      "summary": "A social media-driven epidemic of dishonesty means card companies are facing far more first party fraud.",
+      "url": "https://fortune.com/2026/10/28/dd/",
+      "source": "Fortune",
+      "event_type": "funding",
+      "amount": "$56M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T12:00:00Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/260922_ZeroOneDigital_Casap_16477_a3c1df.jpg?resize=1200,600"
+    },
+    {
+      "id": "3fee50adece2",
+      "name": "Climate VC fundraising is on track for its worst year since 2015. That’s the best thing that could happen to climate tech",
+      "slug": "climate-vc-fundraising-is-on-track-for-its-worst-year-since-2015-that-s-the-best-thing-tha",
+      "summary": "Climate-specialist funds are struggling to raise money while capital pours into the technologies they back. That shift is how climate tech wins.",
+      "url": "https://fortune.com/2026/10/28/climate-innovation-movement-to-market/",
+      "source": "Fortune",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "climate"
+      ],
+      "published_at": "2026-10-28T12:00:00Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2178159034.jpg?resize=1200,600"
+    },
+    {
+      "id": "e52ccbbb5c90",
+      "name": "Magic Vision lands €600K for AI-powered monitoring solution Silver Eye",
+      "slug": "magic-vision-lands-600k-for-ai-powered-monitoring-solution-silver-eye",
+      "summary": "Italian deeptech startup Magic Vision has raised €600,000 in funding to support the development and commercialisation of its AI-powered monitoring technology for older people and vulnerable individuals. Investors include SixS, the Italian company behind Gecos…",
+      "url": "https://biztoc.com/x/09e5754b3457693a",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T11:33:44Z",
+      "image_url": "https://biztoc.com/cdn/09e5754b3457693a_s.webp"
+    },
+    {
+      "id": "da35130462aa",
+      "name": "Kickstarter project offers touchscreen mouse instead of a touchscreen Mac",
+      "slug": "kickstarter-project-offers-touchscreen-mouse-instead-of-a-touchscreen-mac",
+      "summary": "On the day Apple is set to unveil its first ever touchscreen Mac, a startup is trying to persuade us that we instead need a touchscreen mouse, compatible with both Mac and PC. The mouse has a 3.1in touchscreen supporting app-specific shortcuts as well as a…",
+      "url": "https://9to5mac.com/2026/10/28/kickstarter-project-offers-touchscreen-mouse-instead-of-a-touchscreen-mac/",
+      "source": "9to5Mac",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T11:24:54Z",
+      "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Kickstarter-project-offers-touchscreen-mouse-instead-of-a-touchscreen-Mac.jpg?quality=82&strip=all&resize=1200,628"
+    },
+    {
+      "id": "e2687d3910dc",
+      "name": "Inference cloud startup General Compute reels in $100M, despite broader AI funding fears",
+      "slug": "inference-cloud-startup-general-compute-reels-in-100m-despite-broader-ai-funding-fears",
+      "summary": "Neoclouds are supposed to be under pressure, with the likes of Gartner Inc. and Elon Musk both predicting a bloodbath in the nascent cloud infrastructure segment in the not-too-distant future, but apparently nobody told General Compute Inc. The cloud infrastr…",
+      "url": "https://siliconangle.com/2026/10/28/inference-cloud-startup-general-compute-reels-in-100m-despite-broader-ai-funding-fears/",
+      "source": "SiliconANGLE News",
+      "event_type": "funding",
+      "amount": "$100M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-28T11:10:25Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Screenshot-from-2026-10-28-18-07-06.png"
+    },
+    {
+      "id": "3552706fd6e1",
+      "name": "The Invisible Graph: How Companies Grow Revenue And Still Lose Value",
+      "slug": "the-invisible-graph-how-companies-grow-revenue-and-still-lose-value",
+      "summary": "Revenue growth does not guarantee a larger exit, as declining valuation multiples can outweigh operating gains and reduce enterprise value. Guest author Itay Sagie suggests that founders and boards should track valuation alongside financial performance, model the effects of delay",
+      "url": "https://news.crunchbase.com/ma/grow-revenue-lose-enterprise-value-sagie/",
+      "source": "Crunchbase News",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T11:00:57.000Z"
+    },
+    {
+      "id": "7a015327e3d2",
+      "name": "From Monk To Startups: One Founder’s Unusual Path To Building Government Software",
+      "slug": "from-monk-to-startups-one-founder-s-unusual-path-to-building-government-software",
+      "summary": "After living as a monk while managing Graves’ disease, a former Facebook engineer left Big Tech to pursue meaningful work, eventually founding government software startup FSH Technologies which aims to improve processes such as school food services and public records management t",
+      "url": "https://news.crunchbase.com/startups/nontech-founder-government-ai-software-chen-fsh/",
+      "source": "Crunchbase News",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T11:00:00.000Z"
+    },
+    {
+      "id": "3856fe4fd436",
+      "name": "From lab breakthroughs to new businesses: How AI is accelerating innovation in Singapore",
+      "slug": "from-lab-breakthroughs-to-new-businesses-how-ai-is-accelerating-innovation-in-singapore",
+      "summary": "Artificial intelligence is speeding up scientific discoveries and product development, but industry leaders say turning innovations into successful businesses remains a challenge.",
+      "url": "https://www.channelnewsasia.com/singapore/ai-lab-breakthroughs-new-businesses-innovation-singapore-6499511",
+      "source": "CNA",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T10:55:06Z",
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--9d7KXEX---/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/10/28/prof_loh.png?itok=beAqhTkS"
+    },
+    {
+      "id": "89d428a119dc",
+      "name": "Info Edge Q2 Results: Net profit plunges 93% YoY to Rs 334 crore, revenue rises 13%; co declares Rs 3/share interim dividend",
+      "slug": "info-edge-q2-results-net-profit-plunges-93-yoy-to-rs-334-crore-revenue-rises-13-co-declare",
+      "summary": "Info Edge reported a sharp year-on-year decline in Q2 net profit due to a large exceptional gain in the previous year, while revenue and operating profit grew. Recruitment, 99acres and matchmaking businesses recorded healthy growth, alongside AI-led expansion.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/info-edge-naukri-net-profit-plunges-93-yoy-to-rs-334-crore-revenue-rises-13-co-declares-rs-3/share-interim-dividend/articleshow/135261958.cms",
+      "source": "The Times of India",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T10:41:11Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135261982,width-1200,height-900,imgsize-153282,overlay-etmarkets/articleshow.jpg"
+    },
+    {
+      "id": "3c1a22490245",
+      "name": "Former DOJ antitrust chiefs Kanter and Mekki launch AI legal startup FluxCap",
+      "slug": "former-doj-antitrust-chiefs-kanter-and-mekki-launch-ai-legal-startup-fluxcap",
+      "summary": "FluxCap's AI platform could democratize complex litigation, empowering smaller legal teams against resource-rich opponents, reshaping legal tech. The post Former DOJ antitrust chiefs Kanter and Mekki launch AI legal startup FluxCap appeared first on Crypto Br…",
+      "url": "https://cryptobriefing.com/kanter-mekki-launch-fluxcap-ai-legal-startup/",
+      "source": "Crypto Briefing",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-10-28T10:10:59Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/28061054/library-former-doj-antitrust-chiefs-kanter-and-mekki-launch-ai-l-800x450.png"
+    },
+    {
+      "id": "088ecdb4799e",
+      "name": "The Browser Is the Policy Enforcement Point. The Network Never Sees the Session",
+      "slug": "the-browser-is-the-policy-enforcement-point-the-network-never-sees-the-session",
+      "summary": "The Browser Is the Policy Enforcement Point Security still spends as if the firewall, the proxy, and the endpoint agent are where policy should fire. They are not. Work authenticates in a tab, data leaves through a paste or an upload, and attackers now sit in…",
+      "url": "https://cloudtweaks.com/2026/10/browser-policy-enforcement-point-network-session/",
+      "source": "Cloudtweaks.com",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "cybersecurity"
+      ],
+      "published_at": "2026-10-28T10:08:01Z",
+      "image_url": "https://cloudtweaks.com/wp-content/uploads/2023/10/author-randy.webp"
+    },
+    {
+      "id": "cc96b5af2d41",
+      "name": "Onsemi reportedly in talks to buy AI power startup Ferric for nearly $1 billion",
+      "slug": "onsemi-reportedly-in-talks-to-buy-ai-power-startup-ferric-for-nearly-1-billion",
+      "summary": "Onsemi's potential acquisition of Ferric could significantly enhance its AI power management capabilities, impacting the broader chip industry. The post Onsemi reportedly in talks to buy AI power startup Ferric for nearly $1 billion appeared first on Crypto B…",
+      "url": "https://cryptobriefing.com/onsemi-talks-acquire-ferric-1-billion/",
+      "source": "Crypto Briefing",
+      "event_type": "acquisition",
+      "amount": "$1B",
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-10-28T10:05:59Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/28060554/library-onsemi-reportedly-in-talks-to-buy-ai-power-startup-ferri-800x450.png"
+    },
+    {
+      "id": "935a73cb1803",
+      "name": "MALAYSIA UNVEILS TOP 100 STARTUPS WITH RM8.5 BILLION IN FY2024 REVENUE",
+      "slug": "malaysia-unveils-top-100-startups-with-rm8-5-billion-in-fy2024-revenue",
+      "summary": "Startups demonstrate stronger profitability, global reach and adoption of AI and data-driven technologies KUALA LUMPUR, Malaysia, Oct. 28, 2026 /PRNewswire/ -- The 100 Malaysian technology startups featured in the Malaysia Top 100 Startups – 2026 Edition coll…",
+      "url": "https://www.prnewswire.co.uk/news-releases/malaysia-unveils-top-100-startups-with-rm8-5-billion-in-fy2024-revenue-302921919.html",
+      "source": "PR Newswire UK",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T09:01:00Z",
+      "image_url": "https://mmx.prnewswire.com/media/MS2022468/20261028033147EDT_image_1.jpg?id=OA3044279&p=facebook"
+    },
+    {
+      "id": "ce707977ea7d",
+      "name": "Exclusive: Prophecy launches DataGPT to run data workflows inside ChatGPT, Claude and Copilot",
+      "slug": "exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilo",
+      "summary": "Data preparation startup Prophecy Inc. today launched DataGPT, a new service that allows business analysts to run complete data workflows from inside OpenAI Group PBC’s ChatGPT, Anthropic PBC’s Claude and Microsoft Corp.’s Copilot. Each answer arrives with a …",
+      "url": "https://siliconangle.com/2026/10/28/exclusive-prophecy-launches-datagpt-to-run-data-workflows-inside-chatgpt-claude-and-copilot/",
+      "source": "SiliconANGLE News",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T09:00:01Z",
+      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/audit-workflow-full-screen-scaled.png"
+    },
+    {
+      "id": "9092d6a028d5",
+      "name": "Desktop 3D-printer startup Baishida secures angel-plus funding",
+      "slug": "desktop-3d-printer-startup-baishida-secures-angel-plus-funding",
+      "summary": "Chinese desktop 3D-printer startup Baishida has completed an angel-plus funding round exclusively backed by Still Water Lake Venture Partners. The amount was not disclosed. The financing follows an earlier angel round funded solely by GL Ventures, with the la…",
+      "url": "https://technode.com/2026/10/28/desktop-3d-printer-startup-baishida-secures-angel-plus-funding/",
+      "source": "TechNode",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T05:14:46Z",
+      "image_url": "https://i0.wp.com/technode.com/wp-content/uploads/2026/10/feed-20261021-cn-368124.png?fit=1920%2C817&ssl=1"
+    },
+    {
+      "id": "2758ed9c3811",
+      "name": "Brain-computer interface startup NeuroXess raises RMB 700 million in Series B funding",
+      "slug": "brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding",
+      "summary": "Chinese brain-computer interface startup NeuroXess has raised RMB 700 million in Series B funding, co-led by SDIC Juli, Shenzhen Capital Group and Qinzhi Capital. The proceeds will support multicenter clinical trials, regulatory submissions, manufacturing cap…",
+      "url": "https://technode.com/2026/10/28/brain-computer-interface-startup-neuroxess-raises-rmb-700-million-in-series-b-funding/",
+      "source": "TechNode",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T05:14:45Z",
+      "image_url": "https://i0.wp.com/technode.com/wp-content/uploads/2026/10/feed-20261028-cn-371816.png?fit=2350%2C1000&ssl=1"
+    },
+    {
+      "id": "e0556fc5dad2",
+      "name": "Live2.ai secures ₹130 crore in funding round led by IvyCap Ventures",
+      "slug": "live2-ai-secures-130-crore-in-funding-round-led-by-ivycap-ventures",
+      "summary": "The round comprises both primary capital, which will fund the company’s growth, and a secondary component, which provides partial liquidity to early shareholders",
+      "url": "https://www.thehindubusinessline.com/companies/live2ai-secures-130-crore-in-funding-round-led-by-ivycap-ventures/article71634218.ece",
+      "source": "BusinessLine",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T05:05:38Z",
+      "image_url": "https://bl-i.thgim.com/public/incoming/xp25ka/article71634378.ece/alternates/LANDSCAPE_1200/Edit_second-leaG76GFVVE8.3.jpg.jpg"
+    },
+    {
+      "id": "ffd079e071b0",
+      "name": "Yuriko Gamo Romer & Marc Smolowitz On The 12 Year Journey Behind Their Japanese-U.S. History Baseball Doc ‘Diamond Diplomacy’ — Tokyo",
+      "slug": "yuriko-gamo-romer-marc-smolowitz-on-the-12-year-journey-behind-their-japanese-u-s-history-",
+      "summary": "After a year on the U.S. festival circuit, with buzzy stops at Mill Valley and Hot Springs, Diamond Diplomacy, the feature documentary from San Francisco-based filmmaker Yuriko Gamo Romer, receives its first international screening this week at the Tokyo Film…",
+      "url": "http://deadline.com/2026/10/yuriko-gamo-romer-marc-smolowitz-diamond-diplomacy-tokyo-1237206812/",
+      "source": "Deadline",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T02:51:03Z",
+      "image_url": "https://deadline.com/wp-content/uploads/2026/10/s-1927.jpg?w=1024"
+    },
+    {
+      "id": "baf76f1e26c5",
+      "name": "Anthropic's record IPO faces some big questions",
+      "slug": "anthropic-s-record-ipo-faces-some-big-questions",
+      "summary": "No startup has ever grown so fast. Investors have already grown nervous.",
+      "url": "https://economictimes.indiatimes.com/tech/technology/anthropics-record-ipo-faces-some-big-questions/articleshow/135249836.cms",
+      "source": "The Times of India",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T02:42:31Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-26516,resizemode-75,msid-135249836/tech/technology/anthropics-record-ipo-faces-some-big-questions.jpg"
+    },
+    {
+      "id": "538291be9b83",
+      "name": "Anthropic's record IPO faces some big questions",
+      "slug": "anthropic-s-record-ipo-faces-some-big-questions",
+      "summary": "No startup has ever grown so fast. In five years, Anthropic has become an AI giant valued at $1 trillion, and it is now aiming for a record-breaking stock market debut. But it faces three threats: rivals that are catching up, prices that are collapsing, and b…",
+      "url": "https://biztoc.com/x/99f6f70b79cd6911",
+      "source": "Biztoc.com",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T02:08:25Z",
+      "image_url": "https://biztoc.com/cdn/99f6f70b79cd6911_s.webp"
+    },
+    {
+      "id": "d1ef2c38b762",
+      "name": "Cognizant eyes Sarvam stake; Ather aims for higher market share",
+      "slug": "cognizant-eyes-sarvam-stake-ather-aims-for-higher-market-share",
+      "summary": "Happy Wednesday! Cognizant has held discussions to invest in homegrown AI startup Sarvam. This and more in today’s ETtech Morning Dispatch.",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/cognizant-eyes-sarvam-stake-ather-aims-for-higher-market-share/articleshow/135249122.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-28T01:55:17Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135249122,width-1070,height-580,imgsize-792873,overlay-ettech/editionshow.jpg"
+    },
+    {
+      "id": "cc2d1623775a",
+      "name": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+      "slug": "vcs-will-make-billions-on-anthropic-8217-s-ipo-but-amazon-is-set-to-make-much-much-more",
+      "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "TechCrunch Startups",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-28T01:15:28.000Z"
+    },
+    {
+      "id": "14f384015e71",
+      "name": "Anthropic Buys a Small Drug Startup as It Pushes Deeper Into Biotech",
+      "slug": "anthropic-buys-a-small-drug-startup-as-it-pushes-deeper-into-biotech",
+      "summary": "",
+      "url": "https://www.theinformation.com/briefings/anthropic-buys-small-drug-startup-pushes-deeper-biotech",
+      "source": "The Information",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "health"
+      ],
+      "published_at": "2026-10-28T00:26:34Z",
+      "image_url": null
+    },
+    {
+      "id": "04cd9e4cc550",
+      "name": "Guidewire buys Hyperexponential for $1.7B in cash",
+      "slug": "guidewire-buys-hyperexponential-for-1-7b-in-cash",
+      "summary": "The deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions.",
+      "url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T22:26:03.000Z"
+    },
+    {
+      "id": "4dd4f11e9862",
+      "name": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "slug": "re-build-which-spun-out-slate-auto-raises-2-1b",
+      "summary": "The manufacturing accelerator bills itself as \"America’s answer to Shenzhen.\"",
+      "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+      "source": "TechCrunch Startups",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-27T20:31:17.000Z"
+    },
+    {
+      "id": "cfcb084de422",
+      "name": "Commure wants to build an operating system for healthcare. Here are 6 companies it should buy to get there.",
+      "slug": "commure-wants-to-build-an-operating-system-for-healthcare-here-are-6-companies-it-should-b",
+      "summary": "Last week, Commure‘s autonomous coding product earned Epic Toolbox designation, a label its ambient AI scribe already held. A health system on Epic can now document a patient visit and assign medical billing codes without leaving the system. Commure is … The …",
+      "url": "https://www.cbinsights.com/research/commure-acquisition-predictions/",
+      "source": "Cbinsights.com",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai",
+        "health"
+      ],
+      "published_at": "2026-10-27T19:45:45Z",
+      "image_url": "https://research-assets.cbinsights.com/2026/10/27144719/CommureAcqPredictions-102026-1.png"
+    },
+    {
+      "id": "d3e215949215",
+      "name": "Banks Structure $63 Billion Anthropic AI Financing, Deepening Exposure to AI Infrastructure",
+      "slug": "banks-structure-63-billion-anthropic-ai-financing-deepening-exposure-to-ai-infrastructure",
+      "summary": "Four major financial institutions have agreed to a $63 billion financing arrangement that will fund the purchase of AI computing infrastructure for Anthropic. Under the agreement Bank of America, Citigroup, Morgan Stanley, and Blackstone will contribute to a …",
+      "url": "https://finovate.com/banks-structure-63-billion-anthropic-ai-financing-deepening-exposure-to-ai-infrastructure/",
+      "source": "Finovate.com",
+      "event_type": "startup",
+      "amount": "$63B",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-27T19:23:54Z",
+      "image_url": "https://finovate.com/wp-content/uploads/2026/10/pexels-jan-van-der-wolf-11680885-29452327.jpg"
+    },
+    {
+      "id": "6755505f6ef0",
+      "name": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "slug": "disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "source": "TechCrunch Startups",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T18:55:35.000Z"
+    },
+    {
+      "id": "ecc33f07fff6",
+      "name": "Robinhood CEO's AI startup Harmonic expands into software, chip design verification",
+      "slug": "robinhood-ceo-s-ai-startup-harmonic-expands-into-software-chip-design-verification",
+      "summary": "Oct 27 : Harmonic, the AI startup co-founded by Robinhood CEO Vlad Tenev, said on Tuesday it was expanding its Aristotle model from mathematical proofs into software and chip design verification, as AI's growing use in detecting software flaws draws increased…",
+      "url": "https://www.channelnewsasia.com/business/robinhood-ceos-ai-startup-harmonic-expands-software-chip-design-verification-6497386",
+      "source": "CNA",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T16:32:48Z",
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--UaqRGNSZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-27T163248Z_1_LYNXNPEM9Q1OZ_RTROPTP_3_USA-TRUMP.JPG?itok=dFbInVhF"
+    },
+    {
+      "id": "fe68d95214e4",
+      "name": "Nvidia joins investors in $14 mn Simplismart funding",
+      "slug": "nvidia-joins-investors-in-14-mn-simplismart-funding",
+      "summary": "AI infrastructure startup Simplismart raises $14m led by Dallas Venture Capital, with Nvidia, Accel and others backing its AI inference optimization software.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nvidia-joins-investors-in-14-mn-simplismart-funding/articleshow/135240365.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$14M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-27T16:21:01Z",
+      "image_url": "https://static.toiimg.com/thumb/msid-135240361,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+      "id": "04c094a13f1c",
+      "name": "Anthropic’s huge IPO warns of ‘catastrophic’ AI risk as China’s bubble pops",
+      "slug": "anthropic-s-huge-ipo-warns-of-catastrophic-ai-risk-as-china-s-bubble-pops",
+      "summary": "Anthropic’s $2 trillion IPO filing warns of ‘catastrophic or existential risks to humanity’ posed by AI.",
+      "url": "https://www.techradar.com/ai-platforms-assistants/anthropics-usd2-trillion-ipo-warns-of-self-preserving-ai-and-data-center-backlash-as-chinas-ai-bubble-reportedly-bursts-in-usd480-billion-meltdown",
+      "source": "TechRadar",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T16:16:02Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Cs2roYNMPsXEeiXkPus3NK-1920-80.jpg"
+    },
+    {
+      "id": "d918125440ec",
+      "name": "Swiss AI drug trial startup receives funding from Spotify-backer Creandum",
+      "slug": "swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum",
+      "summary": "An AI foundation model, trained on about two million human RNA readouts, would replace these and animal testing with 12-week simulations, the company said.",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum/articleshow/135238709.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T15:14:54Z",
+      "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-52430,resizemode-75,msid-135238709/tech/artificial-intelligence/swiss-ai-drug-trial-startup-receives-funding-from-spotify-backer-creandum.jpg"
+    },
+    {
+      "id": "294934a3de40",
+      "name": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "slug": "meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace",
+      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T14:59:09.000Z"
+    },
+    {
+      "id": "7eb748a2dc87",
+      "name": "US midterm elections 2026 funding is quietly shaped by cryptocurrency donations. Check how fat checks are benefitting Donald Trump, Republicans",
+      "slug": "us-midterm-elections-2026-funding-is-quietly-shaped-by-cryptocurrency-donations-check-how-",
+      "summary": "Cryptocurrency executives have spent on crypto-friendly candidates and crypto super political action committees, or PACs, that can raise and spend unlimited sums, contributing towards the industry's $175 million blitz this cycle, according to federal filings.",
+      "url": "https://economictimes.indiatimes.com/news/international/us/us-midterm-elections-2026-funding-is-quietly-shaped-by-cryptocurrency-donations-check-how-fat-checks-are-benefitting-donald-trump-republicans/articleshow/135237658.cms",
+      "source": "The Times of India",
+      "event_type": "funding",
+      "amount": "$175M",
+      "technologies": [
+        "fintech"
+      ],
+      "published_at": "2026-10-27T14:32:05Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135237802,width-1200,height-900,imgsize-91878,overlay-economictimes/articleshow.jpg"
+    },
+    {
+      "id": "c306ff48de14",
+      "name": "Simplismart raises $14 million in Series B to expand AI inference platform",
+      "slug": "simplismart-raises-14-million-in-series-b-to-expand-ai-inference-platform",
+      "summary": "Led by Dallas Venture Capital, the Series B round will help Simplismart expand its AI inference platform, strengthen cloud partnerships and grow across North America and global markets",
+      "url": "https://www.business-standard.com/companies/start-ups/simplismart-raises-14-million-in-series-b-to-expand-ai-inference-platform-126102701498_1.html",
+      "source": "Business Standard",
+      "event_type": "funding",
+      "amount": "$14M",
+      "technologies": [
+        "ai",
+        "cloud"
+      ],
+      "published_at": "2026-10-27T14:17:40Z",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/18/thumb/fitandfill/1200X628/1792347411-3594.jpg"
+    },
+    {
+      "id": "65f338de39c3",
+      "name": "From two doctors to 800,000 clinicians: Vera Health raises $28.5M",
+      "slug": "from-two-doctors-to-800-000-clinicians-vera-health-raises-28-5m",
+      "summary": "Today, clinical health platform Vera Health announced a $28.5 million Series A led by Threshold Ventures, with participation from Optum Ventures, the healthcare venture firm backed by UnitedHealth Group, Mantis VC and SV Angel. Vera Health is a clinical AI s…",
+      "url": "https://biztoc.com/x/b6ebf2b000e7d27f",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": "$28.5M",
+      "technologies": [
+        "ai",
+        "health"
+      ],
+      "published_at": "2026-10-27T13:21:59Z",
+      "image_url": "https://biztoc.com/cdn/b6ebf2b000e7d27f_s.webp"
+    },
+    {
+      "id": "ae4518f4cdd3",
+      "name": "Billionaire Palmer Luckey isn&#8217;t leaving California over the wealth tax",
+      "slug": "billionaire-palmer-luckey-isn-8217-t-leaving-california-over-the-wealth-tax",
+      "summary": "\"It's causing a lot of people to run who I don't want to be running,\" native Californian Palmer Luckey said. \"But I'm planning on staying in California. I'm going to keep fighting it.\"",
+      "url": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-27T13:01:00.000Z"
+    },
+    {
+      "id": "2c7d4d81e8e9",
+      "name": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+      "slug": "anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop",
+      "summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S., and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+      "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
+      "source": "TechCrunch Startups",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [],
+      "published_at": "2026-10-27T13:00:00.000Z"
+    },
+    {
+      "id": "50bb7a5d2c5a",
+      "name": "This startup from IIT Kanpur boys wants to make infrared chips 100 times cheaper to help drones see through smoke, haze",
+      "slug": "this-startup-from-iit-kanpur-boys-wants-to-make-infrared-chips-100-times-cheaper-to-help-d",
+      "summary": "Bengaluru-based Nova Spectral AI raised $2.25 million to develop short-wave infrared sensor chips in India. Using colloidal quantum dots, the startup aims to make sensors up to 100 times cheaper than conventional models, with a field-ready prototype planned w…",
+      "url": "https://www.livemint.com/companies/news/this-startup-from-iit-kanpur-boys-wants-to-make-infrared-chips-100-times-cheaper-to-help-drones-see-through-smoke-haze-11793101308172.html",
+      "source": "Livemint",
+      "event_type": "startup",
+      "amount": "$2.25M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T12:54:35Z",
+      "image_url": "https://www.livemint.com/lm-img/img/2026/10/27/1600x900/logo/spectral_1793105607645_Xgtq_1793105608410_aeDq_f600b87a-a90b-431e-aaa2-db6d6826ad85_GiEf.png"
+    },
+    {
+      "id": "6420f41d545d",
+      "name": "Anthropic’s S-1 embodies all the contradictions of the AI boom, and the questions about what happens next",
+      "slug": "anthropic-s-s-1-embodies-all-the-contradictions-of-the-ai-boom-and-the-questions-about-wha",
+      "summary": "The anxiously awaited go-public filing from the $965 billion company is filled with contradictions that, perhaps, wholly encapsulate the AI era.",
+      "url": "https://fortune.com/2026/10/27/anthropic-s-1-embodies-contradictions-ai-boom-questions-what-happens-next/",
+      "source": "Fortune",
+      "event_type": "startup",
+      "amount": "$965B",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T11:51:00Z",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2280291188-1-e1792432476733.jpg?resize=1200,600"
+    },
+    {
+      "id": "8c49fb53b73a",
+      "name": "Nvidia backs Simplismart in $14M round to make AI models run leaner",
+      "slug": "nvidia-backs-simplismart-in-14m-round-to-make-ai-models-run-leaner",
+      "summary": "Nvidia's investment in Simplismart highlights a strategic shift towards optimizing AI efficiency, potentially reshaping GPU demand dynamics. The post Nvidia backs Simplismart in $14M round to make AI models run leaner appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/nvidia-backs-simplismart-14m-funding-round/",
+      "source": "Crypto Briefing",
+      "event_type": "startup",
+      "amount": "$14M",
+      "technologies": [
+        "ai",
+        "fintech"
+      ],
+      "published_at": "2026-10-27T11:04:55Z",
+      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/27070450/library-nvidia-backs-simplismart-in-14m-round-to-make-ai-models--800x450.png"
+    },
+    {
+      "id": "aed94ece8243",
+      "name": "Money managers look past midterm election uncertainty for longer-term gains on U.S. health care",
+      "slug": "money-managers-look-past-midterm-election-uncertainty-for-longer-term-gains-on-u-s-health-",
+      "summary": "Although the recent rally partly reflects a rotation away from pricey tech stocks, other catalysts are driving this defensive sector higher",
+      "url": "https://www.theglobeandmail.com/investing/globe-advisor/advisor-stocks/article-money-managers-look-past-midterm-election-uncertainty-for-longer-term/",
+      "source": "The Globe And Mail",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "health"
+      ],
+      "published_at": "2026-10-27T11:04:21Z",
+      "image_url": "https://www.theglobeandmail.com/resizer/v2/BHBR5EBPVBF3JOUP4TGJJ74KOM.jpg?auth=52de9dd31278e7a8bcb2ff894c49e02c58c01c643ccd8701a172554c236d9a58&width=1200&height=800&quality=80&smart=true"
+    },
     {
       "id": "7c077f9d54f5",
       "name": "Crunchbase Data Shows Q3 Robotics Startup Funding Jumps 185% As US And China Lead Physical AI Push",
@@ -603,7 +1538,7 @@
       "id": "2e46eb265752",
       "name": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
       "slug": "nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
-      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
       "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
       "source": "TechCrunch Startups",
       "event_type": "startup",
@@ -612,6 +1547,94 @@
         "ai"
       ],
       "published_at": "2026-10-27T11:00:00.000Z"
+    },
+    {
+      "id": "f73693a12df1",
+      "name": "An 11-person startup raised $40 million to challenge robotics' data-hungry giants",
+      "slug": "an-11-person-startup-raised-40-million-to-challenge-robotics-data-hungry-giants",
+      "summary": "Machenta, founded by Imperial College London researchers, raised $40 million to build AI that teaches robots new tasks from one demonstration.",
+      "url": "https://www.businessinsider.com/this-11-person-startup-raised-40-million-train-robots-virtual-worlds-2026-10#article",
+      "source": "Business Insider",
+      "event_type": "startup",
+      "amount": "$40M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T10:00:01Z",
+      "image_url": "https://i.insider.com/6adfd49cab741a2ebdf11932?width=1200&format=jpeg"
+    },
+    {
+      "id": "96c98353b3fc",
+      "name": "Intel CEO leads a $30 million bet on a startup aiming to unite hundreds of neoclouds. Read its pitch deck.",
+      "slug": "intel-ceo-leads-a-30-million-bet-on-a-startup-aiming-to-unite-hundreds-of-neoclouds-read-i",
+      "summary": "Backed by Intel CEO Lip-Bu Tan's VC firm, Hyperbolic raised $30 million to make it easier for companies to rent compute across different AI clouds.",
+      "url": "https://www.businessinsider.com/intel-ceo-backs-30-million-round-ai-cloud-startup-hyperbolic-2026-10#article",
+      "source": "Business Insider",
+      "event_type": "startup",
+      "amount": "$30M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T09:00:03Z",
+      "image_url": "https://i.insider.com/6adf996ac8572251b1980211?width=1200&format=jpeg"
+    },
+    {
+      "id": "7eba5c188705",
+      "name": "I built GPTZero in college, and it became a hit. We sold it to an AI company —Now I worry AI is ruining writing.",
+      "slug": "i-built-gptzero-in-college-and-it-became-a-hit-we-sold-it-to-an-ai-company-now-i-worry-ai-",
+      "summary": "Edward Tian built GPTZero in college and sold the AI writing detection tool to Superhuman. Now he worries AI is changing how people write and think.",
+      "url": "https://www.businessinsider.com/gptzero-cofounder-ai-writing-detection-concerns-2026-10#article",
+      "source": "Business Insider",
+      "event_type": "startup",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T09:00:01Z",
+      "image_url": "https://i.insider.com/6adbc1d8c8572251b197f942?width=1200&format=jpeg"
+    },
+    {
+      "id": "b2f4c68e3401",
+      "name": "Lette raises $6.5M to scale AI automation for UK rental operators",
+      "slug": "lette-raises-6-5m-to-scale-ai-automation-for-uk-rental-operators",
+      "summary": "Lette, an AI-powered platform for residential property operators, has raised $6.5 million in seed funding to expand its operations in the UK and support its planned European expansion. The round was led by Peak, with participation from Heliad, Foreword VC, Pi…",
+      "url": "https://biztoc.com/x/d4a79af6825df4b7",
+      "source": "Biztoc.com",
+      "event_type": "funding",
+      "amount": "$6.5M",
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T07:42:05Z",
+      "image_url": "https://biztoc.com/cdn/d4a79af6825df4b7_s.webp"
+    },
+    {
+      "id": "cb00a70d957f",
+      "name": "Zespri expects India to become a key kiwifruit market over the next decade",
+      "slug": "zespri-expects-india-to-become-a-key-kiwifruit-market-over-the-next-decade",
+      "summary": "New Zealand wine faces a $112m economic hit from extra duties and tariffs.",
+      "url": "https://www.nzherald.co.nz/business/business-reports/mood-of-the-boardroom/zespri-expects-india-to-become-a-key-kiwifruit-market-over-the-next-decade/premium/GI47ZDEUNJA4NFEVJ5LTUVW6QE/",
+      "source": "New Zealand Herald",
+      "event_type": "startup",
+      "amount": "$112M",
+      "technologies": [],
+      "published_at": "2026-10-27T06:00:00Z",
+      "image_url": "https://www.nzherald.co.nz/resizer/v2/NNVZ7EMN5JIZNDCW7SAUPNPEVY.jpg?auth=b9a1c00ad568272c088544fd41e8cdf58542fa1a19bb1da5799414ed314fbc58&width=1200&height=675&quality=70&focal=1410%2C707&smart=false"
+    },
+    {
+      "id": "b8dc1e0c2c2f",
+      "name": "Who are the biggest investors backing Anthropic? A look at key stakeholders",
+      "slug": "who-are-the-biggest-investors-backing-anthropic-a-look-at-key-stakeholders",
+      "summary": "Anthropic’s planned IPO is set to test public-market appetite for artificial intelligence companies. Backed by Amazon, Google, leading venture capital firms, global institutions and prominent individual investors, the Claude maker has seen its valuation surge…",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/who-are-the-biggest-investors-backing-anthropic-a-look-at-key-stakeholders/articleshow/135224648.cms",
+      "source": "The Times of India",
+      "event_type": "ipo",
+      "amount": null,
+      "technologies": [
+        "ai"
+      ],
+      "published_at": "2026-10-27T04:44:26Z",
+      "image_url": "https://img.etimg.com/thumb/msid-135224673,width-1200,height-900,imgsize-268808,overlay-etmarkets/articleshow.jpg"
     },
     {
       "id": "68cf4ca8d312",
@@ -638,19 +1661,6 @@
       "published_at": "2026-10-26T20:10:57.000Z"
     },
     {
-      "id": "b20e1ad13fc1",
-      "name": "Why Walmart would rather keep Flipkart private, for now",
-      "slug": "why-walmart-would-rather-keep-flipkart-private-for-now",
-      "summary": "Over the past few weeks, much has been written about former employees of the online commerce company writing to Walmart's board, asking for liquidity on the stock options they were granted 10 to 15 years ago. On October 1, at least eight former senior executi…",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/full-stack/why-walmart-would-rather-keep-flipkart-private-for-now/articleshow/135207048.cms",
-      "source": "The Times of India",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T11:04:39Z",
-      "image_url": "https://img.etimg.com/thumb/msid-135207048,width-1070,height-580,imgsize-45210,overlay-ettech/editionshow.jpg"
-    },
-    {
       "id": "d10286db0c85",
       "name": "When Traction Becomes Personal Exposure: What The Joonko Guilty Plea Means For Founders",
       "slug": "when-traction-becomes-personal-exposure-what-the-joonko-guilty-plea-means-for-founders",
@@ -663,410 +1673,6 @@
         "ai"
       ],
       "published_at": "2026-10-26T11:00:38.000Z"
-    },
-    {
-      "id": "953ea53660db",
-      "name": "California Startups Have Raised More So Far In 2026 Than The Entire US Ever Has In A Single Year",
-      "slug": "california-startups-have-raised-more-so-far-in-2026-than-the-entire-us-ever-has-in-a-singl",
-      "summary": "California companies have scooped up more than three-fourths of all U.S. startup funding this year. That, per Crunchbase data, is an apparent record share. And keep in mind: This year still has a couple months left.",
-      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
-      "source": "Crunchbase News",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T11:00:35.000Z"
-    },
-    {
-      "id": "215f44a97733",
-      "name": "The Mamdani Administration’s Embrace of In-House Tech Has Little Room for AI",
-      "slug": "the-mamdani-administration-s-embrace-of-in-house-tech-has-little-room-for-ai",
-      "summary": "On a sunny Monday morning in mid-July, New York Mayor Zohran Mamdani and several administration officials trekked to Coney Island to announce a new initiative that would deploy small teams of engineers to fix nettlesome problems within city government. The ci…",
-      "url": "http://commercialobserver.com/2026/10/mamdani-administration-technology-ai/",
-      "source": "Commercial Observer",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T10:49:43Z",
-      "image_url": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/10/PIT-Crew-announcement-credit-Michael-Appleton_Mayoral-Photography-Office-WEB.jpg?quality=80&w=1200&h=630&crop=1"
-    },
-    {
-      "id": "1a3bd547c435",
-      "name": "European tech weekly recap: €1.5B in funding and Q3 2026 highlights",
-      "slug": "european-tech-weekly-recap-1-5b-in-funding-and-q3-2026-highlights",
-      "summary": "Last week, we tracked more than 65 tech funding deals worth over €1.5 billion and over 4 exits, M&A transactions, rumours, and related news stories across Europe. According to our Q3 2026 Report, European tech companies raised €27.8 billion across 732 dea…",
-      "url": "https://tech.eu/2026/10/26/european-tech-weekly-recap-eur15b-in-deals-and-q3-2026-highlights/",
-      "source": "Tech.eu",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T10:04:36Z",
-      "image_url": "https://cdn.tech.eu/uploads/2026/10/featured-image-251012026-436.png"
-    },
-    {
-      "id": "e62d54c073db",
-      "name": "Around the Book World: Monday, October 26, 2026",
-      "slug": "around-the-book-world-monday-october-26-2026",
-      "summary": "Publishing analyst Carlo Carrenho kicks off the week with a review of the headlines from across the international publishing world. The post Around the Book World: Monday, October 26, 2026 appeared first on Publishing Perspectives.",
-      "url": "https://publishingperspectives.com/2026/10/around-the-book-world-monday-october-26-2026/",
-      "source": "Publishingperspectives.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T09:12:39Z",
-      "image_url": "https://publishingperspectives.com/wp-content/uploads/2026/01/Screen-Shot-2026-01-18-at-8.18.31-PM-e1773663205654.png"
-    },
-    {
-      "id": "7e229f94269e",
-      "name": "Digest: Anthropic Teams with Hg; DeepSeek Raises $15bn;",
-      "slug": "digest-anthropic-teams-with-hg-deepseek-raises-15bn",
-      "summary": "In today’s ExchangeWire news digest: Anthropic teams up with Hg to launch a European AI consultancy, DeepSeek raises $15bn as it tries to close the gap with US AI rivals, and WPP’s chief AI officer says shopping bots could reshape [...] The post Digest: Anthr…",
-      "url": "https://www.exchangewire.com/blog/2026/10/26/digest-anthropic-teams-with-hg-deepseek-raises-15bn/",
-      "source": "ExchangeWire",
-      "event_type": "funding",
-      "amount": "$15B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T09:00:00Z",
-      "image_url": "https://cdn.exchangewire.com/wp-content/uploads/2026/07/AGENT-HANDSHAKE.jpg"
-    },
-    {
-      "id": "3e2fc59001a3",
-      "name": "slm_open_api_package 0.2.18",
-      "slug": "slm-open-api-package-0-2-18",
-      "summary": "Add your description here",
-      "url": "https://pypi.org/project/slm_open_api_package/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T08:57:16Z",
-      "image_url": "https://pypi.org/static/images/og-card.00947198.webp"
-    },
-    {
-      "id": "720bf46f6020",
-      "name": "tickhub-us added to PyPI",
-      "slug": "tickhub-us-added-to-pypi",
-      "summary": "TickHub-US (US/HK market data engine for AI agents): MCP server, th-us CLI and typed DataEnvelope",
-      "url": "https://pypi.org/project/tickhub-us/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T08:52:19Z",
-      "image_url": null
-    },
-    {
-      "id": "65084125090a",
-      "name": "Unacademy's Gaurav Munjal, Roman Saini plan ₹700-crore fund focused on AI, deeptech startups: Report",
-      "slug": "unacademy-s-gaurav-munjal-roman-saini-plan-700-crore-fund-focused-on-ai-deeptech-startups-",
-      "summary": "According to a report, the fund, named Longshot Capital, has secured commitments of about ₹300 crore and is targeting its first close in January 2027, following which it plans to start investing.",
-      "url": "https://www.livemint.com/companies/unacademys-gaurav-munjal-roman-saini-plan-rs-700-crore-fund-focused-on-ai-deeptech-startups-report-11793002549422.html",
-      "source": "Livemint",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T08:29:40Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/10/26/1600x900/logo/uin_1793003260391_slWm_1793003265747_H9H8_e60666c7-5bbe-4034-9f35-fb4ad14eb247_f6Da.jpg"
-    },
-    {
-      "id": "b6bf4620afa4",
-      "name": "Why IIT Bombay is startup factory: These companies, entrepreneurs are already creating waves in biz world globally",
-      "slug": "why-iit-bombay-is-startup-factory-these-companies-entrepreneurs-are-already-creating-waves",
-      "summary": "While some IIT Bombay graduates have built successful companies from the ground up, others are backing ambitious founders and helping startups scale. Here, meet alumni who are leading startups and unicorns.",
-      "url": "https://www.livemint.com/companies/people/why-iit-bombay-is-startup-factory-these-companies-entrepreneurs-are-already-creating-waves-in-biz-world-globally-11792998603667.html",
-      "source": "Livemint",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T07:26:52Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/10/26/1600x900/logo/Band_1792999411262_Kv8l_1792999417687_MIqh_765b35d2-f79f-45d4-a6ae-ca13a6da9863_9XpB.jpg"
-    },
-    {
-      "id": "04c9eaaba910",
-      "name": "Defense tech investment boom sparks bubble warning as private equity pours in",
-      "slug": "defense-tech-investment-boom-sparks-bubble-warning-as-private-equity-pours-in",
-      "summary": "Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.",
-      "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
-      "source": "CNBC",
-      "event_type": "startup",
-      "amount": "$4B",
-      "technologies": [],
-      "published_at": "2026-10-26T06:00:01Z",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108371664-1790935737100-gettyimages-2291533356-638a0458.jpeg?v=1790935934&w=1920&h=1080"
-    },
-    {
-      "id": "17551dbbceed",
-      "name": "Salesforce ? Part Two",
-      "slug": "salesforce-part-two",
-      "summary": "I needed a keyboard. I stood at my reserved desk on the 7th floor of Salesforce’s tower in Vancouver around 9am. There were a pair of monitors mounted to the desk, a power strip, and a chair. Even a mouse. But no keyboard. The office was mostly empty, with…",
-      "url": "https://buildingslack.com/salesforce-part-two/",
-      "source": "Buildingslack.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T05:47:02Z",
-      "image_url": "https://storage.ghost.io/c/9f/03/9f033e67-a4c3-4e3c-9fff-c62672d0a4f2/content/images/2026/10/web1_benioff.jpg"
-    },
-    {
-      "id": "2ac1400ceb45",
-      "name": "ztest-runner added to PyPI",
-      "slug": "ztest-runner-added-to-pypi",
-      "summary": "Fast pytest-compatible test runner with a native Zig supervisor",
-      "url": "https://pypi.org/project/ztest-runner/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T05:11:32Z",
-      "image_url": null
-    },
-    {
-      "id": "5994404e4807",
-      "name": "arras added to PyPI",
-      "slug": "arras-added-to-pypi",
-      "summary": "The interface to an ontology: UMF types and actions, freshness-stating reads, Truss and Ashlar backends.",
-      "url": "https://pypi.org/project/arras/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T02:58:44Z",
-      "image_url": null
-    },
-    {
-      "id": "11518f4a6039",
-      "name": "Ukraine GPS Hack Boards And Other Speculation on Ukraine Starlink",
-      "slug": "ukraine-gps-hack-boards-and-other-speculation-on-ukraine-starlink",
-      "summary": "Ukraine uses both commercial/consumer Starlink terminals and the military-oriented Starshield service. The distinction matters. High-speed military use is typically associated with authorized Starshield configurations rather than unmodified commercial plans. …",
-      "url": "https://www.nextbigfuture.com/2026/10/ukraine-gps-hack-boards-and-other-speculation-on-ukraine-starlink.html",
-      "source": "Next Big Future",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T02:18:33Z",
-      "image_url": null
-    },
-    {
-      "id": "baba840b8bc6",
-      "name": "Show HN: God – real-time control room for LLM agent societies (EMNLP 2026 demo)",
-      "slug": "show-hn-god-real-time-control-room-for-llm-agent-societies-emnlp-2026-demo",
-      "summary": "Article URL: https://github.com/XiaoLuoLYG/GOD Comments URL: https://news.ycombinator.com/item?id=50238271 Points: 2 # Comments: 0",
-      "url": "https://github.com/XiaoLuoLYG/GOD",
-      "source": "Github.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T02:11:28Z",
-      "image_url": "https://opengraph.githubassets.com/091dc216169017740e1fbcb7ad6cbedbbcef206d99168f657275cb0843e83d28/XiaoLuoLYG/GOD"
-    },
-    {
-      "id": "8193a180d54d",
-      "name": "Unacademy founders plan AI fund; Flipkart’s premium push",
-      "slug": "unacademy-founders-plan-ai-fund-flipkart-s-premium-push",
-      "summary": "Happy Monday! Unacademy’s founders are raising a fund focused on AI and deeptech. This and more in today’s ETtech Morning Dispatch.",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/unacademy-founders-plan-ai-fund-flipkarts-premium-push/articleshow/135200550.cms",
-      "source": "The Times of India",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T02:04:54Z",
-      "image_url": "https://img.etimg.com/thumb/msid-135200550,width-1070,height-580,imgsize-456188,overlay-ettech/editionshow.jpg"
-    },
-    {
-      "id": "83e449c5db1d",
-      "name": "Tin Men Capital leads US$7.4M Series A for Vision AI startup Ailytics to expand across APAC, US and Gulf",
-      "slug": "tin-men-capital-leads-us-7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apa",
-      "summary": "SINGAPORE, Oct. 26, 2026 /PRNewswire/ -- Ailytics, a vision AI startup that turns existing industrial CCTV into a real-time safety and operations layer, has raised US$7.4 million in a Series A led by Tin Men Capital. SEEDS, part of SG Growth Capital, Safie, J…",
-      "url": "https://www.prnewswire.co.uk/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918676.html",
-      "source": "PR Newswire UK",
-      "event_type": "funding",
-      "amount": "$7.4M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T01:00:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS2020061/20261024080949EDT_image_1.jpg?id=OA3037809&p=facebook"
-    },
-    {
-      "id": "19e106a451df",
-      "name": "Tin Men Capital leads US$7.4M Series A for Vision AI startup Ailytics to expand across APAC, US and Gulf",
-      "slug": "tin-men-capital-leads-us-7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apa",
-      "summary": "SINGAPORE, Oct. 25, 2026 /PRNewswire/ -- Ailytics, a vision AI startup that turns existing industrial CCTV into a real-time safety and operations layer, has raised US$7.4 million in a Series A led by Tin Men Capital. SEEDS, part of SG Growth Capital, Safie, J…",
-      "url": "https://www.prnewswire.com/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918668.html",
-      "source": "PRNewswire",
-      "event_type": "funding",
-      "amount": "$7.4M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T01:00:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS2020061/20261024080949EDT_image_1.jpg?id=OA3037771&p=facebook"
-    },
-    {
-      "id": "75f5247a67cd",
-      "name": "msp-py added to PyPI",
-      "slug": "msp-py-added-to-pypi",
-      "summary": "Model Sensing Protocol — a node-centric paradigm for decentralized AI communication.",
-      "url": "https://pypi.org/project/msp-py/",
-      "source": "Pypi.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-26T00:55:33Z",
-      "image_url": null
-    },
-    {
-      "id": "a74d3830434b",
-      "name": "Wonder Plans IPO and Aims to Be Fully Autonomous by 2040",
-      "slug": "wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040",
-      "summary": "Food startup Wonder has reportedly set its sights on going public amid wider expansion plans. As CNBC reported Sunday (Oct. 25), the company is also eyeing an “aggressive” expansion in Texas and a subscription program that allows diners to operate their own “…",
-      "url": "https://biztoc.com/x/35bb56e7ecf7957c",
-      "source": "Biztoc.com",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T00:55:09Z",
-      "image_url": "https://biztoc.com/cdn/996/og.png"
-    },
-    {
-      "id": "1d63cf2d3ce8",
-      "name": "BFSI Summit 2026: Shaktikanta Das to Poonam Gupta, here are key speakers",
-      "slug": "bfsi-summit-2026-shaktikanta-das-to-poonam-gupta-here-are-key-speakers",
-      "summary": "Meet the policymakers, regulators, bankers and investors shaping India's financial future, from monetary policy and market reforms to banking, insurance and investment.",
-      "url": "https://www.business-standard.com/specials/bs-events/bfsi-summit-2026-shaktikanta-das-to-poonam-gupta-here-are-key-speakers-126102500645_1.html",
-      "source": "Business Standard",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-10-26T00:50:33Z",
-      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/25/thumb/fitandfill/1200X628/1792940117-3257.jpg"
-    },
-    {
-      "id": "7c676ff79da7",
-      "name": "Lula’s Suprise Win Blocks Trump’s Push for a Far-Right Brazil",
-      "slug": "lula-s-suprise-win-blocks-trump-s-push-for-a-far-right-brazil",
-      "summary": "This article was published in partnership with Agência Pública, Brazil’s largest nonprofit newsroom. Two weeks before the second and decisive round of the Brazilian presidential elections in October, US Health Secretary Robert F. Kennedy Jr. was in Rio de Jan…",
-      "url": "https://www.motherjones.com/politics/2026/10/luiz-inacio-lula-suprise-win-blocks-trumps-push-for-a-far-right-brazil/",
-      "source": "Mother Jones",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "health"
-      ],
-      "published_at": "2026-10-26T00:39:47Z",
-      "image_url": "https://www.motherjones.com/wp-content/uploads/2026/10/1023_lula-win_2000_C.jpg?w=1200&h=630&crop=1"
-    },
-    {
-      "id": "2fdd642b8b64",
-      "name": "Lula’s Suprise Win Blocks Trump’s Push for a Far-Right Brazil",
-      "slug": "lula-s-suprise-win-blocks-trump-s-push-for-a-far-right-brazil",
-      "summary": "This article was published in partnership with Agência Pública, Brazil’s largest nonprofit newsroom. Two weeks before the second and decisive round of the Brazilian presidential elections in October, US Health Secretary Robert F. Kennedy Jr. was in Rio de Jan…",
-      "url": "https://www.motherjones.com/politics/2026/10/lulas-suprise-win-blocks-trumps-push-for-a-far-right-brazil/",
-      "source": "Mother Jones",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "health"
-      ],
-      "published_at": "2026-10-26T00:39:47Z",
-      "image_url": "https://www.motherjones.com/wp-content/uploads/2026/10/1023_lula-win_2000_C.jpg?w=1200&h=630&crop=1"
-    },
-    {
-      "id": "f18b1b75d86b",
-      "name": "Introducing Lab Rats: A Mint series on India’s biotech startups",
-      "slug": "introducing-lab-rats-a-mint-series-on-india-s-biotech-startups",
-      "summary": "India’s drug innovation story has so far been told through the lens of established pharmaceutical companies. But a new generation of biotech startups is attempting bolder feats with a fraction of the funding.",
-      "url": "https://www.livemint.com/companies/start-ups/mint-lab-rats-biotech-startups-in-india-11791818972814.html",
-      "source": "Livemint",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [
-        "health"
-      ],
-      "published_at": "2026-10-26T00:30:33Z",
-      "image_url": "https://www.livemint.com/lm-img/img/2026/10/22/1600x900/lab_rats_series_intro_1792681188897_kJrP_1792681189022_ClJN_03b3c50f-f64e-4aee-9f9b-b408f456c1eb_lFe0.jpg"
-    },
-    {
-      "id": "dd8c8f4a1ad5",
-      "name": "Wonder Plans IPO and Aims to Be Fully Autonomous by 2040",
-      "slug": "wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040",
-      "summary": "Food startup Wonder has reportedly set its sights on going public amid wider expansion plans. As CNBC reported Sunday (Oct. 25), the company is also eyeing an “aggressive” expansion in Texas and a subscription program that allows diners to operate their own “…",
-      "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/wonder-plans-ipo-and-aims-to-be-fully-autonomous-by-2040/",
-      "source": "pymnts.com",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-26T00:26:09Z",
-      "image_url": "https://www.pymnts.com/wp-content/uploads/2026/10/Wonder-IPO-1.jpg"
-    },
-    {
-      "id": "50fee2423c6d",
-      "name": "Roman Reyhani, CEO of NZ’s new advanced technology agency, outlines 3 target areas",
-      "slug": "roman-reyhani-ceo-of-nz-s-new-advanced-technology-agency-outlines-3-target-areas",
-      "summary": "The NZ Institute for Advanced Technology has 11 staff and a mandate to hire up to 25.",
-      "url": "https://www.nzherald.co.nz/business/the-crowns-advanced-technology-agency-gets-a-boss-who-outlines-three-target-areas/premium/6VHGGSR26JH4PFOW6HRKNDTKZQ/",
-      "source": "New Zealand Herald",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-25T16:00:00Z",
-      "image_url": "https://www.nzherald.co.nz/resizer/v2/F6UYGL7UIJBE5EZE3HUMBICIDY.jpg?auth=79206770cad8929b5b643945cc666afc65280b4a95b847a76bfaca7ba49d1bbb&width=1200&height=675&quality=70&smart=true"
-    },
-    {
-      "id": "01bd84a697aa",
-      "name": "The forces shaping next stage for Indian startups",
-      "slug": "the-forces-shaping-next-stage-for-indian-startups",
-      "summary": "Explores India’s shift from unicorns to globally competitive, innovation-driven startups powered by talent, capital, and supportive policy.",
-      "url": "https://www.thehindubusinessline.com/books/reviews/the-forces-shaping-next-stage-for-indian-startups/article71624212.ece",
-      "source": "BusinessLine",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-25T15:53:25Z",
-      "image_url": "https://bl-i.thgim.com/public/incoming/nvijtw/article71624217.ece/alternates/LANDSCAPE_1200/61MKxDEaTBL._SL1500_.jpg"
-    },
-    {
-      "id": "60792190f525",
-      "name": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-      "slug": "marc-lore-s-wonder-bets-on-texas-automation-and-user-built-restaurants-as-it-mulls-ipo",
-      "summary": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
-      "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
-      "source": "CNBC",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-25T12:00:01Z",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108448204-1792698576376-gettyimages-2235177281-McGregor250915NYCbusinesses04.jpeg?v=1792698756&w=1920&h=1080"
-    },
-    {
-      "id": "6ebfc45ebb7c",
-      "name": "Arthur Hayes says high-FDV tokens no longer pump on Binance",
-      "slug": "arthur-hayes-says-high-fdv-tokens-no-longer-pump-on-binance",
-      "summary": "The shift away from high-FDV token pumps on Binance signals a potential move towards fairer token distribution models, impacting retail investor strategies. The post Arthur Hayes says high-FDV tokens no longer pump on Binance appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/arthur-hayes-high-fdv-tokens-flop-labs/",
-      "source": "Crypto Briefing",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "fintech"
-      ],
-      "published_at": "2026-10-24T04:04:00Z",
-      "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/24000355/library-arthur-hayes-says-high-fdv-tokens-no-longer-pump-on-bina-800x450.png"
     },
     {
       "id": "f87dbf604b7a",
@@ -1131,88 +1737,6 @@
       "published_at": "2026-10-23T19:06:23.000Z"
     },
     {
-      "id": "3cdc0df2d8ca",
-      "name": "Travel VC Funding Fell for the Second Straight Quarter, Rounds for AI Companies Cut in Half",
-      "slug": "travel-vc-funding-fell-for-the-second-straight-quarter-rounds-for-ai-companies-cut-in-half",
-      "summary": "Travel's next dollar is shifting. Funding rounds steadily dropped quarter over quarter in 2026 while incumbents made targeted acquisitions. Though it's too early to say whether this is a long-term market movement, it's a clear sign of the times.",
-      "url": "https://skift.com/2026/10/23/travel-vc-funding-fell-for-the-second-straight-quarter-rounds-for-ai-companies-cut-in-half/",
-      "source": "Skift",
-      "event_type": "acquisition",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-23T18:58:27Z",
-      "image_url": "https://skift.com/wp-content/uploads/2026/10/Skift_Capital_Allocation_Brief_Q3_2026.jpg?resize=1024,576"
-    },
-    {
-      "id": "2df3c6792a2c",
-      "name": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-      "slug": "the-week-s-10-biggest-funding-rounds-ai-drives-a-varied-lineup-of-large-financings",
-      "summary": "It was another interesting week for AI-related startup funding, with a number of large rounds and quirky companies. The largest financings went to Tenstorrent, a developer of AI processors and systems, and AI lab Flapping Airplanes. The quirkiest round, meanwhile, was undoubtedly",
-      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
-      "source": "Crunchbase News",
-      "event_type": "funding",
-      "amount": "$200M",
-      "technologies": [
-        "ai",
-        "health"
-      ],
-      "published_at": "2026-10-23T18:51:22.000Z"
-    },
-    {
-      "id": "16bbd0697751",
-      "name": "Anduril’s Palmer Luckey launches genetically-engineered ‘war dogs’ startup",
-      "slug": "anduril-s-palmer-luckey-launches-genetically-engineered-war-dogs-startup",
-      "summary": "US billionaire Palmer Luckey is launching a startup to clone genetically-modified war dogs and equip them with high-tech battlefield gear Read Full Article at RT.com",
-      "url": "https://rt-english.com/news/647570-us-genetically-engineered-war-dogs/",
-      "source": "Rt-english.com",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T18:05:19Z",
-      "image_url": "https://mf.b37mrtl.ru/files/2026.10/article/6adb54812030276c8f2fb5e8.jpg"
-    },
-    {
-      "id": "cfdca1cd116c",
-      "name": "Palmer Luckey Is Launching a Genetically Engineered War Dog Startup",
-      "slug": "palmer-luckey-is-launching-a-genetically-engineered-war-dog-startup",
-      "summary": "It is a truth universally acknowledged that rich people love a designer dog. TikTok influencers walk their viewers through the process of cloning their dearly departed pugs. If you’ve got enough money, you can get a genetically-engineered hypoallergenic beagl…",
-      "url": "https://www.motherjones.com/politics/2026/10/palmer-luckey-anduril-warhound-colossal-genetically-engineered-military-dog/",
-      "source": "Mother Jones",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T17:28:04Z",
-      "image_url": "https://www.motherjones.com/wp-content/uploads/2026/10/commando-chihuahua.jpg?w=1200&h=630&crop=1"
-    },
-    {
-      "id": "26bf09e4d8e3",
-      "name": "The Armageddon Economy",
-      "slug": "the-armageddon-economy",
-      "summary": "Tech leaders have escape plans. What about everybody else?",
-      "url": "https://www.theatlantic.com/podcasts/2026/10/zealousness-new-tech-right/689124/?utm_source=feed",
-      "source": "The Atlantic",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T17:00:00Z",
-      "image_url": null
-    },
-    {
-      "id": "4875a9cbd283",
-      "name": "Birmingham & the Midlands face scaling conundrum",
-      "slug": "birmingham-the-midlands-face-scaling-conundrum",
-      "summary": "We brought together founders, leaders and ecosystem figures at the offices of RSM during Birmingham Tech Week to hear their perspectives on what the region needs to succeed",
-      "url": "https://businesscloud.co.uk/news/birmingham-the-midlands-face-scaling-conundrum/",
-      "source": "BusinessCloud",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T16:39:16Z",
-      "image_url": "https://businesscloud.co.uk/wp-content/uploads/2026/10/BusinessCloud-roundtable-at-RSM-during-Birmingham-Tech-Week.jpg"
-    },
-    {
       "id": "0cdffc97e965",
       "name": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
       "slug": "agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-who-s-who-of-angel",
@@ -1227,182 +1751,6 @@
       "published_at": "2026-10-23T16:26:29.000Z"
     },
     {
-      "id": "cef842b9d1c9",
-      "name": "What some of Anthropic's backers are worth before its IPO",
-      "slug": "what-some-of-anthropic-s-backers-are-worth-before-its-ipo",
-      "summary": "Image Credits:Kimberly White/Getty Images for TechCrunch Anthropic’s public listing, which is expected this year at a valuation of as much as $2 trillion, is bound to be a windfall for both early-stage and later-stage investors. But even at the company’s la…",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-backers-reportedly-worth-ipo-160243752.html",
-      "source": "Yahoo Entertainment",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T16:02:43Z",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/050052367ca2ed921c58c66a33b05dfacc4e621324eb16707b6988f288974589/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechcrunch_finance_785%2F878abd0e6155d4158f324aa5e53fc6fb"
-    },
-    {
-      "id": "f5eabd9144e0",
-      "name": "Motor & Motor-Drive Sensors Market worth $5.47 billion by 2035 - Exclusive Report by MarketsandMarkets™",
-      "slug": "motor-motor-drive-sensors-market-worth-5-47-billion-by-2035-exclusive-report-by-marketsand",
-      "summary": "DELRAY BEACH, Fla., Oct. 23, 2026 /PRNewswire/ -- According to MarketsandMarkets™, the Motor & Motor-Drive Sensors Market is projected to be valued at USD 3.21 billion in 2026 and USD 5.47 billion by 2035, exhibiting a CAGR of 6.1% during the forecast period.…",
-      "url": "https://www.prnewswire.com/news-releases/motor--motor-drive-sensors-market-worth-5-47-billion-by-2035---exclusive-report-by-marketsandmarkets-302917979.html",
-      "source": "PRNewswire",
-      "event_type": "startup",
-      "amount": "$5.47B",
-      "technologies": [],
-      "published_at": "2026-10-23T14:15:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS1173081/MarketsandMarkets-Logo.jpg?id=OA3036036&p=facebook"
-    },
-    {
-      "id": "ceb77f0eaf10",
-      "name": "Motor & Motor-Drive Sensors Market worth $5.47 billion by 2035 - Exclusive Report by MarketsandMarkets™",
-      "slug": "motor-motor-drive-sensors-market-worth-5-47-billion-by-2035-exclusive-report-by-marketsand",
-      "summary": "DELRAY BEACH, Fla., Oct. 23, 2026 /PRNewswire/ -- According to MarketsandMarkets™, the Motor & Motor-Drive Sensors Market is projected to be valued at USD 3.21 billion in 2026 and USD 5.47 billion by 2035, exhibiting a CAGR of 6.1% during the forecast period.…",
-      "url": "https://www.prnewswire.co.uk/news-releases/motor--motor-drive-sensors-market-worth-5-47-billion-by-2035---exclusive-report-by-marketsandmarkets-302917992.html",
-      "source": "PR Newswire UK",
-      "event_type": "startup",
-      "amount": "$5.47B",
-      "technologies": [],
-      "published_at": "2026-10-23T14:15:00Z",
-      "image_url": "https://mmx.prnewswire.com/media/MS1173081/MarketsandMarkets-Logo.jpg?id=OA3036145&p=facebook"
-    },
-    {
-      "id": "0ad41a1fd3fc",
-      "name": "In AI, it’s a tale of two diverging investor classes",
-      "slug": "in-ai-it-s-a-tale-of-two-diverging-investor-classes",
-      "summary": "Depending on where you sit as an investor, artificial intelligence still looks like a massive opportunity, or it’s now looking way too risky given growing infrastructure investments and the public’s souring on AI and all the data centers needed to power it. R…",
-      "url": "https://siliconangle.com/2026/10/23/in-ai-its-a-tale-of-two-diverging-investor-classes/",
-      "source": "SiliconANGLE News",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-10-23T14:00:51Z",
-      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Venture-Capital-Boom-Retail-Investor-Bust-800x533.png"
-    },
-    {
-      "id": "d40a4add1ce7",
-      "name": "Knowing You Can Raise Versus Guessing",
-      "slug": "knowing-you-can-raise-versus-guessing",
-      "summary": "Somebody who successfully raises an A has done all the prior prep work. They're deeply embedded in their market. They've built relationships with VCs over the previous year or two, so nothing about the process is surprising going in. Their whole pre-A exec…",
-      "url": "https://www.thisisgoingtobebig.com/blog/2026/10/23/knowing-you-can-raise-versus-guessing",
-      "source": "Thisisgoingtobebig.com",
-      "event_type": "funding",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T13:13:47Z",
-      "image_url": "http://static1.squarespace.com/static/54f4b48fe4b01c0a849f7194/550c5ae3e4b08e9b9d3d37f7/6adb3e90d4da2747798755ee/1792761266624/batman-forever-riddler-jim-carey.jpeg?format=1500w"
-    },
-    {
-      "id": "bd21bec6631b",
-      "name": "Protecting Trade Secrets In The Age Of AI",
-      "slug": "protecting-trade-secrets-in-the-age-of-ai",
-      "summary": "AI agents create new trade secret risks by allowing employees to access expertise or inadvertently expose proprietary information through personal devices. In this guest commentary, Seth Kugler, a partner at Grellas Shah LLP, warns companies that they should adopt strict AI polic",
-      "url": "https://news.crunchbase.com/ai/protecting-trade-secrets-legal-kugler-grellas-shah/",
-      "source": "Crunchbase News",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-23T11:00:29.000Z"
-    },
-    {
-      "id": "b8bccb75620c",
-      "name": "Trump's DOJ Is Openly Hostile To Congressional Oversight. Here's How Dems Outsmart Them if They Win In November.",
-      "slug": "trump-s-doj-is-openly-hostile-to-congressional-oversight-here-s-how-dems-outsmart-them-if-",
-      "summary": "Trump’s DOJ has been retooled with loyalists and personal lawyers, all ready to stand in the way of Democratic legal efforts against the president.",
-      "url": "https://www.huffpost.com/entry/democrats-will-have-to-outsmart-trumps-doj-to-hold-him-accountable_n_6aa80699e4b0781f96936982",
-      "source": "HuffPost",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T11:00:19Z",
-      "image_url": "https://img.huffingtonpost.com/asset/6ad78cb41c0000af81265ca9.jpg?cache=jCo4vNFFZR&ops=1200_630"
-    },
-    {
-      "id": "b71e66e0c9ef",
-      "name": "5 Interesting Startup Deals You May Have Missed: Robot Training, Space Lasers And Greener Cement",
-      "slug": "5-interesting-startup-deals-you-may-have-missed-robot-training-space-lasers-and-greener-ce",
-      "summary": "From teaching robots to do everyday household chores to using lasers to track satellites in space, this month's crop of interesting startup deals spans some decidedly different corners of tech.",
-      "url": "https://news.crunchbase.com/venture/interesting-startup-deals-robots-ai-gaming-clean-tech/",
-      "source": "Crunchbase News",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T11:00:08.000Z"
-    },
-    {
-      "id": "f76c1a303b79",
-      "name": "Web Review, Week 2026-43",
-      "slug": "web-review-week-2026-43",
-      "summary": "I’ll take a short break, so no web review next week. Let’s go for my web review for the week 2026-43. Enjoy it as it’ll be the last one of October! The Slow Formation of Durable Software Tags: tech, foss, history Interesting account of Zotero history. Anothe…",
-      "url": "https://ervin.ipsquad.net/blog/2026/10/23/web-review-week-2026-43/",
-      "source": "Ipsquad.net",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T10:49:34Z",
-      "image_url": "https://ervin.ipsquad.net/home/explore-more-unsplash.jpg"
-    },
-    {
-      "id": "ccc58e0ed755",
-      "name": "AI Had Better Work Out",
-      "slug": "ai-had-better-work-out",
-      "summary": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month. In return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-      "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-      "source": "Wheresyoured.at",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-23T05:47:01Z",
-      "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
-    },
-    {
-      "id": "75420dda9c38",
-      "name": "Move Slow and Fix Things",
-      "slug": "move-slow-and-fix-things",
-      "summary": "Growing up as a kid in rural Bavaria, I always …",
-      "url": "https://endler.dev/2024/move-slow-and-fix-things/",
-      "source": "Endler.dev",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T05:12:39Z",
-      "image_url": "https://endler.dev/2024/move-slow-and-fix-things/social.png"
-    },
-    {
-      "id": "e9fc2da72e96",
-      "name": "OpenAI engineer accused of planting recording device to stay in pre-trial detention",
-      "slug": "openai-engineer-accused-of-planting-recording-device-to-stay-in-pre-trial-detention",
-      "summary": "A COURT IN THE United States has granted a request by government prosecutors to prolong the pre-trial detention of Abdulrahman Alfozan, an OpenAI employee, who was arrested by the Federal Bureau of Investigation (FBI) on 9 October 2026. The 35-year-old Saudi …",
-      "url": "https://intelnews.org/2026/10/22/01-3467/",
-      "source": "Intelnews.org",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-23T03:42:00Z",
-      "image_url": "https://intelnews.org/wp-content/uploads/2026/10/first-post-h-6.jpg"
-    },
-    {
-      "id": "184c655f5270",
-      "name": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
-      "slug": "report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo",
-      "summary": "Artificial intelligence leader OpenAI Group PBC might have plans to go public in the near future, but it isn’t done with private funding rounds. Indeed, it’s currently believed to be negotiating with investors an additional $30 billion investment that would b…",
-      "url": "https://siliconangle.com/?p=851622",
-      "source": "SiliconANGLE News",
-      "event_type": "ipo",
-      "amount": "$30B",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-23T00:47:28Z",
-      "image_url": "https://siliconangle.com/files/2015/08/PLACEHOLDER-SiliconANGLE.png"
-    },
-    {
       "id": "17ba7c279f4a",
       "name": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
       "slug": "warhound-raises-200m-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
@@ -1415,201 +1763,16 @@
       "published_at": "2026-10-22T23:15:00.000Z"
     },
     {
-      "id": "923d2ef83838",
-      "name": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "slug": "openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "source": "TechCrunch Startups",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-22T22:08:24.000Z"
-    },
-    {
-      "id": "b973cd439b13",
-      "name": "Robotics startup Enact Intelligence nabs $30M funding round",
-      "slug": "robotics-startup-enact-intelligence-nabs-30m-funding-round",
-      "summary": "Swiss robotics startup Enact Intelligence today announced that it has raised $30 million in pre-seed funding. The capital was provided by a consortium that included Yann LeCun, one of the world’s most prominent artificial intelligence researchers. He was join…",
-      "url": "https://siliconangle.com/2026/10/22/robotics-startup-enact-intelligence-nabs-30m-funding-round/",
-      "source": "SiliconANGLE News",
-      "event_type": "funding",
-      "amount": "$30M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-22T20:31:36Z",
-      "image_url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Unsplash.png"
-    },
-    {
-      "id": "f9ab67719085",
-      "name": "The secret to fast startup growth isn&#8217;t early sales, top names in tech say",
-      "slug": "the-secret-to-fast-startup-growth-isn-8217-t-early-sales-top-names-in-tech-say",
-      "summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
-      "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
-      "source": "TechCrunch Startups",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-22T20:00:00.000Z"
-    },
-    {
-      "id": "e4240e2194a2",
-      "name": "For the first time, Canada’s venture capital strategy starts at pre-seed",
-      "slug": "for-the-first-time-canada-s-venture-capital-strategy-starts-at-pre-seed",
-      "summary": "$75 million dedicated stream will back Canadian founders at pre-seed and seed TORONTO, Oct. 22, 2026 (GLOBE NEWSWIRE) — The National Angel Capital Organization (NACO) welcomes today’s announcement by the Honourable Mélanie Joly, Minister of Industry, that, fo…",
-      "url": "https://financialpost.com/globe-newswire/for-the-first-time-canadas-venture-capital-strategy-starts-at-pre-seed",
-      "source": "Financial Post",
-      "event_type": "funding",
-      "amount": "$75M",
-      "technologies": [],
-      "published_at": "2026-10-22T19:41:41Z",
-      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/claudio-rojas-ceo-of-national-angel-capital-organization-nac.jpeg"
-    },
-    {
-      "id": "ce79e1d80183",
-      "name": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
-      "slug": "former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
-      "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
-      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-      "source": "TechCrunch Startups",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-22T18:38:47.000Z"
-    },
-    {
-      "id": "a83a5368fdfc",
-      "name": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements",
-      "slug": "techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements",
-      "summary": "Among the Startup Battlefield 200 were many industry-defining companies exhibiting and pitching on the Showcase Stage. Here are the standouts.",
-      "url": "https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/",
-      "source": "TechCrunch Startups",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-22T16:00:00.000Z"
-    },
-    {
       "id": "e855e502d604",
       "name": "Investors break down how founders can raise a Series A today",
       "slug": "investors-break-down-how-founders-can-raise-a-series-a-today",
       "summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
       "url": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
-      "source": "TechCrunch Startups",
+      "source": "TechCrunch Fundraising",
       "event_type": "funding",
       "amount": null,
       "technologies": [],
       "published_at": "2026-10-22T15:15:00.000Z"
-    },
-    {
-      "id": "7e60064f0b41",
-      "name": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
-      "slug": "fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-pow",
-      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
-      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
-      "source": "TechCrunch Startups",
-      "event_type": "startup",
-      "amount": "$225M",
-      "technologies": [],
-      "published_at": "2026-10-22T14:59:28.000Z"
-    },
-    {
-      "id": "172dc2cd6dd1",
-      "name": "Exclusive: Slingshot Raises $27M In Seed Funding To Build An Insurer For Those Small Policies Sold At Checkout",
-      "slug": "exclusive-slingshot-raises-27m-in-seed-funding-to-build-an-insurer-for-those-small-policie",
-      "summary": "Slingshot Insurance, a Minneapolis-based AI-native embedded insurance startup, is emerging from stealth with $27 million in a seed funding round co-led by Rally Ventures and Skyward Group, it tells Crunchbase News exclusively.",
-      "url": "https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/",
-      "source": "Crunchbase News",
-      "event_type": "funding",
-      "amount": "$27M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-22T13:00:23.000Z"
-    },
-    {
-      "id": "6fe2cf99c43a",
-      "name": "The AI IPO Wave Is The Dot-Com Bubble&#8217;s Evil Twin. Anthropic’s Delay Just Proved It.",
-      "slug": "the-ai-ipo-wave-is-the-dot-com-bubble-8217-s-evil-twin-anthropic-s-delay-just-proved-it",
-      "summary": "In this guest article from Airrived co-founder and CEO Anurag Gurtu, he contends that Anthropic’s rapid revenue growth does not justify its proposed $2 trillion IPO valuation, given enormous infrastructure commitments, safety concerns, customer concentration and competition from ",
-      "url": "https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/",
-      "source": "Crunchbase News",
-      "event_type": "ipo",
-      "amount": null,
-      "technologies": [
-        "ai",
-        "cloud"
-      ],
-      "published_at": "2026-10-22T11:00:42.000Z"
-    },
-    {
-      "id": "ff59339d8c21",
-      "name": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "slug": "techcrunch-founder-summit-2026-everything-you-need-to-know",
-      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
-      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "source": "TechCrunch Startups",
-      "event_type": "startup",
-      "amount": null,
-      "technologies": [],
-      "published_at": "2026-10-21T21:16:20.000Z"
-    },
-    {
-      "id": "ec425e5d20d9",
-      "name": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-      "slug": "year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation",
-      "summary": "Just 9 months after raising a $180 million seed round, Flapping Airplanes has landed a $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
-      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$180M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T20:57:40.000Z"
-    },
-    {
-      "id": "adc429ff4a5b",
-      "name": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
-      "slug": "legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation",
-      "summary": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion.",
-      "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$550M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T18:51:56.000Z"
-    },
-    {
-      "id": "c2a66b19512e",
-      "name": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "slug": "blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
-      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$66M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T17:18:27.000Z"
-    },
-    {
-      "id": "edf91cd626bd",
-      "name": "Mach9 raises $34M after pivoting to AI CAD software",
-      "slug": "mach9-raises-34m-after-pivoting-to-ai-cad-software",
-      "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
-      "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
-      "source": "TechCrunch Startups",
-      "event_type": "funding",
-      "amount": "$34M",
-      "technologies": [
-        "ai"
-      ],
-      "published_at": "2026-10-21T13:00:00.000Z"
     },
     {
       "id": "f49bda7a88a6",
