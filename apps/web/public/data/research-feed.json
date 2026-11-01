@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T11:42:11.214Z",
-  "total": 203,
+  "generated_at": "2026-11-01T12:41:46.939Z",
+  "total": 186,
   "sources": {
     "arxiv_llm": 12,
     "arxiv_world-models": 12,
@@ -14,8 +14,8 @@
     "arxiv_robotics": 12,
     "arxiv_security": 12,
     "arxiv_quantum": 12,
-    "openalex": 48,
-    "crossref": 20,
+    "openalex": 12,
+    "crossref": 30,
     "huggingface": 30,
     "pubmed": 20
   },
@@ -34,18 +34,18 @@
     "Machine Learning"
   ],
   "topic_counts": {
-    "LLM": 29,
-    "AI": 101,
+    "LLM": 23,
+    "AI": 92,
     "World Models": 13,
-    "Agents": 17,
-    "Multimodal": 26,
+    "Agents": 16,
+    "Multimodal": 25,
     "Computer Vision": 5,
-    "NLP": 13,
+    "NLP": 9,
     "Reinforcement Learning": 20,
     "Robotics": 14,
     "Quantum": 14,
-    "Cybersecurity": 14,
-    "Machine Learning": 17
+    "Cybersecurity": 13,
+    "Machine Learning": 16
   },
   "papers": [
     {
@@ -71,6 +71,54 @@
       "topic_key": "ai"
     },
     {
+      "id": "2c41134923d4",
+      "title": "Entrepreneurship: Unveiling World Patterns",
+      "slug": "entrepreneurship-unveiling-world-patterns",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Flávio Gomes Borges Tiago",
+        "João Pedro de Almeida Couto",
+        "Pinheiro Melo Borges Tiago",
+        "Sandra Micaela Costa Dias Faria"
+      ],
+      "author_line": "Flávio Gomes Borges Tiago, João Pedro de Almeida Couto, Pinheiro Melo Borges Tiago, Sandra Micaela Costa Dias Faria",
+      "url": "https://doi.org/10.15556/ijsim.02.04.001",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2116-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Strategic Innovative Marketing",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "2c5e2810c1d8",
+      "title": "Learner profiles and the process of Learning in the Higher Educational Context",
+      "slug": "learner-profiles-and-the-process-of-learning-in-the-higher-educational-context",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Christos Skourlas",
+        "Petros Belsis"
+      ],
+      "author_line": "Christos Skourlas, Petros Belsis",
+      "url": "https://doi.org/10.15556/ijiim.02.01.003",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2115-03-05T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal on Integrated Information Management",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "3d16fe7b19e8",
       "title": "Introducing a conceptual model of brand orientation within the context of Social Entrepreneurial Businesses",
       "slug": "introducing-a-conceptual-model-of-brand-orientation-within-the-context-of-social-entrepren",
@@ -87,6 +135,30 @@
       "published_at": "2114-12-10T00:00:00.000Z",
       "source": "Crossref",
       "venue": "International Journal of Strategic Innovative Marketing",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "3501c5c2ef02",
+      "title": "WEB-BASED COLLABORATIVE LEARNING AND KNOWLEDGE SHARING IN INFORMAL BUSINESS NETWORKS",
+      "slug": "web-based-collaborative-learning-and-knowledge-sharing-in-informal-business-networks",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "George Stalidis",
+        "Costis Papadimitrakopoulos",
+        "Theocharis Tsakiris"
+      ],
+      "author_line": "George Stalidis, Costis Papadimitrakopoulos, Theocharis Tsakiris",
+      "url": "https://doi.org/10.15556/ijiim.01.02.002",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2114-12-10T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal on Integrated Information Management",
       "topic": "AI",
       "topics": [
         "AI"
@@ -162,6 +234,120 @@
       "published_at": "2106-06-20T00:00:00.000Z",
       "source": "Crossref",
       "venue": "International Journal Of Community Health And Medical Research",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "e6edf0ad5968",
+      "title": "Availability and Utilization of Tools and Equipment for Teaching and Learning Garment Making Trade in the Senior Secondary Schools in Edo State",
+      "slug": "availability-and-utilization-of-tools-and-equipment-for-teaching-and-learning-garment-maki",
+      "abstract": "",
+      "summary": "",
+      "authors": [],
+      "author_line": "",
+      "url": "https://doi.org/10.20431/2349-0381.0303002",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2106-01-01T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "International Journal of Humanities, Social Sciences and Education",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "771fb358abff",
+      "title": "Neighbourhood Variation and Inequity of Primary Health Service Use by Mothers from London–Middlesex, Ontario",
+      "slug": "neighbourhood-variation-and-inequity-of-primary-health-service-use-by-mothers-from-london-",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Catherine Holtz",
+        "Amardeep Thind",
+        "Piotr Wilk",
+        "M. Campbell"
+      ],
+      "author_line": "Catherine Holtz, Amardeep Thind, Piotr Wilk, M. Campbell",
+      "url": "https://doi.org/10.12927/whp.2014.23859",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2104-03-31T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "World Health &amp; Population",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "1cdb59f71d8c",
+      "title": "From the Editor-in-Chief",
+      "slug": "from-the-editor-in-chief",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Judith Shamian"
+      ],
+      "author_line": "Judith Shamian",
+      "url": "https://doi.org/10.12927/whp.2014.23862",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2104-03-31T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "World Health &amp; Population",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "77e5fb1fc68b",
+      "title": "Protection of Health Workers, Patients and Facilities in Times of Violence – Report",
+      "slug": "protection-of-health-workers-patients-and-facilities-in-times-of-violence-report",
+      "abstract": "",
+      "summary": "",
+      "authors": [],
+      "author_line": "",
+      "url": "https://doi.org/10.12927/whp.2014.23757",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2104-03-31T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "World Health &amp; Population",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "00336216e228",
+      "title": "The Experiences of Making Infant Feeding Choices by African, Caribbean and Black HIV-Positive Mothers in Ontario, Canada",
+      "slug": "the-experiences-of-making-infant-feeding-choices-by-african-caribbean-and-black-hiv-positi",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Lydia Kapiriri",
+        "Wangari Tharao",
+        "Marvelous Muchenje",
+        "Khatundi Masinde",
+        "Sandi Siegel",
+        "Fanta Ongoiba"
+      ],
+      "author_line": "Lydia Kapiriri, Wangari Tharao, Marvelous Muchenje, Khatundi Masinde et al.",
+      "url": "https://doi.org/10.12927/whp.2014.23860",
+      "pdf_url": null,
+      "category": null,
+      "published_at": "2104-03-31T00:00:00.000Z",
+      "source": "Crossref",
+      "venue": "World Health &amp; Population",
       "topic": "AI",
       "topics": [
         "AI"
@@ -541,99 +727,6 @@
         "AI"
       ],
       "topic_key": "ai"
-    },
-    {
-      "id": "daa6d7b8a186",
-      "title": "Can Large Language Models Perceive Low-Cost Prosocial Behavior",
-      "slug": "can-large-language-models-perceive-low-cost-prosocial-behavior",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Jiajia Zhu",
-        "Chengzhe Ma",
-        "Lawrence Hoc Nang Fong"
-      ],
-      "author_line": "Jiajia Zhu, Chengzhe Ma, Lawrence Hoc Nang Fong",
-      "url": "https://doi.org/10.17632/nfmz7fn4g2",
-      "pdf_url": "https://doi.org/10.17632/nfmz7fn4g2",
-      "category": "Ethics and Social Impacts of AI",
-      "published_at": "2027-10-09T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "54e0d3eb673d",
-      "title": "REALMS-CG: Resilient Ensemble of Autonomous LLM Multi-agent with Spectral clustering for Code Generation",
-      "slug": "realms-cg-resilient-ensemble-of-autonomous-llm-multi-agent-with-spectral-clustering-for-co",
-      "abstract": "This contains the actual source code, prompts, scripts and all experiment results as described in the paper:REALMS-CG: Resilient Ensemble of Autonomous LLM Multi-agent with Spectral clustering for Code Generation.This data is provided as part of reproducibility effort to support transparency and allow verification of reported findings.",
-      "summary": "This contains the actual source code, prompts, scripts and all experiment results as described in the paper:REALMS-CG: Resilient Ensemble of Autonomous LLM Multi-agent with Spectral clustering for Code Generation.This data is provided as part of reproducibility effort to support ",
-      "authors": [
-        "Anonymous, Anonymous"
-      ],
-      "author_line": "Anonymous, Anonymous",
-      "url": "https://doi.org/10.5281/zenodo.22893746",
-      "pdf_url": "https://doi.org/10.5281/zenodo.22893746",
-      "category": "Software Engineering Research",
-      "published_at": "2027-09-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "Agents"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "9ebe16b53ae2",
-      "title": "Data and analysis materials supporting EP-TransPE: a retrieval-augmented large language model system for technical translation and post-editing in energy and power engineering",
-      "slug": "data-and-analysis-materials-supporting-ep-transpe-a-retrieval-augmented-large-language-mod",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "育智 张"
-      ],
-      "author_line": "育智 张",
-      "url": "https://doi.org/10.17632/8yfdvcfwsf",
-      "pdf_url": "https://doi.org/10.17632/8yfdvcfwsf",
-      "category": "Natural Language Processing Techniques",
-      "published_at": "2027-08-15T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "e6515bbece15",
-      "title": "Data and analysis materials for EP-TransPE: A retrieval-augmented LLM agent for technical translation in energy and power engineering",
-      "slug": "data-and-analysis-materials-for-ep-transpe-a-retrieval-augmented-llm-agent-for-technical-t",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "育智 张"
-      ],
-      "author_line": "育智 张",
-      "url": "https://doi.org/10.17632/b7tg2rtxwj",
-      "pdf_url": "https://doi.org/10.17632/b7tg2rtxwj",
-      "category": "Natural Language Processing Techniques",
-      "published_at": "2027-08-12T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
     },
     {
       "id": "196c499af3de",
@@ -1025,28 +1118,6 @@
       "topic_key": "ai"
     },
     {
-      "id": "5ae2d8cb3828",
-      "title": "Impact of cognitive processes on work performance comparative study in teachers of the Cruz del Norte Educational Unit",
-      "slug": "impact-of-cognitive-processes-on-work-performance-comparative-study-in-teachers-of-the-cru",
-      "abstract": "This study examines the relationship between cognitive processes and job performance in teachers at the Cruz del Norte Educational Unit, focusing on attention, planning, organization, anxiety, and job stress. A mixed-method design was applied, combining quantitative and qualitative techniques such as psychometric tests, Pearson correlation, multiple regression analysis, Student’s t-test, the Delphi method, and the Ishikawa diagram. The results show that executive functions, particularly planning and organization, have a significant positive impact on job performance. Teachers with higher levels of these skills demonstrate better performance, with strong correlations (r = 0.72, p = 0.001; r =",
-      "summary": "This study examines the relationship between cognitive processes and job performance in teachers at the Cruz del Norte Educational Unit, focusing on attention, planning, organization, anxiety, and job stress. A mixed-method design was applied, combining quantitative and qualitati",
-      "authors": [
-        "Erick Joel Loor Domo"
-      ],
-      "author_line": "Erick Joel Loor Domo",
-      "url": "https://journal.publiseditorial.com/index.php/jles/article/view/163",
-      "pdf_url": "https://journal.publiseditorial.com/index.php/jles/article/download/163/582",
-      "category": "School Leadership and Teacher Performance",
-      "published_at": "2027-03-26T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Journal of Law and Epistemic Studies",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
       "id": "d7db402fc394",
       "title": "Discriminatory ability of WL Nutrient Agar for yeasts associated with olive environments: a binary scoring and machine learning approach.",
       "slug": "discriminatory-ability-of-wl-nutrient-agar-for-yeasts-associated-with-olive-environments-a",
@@ -1130,6 +1201,65 @@
       "topic_key": "ai"
     },
     {
+      "id": "785a8ea0dc73",
+      "title": "A novel microscopic hyperspectral imaging detection method for quantitative powdered food adulteration assessment: A comparative study of CNN-RNN attention models.",
+      "slug": "a-novel-microscopic-hyperspectral-imaging-detection-method-for-quantitative-powdered-food-",
+      "abstract": "",
+      "summary": "A novel microscopic hyperspectral imaging detection method for quantitative powdered food adulteration assessment: A comparative study of CNN-RNN attention models.",
+      "authors": [
+        "Zhang S",
+        "Hao Y",
+        "Liu T",
+        "Sang T",
+        "Zhang Z",
+        "Wang S"
+      ],
+      "author_line": "Zhang S, Hao Y, Liu T, Sang T et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800161/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-03-01T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Talanta",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
+      "id": "5c89e9c6500f",
+      "title": "Label-free and intelligent fluorometric array for simultaneously sensing of multiplexed metal ions based on DNA conformational diversity.",
+      "slug": "label-free-and-intelligent-fluorometric-array-for-simultaneously-sensing-of-multiplexed-me",
+      "abstract": "",
+      "summary": "Label-free and intelligent fluorometric array for simultaneously sensing of multiplexed metal ions based on DNA conformational diversity.",
+      "authors": [
+        "Shi L",
+        "Jin J",
+        "Liu H",
+        "Wu N",
+        "Xu C",
+        "Bu J",
+        "Zhao X",
+        "Li S",
+        "Qi Y",
+        "Li S",
+        "Wang H"
+      ],
+      "author_line": "Shi L, Jin J, Liu H, Wu N et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800152/",
+      "pdf_url": null,
+      "category": "Journal Article",
+      "published_at": "2027-03-01T00:00:00.000Z",
+      "source": "PubMed",
+      "venue": "Talanta",
+      "topic": "AI",
+      "topics": [
+        "AI"
+      ],
+      "topic_key": "ai"
+    },
+    {
       "id": "90d95cc7319e",
       "title": "Neuroimaging Biomarkers for Brain Disorder Diagnosis Using Advanced Learning Techniques.",
       "slug": "neuroimaging-biomarkers-for-brain-disorder-diagnosis-using-advanced-learning-techniques",
@@ -1146,198 +1276,6 @@
       "published_at": "2027-03-01T00:00:00.000Z",
       "source": "PubMed",
       "venue": "International journal of neural systems",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "5a0266672574",
-      "title": "Compensation-Balanced Recurrent Neural Architecture Based on Nonlinear Spiking Neural Membrane Systems.",
-      "slug": "compensation-balanced-recurrent-neural-architecture-based-on-nonlinear-spiking-neural-memb",
-      "abstract": "",
-      "summary": "Compensation-Balanced Recurrent Neural Architecture Based on Nonlinear Spiking Neural Membrane Systems.",
-      "authors": [
-        "Fu J",
-        "Peng H",
-        "Li B",
-        "Zhou Z"
-      ],
-      "author_line": "Fu J, Peng H, Li B, Zhou Z",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42671321/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-03-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "International journal of neural systems",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "9f642279c158",
-      "title": "Semantic-Aware Semi-Supervised Systematic Segmentation for Brain Magnetic Resonance Image.",
-      "slug": "semantic-aware-semi-supervised-systematic-segmentation-for-brain-magnetic-resonance-image",
-      "abstract": "",
-      "summary": "Semantic-Aware Semi-Supervised Systematic Segmentation for Brain Magnetic Resonance Image.",
-      "authors": [
-        "Madni HA",
-        "Zottin S",
-        "Nardin A",
-        "Umer RM",
-        "Foresti GL"
-      ],
-      "author_line": "Madni HA, Zottin S, Nardin A, Umer RM et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42671319/",
-      "pdf_url": null,
-      "category": "Journal Article",
-      "published_at": "2027-03-01T00:00:00.000Z",
-      "source": "PubMed",
-      "venue": "International journal of neural systems",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "1420585fbd0d",
-      "title": "Diasporic Sikh masculinities in Ranj Dhaliwal’s \"Daaku\" and Gautam Malkani’s \"Londonstani\"",
-      "slug": "diasporic-sikh-masculinities-in-ranj-dhaliwal-s-daaku-and-gautam-malkani-s-londonstani",
-      "abstract": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "summary": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "authors": [
-        "Kiran Kaur Sunar"
-      ],
-      "author_line": "Kiran Kaur Sunar",
-      "url": "http://hdl.handle.net/2429/35756",
-      "pdf_url": "http://hdl.handle.net/2429/35756",
-      "category": "Postcolonial and Cultural Literary Studies",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "cIRcle (University of British Columbia)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "bb1ee18ba81f",
-      "title": "Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs",
-      "slug": "contested-urbanisms-the-politics-of-heritage-and-housing-in-jakarta-s-kampungs",
-      "abstract": "Do heritage-making projects resist or advance gentrification in Southeast Asia? Like other Global South cities, contested urbanisms chequer Jakarta’s postcolonial urban landscape. Competing ideas about urban development manifest in various ways of seeing and producing the city, as demonstrated by evictions, revitalisation projects, and informal housing. Increased evictions of urban villages (urban kampungs) between 2013 and 2018 in Jakarta saw growing grassroots heritage movements as part of a spectrum of resistance to top-down urban management by state and private sector actors who also stake their claims on what ‘heritage’ is. These tensions amongst the political projects of various actors",
-      "summary": "Do heritage-making projects resist or advance gentrification in Southeast Asia? Like other Global South cities, contested urbanisms chequer Jakarta’s postcolonial urban landscape. Competing ideas about urban development manifest in various ways of seeing and producing the city, a",
-      "authors": [
-        "Binte Masron, Irna Nurlina"
-      ],
-      "author_line": "Binte Masron, Irna Nurlina",
-      "url": "https://eprints.bbk.ac.uk/id/eprint/56687/1/Binte%20Masron%20I%2C%20final%20thesis%20for%20library.pdf",
-      "pdf_url": "https://eprints.bbk.ac.uk/id/eprint/56687/1/Binte%20Masron%20I%2C%20final%20thesis%20for%20library.pdf",
-      "category": "Urban Planning and Governance",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "BIROn (Birkbeck, University of London)",
-      "topic": "Cybersecurity",
-      "topics": [
-        "Cybersecurity"
-      ],
-      "topic_key": "cybersecurity"
-    },
-    {
-      "id": "017d817bc993",
-      "title": "SCORING MOTIVATIONAL ASSESSMENTS WITH FREE RESPONSES VIA TRANSFORMERS",
-      "slug": "scoring-motivational-assessments-with-free-responses-via-transformers",
-      "abstract": "Student motivation is a well-established predictor of academic engagement and achievement. Despite its importance, motivation is difficult to assess accurately, as it is shaped by multiple, overlapping constructs and contextual factors. This complexity continues to pose challenges for researchers and practitioners seeking measurement tools with valid and reliable scores. While open-ended responses provide meaningful information about students’ motivation, traditional human scoring is time-consuming, subject to inconsistencies, and not easily scalable. Advances in natural language processing, especially with transformer-based large language models, offer promising new approaches for automated",
-      "summary": "Student motivation is a well-established predictor of academic engagement and achievement. Despite its importance, motivation is difficult to assess accurately, as it is shaped by multiple, overlapping constructs and contextual factors. This complexity continues to pose challenge",
-      "authors": [
-        "Cihan Demir"
-      ],
-      "author_line": "Cihan Demir",
-      "url": "https://doi.org/10.7273/000007859",
-      "pdf_url": "https://doi.org/10.7273/000007859",
-      "category": "Online Learning and Analytics",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Washington State University",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "5b2a10b1b3bc",
-      "title": "LLM AUDIO",
-      "slug": "llm-audio",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Emel Tahir"
-      ],
-      "author_line": "Emel Tahir",
-      "url": "https://doi.org/10.17632/s3wy23bkdd",
-      "pdf_url": "https://doi.org/10.17632/s3wy23bkdd",
-      "category": "Speech Recognition and Synthesis",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Mendeley Data",
-      "topic": "LLM",
-      "topics": [
-        "LLM"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "c9d558a9c57e",
-      "title": "Computational Framing with Event-Based Methods",
-      "slug": "computational-framing-with-event-based-methods",
-      "abstract": "This dissertation presents a computational framework for analyzing media framing through event-based methods, addressing limitations of traditional topic-level classification approaches that fail to capture the nuanced mechanisms by which news sources construct divergent narratives. The research has been organized around four phases, each contributing novel datasets, models, and analytical tools. In the first phase, we tackled Cross-Document Event Coreference (CDEC) by constructing the Richer EventCorefBank (RECB) dataset through sentence-level decontextualization, significantly improving the scalability and robustness of cross-document event coreference systems. In the second phase, we deve",
-      "summary": "This dissertation presents a computational framework for analyzing media framing through event-based methods, addressing limitations of traditional topic-level classification approaches that fail to capture the nuanced mechanisms by which news sources construct divergent narrativ",
-      "authors": [
-        "Jin Zhao"
-      ],
-      "author_line": "Jin Zhao",
-      "url": "https://doi.org/10.48617/etd.1603",
-      "pdf_url": "https://doi.org/10.48617/etd.1603",
-      "category": "Topic Modeling",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Brandeis Institutional Repository",
-      "topic": "LLM",
-      "topics": [
-        "LLM",
-        "NLP"
-      ],
-      "topic_key": "llm"
-    },
-    {
-      "id": "c312bb614b06",
-      "title": "Therapeutic gases and the Nrf2/Keap1 pathway: direct thiol modification vs . indirect modulation.",
-      "slug": "therapeutic-gases-and-the-nrf2-keap1-pathway-direct-thiol-modification-vs-indirect-modulat",
-      "abstract": "The nuclear factor erythroid 2-related factor 2/Kelch-like Ech-associated protein 1 (Nrf2/Keap1) pathway is a central homeostatic module that integrates oxidant, electrophilic, inflammatory, and metabolic signals into adaptive transcriptional programs. In parallel, nitric oxide (NO), hydrogen sulfide (H 2 S), and molecular hydrogen (H 2 ) have emerged as therapeutically relevant gaseous mediators with distinct chemical identities, tissue distribution profiles, and pharmacological constraints. This review re-examines these gases through a single organizing question: how can highly dissimilar small molecules converge on the same redox-defense hub? We compare the direct cysteine chemistry of NO",
-      "summary": "The nuclear factor erythroid 2-related factor 2/Kelch-like Ech-associated protein 1 (Nrf2/Keap1) pathway is a central homeostatic module that integrates oxidant, electrophilic, inflammatory, and metabolic signals into adaptive transcriptional programs. In parallel, nitric oxide (",
-      "authors": [
-        "Te Xiao",
-        "Chao Xia",
-        "Lisha Huang",
-        "Yanqi Li",
-        "Mengyu Liu",
-        "Pengxiang Zhao",
-        "Xuemei Ma",
-        "Fei Xie"
-      ],
-      "author_line": "Te Xiao, Chao Xia, Lisha Huang, Yanqi Li et al.",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667377/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667377/pdf/MGR-17-261.pdf",
-      "category": "Genomics, phytochemicals, and oxidative stress",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
       "topic": "AI",
       "topics": [
         "AI"
@@ -1374,204 +1312,19 @@
       "topic_key": "ai"
     },
     {
-      "id": "cc6e697b28c9",
-      "title": "Medical gases and hypertensive disorders of pregnancy: therapeutic mechanisms and research advances.",
-      "slug": "medical-gases-and-hypertensive-disorders-of-pregnancy-therapeutic-mechanisms-and-research-",
-      "abstract": "Hypertensive disorders during pregnancy pose a serious threat to the health of both mothers and infants, yet the range of available clinical treatments is limited. This review summarizes the mechanisms and recent advances in the use of medical gases, such as nitric oxide, hyperbaric oxygen, carbon monoxide and hydrogen sulfide, in the treatment of this condition. These gaseous molecules have unique protective effects, including regulating vascular tone, improving placental blood perfusion and inhibiting oxidative stress and inflammatory responses. However, their clinical application faces major challenges, including precise dose control, optimization of delivery methods and assessment of lon",
-      "summary": "Hypertensive disorders during pregnancy pose a serious threat to the health of both mothers and infants, yet the range of available clinical treatments is limited. This review summarizes the mechanisms and recent advances in the use of medical gases, such as nitric oxide, hyperba",
+      "id": "37af94356f8b",
+      "title": "Nitric oxide signaling and mitophagy in Parkinson's disease: implications for aerobic exercise-related neuroprotection.",
+      "slug": "nitric-oxide-signaling-and-mitophagy-in-parkinson-s-disease-implications-for-aerobic-exerc",
+      "abstract": "Parkinson's disease is strongly associated with mitochondrial dysfunction and impaired mitochondrial quality control, including defective mitophagy. Aerobic exercise is increasingly recognized as a safe and accessible intervention that can improve motor and non-motor outcomes in Parkinson's disease and may also engage mechanisms relevant to disease modification. In this review, we propose a context-dependent framework in which aerobic exercise reshapes nitric oxide signaling toward a more adaptive profile, characterized by relatively moderate, transient, and spatially restricted nitric oxide bioactivity, and we discuss how this shift may influence mitochondrial biogenesis, mitophagy initiati",
+      "summary": "Parkinson's disease is strongly associated with mitochondrial dysfunction and impaired mitochondrial quality control, including defective mitophagy. Aerobic exercise is increasingly recognized as a safe and accessible intervention that can improve motor and non-motor outcomes in ",
       "authors": [
-        "Zhiguang Xu",
-        "Tian Geng",
-        "Di Zhou",
-        "Fuju Wu"
+        "Yang Zhou",
+        "Yongliang Wu"
       ],
-      "author_line": "Zhiguang Xu, Tian Geng, Di Zhou, Fuju Wu",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667357/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667357/pdf/MGR-17-242.pdf",
-      "category": "Pregnancy and preeclampsia studies",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "97afee2c12ef",
-      "title": "Breathing in harm: current insights into the effects of air pollution on cardiorespiratory health.",
-      "slug": "breathing-in-harm-current-insights-into-the-effects-of-air-pollution-on-cardiorespiratory-",
-      "abstract": "Air pollution significantly contributes to cardiovascular and respiratory diseases, leading to increased morbidity and mortality. This review critically examines the mechanisms linking air pollution to higher cardiometabolic risk and cardiovascular death. It examines the impact of air pollution on respiratory health, specifically its role in exacerbating conditions such as heart failure, chronic obstructive pulmonary disease, and asthma. Special attention is given to vulnerable groups, including pregnant individuals, neonates, children, and patients with pre-existing cardiovascular or respiratory conditions, who are particularly susceptible and experience more severe health effects. Emerging",
-      "summary": "Air pollution significantly contributes to cardiovascular and respiratory diseases, leading to increased morbidity and mortality. This review critically examines the mechanisms linking air pollution to higher cardiometabolic risk and cardiovascular death. It examines the impact o",
-      "authors": [
-        "Vasiliki Michou",
-        "Dimitrios Tsamos",
-        "Aikaterini Itziou",
-        "Constantinos G. Tsanaktsidis"
-      ],
-      "author_line": "Vasiliki Michou, Dimitrios Tsamos, Aikaterini Itziou, Constantinos G. Tsanaktsidis",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667354/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667354/pdf/MGR-17-268.pdf",
-      "category": "Air Quality and Health Impacts",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "03c236402267",
-      "title": "Hypoxia-responsive supramolecular systems based on macrocycles and self-assembly structures.",
-      "slug": "hypoxia-responsive-supramolecular-systems-based-on-macrocycles-and-self-assembly-structure",
-      "abstract": "Hypoxia is closely associated with tumor progression, metastasis, therapeutic resistance, and diagnostic challenges. The timely detection of hypoxia in live cancer cells is critical for early cancer diagnosis and for monitoring the effectiveness of anticancer therapies. Recently, there has been growing interest in non-covalent supramolecular design strategies for the development of hypoxia-sensitive sensors and prodrugs. Unlike the widely employed covalent approach, supramolecular chemistry eliminates the need for complex and time-consuming synthetic processes. Instead, the individual components of the sensor autonomously self-assemble into the desired structure. This review provides an over",
-      "summary": "Hypoxia is closely associated with tumor progression, metastasis, therapeutic resistance, and diagnostic challenges. The timely detection of hypoxia in live cancer cells is critical for early cancer diagnosis and for monitoring the effectiveness of anticancer therapies. Recently,",
-      "authors": [
-        "Farida B. Gabdrakhmanova",
-        "Ekaterina S. Churbanova",
-        "S. Е. Solovieva",
-        "Антипин Игорь Сергеевич"
-      ],
-      "author_line": "Farida B. Gabdrakhmanova, Ekaterina S. Churbanova, S. Е. Solovieva, Антипин Игорь Сергеевич",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667349/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667349/pdf/MGR-17-217.pdf",
-      "category": "Supramolecular Chemistry and Complexes",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "84b805bf66dd",
-      "title": "Ambient particulate matter pollution and stroke burden.",
-      "slug": "ambient-particulate-matter-pollution-and-stroke-burden",
-      "abstract": "As a major component of air pollution, ambient particulate matter pollution has rarely been studied with respect to its global stroke burden. This study aims to evaluate the global stroke incidence, mortality, and health inequalities related to ambient particulate matter pollution from 1990 to 2021. Utilizing the Global Burden of Disease Study 2021, we analyzed global stroke-related mortality, disability-adjusted life years, and their age-standardized rates. The estimated annual percentage change was calculated using a linear regression model. Health inequalities were measured using the concentration index and slope index of inequality. Between 1990 and 2021, global ambient particulate matte",
-      "summary": "As a major component of air pollution, ambient particulate matter pollution has rarely been studied with respect to its global stroke burden. This study aims to evaluate the global stroke incidence, mortality, and health inequalities related to ambient particulate matter pollutio",
-      "authors": [
-        "Lu Jiang",
-        "Kuangyang Yu",
-        "Long Gu",
-        "Wenfeng Xiao",
-        "Wen Tan",
-        "Yong Jiang",
-        "Jianhua Peng"
-      ],
-      "author_line": "Lu Jiang, Kuangyang Yu, Long Gu, Wenfeng Xiao et al.",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667390/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667390/pdf/MGR-17-7.pdf",
-      "category": "Air Quality and Health Impacts",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "2f420685e5ac",
-      "title": "Perioperative hyperbaric oxygen therapy: mechanisms, evidence, and clinical application.",
-      "slug": "perioperative-hyperbaric-oxygen-therapy-mechanisms-evidence-and-clinical-application",
-      "abstract": "Hyperbaric oxygen therapy delivers 100% oxygen at supra-atmospheric pressures, elevating plasma oxygen content and tissue oxygenation above normoxic levels. Once limited to decompression illness, hyperbaric oxygen therapy is gaining recognition as a perioperative adjunct with potential to mitigate complications through supra-physiologic tissue oxygenation. This review summarizes current evidence on the biological mechanisms, clinical applications, and considerations of perioperative hyperbaric oxygen therapy. Mechanistically, hyperbaric oxygen therapy has been shown to promote angiogenesis through redox-sensitive upregulation of hypoxia-inducible factor-1α and vascular endothelial growth fac",
-      "summary": "Hyperbaric oxygen therapy delivers 100% oxygen at supra-atmospheric pressures, elevating plasma oxygen content and tissue oxygenation above normoxic levels. Once limited to decompression illness, hyperbaric oxygen therapy is gaining recognition as a perioperative adjunct with pot",
-      "authors": [
-        "Takudzwa Gavaza",
-        "Nathanael Matei"
-      ],
-      "author_line": "Takudzwa Gavaza, Nathanael Matei",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667376/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667376/pdf/MGR-17-306.pdf",
-      "category": "Diabetic Foot Ulcer Assessment and Management",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "1ef085e677f6",
-      "title": "Experimental evidence for the beneficial effects of low-concentration ozone.",
-      "slug": "experimental-evidence-for-the-beneficial-effects-of-low-concentration-ozone",
-      "abstract": "Ozone (O3), a molecule consisting of three oxygen atoms, is an unstable compound whose clinical application as a complementary therapy continues to expand. Although numerous clinical studies support its therapeutic potential, the molecular basis of its effects has remained poorly understood. This review summarizes the current knowledge on the cellular and molecular mechanisms activated by low-concentration O3. Central to its action is the induction of mild oxidative stress by low concentrations of O3, which triggers an antioxidant response mediated through nuclear factor erythroid 2-related factor 2, enhancing cell survival. Additionally, low-concentration O3 exhibits antiinflammatory proper",
-      "summary": "Ozone (O3), a molecule consisting of three oxygen atoms, is an unstable compound whose clinical application as a complementary therapy continues to expand. Although numerous clinical studies support its therapeutic potential, the molecular basis of its effects has remained poorly",
-      "authors": [
-        "Flavia Carton",
-        "Carlo Pellicciari",
-        "Gabriele Tabaracci",
-        "Manuela Malatesta"
-      ],
-      "author_line": "Flavia Carton, Carlo Pellicciari, Gabriele Tabaracci, Manuela Malatesta",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667353/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667353/pdf/MGR-17-177.pdf",
-      "category": "Medical and Biological Ozone Research",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "23cbb50c8531",
-      "title": "Oxygen, carbon dioxide, and nitric oxide: role in the pathophysiology of obstructive sleep apnea.",
-      "slug": "oxygen-carbon-dioxide-and-nitric-oxide-role-in-the-pathophysiology-of-obstructive-sleep-ap",
-      "abstract": "Obstructive sleep apnea is a prevalent sleep-related breathing disorder with recurrent episodes of upper airway collapse during sleep, leading to cyclic blood gas fluctuations. Oxygen, carbon dioxide, and nitric oxide play a crucial role in the pathophysiology. This narrative review aims to explore the role of gases in obstructive sleep apnea pathophysiology, focusing on the molecular pathways and effects of chronic intermittent hypoxia, intermittent hypercapnia, and nitric oxide dysregulation. Chronic intermittent hypoxia stimulates molecular pathways such as hypoxia-inducible factor-1α and inflammatory cascades such as nuclear factor kappa B, leading to oxidative stress, endothelial dysfun",
-      "summary": "Obstructive sleep apnea is a prevalent sleep-related breathing disorder with recurrent episodes of upper airway collapse during sleep, leading to cyclic blood gas fluctuations. Oxygen, carbon dioxide, and nitric oxide play a crucial role in the pathophysiology. This narrative rev",
-      "authors": [
-        "Antonio Fabozzi",
-        "Pasquale Tondo",
-        "Caterina Antonaglia",
-        "Alessia Steffanina",
-        "Donato Lacedonia",
-        "Marco Confalonieri",
-        "Matteo Bonini",
-        "Paolo Palange"
-      ],
-      "author_line": "Antonio Fabozzi, Pasquale Tondo, Caterina Antonaglia, Alessia Steffanina et al.",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667351/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667351/pdf/MGR-17-285.pdf",
-      "category": "Obstructive Sleep Apnea Research",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "eab9723d6dc6",
-      "title": "Hyperbaric oxygen for the treatment of traumatic incomplete spinal cord injury: a systematic review and meta-analysis of randomized controlled trials.",
-      "slug": "hyperbaric-oxygen-for-the-treatment-of-traumatic-incomplete-spinal-cord-injury-a-systemati",
-      "abstract": "The therapeutic efficacy of hyperbaric oxygen therapy for traumatic incomplete spinal cord injury remains a subject of debate. To comprehensively evaluate the impact of hyperbaric oxygen on motor function, sensory function, and activities of daily living in patients with traumatic incomplete spinal cord injury, we conducted a systematic review and meta-analysis. We performed a comprehensive search across PubMed, Embase, the Cochrane Library, Web of Science, and major Chinese databases for randomized controlled trials published through June 2025. A total of 15 randomized controlled trials were included. The pooled results indicated that hyperbaric oxygen therapy significantly improved the Ame",
-      "summary": "The therapeutic efficacy of hyperbaric oxygen therapy for traumatic incomplete spinal cord injury remains a subject of debate. To comprehensively evaluate the impact of hyperbaric oxygen on motor function, sensory function, and activities of daily living in patients with traumati",
-      "authors": [
-        "Jiantao Shi",
-        "Hongfei Ge",
-        "Zhouyang Jiang",
-        "Guangjian He",
-        "Liang Tan",
-        "Rong Hu",
-        "Shengli Hu"
-      ],
-      "author_line": "Jiantao Shi, Hongfei Ge, Zhouyang Jiang, Guangjian He et al.",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667362/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667362/pdf/MGR-17-89.pdf",
-      "category": "Spinal Cord Injury Research",
+      "author_line": "Yang Zhou, Yongliang Wu",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667388/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667388/pdf/MGR-17-129.pdf",
+      "category": "Parkinson's Disease Mechanisms and Treatments",
       "published_at": "2027-01-01T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "PubMed Central",
@@ -1602,168 +1355,6 @@
       "published_at": "2027-01-01T00:00:00.000Z",
       "source": "OpenAlex",
       "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "6757675988d0",
-      "title": "Research Unmuted – Episode 9: Fixing Data Imbalance Can Harm Clinical AI",
-      "slug": "research-unmuted-episode-9-fixing-data-imbalance-can-harm-clinical-ai",
-      "abstract": "This episode is part of Research Unmuted (https://research-unmuted.uk), a scientific audio journal aimed at translating contemporary medical and digital health research into an accessible, yet academically, audio format. Abstract Objectives: Machine-learning–based clinical risk prediction models are increasingly used to support decision-making in healthcare. While class-imbalance correction techniques are commonly applied to address rare outcomes, their impact on probabilistic calibration remains insufficiently understood. This study evaluated the effect of widely used resampling strategies on both discrimination and calibration across real-world clinical prediction tasks. Materials and Meth",
-      "summary": "This episode is part of Research Unmuted (https://research-unmuted.uk), a scientific audio journal aimed at translating contemporary medical and digital health research into an accessible, yet academically, audio format. Abstract Objectives: Machine-learning–based clinical risk p",
-      "authors": [
-        "Simon Lebech Cichosz"
-      ],
-      "author_line": "Simon Lebech Cichosz",
-      "url": "https://doi.org/10.5281/zenodo.23058949",
-      "pdf_url": "https://doi.org/10.5281/zenodo.23058949",
-      "category": "Imbalanced Data Classification Techniques",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "5fb7c8a72f05",
-      "title": "Investigating the effects of vaping on lung structure and function with pulmonary imaging",
-      "slug": "investigating-the-effects-of-vaping-on-lung-structure-and-function-with-pulmonary-imaging",
-      "abstract": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "summary": "The full abstract for this thesis is available in the body of the thesis, and will be available when the embargo expires.",
-      "authors": [
-        "Schmidt, Alexandra"
-      ],
-      "author_line": "Schmidt, Alexandra",
-      "url": "http://hdl.handle.net/2429/93933",
-      "pdf_url": "https://open.library.ubc.ca/media/download/pdf/24/1.0451822/4",
-      "category": "Smoking Behavior and Cessation",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "cIRcle (University of British Columbia)",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "7111b91e6ed9",
-      "title": "Redox imbalance and depression: the emerging role of molecular hydrogen in neuroprotection.",
-      "slug": "redox-imbalance-and-depression-the-emerging-role-of-molecular-hydrogen-in-neuroprotection",
-      "abstract": "",
-      "summary": "",
-      "authors": [
-        "Francisco Javier Lievanos-Ruiz",
-        "Bertha Fenton-Navarro"
-      ],
-      "author_line": "Francisco Javier Lievanos-Ruiz, Bertha Fenton-Navarro",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667348/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667348/pdf/MGR-17-314.pdf",
-      "category": "Hydrogen's biological and therapeutic effects",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "55368b50027c",
-      "title": "Nitric oxide in the occurrence and development of ischemic cerebrovascular disease.",
-      "slug": "nitric-oxide-in-the-occurrence-and-development-of-ischemic-cerebrovascular-disease",
-      "abstract": "Since nitric oxide is a chemically highly reactive free radical that can act as both an oxidizing agent and a reducing agent, it is assumed that it has diverse effects on biological tissues. Nitric oxide is fundamentally important for the regulation of immune, reproductive and neuromuscular system functions and is the main signaling molecule and effector that can dilate blood vessels and modulate energy metabolism. This review examines the key role of nitric oxide in the mechanisms underlying the response to hypoxia, as well as in the effects of factors induced by hypoxia. The available conflicting information allowed us to conclude that at present, there is no consensus about the role of en",
-      "summary": "Since nitric oxide is a chemically highly reactive free radical that can act as both an oxidizing agent and a reducing agent, it is assumed that it has diverse effects on biological tissues. Nitric oxide is fundamentally important for the regulation of immune, reproductive and ne",
-      "authors": [
-        "Tatiana Kh. Bogodvid",
-        "Dinara I. Silantyeva",
-        "Андрианов Вячеслав Вадимович",
-        "Гайнутдинов Халил Латыпович"
-      ],
-      "author_line": "Tatiana Kh. Bogodvid, Dinara I. Silantyeva, Андрианов Вячеслав Вадимович, Гайнутдинов Халил Латыпович",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667374/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667374/pdf/MGR-17-95.pdf",
-      "category": "Nitric Oxide and Endothelin Effects",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "d9244ccd3a27",
-      "title": "Molecular crosstalk between gas transmitters and catecholamine biosynthesis pathways: a narrative review.",
-      "slug": "molecular-crosstalk-between-gas-transmitters-and-catecholamine-biosynthesis-pathways-a-nar",
-      "abstract": "Catecholamines, particularly the hormone and neurotransmitter epinephrine, are important regulators of blood pressure and cardiovascular function. The expression of genes encoding catecholamine biosynthetic enzymes is subject to strict transcriptional regulation through both hormonal and neuronal mechanisms. These genes are also regulated by hypoxia and reactive oxygen species. A class of small gaseous transmitters, known as gas transmitters, serve as potent regulators of blood pressure and hypoxic signaling; however, their roles in catecholamine biosynthesis remain poorly understood. This manuscript reviews the current state of catecholamine and gas transmitter research, particularly their ",
-      "summary": "Catecholamines, particularly the hormone and neurotransmitter epinephrine, are important regulators of blood pressure and cardiovascular function. The expression of genes encoding catecholamine biosynthetic enzymes is subject to strict transcriptional regulation through both horm",
-      "authors": [
-        "Robert Dingley",
-        "Sujeenthar Tharmalingam",
-        "T C Tai"
-      ],
-      "author_line": "Robert Dingley, Sujeenthar Tharmalingam, T C Tai",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667382/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667382/pdf/MGR-17-152.pdf",
-      "category": "Nitric Oxide and Endothelin Effects",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "37af94356f8b",
-      "title": "Nitric oxide signaling and mitophagy in Parkinson's disease: implications for aerobic exercise-related neuroprotection.",
-      "slug": "nitric-oxide-signaling-and-mitophagy-in-parkinson-s-disease-implications-for-aerobic-exerc",
-      "abstract": "Parkinson's disease is strongly associated with mitochondrial dysfunction and impaired mitochondrial quality control, including defective mitophagy. Aerobic exercise is increasingly recognized as a safe and accessible intervention that can improve motor and non-motor outcomes in Parkinson's disease and may also engage mechanisms relevant to disease modification. In this review, we propose a context-dependent framework in which aerobic exercise reshapes nitric oxide signaling toward a more adaptive profile, characterized by relatively moderate, transient, and spatially restricted nitric oxide bioactivity, and we discuss how this shift may influence mitochondrial biogenesis, mitophagy initiati",
-      "summary": "Parkinson's disease is strongly associated with mitochondrial dysfunction and impaired mitochondrial quality control, including defective mitophagy. Aerobic exercise is increasingly recognized as a safe and accessible intervention that can improve motor and non-motor outcomes in ",
-      "authors": [
-        "Yang Zhou",
-        "Yongliang Wu"
-      ],
-      "author_line": "Yang Zhou, Yongliang Wu",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667388/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13667388/pdf/MGR-17-129.pdf",
-      "category": "Parkinson's Disease Mechanisms and Treatments",
-      "published_at": "2027-01-01T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "PubMed Central",
-      "topic": "AI",
-      "topics": [
-        "AI"
-      ],
-      "topic_key": "ai"
-    },
-    {
-      "id": "d5a15405a1e1",
-      "title": "NUISS: A User-Centered Prototype for International Student Administrative Support",
-      "slug": "nuiss-a-user-centered-prototype-for-international-student-administrative-support",
-      "abstract": "This study applies a streamlined User-Centered Design (UCD) approach, enhanced with AI elements, to address common administrative challenges faced by international students, such as information fragmentation and unclear processes. Using National University (NU) as a case study, the research followed core UCD stages to develop the prototype of the NU International Student Services (NUISS). These stages included task analysis informed by user stories, persona development, prototype design, and a heuristic evaluation. The high-fidelity prototype integrates three key modules-Visa Services, Certification, and Paymentwith an AI-powered assistant for proactive, personalized support. The structure i",
-      "summary": "This study applies a streamlined User-Centered Design (UCD) approach, enhanced with AI elements, to address common administrative challenges faced by international students, such as information fragmentation and unclear processes. Using National University (NU) as a case study, t",
-      "authors": [
-        "Juanjuan Huang",
-        "Cuicui Li"
-      ],
-      "author_line": "Juanjuan Huang, Cuicui Li",
-      "url": "https://pub.respai.de/articles/1-1/10jhuang.html",
-      "pdf_url": "https://pub.respai.de/articles/1-1/is1-10.pdf",
-      "category": "Usability and User Interface Design",
-      "published_at": "2026-12-31T00:00:00.000Z",
-      "source": "OpenAlex",
-      "venue": "OpenAlex",
       "topic": "AI",
       "topics": [
         "AI"
@@ -1966,27 +1557,32 @@
       "topic_key": "multimodal"
     },
     {
-      "id": "4f6abde3eae7",
-      "title": "Multi Eye disease Detection in fundus images: A Structured Review",
-      "slug": "multi-eye-disease-detection-in-fundus-images-a-structured-review",
-      "abstract": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular edema (DME), retinal vessel tortuosity, age-related macular degeneration (ARMD/AMD), macular fibrosis, and fundus neoplasms. We examine preprocessing pipelines, model architectures (CNNs, transformers, hybrids), datasets, evaluation metrics, and clinical performance, drawing on recent systematic reviews, multi-disease benchmarks, and regulator-approved system audits. Findings indicate high accuracy for DR and AMD cl",
-      "summary": "Abstract Deep learning (DL) has rapidly advanced automated analysis of retinal fundus images, enabling scalable screening and grading of multiple sight-threatening conditions. This review synthesizes evidence on DL methods for diabetic retinopathy (DR), glaucoma, diabetic macular",
+      "id": "6ff359d6a219",
+      "title": "To WASM or Not to WASM: Evaluation of Browser Fingerprinting Defenses Under WASM Based Obfuscation",
+      "slug": "to-wasm-or-not-to-wasm-evaluation-of-browser-fingerprinting-defenses-under-wasm-based-obfu",
+      "abstract": "",
+      "summary": "",
       "authors": [
-        "Sheetal Maruti Chougule"
+        "A. H. M. Nazmus Sakib",
+        "Mahsin Bin Akram",
+        "Joseph Spracklen",
+        "Sahan Kalutarage",
+        "Raveen Wijewickrama",
+        "Igor Bilogrevic",
+        "Murtuza S. Jadliwala"
       ],
-      "author_line": "Sheetal Maruti Chougule",
-      "url": "https://doi.org/10.5281/zenodo.22952639",
-      "pdf_url": "https://doi.org/10.5281/zenodo.22952639",
-      "category": "Retinal Imaging and Analysis",
+      "author_line": "A. H. M. Nazmus Sakib, Mahsin Bin Akram, Joseph Spracklen, Sahan Kalutarage et al.",
+      "url": "https://doi.org/10.1007/978-3-032-42929-2_11",
+      "pdf_url": "https://arxiv.org/pdf/2508.21219",
+      "category": "Internet Traffic Analysis and Secure E-voting",
       "published_at": "2026-10-31T00:00:00.000Z",
       "source": "OpenAlex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "topic": "Multimodal",
+      "venue": "Lecture notes in computer science",
+      "topic": "AI",
       "topics": [
-        "Multimodal",
-        "Machine Learning"
+        "AI"
       ],
-      "topic_key": "multimodal"
+      "topic_key": "ai"
     },
     {
       "id": "ef296c9b18d5",
